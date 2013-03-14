@@ -32,7 +32,7 @@
 /* ::Clearfixs and extends. Use which suits best */
 /* ----------------------------------------------------------- */
 
-// CHOOSE YOUR CLEARFIX, OR YOU KNOW USE BOTH. WHATEVER, I'M NOT YOUR MOTHER
+// CHOOSE YOUR CLEARFIX, OR YOU KNOW USE BOTH. WHATEVER, I'M NOT YOUR MOTHER.
 
 // Use clearfix if you need general clearfixing
 .clearfix 			{ @include clearfix; }
@@ -50,7 +50,7 @@
 
 
 
-/* ::Base styles Almost exclusively single element selectors */
+/* ::Base styles almost exclusively single element selectors */
 /* ------------------------------------------------------------ */
 
 html {
@@ -70,13 +70,16 @@ a {
 	}
 }
 
-.boxes {
+.box {
 	display: inline-block;
-	width: 200px;
-	height: 200px;
-	//background-color: rgba(120,0,0,.8);
-	@include border-radius(0 40px 0 0);
-	@include background-image(linear-gradient(lighten(blue, 20%), blue));
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin: 5% 0;
+	@include background-image(linear-gradient(lighten($primary, 20%), $primary));
+	&:first-of-type {
+		margin-top: 50px;
+	}
 }
 
 // Import base typography into the cascade (if required)
@@ -104,19 +107,29 @@ a {
 	@extend .clearfix;
 	margin: 0 auto;
 	width: 95%;
+	position: relative;
 }
 
 /* Example styles - you'll most likey want to remove*/
-header {
-	@include padding-leader(4);
-	@include padding-trailer(2);
-	@include trailer(6);
+nav {
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	height: 400px;
+	//@include padding-leader(4);
+	//@include padding-trailer(2);
+	//@include trailer(6);
 	background: #333;
 	h1 { color: #fff; }
 }
 
 section 				{ @extend .clearfix; }
-h1 						{ font-weight: 600; }
+h1 						{ 
+	position: absolute;
+	margin: 10px;
+	bottom: 0;
+	color: $heading-color;
+}
 ol 						{ @include ordered-inside }
 ul 						{ @include unordered-inside }
 
@@ -133,7 +146,21 @@ ul 						{ @include unordered-inside }
 // Eg for 480px
 @media screen and (min-width: em-font(480px)) {
 	.container {
-		width: 95%;
+		width: 70%;
+		margin-left: 30%;
+		padding-left: 10px;
+	}
+	nav {
+		position: fixed;
+		width: 30%;
+		height: 100%;
+	}
+	.box {
+		width: 90%;
+		margin: 5%;
+		&:first-of-type {
+			margin: 5%;
+		}
 	}
 }
 
@@ -141,14 +168,42 @@ ul 						{ @include unordered-inside }
 // Eg for 800px
 @media screen and (min-width: em-font(800px)) {
 	.container {
-		min-width: em-font(780px);
+		min-width: 80%;
+		margin-left: 20%;
+	}
+	nav {
+		width: 20%;
 	}
 }
 
 // Eg for 1240px
 @media screen and (min-width: em-font(1240px)) {
 	.container {
-		max-width: em-font(1080px);
+		max-width: 80%;
+	}
+	.box {
+		@include transition-property(all);
+  		@include transition-duration(.5s);
+  		@include transition-timing-function(ease-in);
+	}
+	.box:hover {
+		height: 150px;
+		margin-bottom: 300px !important;
+	}
+	.box:hover > .drawer {
+		top: 150px;
+	}
+	.drawer {
+		@include transition-property(all);
+  		@include transition-duration(.5s);
+  		@include transition-timing-function(ease-in);
+		position: relative;
+		top: 0;
+		width: 100%;
+		height: 300px;
+		z-index: -5;
+		@include background-image(linear-gradient(lighten($tertiary, 20%), $tertiary));
+		opacity: 0.2;
 	}
 }
 

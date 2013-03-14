@@ -80,3 +80,16 @@ window.log=function(){log.history=log.history||[];log.history.push(arguments);if
 		
 })(jQuery);
 
+//('.box').onclick = function() { this.addClass('.close'); };
+
+ //$('.box').click(function(){
+   //this.addClass('close');
+   //$('.drawer').addClass('open');
+ //});
+
+//var $box = $('.box');
+
+//$('.box').onclick=function(){
+ //  this.addClass('close');
+   //$('.drawer').addClass('open');
+//};
