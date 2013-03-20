@@ -64,9 +64,10 @@ body {
 
 a {
 	color: $action;
+	text-decoration: none;
 	@include force-wrap;					// force text links to wrap
 	&:hover, &:focus, &:active {
-		color: $action-respond
+		color: $action-respond;
 	}
 }
 
@@ -74,12 +75,61 @@ a {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	height: 250px;
 	margin: 5% 0;
-	@include background-image(linear-gradient(lighten($primary, 20%), $primary));
+	//background-color: green;
+	overflow: hidden;
+	height: $height;
 	&:first-of-type {
 		margin-top: 50px;
 	}
+
+	figure {
+		@include background-image(linear-gradient(lighten($primary, 20%), $primary));
+		width: 100%;
+		height: $height;
+		z-index: 1;
+		position: relative;
+	}
+	article {
+		padding: 2%;
+		border-top: solid 5px black;
+		position: relative;
+		bottom: 100%;
+		width: 100%;
+		z-index: -1;
+		@include background-image(linear-gradient(lighten($tertiary, 80%), $tertiary));
+	}
+}
+
+.box, .drawer, figure {
+	@include transition-property(all);
+	@include transition-duration(.5s);
+	@include transition-timing-function(ease-in);
+}
+.box:hover, .drawer:hover > .box {
+
+}
+
+.box:hover > .drawer {
+	bottom: 0;
+}
+
+.box:hover {
+	height: auto;
+}
+
+.logo {
+	margin: 0 auto 15px;
+	height: 150px;
+	background-color: red;
+}
+
+footer {
+	margin: 0 auto 15px;
+	height: 150px;
+	background-color: green;
+
+	//display: none;						//remove footer on mobile device
 }
 
 // Import base typography into the cascade (if required)
@@ -116,22 +166,34 @@ nav {
 	z-index: 5;
 	width: 100%;
 	height: 400px;
+	padding: 0 10px;
 	//@include padding-leader(4);
 	//@include padding-trailer(2);
 	//@include trailer(6);
 	background: #333;
 	h1 { color: #fff; }
+	ul {
+		margin: 0 auto;
+		li {
+			list-style-type: none;
+			a {
+				display: block;
+				padding: 5px 0;
+				margin: 5px 0;
+			}
+		}
+	}
 }
 
-section 				{ @extend .clearfix; }
-h1 						{ 
+section { @extend .clearfix; }
+h1 { 
 	position: absolute;
 	margin: 10px;
 	bottom: 0;
 	color: $heading-color;
 }
-ol 						{ @include ordered-inside }
-ul 						{ @include unordered-inside }
+ol { @include ordered-inside }
+ul { @include unordered-inside }
 
 
 
@@ -162,6 +224,13 @@ ul 						{ @include unordered-inside }
 			margin: 5%;
 		}
 	}
+	nav {
+		footer {
+			bottom: 0;
+			position: absolute;
+			width: 92%;
+		}
+	}
 }
 
 
@@ -180,30 +249,6 @@ ul 						{ @include unordered-inside }
 @media screen and (min-width: em-font(1240px)) {
 	.container {
 		max-width: 80%;
-	}
-	.box {
-		@include transition-property(all);
-  		@include transition-duration(.5s);
-  		@include transition-timing-function(ease-in);
-	}
-	.box:hover {
-		height: 150px;
-		margin-bottom: 300px !important;
-	}
-	.box:hover > .drawer {
-		top: 150px;
-	}
-	.drawer {
-		@include transition-property(all);
-  		@include transition-duration(.5s);
-  		@include transition-timing-function(ease-in);
-		position: relative;
-		top: 0;
-		width: 100%;
-		height: 300px;
-		z-index: -5;
-		@include background-image(linear-gradient(lighten($tertiary, 20%), $tertiary));
-		opacity: 0.2;
 	}
 }
 

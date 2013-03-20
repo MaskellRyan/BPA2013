@@ -102,6 +102,7 @@ body {
 
 a {
   color: blue;
+  text-decoration: none;
   white-space: pre;
   white-space: pre-wrap;
   white-space: pre-line;
@@ -119,16 +120,71 @@ a:hover, a:focus, a:active {
   display: inline-block;
   position: relative;
   width: 100%;
-  height: 250px;
   margin: 5% 0;
+  overflow: hidden;
+  height: 270px;
+}
+.box:first-of-type {
+  margin-top: 50px;
+}
+.box figure {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6666ff), color-stop(100%, #0000ff));
   background-image: -webkit-linear-gradient(#6666ff, #0000ff);
   background-image: -moz-linear-gradient(#6666ff, #0000ff);
   background-image: -o-linear-gradient(#6666ff, #0000ff);
   background-image: linear-gradient(#6666ff, #0000ff);
+  width: 100%;
+  height: 270px;
+  z-index: 1;
+  position: relative;
 }
-.box:first-of-type {
-  margin-top: 50px;
+.box article {
+  padding: 2%;
+  border-top: solid 5px black;
+  position: relative;
+  bottom: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffa500));
+  background-image: -webkit-linear-gradient(#ffffff, #ffa500);
+  background-image: -moz-linear-gradient(#ffffff, #ffa500);
+  background-image: -o-linear-gradient(#ffffff, #ffa500);
+  background-image: linear-gradient(#ffffff, #ffa500);
+}
+
+.box, .drawer, figure {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.box:hover > .drawer {
+  bottom: 0;
+}
+
+.box:hover {
+  height: auto;
+}
+
+.logo {
+  margin: 0 auto 15px;
+  height: 150px;
+  background-color: red;
+}
+
+footer {
+  margin: 0 auto 15px;
+  height: 150px;
+  background-color: green;
 }
 
 h1 {
@@ -307,10 +363,22 @@ nav {
   z-index: 5;
   width: 100%;
   height: 400px;
+  padding: 0 10px;
   background: #333;
 }
 nav h1 {
   color: #fff;
+}
+nav ul {
+  margin: 0 auto;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  display: block;
+  padding: 5px 0;
+  margin: 5px 0;
 }
 
 h1 {
@@ -352,6 +420,12 @@ ul {
   .box:first-of-type {
     margin: 5%;
   }
+
+  nav footer {
+    bottom: 0;
+    position: absolute;
+    width: 92%;
+  }
 }
 @media screen and (min-width: 50em) {
   .container {
@@ -366,56 +440,6 @@ ul {
 @media screen and (min-width: 77.5em) {
   .container {
     max-width: 80%;
-  }
-
-  .box {
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-  }
-
-  .box:hover {
-    height: 150px;
-    margin-bottom: 300px !important;
-  }
-
-  .box:hover > .drawer {
-    top: 150px;
-  }
-
-  .drawer {
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 300px;
-    z-index: -5;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffc966), color-stop(100%, #ffa500));
-    background-image: -webkit-linear-gradient(#ffc966, #ffa500);
-    background-image: -moz-linear-gradient(#ffc966, #ffa500);
-    background-image: -o-linear-gradient(#ffc966, #ffa500);
-    background-image: linear-gradient(#ffc966, #ffa500);
-    opacity: 0.2;
   }
 }
 @media print {
