@@ -121,8 +121,8 @@ a:hover, a:focus, a:active {
   position: relative;
   width: 100%;
   margin: 5% 0;
+  background-color: green;
   overflow: hidden;
-  height: 270px;
 }
 .box:first-of-type {
   margin-top: 50px;
@@ -139,12 +139,10 @@ a:hover, a:focus, a:active {
   position: relative;
 }
 .box article {
-  padding: 2%;
   border-top: solid 5px black;
+  border-bottom: solid 20px orange;
   position: relative;
-  bottom: 100%;
   width: 100%;
-  z-index: -1;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffa500));
   background-image: -webkit-linear-gradient(#ffffff, #ffa500);
   background-image: -moz-linear-gradient(#ffffff, #ffa500);
@@ -165,14 +163,6 @@ a:hover, a:focus, a:active {
   -moz-transition-timing-function: ease-in;
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
-}
-
-.box:hover > .drawer {
-  bottom: 0;
-}
-
-.box:hover {
-  height: auto;
 }
 
 .logo {

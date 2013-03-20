@@ -76,9 +76,9 @@ a {
 	position: relative;
 	width: 100%;
 	margin: 5% 0;
-	//background-color: green;
+	background-color: green;
 	overflow: hidden;
-	height: $height;
+	//height: $height;
 	&:first-of-type {
 		margin-top: 50px;
 	}
@@ -91,12 +91,13 @@ a {
 		position: relative;
 	}
 	article {
-		padding: 2%;
+		//padding: 2%;
 		border-top: solid 5px black;
+		border-bottom: solid 20px $tertiary;
 		position: relative;
-		bottom: 100%;
+		//bottom: 100%;
 		width: 100%;
-		z-index: -1;
+		//z-index: -1;
 		@include background-image(linear-gradient(lighten($tertiary, 80%), $tertiary));
 	}
 }
@@ -105,17 +106,6 @@ a {
 	@include transition-property(all);
 	@include transition-duration(.5s);
 	@include transition-timing-function(ease-in);
-}
-.box:hover, .drawer:hover > .box {
-
-}
-
-.box:hover > .drawer {
-	bottom: 0;
-}
-
-.box:hover {
-	height: auto;
 }
 
 .logo {
