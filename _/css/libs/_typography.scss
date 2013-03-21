@@ -75,3 +75,7 @@ blockquote {
 		margin: rhythm(3, 20px) 0 rhythm(3, 20px) 0; 		//  3 lines above / 3 lines below, based on font size
 	}
 }
+
+h1, h2, h3, h4 {
+	margin-top: 0;
+}

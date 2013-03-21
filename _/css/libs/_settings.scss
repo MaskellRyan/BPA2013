@@ -11,15 +11,15 @@ $secondary							: white;
 $tertiary							: orange;
 
 // Assign colours to variable roles
-$base-color							: $primary;
+$base-color							: lighten(#000, 10%);
 $heading-color						: $secondary;
 $secondary-heading-color			: $tertiary;
 
 
 
 // Links
-$action								: $primary;
-$action-respond						: $secondary;
+$action								: $secondary;
+$action-respond						: darken($secondary, 20%);
 $secondary-action					: $action-respond;
 $secondary-action-respond			: $action;
 
