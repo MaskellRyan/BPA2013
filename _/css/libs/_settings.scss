@@ -6,22 +6,38 @@
 
 // Define your main colour palette
 
-$primary							: blue;
-$secondary							: white;	
-$tertiary							: orange;
+$red								:rgb(164,11,0); // RED
+$green								:rgb(118,138,0); // GREEN
+$blue								:rgb(58,139,139); // BLUE
+$orange								:rgb(255,81,0); // ORANGE
+
+$darkred							:rgb(89,8,0); // DARK RED
+$darkgreen							:rgb(82,97,0); // DARK GREEN
+$darkblue							:rgb(55,83,83); // DARK BLUE
+$darkorange							:rgb(186,59,0); // DARK ORANGE
+
+$gray								:rgb(100,100,100);
+$lightgray							:rgb(76,76,76);
+$mediumgray							:rgb(43,43,43);
+$black								:rgb(14,14,14);
+$white								:rgb(235,235,235);
+
+$primary							: $red;
+$accent								: $darkred;
+$base 								: $black;
 
 // Assign colours to variable roles
-$base-color							: lighten(#000, 10%);
-$heading-color						: $secondary;
-$secondary-heading-color			: $tertiary;
+$base-color							: $base;
+$heading-color						: $white;
+$accent-heading-color				: $accent;
 
 
 
 // Links
-$action								: $secondary;
-$action-respond						: darken($secondary, 20%);
-$secondary-action					: $action-respond;
-$secondary-action-respond			: $action;
+$action								: $primary;
+$action-respond						: lighten($primary, 10%);
+$accent-action						: $action-respond;
+$accent-action-respond				: $action;
 
 
 

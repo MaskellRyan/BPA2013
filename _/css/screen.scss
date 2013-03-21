@@ -57,9 +57,9 @@ html {
 	font-size: 100%;
 }
 
-body { 
+body {
 	color: $base-color;
-	background-color: black;
+	background-color: $black;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -70,6 +70,7 @@ a {
 	&:hover, &:focus, &:active {
 		color: $action-respond;
 		text-decoration: none;
+		border-bottom: 1px solid lighten($primary, 10%);
 	}
 }
 
@@ -78,7 +79,7 @@ a {
 	position: relative;
 	width: 100%;
 	margin: 5% 0;
-	background-color: white;
+	background-color: $white;
 	overflow: hidden;
 	//height: $height;
 	&:first-of-type {
@@ -86,7 +87,7 @@ a {
 	}
 
 	figure {
-		background-color: #fff;
+		background-color: $primary;
 		width: 100%;
 		height: $height  - 100px;
 		z-index: 1;
@@ -107,12 +108,11 @@ a {
 			display: block;
 			margin: 0;
 			padding: 1%;
-			height: 55px;
 		}
 	}
 	article {
-		border-top: solid 5px lighten($tertiary, 20%);
-		border-bottom: solid 30px $tertiary;
+		border-top: solid 5px $accent;
+		border-bottom: solid 30px $primary;
 		position: relative;
 		//bottom: 100%;
 		width: 100%;
@@ -123,19 +123,44 @@ a {
 			margin: 2%;
 			float: left;
 			width: 90%;
+			h2 {
+				color: $primary;
+				margin: 10px 0;
+				width: 100%;
+			}
 		}
 		.tab {
 			width: 100%;
-			border-top: solid 5px lighten($tertiary, 20%);
+			border-top: solid 5px $accent;
 			height: 5px;
 			clear: both;
 		}
 		aside {
 			width: 100%;
 			//height: 200px;
-			background-color: #ccc;
+			background-color: darken($white, 8%);
 			float: right;
-			padding: 2%;
+			text-align: center;
+			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
+			h3 {
+				padding: 10px 0;
+				background-color: $accent;
+				color: $heading-color;
+				border-bottom: 1px solid $white;
+			}
+			ul {
+				li {
+					list-style-type: none;
+					a {
+						color: $black;
+						@include fullbar-link;
+						&:hover {
+							background-color: $lightgray;
+							color: $white;
+						}
+					}
+				}
+			}
 		}
 	}
 	.collapse {
@@ -152,32 +177,28 @@ a {
 .logo {
 	margin: 0 auto 15px;
 	height: 150px;
-	background-color: red;
+	//background-color: $lightgray;
 }
 
 footer, .mobile-foot {
 	margin: 0 auto;
-	height: 200px;
-	background-color: green;
+	//background-color: $lightgray;
 	padding-top: 10px;
 }
 
 .mobile-foot {
 	display: block;
 	text-align: center;
+	background-color: $lightgray;
+	bottom: -32px;
+	position: relative;
 	ul {
 		li {
 			list-style-type: none;
-		}
-	}
-}
-
-.footer-links {
-	li {
-		a {
-			display: block;
-			padding: 5px 0;
-			margin: 5px 0;
+			a {
+				@include fullbar-link;
+				@include nav-styling;
+			}
 		}
 	}
 }
@@ -210,26 +231,24 @@ footer, .mobile-foot {
 	position: relative;
 }
 
-/* Example styles - you'll most likey want to remove*/
+
 nav {
 	position: relative;
 	z-index: 5;
 	width: 100%;
-	padding: 0 10px 20px;
-	background: #333;
+	padding: 0 0 20px;
+	background: $mediumgray;
 	footer {
 		display: none;
 	}
-	h1 { color: #fff; }
 	ul {
 		margin: 0 auto;
 		li {
 			list-style-type: none;
 			text-align: center;
 			a {
-				display: block;
-				padding: 5px 0;
-				margin: 5px 0;
+				@include fullbar-link;
+				@include nav-styling;
 			}
 		}
 	}
@@ -281,16 +300,30 @@ ul { @include unordered-inside }
 		position: fixed;
 		width: 20%;
 		height: 100%;
+		border-right: 10px solid $primary;
+		&:before {
+			content: " ";
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border-right: 5px solid $accent;
+		}
 		ul {
 			li {
 				text-align: left;
+				a {
+					@include fullbar-link;
+				}
 			}
 		}
 		footer {
 			display: block;
 			bottom: 0;
 			position: absolute;
-			width: 90%;
+			width: 100%;
 			ul {
 				li {
 					text-align: center;
@@ -316,6 +349,7 @@ ul { @include unordered-inside }
 			}
 			aside {
 				width: 30%;
+				box-shadow: inset 10px 0 10px -10px rgba(0,0,0,.3);
 			}
 		}
 	}

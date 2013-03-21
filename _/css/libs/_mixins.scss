@@ -7,6 +7,27 @@
 // ADD YOUR OWN MIXINS AND HELPERS HERE
 // DESCRIBE WHAT EACH DOES AND HOW TO USE THEM
 
+@mixin fullbar-link {
+	display: block;
+	padding: 5px;
+	margin: 5px 0;
+	border-bottom: 1px solid transparent;
+	&:hover, &:active {
+		background-color: #000;
+		border-bottom: 1px solid $accent;
+	}
+	@include transition-property(all);
+  @include transition-duration(.1s);
+  @include transition-timing-function(ease-in);
+}
+
+@mixin nav-styling {
+	color: $white;
+	&:hover {
+		color: darken($white, 10%);
+	}
+}
+
 
 // List styles
 // -------------------------------------------------------
