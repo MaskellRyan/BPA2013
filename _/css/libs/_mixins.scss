@@ -11,10 +11,10 @@
 	display: block;
 	padding: 5px;
 	margin: 5px 0;
-	border-bottom: 1px solid transparent;
+	border-bottom: 3px solid transparent;
 	&:hover, &:active {
-		background-color: #000;
-		border-bottom: 1px solid $accent;
+		background-color: $primary;
+		border-bottom: 3px solid $accent;
 	}
 	@include transition-property(all);
   @include transition-duration(.1s);
@@ -24,7 +24,7 @@
 @mixin nav-styling {
 	color: $white;
 	&:hover {
-		color: darken($white, 10%);
+		color: lighten($white, 10%);
 	}
 }
 

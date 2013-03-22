@@ -61,6 +61,8 @@ body {
 	color: $base-color;
 	background-color: $black;
 	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(../img/darkslats.png);
+	background-repeat: repeat;
 }
 
 a {
@@ -82,6 +84,8 @@ a {
 	background-color: $white;
 	overflow: hidden;
 	//height: $height;
+	border-top: 1px darken($white, 35%) solid;
+	box-shadow: 0 15px 15px -10px darken($primary, 20%);
 	&:first-of-type {
 		margin-top: 50px;
 	}
@@ -155,7 +159,7 @@ a {
 						color: $black;
 						@include fullbar-link;
 						&:hover {
-							background-color: $lightgray;
+							background-color: $primary;
 							color: $white;
 						}
 					}
@@ -180,10 +184,41 @@ a {
 	//background-color: $lightgray;
 }
 
-footer, .mobile-foot {
+.navlogo {
+	width: 50%;
+	margin: 25px auto;
+	padding-bottom: 20px;
+}
+
+.footer-links, .mobile-foot {
 	margin: 0 auto;
 	//background-color: $lightgray;
 	padding-top: 10px;
+	ul {
+		font-size: 12px;
+		@include clearfix;
+		//margin-bottom: 90px;
+		a {
+			color: darken($white ,10%);
+		}
+		li {
+			width: 50%;
+			float: left;
+		}
+		.left-links {text-align: right; padding-right: 5px;}
+		.right-links {text-align: left; padding-left: 5px;}
+	}
+}
+
+.footer-links {
+	ul {
+		opacity: 0.6;
+		-moz-opacity: 0.6;
+		&:hover {
+			opacity: 1;
+			-moz-opacity: 1;
+		}
+	}
 }
 
 .mobile-foot {
@@ -193,6 +228,10 @@ footer, .mobile-foot {
 	bottom: -32px;
 	position: relative;
 	ul {
+		font-size: 15px;
+    	height: 100px;
+    	padding: 8px 0;
+    	background-color: lighten($lightgray, 10%);
 		li {
 			list-style-type: none;
 			a {
@@ -200,6 +239,10 @@ footer, .mobile-foot {
 				@include nav-styling;
 			}
 		}
+	}
+	.navlogo {
+		width: 60%;
+		margin: 30px auto;
 	}
 }
 
@@ -237,7 +280,10 @@ nav {
 	z-index: 5;
 	width: 100%;
 	padding: 0 0 20px;
-	background: $mediumgray;
+	background: darken($lightgray, 0%);
+	background-image: url(../img/.png);
+	background-size: 100%;
+	@include background-image(linear-gradient(left, darken($primary, 25%), darken($primary, 15%)));
 	footer {
 		display: none;
 	}
@@ -252,6 +298,22 @@ nav {
 			}
 		}
 	}
+	// .color-red:hover {
+	// 	background-color: $red;
+	// 	border-bottom: 3px solid $darkred;
+	// }
+	// .color-green:hover {
+	// 	background-color: $green;
+	// 	border-bottom: 3px solid $darkgreen;
+	// }
+	// .color-blue:hover {
+	// 	background-color: $blue;
+	// 	border-bottom: 3px solid $darkblue;
+	// }
+	// .color-orange:hover {
+	// 	background-color: $orange;
+	// 	border-bottom: 3px solid $darkorange;
+	// }
 }
 
 section { @extend .clearfix; }
@@ -284,6 +346,9 @@ ul { @include unordered-inside }
 			}
 		}
 	}
+	.navlogo {
+		width: 40%;
+	}
 }
 
 
@@ -295,6 +360,19 @@ ul { @include unordered-inside }
 	}
 	.mobile-foot {
 		display: none;
+	}
+	.navlogo {
+		margin: 20px auto 0;
+		width: 60%;
+	}
+	.footer-links {
+		ul {
+			li {
+				a {
+					padding: 10px 5px;
+				}
+			}
+		}
 	}
 	nav {
 		position: fixed;
@@ -311,11 +389,13 @@ ul { @include unordered-inside }
 			bottom: 0;
 			border-right: 5px solid $accent;
 		}
+		
 		ul {
 			li {
 				text-align: left;
 				a {
 					@include fullbar-link;
+					padding: 10px 20px;
 				}
 			}
 		}
@@ -331,6 +411,20 @@ ul { @include unordered-inside }
 			}
 		}
 	}
+
+		// nav .color-red:hover > nav {
+		// 	border-right: 10px solid $red;
+		// }
+		// nav .color-red:hover > nav:before {
+		// 	border-right: 5px solid $darkred;
+		// }
+		// nav .color-green:hover > nav {
+		// 	border-right: 10px solid $green;
+		// }
+		// nav .color-green:hover > nav:before {
+		// 	border-right: 5px solid $darkgreen;
+		// }
+
 	.box {
 		width: 90%;
 		margin: 5%;
@@ -353,6 +447,32 @@ ul { @include unordered-inside }
 			}
 		}
 	}
+	.red-theme {
+		nav .color-red {
+			background-color: $red;
+			border-bottom: 3px solid $darkred;
+		}
+	}
+	.green-theme {
+		nav .color-green {
+			background-color: $green;
+			border-bottom: 3px solid $darkgreen;
+		}
+	}
+	.blue-theme {
+		nav .color-blue {
+			background-color: $blue;
+			border-bottom: 3px solid $darkblue;
+		}
+	}
+	.orange-theme {
+		nav .color-orange {
+			background-color: $orange;
+			border-bottom: 3px solid $darkorange;
+		}
+	}
+
+
 }
 
 // Eg for 1240px
