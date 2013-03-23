@@ -22,8 +22,8 @@ $mediumgray							:rgb(42,42,42);
 $black								:rgb(14,14,14);
 $white								:rgb(235,235,235);
 
-$primary							: $red;
-$accent								: $darkred;
+$primary							: $blue;
+$accent								: $darkblue;
 $base 								: $black;
 
 // Assign colours to variable roles
@@ -43,7 +43,7 @@ $accent-action-respond				: $action;
 
 // Alerts, errors and UI interface
 $alert 								: red;
-$success 							: green;
+$success 							: red;
 
 
 // Fonts, measure, leading and typefaces
@@ -55,7 +55,7 @@ $success 							: green;
 $base-font-size						: 16px; 				// Sets the browser default size. Shouldn't need to change this.
 $base-line-height					: 8px;					// Baseline grid. Set to a sensible, small size.
 $round-to-nearest-half-line			: false;  				// Round the line height to the nearest half line height. Off by default 
-$height								: 270px;
+$height								: 200px;
 
 
 

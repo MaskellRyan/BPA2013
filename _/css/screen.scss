@@ -80,7 +80,7 @@ a {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	margin: 5% 0;
+	margin: 3% 0;
 	background-color: $white;
 	overflow: hidden;
 	//height: $height;
@@ -93,11 +93,14 @@ a {
 	figure {
 		background-color: $primary;
 		width: 100%;
-		height: $height  - 100px;
+		height: $height - 50px;
 		z-index: 1;
 		position: relative;
 		cursor: pointer;
 		overflow: hidden;
+		&:hover {
+			height: $height;
+		}
 
 		img {
 			width: 100%;
@@ -116,7 +119,7 @@ a {
 	}
 	article {
 		border-top: solid 5px $accent;
-		border-bottom: solid 30px $primary;
+		border-bottom: solid 15px $primary;
 		position: relative;
 		//bottom: 100%;
 		width: 100%;
@@ -144,10 +147,11 @@ a {
 			//height: 200px;
 			background-color: darken($white, 8%);
 			float: right;
-			text-align: center;
+			text-align: left;
 			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
 			h3 {
 				padding: 10px 0;
+				padding-left: 20px;
 				background-color: $accent;
 				color: $heading-color;
 				border-bottom: 1px solid $white;
@@ -158,6 +162,8 @@ a {
 					a {
 						color: $black;
 						@include fullbar-link;
+						padding-left: 20px;
+						padding-bottom: 0;
 						&:hover {
 							background-color: $primary;
 							color: $white;
@@ -198,12 +204,12 @@ a {
 		font-size: 12px;
 		@include clearfix;
 		//margin-bottom: 90px;
-		a {
-			color: darken($white ,10%);
-		}
 		li {
 			width: 50%;
 			float: left;
+			a {
+				color: darken($white ,10%);
+			}
 		}
 		.left-links {text-align: right; padding-right: 5px;}
 		.right-links {text-align: left; padding-left: 5px;}
@@ -298,22 +304,26 @@ nav {
 			}
 		}
 	}
-	// .color-red:hover {
-	// 	background-color: $red;
-	// 	border-bottom: 3px solid $darkred;
-	// }
-	// .color-green:hover {
-	// 	background-color: $green;
-	// 	border-bottom: 3px solid $darkgreen;
-	// }
-	// .color-blue:hover {
-	// 	background-color: $blue;
-	// 	border-bottom: 3px solid $darkblue;
-	// }
-	// .color-orange:hover {
-	// 	background-color: $orange;
-	// 	border-bottom: 3px solid $darkorange;
-	// }
+	.color-red {
+		background-color: $red;
+		width: 90%;
+		border-bottom: 3px solid $darkred;
+	}
+	.color-green {
+		background-color: $green;
+		width: 90%;
+		border-bottom: 3px solid $darkgreen;
+	}
+	.color-blue {
+		background-color: $blue;
+		width: 100%;
+		border-bottom: 3px solid $darkblue;
+	}
+	.color-orange {
+		background-color: $orange;
+		width: 90%;
+		border-bottom: 3px solid $darkorange;
+	}
 }
 
 section { @extend .clearfix; }
@@ -370,6 +380,10 @@ ul { @include unordered-inside }
 			li {
 				a {
 					padding: 10px 5px;
+					border-bottom: 1px solid transparent;
+					&:hover {
+						border-bottom: 1px solid $primary;
+					}
 				}
 			}
 		}
@@ -396,6 +410,7 @@ ul { @include unordered-inside }
 				a {
 					@include fullbar-link;
 					padding: 10px 20px;
+					border-bottom: 1px soild transparent;
 				}
 			}
 		}
@@ -426,13 +441,13 @@ ul { @include unordered-inside }
 		// }
 
 	.box {
-		width: 90%;
-		margin: 5%;
+		width: 94%;
+		margin: 3%;
 		&:first-of-type {
-			margin: 5%;
+			margin: 3%;
 		}
 		figure {
-			height: $height;
+			height: $height - 50px;
 			img {
 				top: -50%;
 			}
@@ -443,7 +458,7 @@ ul { @include unordered-inside }
 			}
 			aside {
 				width: 30%;
-				box-shadow: inset 10px 0 10px -10px rgba(0,0,0,.3);
+				//box-shadow: inset 10px 0 10px -10px rgba(0,0,0,.3);
 			}
 		}
 	}

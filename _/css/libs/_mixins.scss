@@ -13,8 +13,9 @@
 	margin: 5px 0;
 	border-bottom: 3px solid transparent;
 	&:hover, &:active {
-		background-color: $primary;
-		border-bottom: 3px solid $accent;
+		//background-color: $primary;
+		//border-bottom: 3px solid $accent;
+		width: 100%;
 	}
 	@include transition-property(all);
   @include transition-duration(.1s);

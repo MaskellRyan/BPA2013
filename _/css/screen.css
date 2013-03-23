@@ -104,7 +104,7 @@ body {
 }
 
 a {
-  color: #a40b00;
+  color: #3a8b8b;
   text-decoration: none;
   white-space: pre;
   white-space: pre-wrap;
@@ -116,32 +116,35 @@ a {
   word-wrap: break-word;
 }
 a:hover, a:focus, a:active {
-  color: #d70e00;
+  color: #49afaf;
   text-decoration: none;
-  border-bottom: 1px solid #d70e00;
+  border-bottom: 1px solid #49afaf;
 }
 
 .box {
   display: inline-block;
   position: relative;
   width: 100%;
-  margin: 5% 0;
+  margin: 3% 0;
   background-color: #ebebeb;
   overflow: hidden;
   border-top: 1px #929292 solid;
-  box-shadow: 0 15px 15px -10px #3e0400;
+  box-shadow: 0 15px 15px -10px #1c4343;
 }
 .box:first-of-type {
   margin-top: 50px;
 }
 .box figure {
-  background-color: #a40b00;
+  background-color: #3a8b8b;
   width: 100%;
-  height: 170px;
+  height: 150px;
   z-index: 1;
   position: relative;
   cursor: pointer;
   overflow: hidden;
+}
+.box figure:hover {
+  height: 200px;
 }
 .box figure img {
   width: 100%;
@@ -157,8 +160,8 @@ a:hover, a:focus, a:active {
   padding: 1%;
 }
 .box article {
-  border-top: solid 5px #590800;
-  border-bottom: solid 30px #a40b00;
+  border-top: solid 5px #375353;
+  border-bottom: solid 15px #3a8b8b;
   position: relative;
   width: 100%;
 }
@@ -168,13 +171,13 @@ a:hover, a:focus, a:active {
   width: 90%;
 }
 .box article section h2 {
-  color: #a40b00;
+  color: #3a8b8b;
   margin: 10px 0;
   width: 100%;
 }
 .box article .tab {
   width: 100%;
-  border-top: solid 5px #590800;
+  border-top: solid 5px #375353;
   height: 5px;
   clear: both;
 }
@@ -182,12 +185,13 @@ a:hover, a:focus, a:active {
   width: 100%;
   background-color: #d7d7d7;
   float: right;
-  text-align: center;
+  text-align: left;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
 .box article aside h3 {
   padding: 10px 0;
-  background-color: #590800;
+  padding-left: 20px;
+  background-color: #375353;
   color: #ebebeb;
   border-bottom: 1px solid #ebebeb;
 }
@@ -212,13 +216,14 @@ a:hover, a:focus, a:active {
   -moz-transition-timing-function: ease-in;
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
+  padding-left: 20px;
+  padding-bottom: 0;
 }
 .box article aside ul li a:hover, .box article aside ul li a:active {
-  background-color: #a40b00;
-  border-bottom: 3px solid #590800;
+  width: 100%;
 }
 .box article aside ul li a:hover {
-  background-color: #a40b00;
+  background-color: #3a8b8b;
   color: #ebebeb;
 }
 .box .collapse {
@@ -260,12 +265,12 @@ a:hover, a:focus, a:active {
   overflow: hidden;
   *zoom: 1;
 }
-.footer-links ul a, .mobile-foot ul a {
-  color: #d2d2d2;
-}
 .footer-links ul li, .mobile-foot ul li {
   width: 50%;
   float: left;
+}
+.footer-links ul li a, .mobile-foot ul li a {
+  color: #d2d2d2;
 }
 .footer-links ul .left-links, .mobile-foot ul .left-links {
   text-align: right;
@@ -321,8 +326,7 @@ a:hover, a:focus, a:active {
   color: #ebebeb;
 }
 .mobile-foot ul li a:hover, .mobile-foot ul li a:active {
-  background-color: #a40b00;
-  border-bottom: 3px solid #590800;
+  width: 100%;
 }
 .mobile-foot ul li a:hover {
   color: white;
@@ -514,11 +518,11 @@ nav {
   background: #4c4c4c;
   background-image: url(../img/.png);
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #250200), color-stop(100%, #580600));
-  background-image: -webkit-linear-gradient(left, #250200, #580600);
-  background-image: -moz-linear-gradient(left, #250200, #580600);
-  background-image: -o-linear-gradient(left, #250200, #580600);
-  background-image: linear-gradient(left, #250200, #580600);
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #143131), color-stop(100%, #235555));
+  background-image: -webkit-linear-gradient(left, #143131, #235555);
+  background-image: -moz-linear-gradient(left, #143131, #235555);
+  background-image: -o-linear-gradient(left, #143131, #235555);
+  background-image: linear-gradient(left, #143131, #235555);
 }
 nav footer {
   display: none;
@@ -550,11 +554,30 @@ nav ul li a {
   color: #ebebeb;
 }
 nav ul li a:hover, nav ul li a:active {
-  background-color: #a40b00;
-  border-bottom: 3px solid #590800;
+  width: 100%;
 }
 nav ul li a:hover {
   color: white;
+}
+nav .color-red {
+  background-color: #a40b00;
+  width: 90%;
+  border-bottom: 3px solid #590800;
+}
+nav .color-green {
+  background-color: #768a00;
+  width: 90%;
+  border-bottom: 3px solid #526100;
+}
+nav .color-blue {
+  background-color: #3a8b8b;
+  width: 100%;
+  border-bottom: 3px solid #375353;
+}
+nav .color-orange {
+  background-color: #ff5100;
+  width: 90%;
+  border-bottom: 3px solid #ba3b00;
 }
 
 h1 {
@@ -578,7 +601,7 @@ ul {
 /* ------------------------------------------------------------ */
 @media screen and (min-width: 30em) {
   .box figure {
-    height: 220px;
+    height: 150px;
   }
   .box figure img {
     top: -30%;
@@ -605,13 +628,17 @@ ul {
 
   .footer-links ul li a {
     padding: 10px 5px;
+    border-bottom: 1px solid transparent;
+  }
+  .footer-links ul li a:hover {
+    border-bottom: 1px solid #3a8b8b;
   }
 
   nav {
     position: fixed;
     width: 20%;
     height: 100%;
-    border-right: 10px solid #a40b00;
+    border-right: 10px solid #3a8b8b;
   }
   nav:before {
     content: " ";
@@ -621,7 +648,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    border-right: 5px solid #590800;
+    border-right: 5px solid #375353;
   }
   nav ul li {
     text-align: left;
@@ -644,10 +671,10 @@ ul {
     -o-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
     padding: 10px 20px;
+    border-bottom: 1px soild transparent;
   }
   nav ul li a:hover, nav ul li a:active {
-    background-color: #a40b00;
-    border-bottom: 3px solid #590800;
+    width: 100%;
   }
   nav footer {
     display: block;
@@ -660,14 +687,14 @@ ul {
   }
 
   .box {
-    width: 90%;
-    margin: 5%;
+    width: 94%;
+    margin: 3%;
   }
   .box:first-of-type {
-    margin: 5%;
+    margin: 3%;
   }
   .box figure {
-    height: 270px;
+    height: 150px;
   }
   .box figure img {
     top: -50%;
@@ -677,7 +704,6 @@ ul {
   }
   .box article aside {
     width: 30%;
-    box-shadow: inset 10px 0 10px -10px rgba(0, 0, 0, 0.3);
   }
 
   .red-theme nav .color-red {
