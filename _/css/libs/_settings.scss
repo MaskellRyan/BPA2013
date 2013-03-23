@@ -20,7 +20,7 @@ $gray								:rgb(100,100,100);
 $lightgray							:rgb(76,76,76);
 $mediumgray							:rgb(42,42,42);
 $black								:rgb(14,14,14);
-$white								:rgb(235,235,235);
+$white								:rgb(255,255,255);
 
 $primary							: $blue;
 $accent								: $darkblue;
@@ -55,7 +55,7 @@ $success 							: red;
 $base-font-size						: 16px; 				// Sets the browser default size. Shouldn't need to change this.
 $base-line-height					: 8px;					// Baseline grid. Set to a sensible, small size.
 $round-to-nearest-half-line			: false;  				// Round the line height to the nearest half line height. Off by default 
-$height								: 200px;
+$height								: 250px;
 
 
 

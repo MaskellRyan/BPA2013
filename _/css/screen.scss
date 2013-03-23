@@ -145,7 +145,7 @@ a {
 		aside {
 			width: 100%;
 			//height: 200px;
-			background-color: darken($white, 8%);
+			background-color: lighten($accent, 65%);
 			float: right;
 			text-align: left;
 			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
@@ -286,10 +286,10 @@ nav {
 	z-index: 5;
 	width: 100%;
 	padding: 0 0 20px;
-	background: darken($lightgray, 0%);
-	background-image: url(../img/.png);
-	background-size: 100%;
-	@include background-image(linear-gradient(left, darken($primary, 25%), darken($primary, 15%)));
+	background: darken($primary, 0%);
+	//background-image: url(../img/.png);
+	//background-size: 100%;
+	@include background-image(linear-gradient(left, darken($primary, 15%), darken($primary, 20%)));
 	footer {
 		display: none;
 	}
@@ -316,7 +316,7 @@ nav {
 	}
 	.color-blue {
 		background-color: $blue;
-		width: 100%;
+		width: 90%;
 		border-bottom: 3px solid $darkblue;
 	}
 	.color-orange {
@@ -335,8 +335,6 @@ h1 {
 }
 ol { @include ordered-inside }
 ul { @include unordered-inside }
-
-
 
 /* ::Media queries */
 /* ------------------------------------------------------------ */
@@ -463,31 +461,29 @@ ul { @include unordered-inside }
 		}
 	}
 	.red-theme {
-		nav .color-red {
-			background-color: $red;
-			border-bottom: 3px solid $darkred;
+		nav {
+			border-right: 10px solid $red;
+			&:before {border-right: 5px solid $darkred;}
 		}
 	}
 	.green-theme {
-		nav .color-green {
-			background-color: $green;
-			border-bottom: 3px solid $darkgreen;
+		nav {
+			border-right: 10px solid $green;
+			&:before {border-right: 5px solid $darkgreen;}
 		}
 	}
 	.blue-theme {
-		nav .color-blue {
-			background-color: $blue;
-			border-bottom: 3px solid $darkblue;
+		nav {
+			border-right: 10px solid $blue;
+			&:before {border-right: 5px solid $darkblue;}
 		}
 	}
 	.orange-theme {
-		nav .color-orange {
-			background-color: $orange;
-			border-bottom: 3px solid $darkorange;
+		nav {
+			border-right: 10px solid $orange;
+			&:before {border-right: 5px solid $darkorange;}
 		}
 	}
-
-
 }
 
 // Eg for 1240px
@@ -559,4 +555,156 @@ ul { @include unordered-inside }
     border-bottom: 1px solid #ddd;
     margin: 0;
     padding: 0;
+}
+
+
+// COLOR THEMES
+
+.red-theme {
+	nav {
+		@include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
+		.color-red {
+			background-color: $red;
+			border-bottom: 3px solid $darkred;
+			width: 100%;
+		}
+		.footer-links ul li a:hover {
+			border-bottom: 1px solid $red;
+		}
+	}
+	.box {
+		box-shadow: 0 15px 15px -10px darken($red, 20%);
+		.tab {
+			border-top: solid 5px $darkred;
+		}
+		article {
+			border-bottom: 18px solid $red;
+			border-top: 3px solid $darkred;
+			aside {
+				background-color: lighten($red, 65%);
+				h3 {
+					background-color: $darkred;
+				}
+				ul li a:hover {
+					background-color: $red;
+					border-bottom: 3px solid $darkred;
+				}
+			}
+			section {
+				a:link, a:visited {color: $red;}
+				a:hover, a:active {color: lighten($red, 10%); border-bottom: solid 1px $red;}
+			}
+		}
+	}
+}
+.green-theme {
+	nav {
+		@include background-image(linear-gradient(left, darken($green, 15%), darken($green, 20%)));
+		.color-green {
+			background-color: $green;
+			border-bottom: 3px solid $darkgreen;
+			width: 100%;
+		}
+		.footer-links ul li a:hover {
+			border-bottom: 1px solid $green;
+		}
+	}
+	.box {
+		box-shadow: 0 15px 15px -10px darken($green, 20%);
+		.tab {
+			border-top: solid 5px $darkgreen;
+		}
+		article {
+			border-bottom: 18px solid $green;
+			border-top: 3px solid $darkgreen;
+			aside {
+				background-color: lighten($green, 65%);
+				h3 {
+					background-color: $darkgreen;
+				}
+				ul li a:hover {
+					background-color: $green;
+					border-bottom: 3px solid $darkgreen;
+				}
+			}
+			section {
+				a:link, a:visited {color: $green;}
+				a:hover, a:active {color: lighten($green, 10%); border-bottom: solid 1px $green;}
+			}
+		}
+	}
+}
+.blue-theme {
+nav {
+		@include background-image(linear-gradient(left, darken($blue, 15%), darken($blue, 20%)));
+		.color-blue {
+			background-color: $blue;
+			border-bottom: 3px solid $darkblue;
+			width: 100%;
+		}
+		.footer-links ul li a:hover {
+			border-bottom: 1px solid $blue;
+		}
+	}
+	.box {
+		box-shadow: 0 15px 15px -10px darken($blue, 20%);
+		.tab {
+			border-top: solid 5px $darkblue;
+		}
+		article {
+			border-bottom: 18px solid $blue;
+			border-top: 3px solid $darkblue;
+			aside {
+				background-color: lighten($blue, 55%);
+				h3 {
+					background-color: $darkblue;
+				}
+				ul li a:hover {
+					background-color: $blue;
+					border-bottom: 3px solid $darkblue;
+				}
+			}
+			section {
+				a:link, a:visited {color: $blue;}
+				a:hover, a:active {color: lighten($blue, 10%); border-bottom: solid 1px $blue;}
+			}
+		}
+	}
+}
+.orange-theme {
+nav {
+		@include background-image(linear-gradient(left, darken($orange, 15%), darken($orange, 20%)));
+		.color-orange {
+			background-color: $orange;
+			border-bottom: 3px solid $darkorange;
+			width: 100%;
+		}
+		.footer-links ul li a:hover {
+			border-bottom: 1px solid $orange;
+		}
+	}
+	.box {
+		box-shadow: 0 15px 15px -10px darken($orange, 20%);
+		.tab {
+			border-top: solid 5px $darkorange;
+		}
+		article {
+			border-bottom: 18px solid $orange;
+			border-top: 3px solid $darkorange;
+			aside {
+				background-color: lighten($orange, 45%);
+				h3 {
+					background-color: $darkorange;
+				}
+				ul li a:hover {
+					background-color: $orange;
+					border-bottom: 3px solid $darkorange;
+				}
+			}
+			section {
+				a:link, a:visited {color: $orange;}
+				a:hover, a:active {color: lighten($orange, 10%); border-bottom: solid 1px $orange;}
+			}
+		}
+	}
 }
