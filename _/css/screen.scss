@@ -61,8 +61,7 @@ body {
 	color: $base-color;
 	background-color: $black;
 	font-family: Helvetica, Arial, sans-serif;
-	background-image: url(../img/darkslats.png);
-	background-repeat: repeat;
+	background-color: $primary;
 }
 
 a {
@@ -85,7 +84,7 @@ a {
 	overflow: hidden;
 	//height: $height;
 	border-top: 1px darken($white, 35%) solid;
-	box-shadow: 0 15px 15px -10px darken($primary, 20%);
+	//box-shadow: 0 15px 15px -10px darken($primary, 20%);
 	&:first-of-type {
 		margin-top: 50px;
 	}
@@ -119,7 +118,7 @@ a {
 	}
 	article {
 		border-top: solid 5px $accent;
-		border-bottom: solid 15px $primary;
+		border-bottom: solid 15px $accent;
 		position: relative;
 		//bottom: 100%;
 		width: 100%;
@@ -273,7 +272,7 @@ a {
 /* ::Layout styles - Layouts hold one or more modules together. */
 /* ------------------------------------------------------------ */
 
-.container {
+#container {
 	@extend .clearfix;
 	margin: 0 auto;
 	width: 95%;
@@ -286,10 +285,11 @@ nav {
 	z-index: 5;
 	width: 100%;
 	padding: 0 0 20px;
-	background: darken($primary, 0%);
+	background-image: url(../img/darkslats.png);
+	background-repeat: repeat;
 	//background-image: url(../img/.png);
 	//background-size: 100%;
-	@include background-image(linear-gradient(left, darken($primary, 15%), darken($primary, 20%)));
+	//@include background-image(linear-gradient(left, darken($primary, 15%), darken($primary, 20%)));
 	footer {
 		display: none;
 	}
@@ -362,7 +362,7 @@ ul { @include unordered-inside }
 
 // Eg for 800px -- DESKTOP
 @media screen and (min-width: em-font(800px)) {
-	.container {
+	#container {
 		width: 80%;
 		margin-left: 20%;
 	}
@@ -488,7 +488,7 @@ ul { @include unordered-inside }
 
 // Eg for 1240px
 @media screen and (min-width: em-font(1240px)) {
-	.container {
+	#container {
 		max-width: 80%;
 		.box {
 			max-width: 1200px;
@@ -582,6 +582,7 @@ ul { @include unordered-inside }
 			border-top: 3px solid $darkred;
 			aside {
 				background-color: lighten($red, 65%);
+				h2 {color: $red;}
 				h3 {
 					background-color: $darkred;
 				}
@@ -619,6 +620,7 @@ ul { @include unordered-inside }
 			border-top: 3px solid $darkgreen;
 			aside {
 				background-color: lighten($green, 65%);
+				h2 {color: $green;}
 				h3 {
 					background-color: $darkgreen;
 				}
@@ -656,6 +658,7 @@ nav {
 			border-top: 3px solid $darkblue;
 			aside {
 				background-color: lighten($blue, 55%);
+				h2 {color: $blue;}
 				h3 {
 					background-color: $darkblue;
 				}
@@ -693,6 +696,7 @@ nav {
 			border-top: 3px solid $darkorange;
 			aside {
 				background-color: lighten($orange, 45%);
+				h2 {color: $orange;}
 				h3 {
 					background-color: $darkorange;
 				}

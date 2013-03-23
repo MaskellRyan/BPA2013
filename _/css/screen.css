@@ -70,7 +70,7 @@ textarea {
 
 /* ::Clearfixs and extends. Use which suits best */
 /* ----------------------------------------------------------- */
-.clearfix, .container, section {
+.clearfix, #container, section {
   overflow: hidden;
   *zoom: 1;
 }
@@ -99,12 +99,11 @@ body {
   color: #0e0e0e;
   background-color: #0e0e0e;
   font-family: Helvetica, Arial, sans-serif;
-  background-image: url(../img/darkslats.png);
-  background-repeat: repeat;
+  background-color: #ff5100;
 }
 
 a {
-  color: #3a8b8b;
+  color: #ff5100;
   text-decoration: none;
   white-space: pre;
   white-space: pre-wrap;
@@ -116,9 +115,9 @@ a {
   word-wrap: break-word;
 }
 a:hover, a:focus, a:active {
-  color: #49afaf;
+  color: #ff7433;
   text-decoration: none;
-  border-bottom: 1px solid #49afaf;
+  border-bottom: 1px solid #ff7433;
 }
 
 .box {
@@ -129,13 +128,12 @@ a:hover, a:focus, a:active {
   background-color: white;
   overflow: hidden;
   border-top: 1px #a6a6a6 solid;
-  box-shadow: 0 15px 15px -10px #1c4343;
 }
 .box:first-of-type {
   margin-top: 50px;
 }
 .box figure {
-  background-color: #3a8b8b;
+  background-color: #ff5100;
   width: 100%;
   height: 200px;
   z-index: 1;
@@ -160,8 +158,8 @@ a:hover, a:focus, a:active {
   padding: 1%;
 }
 .box article {
-  border-top: solid 5px #375353;
-  border-bottom: solid 15px #3a8b8b;
+  border-top: solid 5px #ba3b00;
+  border-bottom: solid 15px #ba3b00;
   position: relative;
   width: 100%;
 }
@@ -171,19 +169,19 @@ a:hover, a:focus, a:active {
   width: 90%;
 }
 .box article section h2 {
-  color: #3a8b8b;
+  color: #ff5100;
   margin: 10px 0;
   width: 100%;
 }
 .box article .tab {
   width: 100%;
-  border-top: solid 5px #375353;
+  border-top: solid 5px #ba3b00;
   height: 5px;
   clear: both;
 }
 .box article aside {
   width: 100%;
-  background-color: #e7efef;
+  background-color: white;
   float: right;
   text-align: left;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
@@ -191,7 +189,7 @@ a:hover, a:focus, a:active {
 .box article aside h3 {
   padding: 10px 0;
   padding-left: 20px;
-  background-color: #375353;
+  background-color: #ba3b00;
   color: white;
   border-bottom: 1px solid white;
 }
@@ -223,7 +221,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .box article aside ul li a:hover {
-  background-color: #3a8b8b;
+  background-color: #ff5100;
   color: white;
 }
 .box .collapse {
@@ -504,7 +502,7 @@ input[type="checkbox"]:focus {
 
 /* ::Layout styles - Layouts hold one or more modules together. */
 /* ------------------------------------------------------------ */
-.container {
+#container {
   margin: 0 auto;
   width: 95%;
   position: relative;
@@ -515,12 +513,8 @@ nav {
   z-index: 5;
   width: 100%;
   padding: 0 0 20px;
-  background: #3a8b8b;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #235555), color-stop(100%, #1c4343));
-  background-image: -webkit-linear-gradient(left, #235555, #1c4343);
-  background-image: -moz-linear-gradient(left, #235555, #1c4343);
-  background-image: -o-linear-gradient(left, #235555, #1c4343);
-  background-image: linear-gradient(left, #235555, #1c4343);
+  background-image: url(../img/darkslats.png);
+  background-repeat: repeat;
 }
 nav footer {
   display: none;
@@ -610,7 +604,7 @@ ul {
   }
 }
 @media screen and (min-width: 50em) {
-  .container {
+  #container {
     width: 80%;
     margin-left: 20%;
   }
@@ -629,14 +623,14 @@ ul {
     border-bottom: 1px solid transparent;
   }
   .footer-links ul li a:hover {
-    border-bottom: 1px solid #3a8b8b;
+    border-bottom: 1px solid #ff5100;
   }
 
   nav {
     position: fixed;
     width: 20%;
     height: 100%;
-    border-right: 10px solid #3a8b8b;
+    border-right: 10px solid #ff5100;
   }
   nav:before {
     content: " ";
@@ -646,7 +640,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    border-right: 5px solid #375353;
+    border-right: 5px solid #ba3b00;
   }
   nav ul li {
     text-align: left;
@@ -733,10 +727,10 @@ ul {
   }
 }
 @media screen and (min-width: 77.5em) {
-  .container {
+  #container {
     max-width: 80%;
   }
-  .container .box {
+  #container .box {
     max-width: 1200px;
   }
 }
@@ -812,6 +806,9 @@ ul {
 .red-theme .box article aside {
   background-color: #fff1f1;
 }
+.red-theme .box article aside h2 {
+  color: #a40b00;
+}
 .red-theme .box article aside h3 {
   background-color: #590800;
 }
@@ -854,6 +851,9 @@ ul {
 }
 .green-theme .box article aside {
   background-color: #f9ffd7;
+}
+.green-theme .box article aside h2 {
+  color: #768a00;
 }
 .green-theme .box article aside h3 {
   background-color: #526100;
@@ -898,6 +898,9 @@ ul {
 .blue-theme .box article aside {
   background-color: #e8f5f5;
 }
+.blue-theme .box article aside h2 {
+  color: #3a8b8b;
+}
 .blue-theme .box article aside h3 {
   background-color: #375353;
 }
@@ -940,6 +943,9 @@ ul {
 }
 .orange-theme .box article aside {
   background-color: #ffeee5;
+}
+.orange-theme .box article aside h2 {
+  color: #ff5100;
 }
 .orange-theme .box article aside h3 {
   background-color: #ba3b00;
