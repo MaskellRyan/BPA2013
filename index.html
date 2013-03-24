@@ -10,6 +10,136 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Scripts before load-->
 	<script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+	
+	
+	<style>
+	
+/* Your Headers z-index needs to be brought up to 20 or so, to be visible above the images */
+	
+/*	.imgcontainer {
+		/*background-color: red;*!/
+		position: relative;
+		margin: 0 auto;
+		width: 90%;
+		height: 280px;
+		float: left;
+		overflow: hidden;
+	}*/
+	
+	.figure img {
+		position: absolute;
+		width: 100%;
+	
+	}
+	
+	img#presentday2, img#presentday3, img#century2, img#century3, img#earlyyears2, img#indust2 {
+		opacity: 0;
+		z-index: 5;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	
+	/* ========   PANEL SIZES FOR 3 IMAGES   =============== */
+	#presentday-box1, #century-box1 {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+	
+	#presentday-box2, #century-box2 {
+		position: absolute;
+	/*	background-color: orange;*/
+		width: 34%;
+		height: 100%;
+		z-index: 10;
+		left: 33%;
+	}
+	
+	#presentday-box3, #century-box3 {
+		position: absolute;
+	/*	background-color: green;*/
+		width: 33%;
+		height: 100%;
+		z-index: 10;
+	}
+	
+	
+	/* ========   PANEL SIZES FOR 2 IMAGES   =============== */
+	#earlyyears-box1, #indust-box1 {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+	
+	#earlyyears-box2, #indust-box2 {
+		position: absolute;
+	/*	background-color: orange;*/
+		width: 50%;
+		height: 100%;
+		z-index: 5;
+		left: 50%;
+	}
+	
+	
+	/* ========   BACKGROUND IMAGES   =============== */
+	
+	
+	/* ========   HOVER STATES   =============== */
+	
+	#presentday-box2:hover~#presentday-box1 img#presentday2 {
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	
+	#presentday-box3:hover~#presentday-box1 img#presentday3 {
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	
+	
+	#century-box2:hover~#century-box1 img#century2 {
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	#century-box3:hover~#century-box1 img#century3 {
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	
+	
+	#earlyyears-box2:hover~#earlyyears-box1 img#earlyyears2 {
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	#indust-box2:hover~#indust-box1 img#indust2 {
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+	}
+	
+	
+	</style>
+	
 </head>
 <body class="">
 	<nav>
@@ -34,7 +164,12 @@
 			<div class="box">
 				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer1">
 					<h1>Header</h1>
-					<img src="_/img/pictures/oldindy.jpg">
+					<div id="earlyyears-box2">
+					</div>
+					<div id="earlyyears-box1">
+						<img src="_/content/img/earlyyears1.jpg" id="earlyyears1">
+						<img src="_/content/img/earlyyears2.jpg" id="earlyyears2">
+					</div>
 				</figure>
 				<article id="drawer1" class="collapse">
 					<section>
@@ -56,7 +191,12 @@
 			<div class="box">
 				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer2">
 					<h1>Header is very long, like holy shit.</h1>
-					<img src="_/img/pictures/oldtrain.jpg">
+					<div id="indust-box2">
+					</div>
+					<div id="indust-box1">
+						<img src="_/content/img/indust_train.jpg" id="indust1">
+						<img src="_/content/img/indust_childfactory.jpg" id="indust2">
+					</div>
 				</figure>
 				<article id="drawer2" class="collapse">
 					<section>
@@ -80,7 +220,15 @@
 			<div class="box">
 				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer3">
 					<h1>Header</h1>
-					<img src="_/img/pictures/20thcentury.jpg">
+					<div id="century-box2">
+					</div>
+					<div id="century-box3">
+					</div>
+					<div id="century-box1">
+						<img src="_/content/img/20century_downtown.jpg" id="century1">
+						<img src="_/content/img/20century_indy500.jpg" id="century2">
+						<img src="_/content/img/20century_racecar.jpg" id="century3">
+					</div>
 				</figure>
 				<article id="drawer3" class="collapse">
 					<section>
@@ -106,7 +254,15 @@
 			<div class="box">
 				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer4">
 					<h1>Header</h1>
-					<img src="_/img/pictures/presentday.jpg">
+					<div id="presentday-box2">
+					</div>
+					<div id="presentday-box3">
+					</div>
+					<div id="presentday-box1">
+						<img src="_/content/img/presentdayindy1.jpg" id="presentday1">
+						<img src="_/content/img/presentdayindy2.jpg" id="presentday2">
+						<img src="_/contnet/img/presentdayindy3.jpg" id="presentday3">
+					</div>
 				</figure>
 				<article id="drawer4" class="collapse">
 					<section>
