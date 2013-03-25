@@ -186,6 +186,7 @@ a {
 .logo {
 	margin: 0 auto 15px;
 	height: 150px;
+	padding: 37px 20px 10px;
 	//background-color: $lightgray;
 }
 
@@ -290,6 +291,9 @@ nav {
 	//background-image: url(../img/.png);
 	//background-size: 100%;
 	//@include background-image(linear-gradient(left, darken($primary, 15%), darken($primary, 20%)));
+	a:link, a:visited {color: $white;}
+	a:hover, a:active {color: darken($white, 10%);}
+
 	footer {
 		display: none;
 	}
@@ -306,22 +310,22 @@ nav {
 	}
 	.color-red {
 		background-color: $red;
-		width: 90%;
+		width: 100%;
 		border-bottom: 3px solid $darkred;
 	}
 	.color-green {
 		background-color: $green;
-		width: 90%;
+		width: 100%;
 		border-bottom: 3px solid $darkgreen;
 	}
 	.color-blue {
 		background-color: $blue;
-		width: 90%;
+		width: 100%;
 		border-bottom: 3px solid $darkblue;
 	}
 	.color-orange {
 		background-color: $orange;
-		width: 90%;
+		width: 100%;
 		border-bottom: 3px solid $darkorange;
 	}
 }
@@ -356,6 +360,9 @@ ul { @include unordered-inside }
 	}
 	.navlogo {
 		width: 40%;
+	}
+	nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
+		width: 90%;
 	}
 }
 
@@ -561,8 +568,9 @@ ul { @include unordered-inside }
 // COLOR THEMES
 
 .red-theme {
+background-color: $red;
 	nav {
-		@include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
+		// @include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
 		.color-red {
 			background-color: $red;
 			border-bottom: 3px solid $darkred;
@@ -573,18 +581,17 @@ ul { @include unordered-inside }
 		}
 	}
 	.box {
-		box-shadow: 0 15px 15px -10px darken($red, 20%);
+		// box-shadow: 0 15px 15px -10px darken($red, 20%);
 		.tab {
-			border-top: solid 5px $darkred;
+			border-top: solid 5px darken($darkred, 10%);
 		}
 		article {
-			border-bottom: 18px solid $red;
-			border-top: 3px solid $darkred;
+			border-bottom: 18px solid $darkred;
+			border-top: 3px solid darken($darkred, 10%);
 			aside {
 				background-color: lighten($red, 65%);
-				h2 {color: $red;}
 				h3 {
-					background-color: $darkred;
+					background-color: darken($darkred, 10%);
 				}
 				ul li a:hover {
 					background-color: $red;
@@ -592,6 +599,7 @@ ul { @include unordered-inside }
 				}
 			}
 			section {
+				h2 {color: $red;}
 				a:link, a:visited {color: $red;}
 				a:hover, a:active {color: lighten($red, 10%); border-bottom: solid 1px $red;}
 			}
@@ -599,8 +607,9 @@ ul { @include unordered-inside }
 	}
 }
 .green-theme {
+background-color: $green;
 	nav {
-		@include background-image(linear-gradient(left, darken($green, 15%), darken($green, 20%)));
+		// @include background-image(linear-gradient(left, darken($green, 15%), darken($green, 20%)));
 		.color-green {
 			background-color: $green;
 			border-bottom: 3px solid $darkgreen;
@@ -611,18 +620,17 @@ ul { @include unordered-inside }
 		}
 	}
 	.box {
-		box-shadow: 0 15px 15px -10px darken($green, 20%);
+		// box-shadow: 0 15px 15px -10px darken($green, 20%);
 		.tab {
-			border-top: solid 5px $darkgreen;
+			border-top: solid 5px darken($darkgreen, 10%);
 		}
 		article {
-			border-bottom: 18px solid $green;
-			border-top: 3px solid $darkgreen;
+			border-bottom: 18px solid $darkgreen;
+			border-top: 3px solid darken($darkgreen, 10%);
 			aside {
 				background-color: lighten($green, 65%);
-				h2 {color: $green;}
 				h3 {
-					background-color: $darkgreen;
+					background-color: darken($darkgreen, 10%);
 				}
 				ul li a:hover {
 					background-color: $green;
@@ -630,6 +638,7 @@ ul { @include unordered-inside }
 				}
 			}
 			section {
+				h2 {color: $green;}
 				a:link, a:visited {color: $green;}
 				a:hover, a:active {color: lighten($green, 10%); border-bottom: solid 1px $green;}
 			}
@@ -637,8 +646,9 @@ ul { @include unordered-inside }
 	}
 }
 .blue-theme {
+background-color: $blue;
 nav {
-		@include background-image(linear-gradient(left, darken($blue, 15%), darken($blue, 20%)));
+		// @include background-image(linear-gradient(left, darken($blue, 15%), darken($blue, 20%)));
 		.color-blue {
 			background-color: $blue;
 			border-bottom: 3px solid $darkblue;
@@ -649,18 +659,17 @@ nav {
 		}
 	}
 	.box {
-		box-shadow: 0 15px 15px -10px darken($blue, 20%);
+		// box-shadow: 0 15px 15px -10px darken($blue, 20%);
 		.tab {
-			border-top: solid 5px $darkblue;
+			border-top: solid 5px darken($darkblue, 10%);
 		}
 		article {
-			border-bottom: 18px solid $blue;
-			border-top: 3px solid $darkblue;
+			border-bottom: 18px solid $darkblue;
+			border-top: 3px solid darken($darkblue, 10%);
 			aside {
 				background-color: lighten($blue, 55%);
-				h2 {color: $blue;}
 				h3 {
-					background-color: $darkblue;
+					background-color: darken($darkblue, 10%);
 				}
 				ul li a:hover {
 					background-color: $blue;
@@ -668,6 +677,7 @@ nav {
 				}
 			}
 			section {
+				h2 {color: $blue;}
 				a:link, a:visited {color: $blue;}
 				a:hover, a:active {color: lighten($blue, 10%); border-bottom: solid 1px $blue;}
 			}
@@ -675,8 +685,9 @@ nav {
 	}
 }
 .orange-theme {
+background-color: $orange;
 nav {
-		@include background-image(linear-gradient(left, darken($orange, 15%), darken($orange, 20%)));
+		// @include background-image(linear-gradient(left, darken($orange, 15%), darken($orange, 20%)));
 		.color-orange {
 			background-color: $orange;
 			border-bottom: 3px solid $darkorange;
@@ -687,18 +698,17 @@ nav {
 		}
 	}
 	.box {
-		box-shadow: 0 15px 15px -10px darken($orange, 20%);
+		// box-shadow: 0 15px 15px -10px darken($orange, 20%);
 		.tab {
-			border-top: solid 5px $darkorange;
+			border-top: solid 5px darken($darkorange, 10%);
 		}
 		article {
-			border-bottom: 18px solid $orange;
-			border-top: 3px solid $darkorange;
+			border-bottom: 18px solid $darkorange;
+			border-top: 3px solid darken($darkorange, 10%);
 			aside {
 				background-color: lighten($orange, 45%);
-				h2 {color: $orange;}
 				h3 {
-					background-color: $darkorange;
+					background-color: darken($darkorange, 10%);
 				}
 				ul li a:hover {
 					background-color: $orange;
@@ -706,6 +716,7 @@ nav {
 				}
 			}
 			section {
+				h2 {color: $orange;}
 				a:link, a:visited {color: $orange;}
 				a:hover, a:active {color: lighten($orange, 10%); border-bottom: solid 1px $orange;}
 			}

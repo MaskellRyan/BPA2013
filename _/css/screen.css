@@ -99,11 +99,11 @@ body {
   color: #0e0e0e;
   background-color: #0e0e0e;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: #ff5100;
+  background-color: #c14600;
 }
 
 a {
-  color: #ff5100;
+  color: #c14600;
   text-decoration: none;
   white-space: pre;
   white-space: pre-wrap;
@@ -115,9 +115,9 @@ a {
   word-wrap: break-word;
 }
 a:hover, a:focus, a:active {
-  color: #ff7433;
+  color: #f45800;
   text-decoration: none;
-  border-bottom: 1px solid #ff7433;
+  border-bottom: 1px solid #f45800;
 }
 
 .box {
@@ -133,7 +133,7 @@ a:hover, a:focus, a:active {
   margin-top: 50px;
 }
 .box figure {
-  background-color: #ff5100;
+  background-color: #c14600;
   width: 100%;
   height: 200px;
   z-index: 1;
@@ -158,8 +158,8 @@ a:hover, a:focus, a:active {
   padding: 1%;
 }
 .box article {
-  border-top: solid 5px #ba3b00;
-  border-bottom: solid 15px #ba3b00;
+  border-top: solid 5px #923c00;
+  border-bottom: solid 15px #923c00;
   position: relative;
   width: 100%;
 }
@@ -169,19 +169,19 @@ a:hover, a:focus, a:active {
   width: 90%;
 }
 .box article section h2 {
-  color: #ff5100;
+  color: #c14600;
   margin: 10px 0;
   width: 100%;
 }
 .box article .tab {
   width: 100%;
-  border-top: solid 5px #ba3b00;
+  border-top: solid 5px #923c00;
   height: 5px;
   clear: both;
 }
 .box article aside {
   width: 100%;
-  background-color: #ffe1d4;
+  background-color: #ffceac;
   float: right;
   text-align: left;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
@@ -189,7 +189,7 @@ a:hover, a:focus, a:active {
 .box article aside h3 {
   padding: 10px 0;
   padding-left: 20px;
-  background-color: #ba3b00;
+  background-color: #923c00;
   color: white;
   border-bottom: 1px solid white;
 }
@@ -221,7 +221,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .box article aside ul li a:hover {
-  background-color: #ff5100;
+  background-color: #c14600;
   color: white;
 }
 .box .collapse {
@@ -246,6 +246,7 @@ a:hover, a:focus, a:active {
 .logo {
   margin: 0 auto 15px;
   height: 150px;
+  padding: 37px 20px 10px;
 }
 
 .navlogo {
@@ -516,6 +517,12 @@ nav {
   background-image: url(../img/darkslats.png);
   background-repeat: repeat;
 }
+nav a:link, nav a:visited {
+  color: white;
+}
+nav a:hover, nav a:active {
+  color: #e6e6e6;
+}
 nav footer {
   display: none;
 }
@@ -553,23 +560,23 @@ nav ul li a:hover {
 }
 nav .color-red {
   background-color: #a40b00;
-  width: 90%;
+  width: 100%;
   border-bottom: 3px solid #590800;
 }
 nav .color-green {
   background-color: #768a00;
-  width: 90%;
+  width: 100%;
   border-bottom: 3px solid #526100;
 }
 nav .color-blue {
   background-color: #3a8b8b;
-  width: 90%;
+  width: 100%;
   border-bottom: 3px solid #375353;
 }
 nav .color-orange {
-  background-color: #ff5100;
-  width: 90%;
-  border-bottom: 3px solid #ba3b00;
+  background-color: #c14600;
+  width: 100%;
+  border-bottom: 3px solid #923c00;
 }
 
 h1 {
@@ -602,6 +609,10 @@ ul {
   .navlogo {
     width: 40%;
   }
+
+  nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 50em) {
   #container {
@@ -623,14 +634,14 @@ ul {
     border-bottom: 1px solid transparent;
   }
   .footer-links ul li a:hover {
-    border-bottom: 1px solid #ff5100;
+    border-bottom: 1px solid #c14600;
   }
 
   nav {
     position: fixed;
     width: 20%;
     height: 100%;
-    border-right: 10px solid #ff5100;
+    border-right: 10px solid #c14600;
   }
   nav:before {
     content: " ";
@@ -640,7 +651,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    border-right: 5px solid #ba3b00;
+    border-right: 5px solid #923c00;
   }
   nav ul li {
     text-align: left;
@@ -720,10 +731,10 @@ ul {
   }
 
   .orange-theme nav {
-    border-right: 10px solid #ff5100;
+    border-right: 10px solid #c14600;
   }
   .orange-theme nav:before {
-    border-right: 5px solid #ba3b00;
+    border-right: 5px solid #923c00;
   }
 }
 @media screen and (min-width: 77.5em) {
@@ -778,12 +789,8 @@ ul {
   padding: 0;
 }
 
-.red-theme nav {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #580600), color-stop(100%, #3e0400));
-  background-image: -webkit-linear-gradient(left, #580600, #3e0400);
-  background-image: -moz-linear-gradient(left, #580600, #3e0400);
-  background-image: -o-linear-gradient(left, #580600, #3e0400);
-  background-image: linear-gradient(left, #580600, #3e0400);
+.red-theme {
+  background-color: #a40b00;
 }
 .red-theme nav .color-red {
   background-color: #a40b00;
@@ -793,28 +800,25 @@ ul {
 .red-theme nav .footer-links ul li a:hover {
   border-bottom: 1px solid #a40b00;
 }
-.red-theme .box {
-  box-shadow: 0 15px 15px -10px #3e0400;
-}
 .red-theme .box .tab {
-  border-top: solid 5px #590800;
+  border-top: solid 5px #260300;
 }
 .red-theme .box article {
-  border-bottom: 18px solid #a40b00;
-  border-top: 3px solid #590800;
+  border-bottom: 18px solid #590800;
+  border-top: 3px solid #260300;
 }
 .red-theme .box article aside {
   background-color: #fff1f1;
 }
-.red-theme .box article aside h2 {
-  color: #a40b00;
-}
 .red-theme .box article aside h3 {
-  background-color: #590800;
+  background-color: #260300;
 }
 .red-theme .box article aside ul li a:hover {
   background-color: #a40b00;
   border-bottom: 3px solid #590800;
+}
+.red-theme .box article section h2 {
+  color: #a40b00;
 }
 .red-theme .box article section a:link, .red-theme .box article section a:visited {
   color: #a40b00;
@@ -824,12 +828,8 @@ ul {
   border-bottom: solid 1px #a40b00;
 }
 
-.green-theme nav {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #353e00), color-stop(100%, #1f2400));
-  background-image: -webkit-linear-gradient(left, #353e00, #1f2400);
-  background-image: -moz-linear-gradient(left, #353e00, #1f2400);
-  background-image: -o-linear-gradient(left, #353e00, #1f2400);
-  background-image: linear-gradient(left, #353e00, #1f2400);
+.green-theme {
+  background-color: #768a00;
 }
 .green-theme nav .color-green {
   background-color: #768a00;
@@ -839,28 +839,25 @@ ul {
 .green-theme nav .footer-links ul li a:hover {
   border-bottom: 1px solid #768a00;
 }
-.green-theme .box {
-  box-shadow: 0 15px 15px -10px #1f2400;
-}
 .green-theme .box .tab {
-  border-top: solid 5px #526100;
+  border-top: solid 5px #272e00;
 }
 .green-theme .box article {
-  border-bottom: 18px solid #768a00;
-  border-top: 3px solid #526100;
+  border-bottom: 18px solid #526100;
+  border-top: 3px solid #272e00;
 }
 .green-theme .box article aside {
   background-color: #f9ffd7;
 }
-.green-theme .box article aside h2 {
-  color: #768a00;
-}
 .green-theme .box article aside h3 {
-  background-color: #526100;
+  background-color: #272e00;
 }
 .green-theme .box article aside ul li a:hover {
   background-color: #768a00;
   border-bottom: 3px solid #526100;
+}
+.green-theme .box article section h2 {
+  color: #768a00;
 }
 .green-theme .box article section a:link, .green-theme .box article section a:visited {
   color: #768a00;
@@ -870,12 +867,8 @@ ul {
   border-bottom: solid 1px #768a00;
 }
 
-.blue-theme nav {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #235555), color-stop(100%, #1c4343));
-  background-image: -webkit-linear-gradient(left, #235555, #1c4343);
-  background-image: -moz-linear-gradient(left, #235555, #1c4343);
-  background-image: -o-linear-gradient(left, #235555, #1c4343);
-  background-image: linear-gradient(left, #235555, #1c4343);
+.blue-theme {
+  background-color: #3a8b8b;
 }
 .blue-theme nav .color-blue {
   background-color: #3a8b8b;
@@ -885,28 +878,25 @@ ul {
 .blue-theme nav .footer-links ul li a:hover {
   border-bottom: 1px solid #3a8b8b;
 }
-.blue-theme .box {
-  box-shadow: 0 15px 15px -10px #1c4343;
-}
 .blue-theme .box .tab {
-  border-top: solid 5px #375353;
+  border-top: solid 5px #233434;
 }
 .blue-theme .box article {
-  border-bottom: 18px solid #3a8b8b;
-  border-top: 3px solid #375353;
+  border-bottom: 18px solid #375353;
+  border-top: 3px solid #233434;
 }
 .blue-theme .box article aside {
   background-color: #e8f5f5;
 }
-.blue-theme .box article aside h2 {
-  color: #3a8b8b;
-}
 .blue-theme .box article aside h3 {
-  background-color: #375353;
+  background-color: #233434;
 }
 .blue-theme .box article aside ul li a:hover {
   background-color: #3a8b8b;
   border-bottom: 3px solid #375353;
+}
+.blue-theme .box article section h2 {
+  color: #3a8b8b;
 }
 .blue-theme .box article section a:link, .blue-theme .box article section a:visited {
   color: #3a8b8b;
@@ -916,48 +906,41 @@ ul {
   border-bottom: solid 1px #3a8b8b;
 }
 
-.orange-theme nav {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #b33900), color-stop(100%, #993100));
-  background-image: -webkit-linear-gradient(left, #b33900, #993100);
-  background-image: -moz-linear-gradient(left, #b33900, #993100);
-  background-image: -o-linear-gradient(left, #b33900, #993100);
-  background-image: linear-gradient(left, #b33900, #993100);
+.orange-theme {
+  background-color: #c14600;
 }
 .orange-theme nav .color-orange {
-  background-color: #ff5100;
-  border-bottom: 3px solid #ba3b00;
+  background-color: #c14600;
+  border-bottom: 3px solid #923c00;
   width: 100%;
 }
 .orange-theme nav .footer-links ul li a:hover {
-  border-bottom: 1px solid #ff5100;
-}
-.orange-theme .box {
-  box-shadow: 0 15px 15px -10px #993100;
+  border-bottom: 1px solid #c14600;
 }
 .orange-theme .box .tab {
-  border-top: solid 5px #ba3b00;
+  border-top: solid 5px #5f2700;
 }
 .orange-theme .box article {
-  border-bottom: 18px solid #ff5100;
-  border-top: 3px solid #ba3b00;
+  border-bottom: 18px solid #923c00;
+  border-top: 3px solid #5f2700;
 }
 .orange-theme .box article aside {
-  background-color: #ffeee5;
-}
-.orange-theme .box article aside h2 {
-  color: #ff5100;
+  background-color: #ffc7a8;
 }
 .orange-theme .box article aside h3 {
-  background-color: #ba3b00;
+  background-color: #5f2700;
 }
 .orange-theme .box article aside ul li a:hover {
-  background-color: #ff5100;
-  border-bottom: 3px solid #ba3b00;
+  background-color: #c14600;
+  border-bottom: 3px solid #923c00;
+}
+.orange-theme .box article section h2 {
+  color: #c14600;
 }
 .orange-theme .box article section a:link, .orange-theme .box article section a:visited {
-  color: #ff5100;
+  color: #c14600;
 }
 .orange-theme .box article section a:hover, .orange-theme .box article section a:active {
-  color: #ff7433;
-  border-bottom: solid 1px #ff5100;
+  color: #f45800;
+  border-bottom: solid 1px #c14600;
 }
