@@ -146,7 +146,7 @@ a:hover, a:focus, a:active {
 }
 .box figure img {
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 0;
 }
 .box figure h1 {
@@ -247,6 +247,7 @@ a:hover, a:focus, a:active {
   margin: 0 auto 15px;
   height: 150px;
   padding: 37px 20px 10px;
+  max-width: 255px;
 }
 
 .navlogo {
