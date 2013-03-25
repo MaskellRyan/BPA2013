@@ -231,19 +231,25 @@ a {
 .mobile-foot {
 	display: block;
 	text-align: center;
-	background-color: $lightgray;
+	background-image: url(../img/darkslats.png);
+	background-repeat: repeat;
 	bottom: -32px;
 	position: relative;
 	ul {
 		font-size: 15px;
-    	height: 100px;
+    	height: 105px;
     	padding: 8px 0;
-    	background-color: lighten($lightgray, 10%);
+    	background-color: rgba(125,125,125,.3);
 		li {
 			list-style-type: none;
 			a {
 				@include fullbar-link;
 				@include nav-styling;
+				&:hover, &:active {
+					background-color: $primary;
+					border-bottom: 3px solid $accent;
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -306,6 +312,10 @@ nav {
 			a {
 				@include fullbar-link;
 				@include nav-styling;
+				// &:hover {
+				// 	padding-top: 20px;
+				// 	height: 60px;
+				// }
 			}
 		}
 	}
@@ -362,14 +372,14 @@ ul { @include unordered-inside }
 	.navlogo {
 		width: 40%;
 	}
-	nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
-		width: 90%;
-	}
 }
 
 
 // Eg for 800px -- DESKTOP
 @media screen and (min-width: em-font(800px)) {
+	nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
+		width: 90%;
+	}
 	#container {
 		width: 80%;
 		margin-left: 20%;
