@@ -124,7 +124,7 @@ a:hover, a:focus, a:active {
   display: inline-block;
   position: relative;
   width: 100%;
-  margin: 3% 0;
+  margin: 1% 0;
   background-color: white;
   overflow: hidden;
   border-top: 1px #a6a6a6 solid;
@@ -135,14 +135,14 @@ a:hover, a:focus, a:active {
 .box figure {
   background-color: #646464;
   width: 100%;
-  height: 200px;
+  height: 250px;
   z-index: 1;
   position: relative;
   cursor: pointer;
   overflow: hidden;
 }
 .box figure:hover {
-  height: 250px;
+  height: 260px;
 }
 .box figure img {
   width: 100%;
@@ -198,6 +198,7 @@ a:hover, a:focus, a:active {
 }
 .box article aside ul li a {
   color: #0e0e0e;
+  width: 100%;
   display: block;
   padding: 5px;
   margin: 5px 0;
@@ -269,6 +270,7 @@ a:hover, a:focus, a:active {
   float: left;
 }
 .footer-links ul li a, .mobile-foot ul li a {
+  width: 100%;
   color: #e6e6e6;
 }
 .footer-links ul .left-links, .mobile-foot ul .left-links {
@@ -614,6 +616,34 @@ ul {
   list-style-type: disc;
 }
 
+.red-theme {
+  background-color: #a40b00;
+  background-image: url("../img/redcity.png"), url("../img/darkred-text.png");
+  background-position: center 340px, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+.green-theme {
+  background-color: #768a00;
+  background-image: url("../img/greencity.png"), url("../img/darkgreen-text.png");
+  background-position: center 340px, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+.blue-theme {
+  background-color: #3a8b8b;
+  background-image: url("../img/bluecity.png"), url("../img/darkblue-text.png");
+  background-position: center 340px, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+.orange-theme {
+  background-color: #c14600;
+  background-image: url("../img/orangecity.png"), url("../img/darkorange-text.png");
+  background-position: center 340px, left top;
+  background-repeat: no-repeat, repeat;
+}
+
 /* ::Media queries */
 /* ------------------------------------------------------------ */
 @media screen and (min-width: 30em) {
@@ -660,6 +690,7 @@ ul {
     width: 20%;
     height: 100%;
     border-right: 10px solid #646464;
+    border-bottom: 0 solid #646464 !important;
   }
   nav:before {
     content: " ";
@@ -709,13 +740,13 @@ ul {
 
   .box {
     width: 94%;
-    margin: 3%;
+    margin: 2% 3%;
   }
   .box:first-of-type {
-    margin: 3%;
+    margin: 2% 3%;
   }
   .box figure {
-    height: 200px;
+    height: 250px;
   }
   .box figure img {
     top: -50%;
@@ -727,6 +758,9 @@ ul {
     width: 30%;
   }
 
+  .red-theme {
+    background-position: center top, left top;
+  }
   .red-theme nav {
     border-right: 10px solid #a40b00;
   }
@@ -734,6 +768,9 @@ ul {
     border-right: 5px solid #590800;
   }
 
+  .green-theme {
+    background-position: center top, left top;
+  }
   .green-theme nav {
     border-right: 10px solid #768a00;
   }
@@ -741,6 +778,9 @@ ul {
     border-right: 5px solid #526100;
   }
 
+  .blue-theme {
+    background-position: center top, left top;
+  }
   .blue-theme nav {
     border-right: 10px solid #3a8b8b;
   }
@@ -748,6 +788,9 @@ ul {
     border-right: 5px solid #375353;
   }
 
+  .orange-theme {
+    background-position: center top, left top;
+  }
   .orange-theme nav {
     border-right: 10px solid #c14600;
   }
@@ -807,11 +850,8 @@ ul {
   padding: 0;
 }
 
-.red-theme {
-  background-color: #a40b00;
-  background-image: url("_/img/redcity.png"), url("_/img/darkred-text.png");
-  background-position: center top, left top;
-  background-repeat: no-repeat, repeat;
+.red-theme nav {
+  border-bottom: 5px #a40b00 solid;
 }
 .red-theme nav .color-red {
   background-color: #a40b00;
@@ -825,14 +865,14 @@ ul {
   border-top: solid 5px #260300;
 }
 .red-theme .box article {
-  border-bottom: 18px solid #590800;
-  border-top: 3px solid #260300;
+  border-bottom: 18px solid #a40b00;
+  border-top: 3px solid #590800;
 }
 .red-theme .box article aside {
   background-color: #fff1f1;
 }
 .red-theme .box article aside h3 {
-  background-color: #260300;
+  background-color: #590800;
 }
 .red-theme .box article aside ul li a:hover {
   background-color: #a40b00;
@@ -849,8 +889,8 @@ ul {
   border-bottom: solid 1px #a40b00;
 }
 
-.green-theme {
-  background-color: #768a00;
+.green-theme nav {
+  border-bottom: 5px #768a00 solid;
 }
 .green-theme nav .color-green {
   background-color: #768a00;
@@ -864,14 +904,14 @@ ul {
   border-top: solid 5px #272e00;
 }
 .green-theme .box article {
-  border-bottom: 18px solid #526100;
-  border-top: 3px solid #272e00;
+  border-bottom: 18px solid #768a00;
+  border-top: 3px solid #526100;
 }
 .green-theme .box article aside {
   background-color: #f9ffd7;
 }
 .green-theme .box article aside h3 {
-  background-color: #272e00;
+  background-color: #526100;
 }
 .green-theme .box article aside ul li a:hover {
   background-color: #768a00;
@@ -888,8 +928,8 @@ ul {
   border-bottom: solid 1px #768a00;
 }
 
-.blue-theme {
-  background-color: #3a8b8b;
+.blue-theme nav {
+  border-bottom: 5px #3a8b8b solid;
 }
 .blue-theme nav .color-blue {
   background-color: #3a8b8b;
@@ -903,14 +943,14 @@ ul {
   border-top: solid 5px #233434;
 }
 .blue-theme .box article {
-  border-bottom: 18px solid #375353;
-  border-top: 3px solid #233434;
+  border-bottom: 18px solid #3a8b8b;
+  border-top: 3px solid #375353;
 }
 .blue-theme .box article aside {
   background-color: #e8f5f5;
 }
 .blue-theme .box article aside h3 {
-  background-color: #233434;
+  background-color: #375353;
 }
 .blue-theme .box article aside ul li a:hover {
   background-color: #3a8b8b;
@@ -927,8 +967,8 @@ ul {
   border-bottom: solid 1px #3a8b8b;
 }
 
-.orange-theme {
-  background-color: #c14600;
+.orange-theme nav {
+  border-bottom: 5px #c14600 solid;
 }
 .orange-theme nav .color-orange {
   background-color: #c14600;
@@ -942,14 +982,14 @@ ul {
   border-top: solid 5px #5f2700;
 }
 .orange-theme .box article {
-  border-bottom: 18px solid #923c00;
-  border-top: 3px solid #5f2700;
+  border-bottom: 18px solid #c14600;
+  border-top: 3px solid #923c00;
 }
 .orange-theme .box article aside {
   background-color: #ffc7a8;
 }
 .orange-theme .box article aside h3 {
-  background-color: #5f2700;
+  background-color: #923c00;
 }
 .orange-theme .box article aside ul li a:hover {
   background-color: #c14600;

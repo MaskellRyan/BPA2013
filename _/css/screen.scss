@@ -79,7 +79,7 @@ a {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	margin: 3% 0;
+	margin: 1% 0;
 	background-color: $white;
 	overflow: hidden;
 	//height: $height;
@@ -92,13 +92,13 @@ a {
 	figure {
 		background-color: $primary;
 		width: 100%;
-		height: $height - 50px;
+		height: $height;
 		z-index: 1;
 		position: relative;
 		cursor: pointer;
 		overflow: hidden;
 		&:hover {
-			height: $height;
+			height: $height + 10px;
 		}
 
 		img {
@@ -160,6 +160,7 @@ a {
 					list-style-type: none;
 					a {
 						color: $black;
+						width: 100%;
 						@include fullbar-link;
 						padding-left: 20px;
 						padding-bottom: 0;
@@ -208,6 +209,7 @@ a {
 			width: 50%;
 			float: left;
 			a {
+				width: 100%;
 				color: darken($white ,10%);
 			}
 		}
@@ -362,6 +364,32 @@ h1 {
 ol { @include ordered-inside }
 ul { @include unordered-inside }
 
+.red-theme {
+	background-color: $red;
+	background-image: url("../img/redcity.png"), url("../img/darkred-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+}
+.green-theme {
+	background-color: $green;
+	background-image: url("../img/greencity.png"), url("../img/darkgreen-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+}
+.blue-theme {
+	background-color: $blue;
+	background-image: url("../img/bluecity.png"), url("../img/darkblue-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+}
+.orange-theme {
+	background-color: $orange;
+	background-image: url("../img/orangecity.png"), url("../img/darkorange-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+}
+
+
 /* ::Media queries */
 /* ------------------------------------------------------------ */
 
@@ -420,6 +448,7 @@ ul { @include unordered-inside }
 		width: 20%;
 		height: 100%;
 		border-right: 10px solid $primary;
+		border-bottom: 0 solid $primary !important;
 		&:before {
 			content: " ";
 			position: absolute;
@@ -469,12 +498,12 @@ ul { @include unordered-inside }
 
 	.box {
 		width: 94%;
-		margin: 3%;
+		margin: 2% 3%;
 		&:first-of-type {
-			margin: 3%;
+			margin: 2% 3%;
 		}
 		figure {
-			height: $height - 50px;
+			height: $height;
 			img {
 				top: -50%;
 			}
@@ -490,24 +519,28 @@ ul { @include unordered-inside }
 		}
 	}
 	.red-theme {
+		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $red;
 			&:before {border-right: 5px solid $darkred;}
 		}
 	}
 	.green-theme {
+		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $green;
 			&:before {border-right: 5px solid $darkgreen;}
 		}
 	}
 	.blue-theme {
+		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $blue;
 			&:before {border-right: 5px solid $darkblue;}
 		}
 	}
 	.orange-theme {
+		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $orange;
 			&:before {border-right: 5px solid $darkorange;}
@@ -590,11 +623,8 @@ ul { @include unordered-inside }
 // COLOR THEMES
 
 .red-theme {
-background-color: $red;
-	background-image: url("_/img/redcity.png"), url("_/img/darkred-text.png");
-	background-position: center top, left top;
-	background-repeat: no-repeat, repeat;
 	nav {
+		border-bottom: 5px $red solid;
 		// @include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
 		.color-red {
 			background-color: $red;
@@ -611,12 +641,12 @@ background-color: $red;
 			border-top: solid 5px darken($darkred, 10%);
 		}
 		article {
-			border-bottom: 18px solid $darkred;
-			border-top: 3px solid darken($darkred, 10%);
+			border-bottom: 18px solid $red;
+			border-top: 3px solid $darkred;
 			aside {
 				background-color: lighten($red, 65%);
 				h3 {
-					background-color: darken($darkred, 10%);
+					background-color: $darkred;
 				}
 				ul li a:hover {
 					background-color: $red;
@@ -632,8 +662,8 @@ background-color: $red;
 	}
 }
 .green-theme {
-background-color: $green;
 	nav {
+		border-bottom: 5px $green solid;
 		// @include background-image(linear-gradient(left, darken($green, 15%), darken($green, 20%)));
 		.color-green {
 			background-color: $green;
@@ -650,12 +680,12 @@ background-color: $green;
 			border-top: solid 5px darken($darkgreen, 10%);
 		}
 		article {
-			border-bottom: 18px solid $darkgreen;
-			border-top: 3px solid darken($darkgreen, 10%);
+			border-bottom: 18px solid $green;
+			border-top: 3px solid $darkgreen;
 			aside {
 				background-color: lighten($green, 65%);
 				h3 {
-					background-color: darken($darkgreen, 10%);
+					background-color: $darkgreen;
 				}
 				ul li a:hover {
 					background-color: $green;
@@ -671,8 +701,8 @@ background-color: $green;
 	}
 }
 .blue-theme {
-background-color: $blue;
 nav {
+	border-bottom: 5px $blue solid;
 		// @include background-image(linear-gradient(left, darken($blue, 15%), darken($blue, 20%)));
 		.color-blue {
 			background-color: $blue;
@@ -689,12 +719,12 @@ nav {
 			border-top: solid 5px darken($darkblue, 10%);
 		}
 		article {
-			border-bottom: 18px solid $darkblue;
-			border-top: 3px solid darken($darkblue, 10%);
+			border-bottom: 18px solid $blue;
+			border-top: 3px solid $darkblue;
 			aside {
 				background-color: lighten($blue, 55%);
 				h3 {
-					background-color: darken($darkblue, 10%);
+					background-color: $darkblue;
 				}
 				ul li a:hover {
 					background-color: $blue;
@@ -710,8 +740,8 @@ nav {
 	}
 }
 .orange-theme {
-background-color: $orange;
 nav {
+	border-bottom: 5px $orange solid;
 		// @include background-image(linear-gradient(left, darken($orange, 15%), darken($orange, 20%)));
 		.color-orange {
 			background-color: $orange;
@@ -728,12 +758,12 @@ nav {
 			border-top: solid 5px darken($darkorange, 10%);
 		}
 		article {
-			border-bottom: 18px solid $darkorange;
-			border-top: 3px solid darken($darkorange, 10%);
+			border-bottom: 18px solid $orange;
+			border-top: 3px solid $darkorange;
 			aside {
 				background-color: lighten($orange, 45%);
 				h3 {
-					background-color: darken($darkorange, 10%);
+					background-color: $darkorange;
 				}
 				ul li a:hover {
 					background-color: $orange;
