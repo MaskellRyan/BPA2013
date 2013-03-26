@@ -590,11 +590,7 @@ ul { @include unordered-inside }
 // COLOR THEMES
 
 .red-theme {
-	//background-color: $red;
-	// background-image: url(../img/redcity.png);
-	// background-position: center top, left top;
-	// background-repeat: no-repeat, repeat;
-/*	background-attachment: fixed;*/
+background-color: $red;
 	nav {
 		// @include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
 		.color-red {
@@ -633,10 +629,7 @@ ul { @include unordered-inside }
 	}
 }
 .green-theme {
-	//background-color: $green;
-	// background-image: url(../img/greencity.png), url(../img/darkgreen-tex.png);
-	// background-position: center top, left top;
-	// background-repeat: no-repeat, repeat;
+background-color: $green;
 	nav {
 		// @include background-image(linear-gradient(left, darken($green, 15%), darken($green, 20%)));
 		.color-green {
@@ -675,10 +668,7 @@ ul { @include unordered-inside }
 	}
 }
 .blue-theme {
-	//background-color: $blue;
-	// background-image: url(../img/bluecity.png), url(../img/darkblue-tex.png);
-	// background-position: center top, left top;
-	// background-repeat: no-repeat, repeat;
+background-color: $blue;
 nav {
 		// @include background-image(linear-gradient(left, darken($blue, 15%), darken($blue, 20%)));
 		.color-blue {
@@ -717,10 +707,7 @@ nav {
 	}
 }
 .orange-theme {
-	//background-color: $orange;
-	// background-image: url(../img/orangecity.png), url(../img/darkorange-tex.png);
-	// background-position: center top, left top;
-	// background-repeat: no-repeat, repeat;
+background-color: $orange;
 nav {
 		// @include background-image(linear-gradient(left, darken($orange, 15%), darken($orange, 20%)));
 		.color-orange {
