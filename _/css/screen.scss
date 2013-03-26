@@ -185,8 +185,7 @@ a {
 
 .logo {
 	margin: 0 auto 15px;
-	height: 150px;
-	padding: 37px 20px 10px;
+	padding: 37px 20px 10px 15px;
 	max-width: 255px;
 	//background-color: $lightgray;
 }
@@ -323,21 +322,33 @@ nav {
 		background-color: $red;
 		width: 100%;
 		border-bottom: 3px solid $darkred;
+		&:hover {
+			background-color: lighten($red);
+		}
 	}
 	.color-green {
 		background-color: $green;
 		width: 100%;
 		border-bottom: 3px solid $darkgreen;
+		&:hover {
+			background-color: lighten($green);
+		}
 	}
 	.color-blue {
 		background-color: $blue;
 		width: 100%;
 		border-bottom: 3px solid $darkblue;
+		&:hover {
+			background-color: lighten($blue);
+		}
 	}
 	.color-orange {
 		background-color: $orange;
 		width: 100%;
 		border-bottom: 3px solid $darkorange;
+		&:hover {
+			background-color: lighten($orange);
+		}
 	}
 }
 

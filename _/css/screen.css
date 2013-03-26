@@ -245,8 +245,7 @@ a:hover, a:focus, a:active {
 
 .logo {
   margin: 0 auto 15px;
-  height: 150px;
-  padding: 37px 20px 10px;
+  padding: 37px 20px 10px 15px;
   max-width: 255px;
 }
 
