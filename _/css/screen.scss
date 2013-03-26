@@ -323,7 +323,7 @@ nav {
 		width: 100%;
 		border-bottom: 3px solid $darkred;
 		&:hover {
-			background-color: lighten($red);
+			background-color: lighten($red, 10%);
 		}
 	}
 	.color-green {
@@ -331,7 +331,7 @@ nav {
 		width: 100%;
 		border-bottom: 3px solid $darkgreen;
 		&:hover {
-			background-color: lighten($green);
+			background-color: lighten($green, 10%);
 		}
 	}
 	.color-blue {
@@ -339,7 +339,7 @@ nav {
 		width: 100%;
 		border-bottom: 3px solid $darkblue;
 		&:hover {
-			background-color: lighten($blue);
+			background-color: lighten($blue, 10%);
 		}
 	}
 	.color-orange {
@@ -347,7 +347,7 @@ nav {
 		width: 100%;
 		border-bottom: 3px solid $darkorange;
 		&:hover {
-			background-color: lighten($orange);
+			background-color: lighten($orange, 10%);
 		}
 	}
 }
