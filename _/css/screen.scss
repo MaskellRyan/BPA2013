@@ -591,6 +591,9 @@ ul { @include unordered-inside }
 
 .red-theme {
 background-color: $red;
+	background-image: url("_/img/redcity.png"), url("_/img/darkred-text.png");
+	background-position: center top, left top;
+	background-repeat: no-repeat, repeat;
 	nav {
 		// @include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
 		.color-red {
