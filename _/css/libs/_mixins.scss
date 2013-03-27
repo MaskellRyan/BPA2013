@@ -17,9 +17,9 @@
 		//border-bottom: 3px solid $accent;
 		width: 100%;
 	}
-	@include transition-property(all);
-  @include transition-duration(.1s);
-  @include transition-timing-function(ease-in);
+@include transition-property(all);
+@include transition-duration(.1s);
+@include transition-timing-function(ease-in);
 }
 
 @mixin nav-styling {
@@ -41,6 +41,24 @@
   }
 }
 
+@mixin color-theme($color) {
+	@if $color == red {
+		$primary: $red;
+		$accent: $darkred;
+	}
+	@else if $color == green {
+		$primary: $red;
+		$accent: $darkred;
+	}
+	@else if $color == blue {
+		$primary: $red;
+		$accent: $darkred;
+	}
+	@else if $color == orange {
+		$primary: $red;
+		$accent: $darkred;
+	}
+}
 
 // List styles
 // -------------------------------------------------------

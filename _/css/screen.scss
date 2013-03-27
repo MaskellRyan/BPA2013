@@ -62,6 +62,12 @@ body {
 	background-color: $black;
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: $primary;
+	background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
+		background-position: center top, left top;
+	}
 }
 
 a {
@@ -135,6 +141,7 @@ nav {
 	background-image: url(../img/darkslats.png);
 	background-repeat: repeat;
 	position: relative;
+	border-bottom: 5px $primary solid;
 	width: 100%;
 
 	@include breakpoint(desktop) {
@@ -281,6 +288,17 @@ nav footer, .mobile-footer {
 	}
 }
 
+header {
+	@extend .box;
+	border-top: 0 transparent solid !important;
+	h1 {
+		font-size: 80px;
+		font-weight: bold;
+		color: $white;
+		text-align: center;
+	}
+}
+
 .box {
 	display: inline-block;
 	position: relative;
@@ -290,7 +308,6 @@ nav footer, .mobile-footer {
 		width: 94%;
 		margin: 2% 3%;
 	}
-	background-color: $white;
 	overflow: hidden;
 	border-top: 1px darken($white, 35%) solid;
 	&:first-of-type {
@@ -337,9 +354,8 @@ nav footer, .mobile-footer {
 		border-top: solid 5px $accent;
 		border-bottom: solid 15px $accent;
 		position: relative;
-		//bottom: 100%;
+		background-color: $white;
 		width: 100%;
-		//z-index: -1;
 		
 		
 		section {
@@ -378,19 +394,19 @@ nav footer, .mobile-footer {
 			p {
 				padding: 10px 20px;
 				position: relative;
-				&:before {
-				    background-color: lighten($accent, 55%);
-				    content: "";
-				    height: 100%;
-				    left: 0;
-				    position: absolute;
-				    top: 0;
-				    bottom: 0;
-				    width: 100%;
-			    }
-			    &:before {
-				    top: 100%;
-			    }
+				// &:before {
+				//     background-color: lighten($accent, 55%);
+				//     content: "";
+				//     height: 100%;
+				//     left: 0;
+				//     position: absolute;
+				//     top: 0;
+				//     bottom: 0;
+				//     width: 100%;
+			 //    }
+			 //    &:before {
+				//     top: 100%;
+			 //    }
 			}
 			ul {
 				li {
@@ -415,59 +431,6 @@ nav footer, .mobile-footer {
 	}
 }
 
-.red-theme {
-	background-color: $red;
-	background-image: url("../img/redcity.png"), url("../img/darkred-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-	@include breakpoint(desktop) {
-		background-position: center top, left top;
-		nav {
-			border-right: 10px solid $red;
-			&:before {border-right: 5px solid $darkred;}
-		}
-	}
-}
-.green-theme {
-	background-color: $green;
-	background-image: url("../img/greencity.png"), url("../img/darkgreen-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-	@include breakpoint(desktop) {
-		background-position: center top, left top;
-		nav {
-			border-right: 10px solid $green;
-			&:before {border-right: 5px solid $darkgreen;}
-		}
-	}
-}
-.blue-theme {
-	background-color: $blue;
-	background-image: url("../img/bluecity.png"), url("../img/darkblue-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-	@include breakpoint(desktop) {
-		background-position: center top, left top;
-		nav {
-			border-right: 10px solid $blue;
-			&:before {border-right: 5px solid $darkblue;}
-		}
-	}
-}
-.orange-theme {
-	background-color: $orange;
-	background-image: url("../img/orangecity.png"), url("../img/darkorange-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-	@include breakpoint(desktop) {
-		background-position: center top, left top;
-		nav {
-			border-right: 10px solid $orange;
-			&:before {border-right: 5px solid $darkorange;}
-		}
-	}
-}
-
 
 /* ::Media queries */
 /* ------------------------------------------------------------ */
@@ -478,16 +441,13 @@ nav footer, .mobile-footer {
 
 
 // Eg for 480px
-@media screen and (min-width: em-font(480px)) {
-}
+//@media screen and (min-width: em-font(480px)) {}
 
 // Eg for 800px -- DESKTOP
-@media screen and (min-width: em-font(800px)) {
-}
+//@media screen and (min-width: em-font(800px)) {}
 
 // Eg for 1240px
-@media screen and (min-width: em-font(1240px)) {
-}
+//@media screen and (min-width: em-font(1240px)) {}
 
 // Print styles
 @media print {
@@ -554,26 +514,33 @@ nav footer, .mobile-footer {
 // COLOR THEMES
 
 .red-theme {
+	background-color: $red;
+	background-image: url("../img/redcity.png"), url("../img/darkred-tex.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
+		background-position: center top, left top;
+		nav {
+			border-right-color: $red;
+			&:before {border-right-color: $darkred;}
+		}
+	}
 	nav {
-		border-bottom: 5px $red solid;
-		// @include background-image(linear-gradient(left, darken($red, 15%), darken($red, 20%)));
+		border-bottom-color: $red;
 		.color-red {
-			background-color: $red;
-			border-bottom: 3px solid $darkred;
 			width: 100%;
 		}
 		footer ul li a:hover {
-			border-bottom: 1px solid $red;
+			border-bottom-color: $red;
 		}
 	}
 	.box {
-		// box-shadow: 0 15px 15px -10px darken($red, 20%);
 		.tab {
-			border-top: solid 5px $darkred;
+			border-top-color: $darkred;
 		}
 		article {
-			border-bottom: 18px solid $red;
-			border-top: 3px solid $darkred;
+			border-bottom-color: $red;
+			border-top-color: $darkred;
 			aside {
 				background-color: lighten($red, 65%);
 				h3 {
@@ -582,38 +549,45 @@ nav footer, .mobile-footer {
 				p:before {background-color: lighten($red, 65%);}
 				ul li a:hover {
 					background-color: $red;
-					border-bottom: 3px solid $darkred;
+					border-bottom-color: $darkred;
 				}
 			}
 			section {
 				h2 {color: $red;}
 				a:link, a:visited {color: $red;}
-				a:hover, a:active {color: lighten($red, 10%); border-bottom: solid 1px $red;}
+				a:hover, a:active {color: lighten($red, 10%); border-bottom-color: $red;}
 			}
 		}
 	}
 }
 .green-theme {
+	background-color: $green;
+	background-image: url("../img/greencity.png"), url("../img/darkgreen-tex.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
+		background-position: center top, left top;
+		nav {
+			border-right-color: $green;
+			&:before {border-right-color: $darkgreen;}
+		}
+	}
 	nav {
-		border-bottom: 5px $green solid;
-		// @include background-image(linear-gradient(left, darken($green, 15%), darken($green, 20%)));
+		border-bottom-color:$green;
 		.color-green {
-			background-color: $green;
-			border-bottom: 3px solid $darkgreen;
 			width: 100%;
 		}
 		footer ul li a:hover {
-			border-bottom: 1px solid $green;
+			border-bottom-color: $green;
 		}
 	}
 	.box {
-		// box-shadow: 0 15px 15px -10px darken($green, 20%);
 		.tab {
-			border-top: solid 5px $darkgreen;
+			border-top-color: $darkgreen;
 		}
 		article {
-			border-bottom: 18px solid $green;
-			border-top: 3px solid $darkgreen;
+			border-bottom-color: $green;
+			border-top-color: $darkgreen;
 			aside {
 				background-color: lighten($green, 65%);
 				h3 {
@@ -622,38 +596,45 @@ nav footer, .mobile-footer {
 				p:before {background-color: lighten($green, 65%);}
 				ul li a:hover {
 					background-color: $green;
-					border-bottom: 3px solid $darkgreen;
+					border-bottom-color: $darkgreen;
 				}
 			}
 			section {
 				h2 {color: $green;}
 				a:link, a:visited {color: $green;}
-				a:hover, a:active {color: lighten($green, 10%); border-bottom: solid 1px $green;}
+				a:hover, a:active {color: lighten($green, 10%); border-bottom-color: $green;}
 			}
 		}
 	}
 }
 .blue-theme {
-nav {
-	border-bottom: 5px $blue solid;
-		// @include background-image(linear-gradient(left, darken($blue, 15%), darken($blue, 20%)));
+	background-color: $blue;
+	background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
+		background-position: center top, left top;
+		nav {
+			border-right-color: $blue;
+			&:before {border-right-color: $darkblue;}
+		}
+	}
+	nav {
+		border-bottom-color: $blue;
 		.color-blue {
-			background-color: $blue;
-			border-bottom: 3px solid $darkblue;
 			width: 100%;
 		}
 		footer ul li a:hover {
-			border-bottom: 1px solid $blue;
+			border-bottom-color: $blue;
 		}
 	}
 	.box {
-		// box-shadow: 0 15px 15px -10px darken($blue, 20%);
 		.tab {
-			border-top: solid 5px $darkblue;
+			border-top-color: $darkblue;
 		}
 		article {
-			border-bottom: 18px solid $blue;
-			border-top: 3px solid $darkblue;
+			border-bottom-color: $blue;
+			border-top-color: $darkblue;
 			aside {
 				background-color: lighten($blue, 55%);
 				h3 {
@@ -662,38 +643,45 @@ nav {
 				p:before {background-color: lighten($blue, 55%);}
 				ul li a:hover {
 					background-color: $blue;
-					border-bottom: 3px solid $darkblue;
+					border-bottom-color: $darkblue;
 				}
 			}
 			section {
 				h2 {color: $blue;}
 				a:link, a:visited {color: $blue;}
-				a:hover, a:active {color: lighten($blue, 10%); border-bottom: solid 1px $blue;}
+				a:hover, a:active {color: lighten($blue, 10%); border-bottom-color: $blue;}
 			}
 		}
 	}
 }
 .orange-theme {
-nav {
-	border-bottom: 5px $orange solid;
-		// @include background-image(linear-gradient(left, darken($orange, 15%), darken($orange, 20%)));
+	background-color: $orange;
+	background-image: url("../img/orangecity.png"), url("../img/darkorange-tex.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
+		background-position: center top, left top;
+		nav {
+			border-right-color: $orange;
+			&:before {border-right-color: $darkorange;}
+		}
+	}
+	nav {
+		border-bottom-color: $orange;
 		.color-orange {
-			background-color: $orange;
-			border-bottom: 3px solid $darkorange;
 			width: 100%;
 		}
 		footer ul li a:hover {
-			border-bottom: 1px solid $orange;
+			border-bottom-color: $orange;
 		}
 	}
 	.box {
-		// box-shadow: 0 15px 15px -10px darken($orange, 20%);
 		.tab {
-			border-top: solid 5px $darkorange;
+			border-top-color: $darkorange;
 		}
 		article {
-			border-bottom: 18px solid $orange;
-			border-top: 3px solid $darkorange;
+			border-bottom-color: $orange;
+			border-top-color: $darkorange;
 			aside {
 				background-color: lighten($orange, 45%);
 				h3 {
@@ -702,13 +690,13 @@ nav {
 				p:before {background-color: lighten($orange, 45%);}
 				ul li a:hover {
 					background-color: $orange;
-					border-bottom: 3px solid $darkorange;
+					border-bottom-color: $darkorange;
 				}
 			}
 			section {
 				h2 {color: $orange;}
 				a:link, a:visited {color: $orange;}
-				a:hover, a:active {color: lighten($orange, 10%); border-bottom: solid 1px $orange;}
+				a:hover, a:active {color: lighten($orange, 10%); border-bottom-color: $orange;}
 			}
 		}
 	}
