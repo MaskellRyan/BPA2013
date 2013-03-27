@@ -14,25 +14,6 @@
 	
 	
 	<style>
-	
-/* Your Headers z-index needs to be brought up to 20 or so, to be visible above the images */
-
-body {
-/*	background-image: url("_/img/redcity.png"), url("_/img/darkred-text.png");
-	background-position: center top, left top;
-	background-repeat: no-repeat, repeat;*/
-/*	background-attachment: fixed;*/
-}	
-/*	.imgcontainer {
-		/*background-color: red;*!/
-		position: relative;
-		margin: 0 auto;
-		width: 90%;
-		height: 280px;
-		float: left;
-		overflow: hidden;
-	}*/
-	
 
 	figure img {
 		position: absolute;
@@ -40,108 +21,122 @@ body {
 	
 	}
 	
-	img#presentday2, img#presentday3, img#century2, img#century3, img#earlyyears2, img#indust2 {
+	img#presentday2, img#presentday3, img#presentday4, img#presentday5, img#century2, img#century3, img#century4, img#earlyyears2, img#earlyyears3, img#earlyyears4, img#indust2, img#indust3, img#indust4 {
 		opacity: 0;
 		z-index: 5;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
 	}
 	
 	
-	/* ========   PANEL SIZES FOR 3 IMAGES   =============== */
-	#presentday-box1, #century-box1 {
+	/* ========   PANEL SIZES FOR 4 IMAGES   =============== */
+	#indust-box1, #century-box1, #earlyyears-box1 {
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		z-index: 1;
 	}
 	
-	#presentday-box2, #century-box2 {
+	#indust-box2, #century-box2, #earlyyears-box2 {
 		position: absolute;
 	/*	background-color: orange;*/
-		width: 34%;
+		width: 25%;
 		height: 100%;
 		z-index: 10;
-		left: 33%;
 	}
 	
-	#presentday-box3, #century-box3 {
+	#indust-box3, #century-box3, #earlyyears-box3 {
 		position: absolute;
 	/*	background-color: green;*/
-		width: 33%;
+		width: 25%;
 		height: 100%;
 		z-index: 10;
+		left: 25%;
+	}
+	
+	#indust-box4, #century-box4, #earlyyears-box4 {
+		position: absolute;
+	/*	background-color: green;*/
+		width: 25%;
+		height: 100%;
+		z-index: 10;
+		left: 50%;
 	}
 	
 	
-	/* ========   PANEL SIZES FOR 2 IMAGES   =============== */
-	#earlyyears-box1, #indust-box1 {
+	/* ========   PANEL SIZES FOR 5 IMAGES   =============== */
+	#presentday-box1 {
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		z-index: 1;
 	}
 	
-	#earlyyears-box2, #indust-box2 {
+	#presentday-box2 {
 		position: absolute;
 	/*	background-color: orange;*/
-		width: 50%;
+		width: 20%;
 		height: 100%;
 		z-index: 5;
 	}
 	
+	#presentday-box3 {
+		position: absolute;
+	/*	background-color: orange;*/
+		width: 20%;
+		height: 100%;
+		z-index: 5;
+		left: 20%;
+	}
 	
-	/* ========   BACKGROUND IMAGES   =============== */
+	#presentday-box4 {
+		position: absolute;
+	/*	background-color: orange;*/
+		width: 20%;
+		height: 100%;
+		z-index: 5;
+		left: 40%;
+	}
+	
+	#presentday-box5 {
+		position: absolute;
+	/*	background-color: orange;*/
+		width: 20%;
+		height: 100%;
+		z-index: 5;
+		left: 60%;
+	}
 	
 	
 	/* ========   HOVER STATES   =============== */
 	
-	#presentday-box2:hover~#presentday-box1 img#presentday2 {
+	#presentday-box2:hover~#presentday-box1 img#presentday2,
+	#presentday-box3:hover~#presentday-box1 img#presentday3,
+	#presentday-box4:hover~#presentday-box1 img#presentday4,
+	#presentday-box5:hover~#presentday-box1 img#presentday5 {
 		opacity: 1;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
-	}
-	
-	
-	#presentday-box3:hover~#presentday-box1 img#presentday3 {
-		opacity: 1;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
 	}
 	
 	
 	
-	#century-box2:hover~#century-box1 img#century2 {
+	#century-box2:hover~#century-box1 img#century2,
+	#century-box3:hover~#century-box1 img#century3,
+	#century-box4:hover~#century-box1 img#century4 {
 		opacity: 1;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
-	}
-	
-	#century-box3:hover~#century-box1 img#century3 {
-		opacity: 1;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
 	}
 	
 	
 	
-	#earlyyears-box2:hover~#earlyyears-box1 img#earlyyears2 {
+	#earlyyears-box2:hover~#earlyyears-box1 img#earlyyears2,
+	#earlyyears-box3:hover~#earlyyears-box1 img#earlyyears3,
+	#earlyyears-box4:hover~#earlyyears-box1 img#earlyyears4 {
 		opacity: 1;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
 	}
 	
-	#indust-box2:hover~#indust-box1 img#indust2 {
+	
+	
+	#indust-box2:hover~#indust-box1 img#indust2,
+	#indust-box3:hover~#indust-box1 img#indust3,
+	#indust-box4:hover~#indust-box1 img#indust4 {
 		opacity: 1;
-		transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
 	}
 	
 	
@@ -174,9 +169,15 @@ body {
 					<h1>Early Years</h1>
 					<div id="earlyyears-box2">
 					</div>
+					<div id="earlyyears-box3">
+					</div>
+					<div id="earlyyears-box4">
+					</div>
 					<div id="earlyyears-box1">
-						<img src="_/content/img/earlyyears1.jpg" id="earlyyears1">
-						<img src="_/content/img/earlyyears2.jpg" id="earlyyears2">
+						<img src="_/content/img/history/earlyyears1.jpg" id="earlyyears1">
+						<img src="_/content/img/history/earlyyears2.jpg" id="earlyyears2">
+						<img src="_/content/img/history/earlyyears3.jpg" id="earlyyears3">
+						<img src="_/content/img/history/earlyyears4.jpg" id="earlyyears4">
 					</div>
 				</figure>
 				<article id="drawer1" class="collapse">
@@ -201,9 +202,15 @@ body {
 					<h1>Industrial Era</h1>
 					<div id="indust-box2">
 					</div>
+					<div id="indust-box3">
+					</div>
+					<div id="indust-box4">
+					</div>
 					<div id="indust-box1">
-						<img src="_/content/img/indust_train.jpg" id="indust1">
-						<img src="_/content/img/indust_childfactory.jpg" id="indust2">
+						<img src="_/content/img/history/indust_train.jpg" id="indust1">
+						<img src="_/content/img/history/indust_car.jpg" id="indust2">
+						<img src="_/content/img/history/indust_workers.jpg" id="indust3">
+						<img src="_/content/img/history/indust_racecar.jpg" id="indust4">
 					</div>
 				</figure>
 				<article id="drawer2" class="collapse">
@@ -226,10 +233,13 @@ body {
 					</div>
 					<div id="century-box3">
 					</div>
+					<div id="century-box4">
+					</div>
 					<div id="century-box1">
-						<img src="_/content/img/20century_downtown.jpg" id="century1">
-						<img src="_/content/img/20century_indy500.jpg" id="century2">
-						<img src="_/content/img/20century_racecar.jpg" id="century3">
+						<img src="_/content/img/history/20century_downtown.jpg" id="century1">
+						<img src="_/content/img/history/20century_houdini.jpg" id="century2">
+						<img src="_/content/img/history/20century_indy500.jpg" id="century3">
+						<img src="_/content/img/history/20century_newsboys.jpg" id="century4">
 					</div>
 				</figure>
 				<article id="drawer3" class="collapse">
@@ -260,10 +270,17 @@ body {
 					</div>
 					<div id="presentday-box3">
 					</div>
+					<div id="presentday-box4">
+					</div>
+					<div id="presentday-box5">
+					</div>
 					<div id="presentday-box1">
-						<img src="_/content/img/presentdayindy1.jpg" id="presentday1">
-						<img src="_/content/img/presentdayindy2.jpg" id="presentday2">
-						<img src="_/content/img/presentdayindy3.jpg" id="presentday3">
+						<img src="_/content/img/history/presentdayindy1.jpg" id="presentday1">
+						<img src="_/content/img/history/presentdayindy2.jpg" id="presentday2">
+						<img src="_/content/img/history/presentdayindy3.jpg" id="presentday3">
+						<img src="_/content/img/history/presentdayindy4.jpg" id="presentday4">
+						<img src="_/content/img/history/presentdayindy5.jpg" id="presentday5">
+						
 					</div>
 				</figure>
 				<article id="drawer4" class="collapse">
