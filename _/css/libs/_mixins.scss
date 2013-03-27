@@ -29,6 +29,18 @@
 	}
 }
 
+@mixin breakpoint($point) {
+  @if $point == tablet {
+    @media (min-width: em-font(480px)) { @content; }
+  }
+  @else if $point == desktop {
+    @media (min-width: em-font(800px)) { @content; }
+  }
+  @else if $point == large-screen {
+    @media (min-width: em-font(1240px))  { @content; }
+  }
+}
+
 
 // List styles
 // -------------------------------------------------------

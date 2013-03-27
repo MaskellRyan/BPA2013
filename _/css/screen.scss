@@ -75,191 +75,6 @@ a {
 	}
 }
 
-.box {
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	margin: 1% 0;
-	background-color: $white;
-	overflow: hidden;
-	//height: $height;
-	border-top: 1px darken($white, 35%) solid;
-	//box-shadow: 0 15px 15px -10px darken($primary, 20%);
-	&:first-of-type {
-		margin-top: 50px;
-	}
-
-	figure {
-		background-color: $primary;
-		width: 100%;
-		height: $height;
-		z-index: 1;
-		position: relative;
-		cursor: pointer;
-		overflow: hidden;
-		&:hover {
-			height: $height + 10px;
-		}
-
-		img {
-			width: 100%;
-			position: absolute;
-			top: 0;
-		}
-
-		h1 {
-			z-index: 20;
-			box-shadow: inset 0 -39px 31px -18px rgba(0,0,0,.9);
-			width: 100%;
-			display: block;
-			margin: 0;
-			padding: 1%;
-		}
-	}
-	article {
-		border-top: solid 5px $accent;
-		border-bottom: solid 15px $accent;
-		position: relative;
-		//bottom: 100%;
-		width: 100%;
-		//z-index: -1;
-		
-		
-		section {
-			margin: 2%;
-			float: left;
-			width: 90%;
-			h2 {
-				color: $primary;
-				margin: 10px 0;
-				width: 100%;
-			}
-		}
-		.tab {
-			width: 100%;
-			border-top: solid 5px $accent;
-			height: 5px;
-			clear: both;
-		}
-		aside {
-			width: 100%;
-			//height: 200px;
-			background-color: lighten($accent, 55%);
-			float: right;
-			text-align: left;
-			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
-			h3 {
-				padding: 10px 0;
-				padding-left: 20px;
-				background-color: $accent;
-				color: $heading-color;
-				border-bottom: 1px solid $white;
-			}
-			ul {
-				li {
-					list-style-type: none;
-					a {
-						color: $black;
-						width: 100%;
-						@include fullbar-link;
-						padding-left: 20px;
-						padding-bottom: 0;
-						&:hover {
-							background-color: $primary;
-							color: $white;
-						}
-					}
-				}
-			}
-		}
-	}
-	.collapse {
-		height: 20px;
-	}
-}
-
-.box, .box article, figure {
-	@include transition-property(all);
-	@include transition-duration(.5s);
-	@include transition-timing-function(ease-in);
-}
-
-.logo {
-	margin: 0 auto 15px;
-	padding: 37px 20px 10px 15px;
-	max-width: 255px;
-	//background-color: $lightgray;
-}
-
-.navlogo {
-	width: 50%;
-	margin: 25px auto;
-	padding-bottom: 20px;
-}
-
-.footer-links, .mobile-foot {
-	margin: 0 auto;
-	//background-color: $lightgray;
-	padding-top: 10px;
-	ul {
-		font-size: 12px;
-		@include clearfix;
-		//margin-bottom: 90px;
-		li {
-			width: 50%;
-			float: left;
-			a {
-				width: 100%;
-				color: darken($white ,10%);
-			}
-		}
-		.left-links {text-align: right; padding-right: 5px;}
-		.right-links {text-align: left; padding-left: 5px;}
-	}
-}
-
-.footer-links {
-	ul {
-		opacity: 0.6;
-		-moz-opacity: 0.6;
-		&:hover {
-			opacity: 1;
-			-moz-opacity: 1;
-		}
-	}
-}
-
-.mobile-foot {
-	display: block;
-	text-align: center;
-	background-image: url(../img/darkslats.png);
-	background-repeat: repeat;
-	bottom: -32px;
-	position: relative;
-	ul {
-		font-size: 15px;
-    	height: 105px;
-    	padding: 8px 0;
-    	background-color: rgba(125,125,125,.3);
-		li {
-			list-style-type: none;
-			a {
-				@include fullbar-link;
-				@include nav-styling;
-				&:hover, &:active {
-					background-color: $primary;
-					border-bottom: 3px solid $accent;
-					width: 100%;
-				}
-			}
-		}
-	}
-	.navlogo {
-		width: 60%;
-		margin: 30px auto;
-	}
-}
-
 // Import base typography into the cascade (if required)
 @import "libs/typography"; 		
 
@@ -286,164 +101,43 @@ a {
 	margin: 0 auto;
 	width: 95%;
 	position: relative;
+
+	@include breakpoint(desktop) {
+		width: 80%;
+		margin-left: 20%;
+	}
 }
 
 
 nav {
-	position: relative;
-	z-index: 5;
-	width: 100%;
-	padding: 0 0 20px;
-	background-image: url(../img/darkslats.png);
-	background-repeat: repeat;
-	//background-image: url(../img/.png);
-	//background-size: 100%;
-	//@include background-image(linear-gradient(left, darken($primary, 15%), darken($primary, 20%)));
 	a:link, a:visited {color: $white;}
 	a:hover, a:active {color: darken($white, 10%);}
 
-	footer {
-		display: none;
-	}
 	ul {
 		margin: 0 auto;
 		li {
 			list-style-type: none;
 			text-align: center;
+			@include breakpoint(desktop) {text-align: left;}
 			a {
 				@include fullbar-link;
 				@include nav-styling;
-				// &:hover {
-				// 	padding-top: 20px;
-				// 	height: 60px;
-				// }
-			}
-		}
-	}
-	.color-red {
-		background-color: $red;
-		width: 100%;
-		border-bottom: 3px solid $darkred;
-		&:hover {
-			background-color: lighten($red, 10%);
-		}
-	}
-	.color-green {
-		background-color: $green;
-		width: 100%;
-		border-bottom: 3px solid $darkgreen;
-		&:hover {
-			background-color: lighten($green, 10%);
-		}
-	}
-	.color-blue {
-		background-color: $blue;
-		width: 100%;
-		border-bottom: 3px solid $darkblue;
-		&:hover {
-			background-color: lighten($blue, 10%);
-		}
-	}
-	.color-orange {
-		background-color: $orange;
-		width: 100%;
-		border-bottom: 3px solid $darkorange;
-		&:hover {
-			background-color: lighten($orange, 10%);
-		}
-	}
-}
-
-section { @extend .clearfix; }
-h1 { 
-	position: absolute;
-	margin: 10px;
-	bottom: 0;
-	color: $heading-color;
-}
-ol { @include ordered-inside }
-ul { @include unordered-inside }
-
-.red-theme {
-	background-color: $red;
-	background-image: url("../img/redcity.png"), url("../img/darkred-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-}
-.green-theme {
-	background-color: $green;
-	background-image: url("../img/greencity.png"), url("../img/darkgreen-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-}
-.blue-theme {
-	background-color: $blue;
-	background-image: url("../img/bluecity.png"), url("../img/darkblue-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-}
-.orange-theme {
-	background-color: $orange;
-	background-image: url("../img/orangecity.png"), url("../img/darkorange-text.png");
-	background-position: center 340px, left top;
-	background-repeat: no-repeat, repeat;
-}
-
-
-/* ::Media queries */
-/* ------------------------------------------------------------ */
-
-// If using gridset or another pre-defined grid, these should match up to the same breakpoints
-
-// Below examples use a mobile-first approach
-
-
-// Eg for 480px
-@media screen and (min-width: em-font(480px)) {
-	.box {
-		figure {
-			height: $height - 50px;
-			img {
-				top: -30%;
-			}
-		}
-	}
-	.navlogo {
-		width: 40%;
-	}
-}
-
-
-// Eg for 800px -- DESKTOP
-@media screen and (min-width: em-font(800px)) {
-	nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
-		width: 90%;
-	}
-	#container {
-		width: 80%;
-		margin-left: 20%;
-	}
-	.mobile-foot {
-		display: none;
-	}
-	.navlogo {
-		margin: 20px auto 0;
-		width: 60%;
-	}
-	.footer-links {
-		ul {
-			li {
-				a {
-					padding: 10px 5px;
-					border-bottom: 1px solid transparent;
-					&:hover {
-						border-bottom: 1px solid $primary;
-					}
+				@include breakpoint(desktop) {
+					padding: 10px 20px;
+					border-bottom: 1px soild transparent;
 				}
 			}
 		}
 	}
-	nav {
+
+	padding: 0 0 20px;
+	z-index: 5;
+	background-image: url(../img/darkslats.png);
+	background-repeat: repeat;
+	position: relative;
+	width: 100%;
+
+	@include breakpoint(desktop) {
 		position: fixed;
 		width: 20%;
 		height: 100%;
@@ -459,87 +153,313 @@ ul { @include unordered-inside }
 			bottom: 0;
 			border-right: 5px solid $accent;
 		}
-		
-		ul {
-			li {
-				text-align: left;
-				a {
-					@include fullbar-link;
-					padding: 10px 20px;
-					border-bottom: 1px soild transparent;
-				}
-			}
-		}
-		footer {
+	}
+
+	.logo {
+		margin: 0 auto 15px;
+		padding: 37px 20px 10px 15px;
+		max-width: 255px;
+	}
+
+	footer {
+		display: none;
+		@include breakpoint(desktop) {
 			display: block;
 			bottom: 0;
 			position: absolute;
 			width: 100%;
-			ul {
-				li {
-					text-align: center;
+			ul li {text-align: center;}
+		}
+		ul {
+			opacity: 0.6;
+			-moz-opacity: 0.6;
+			&:hover {
+				opacity: 1;
+				-moz-opacity: 1;
+			}
+			li a {
+				@include breakpoint(desktop) {
+					padding: 10px 5px;
+					border-bottom: 1px solid transparent;
+					&:hover {border-bottom: 1px solid $primary;}
+				}
+			}
+		}
+		div {
+			width: 50%;
+			margin: 25px auto;
+			padding-bottom: 20px;
+			@include breakpoint(tablet) {width: 40%;}
+			@include breakpoint(desktop) {
+				margin: 20px auto 0;
+				width: 60%;
+			}
+		}
+	}
+	.color-red, .color-green, .color-blue, .color-orange {
+		width: 100%;
+	}
+	.color-red {
+		background-color: $red;
+		border-bottom: 3px solid $darkred;
+		&:hover {
+			background-color: lighten($red, 10%);
+		}
+	}
+	.color-green {
+		background-color: $green;
+		border-bottom: 3px solid $darkgreen;
+		&:hover {
+			background-color: lighten($green, 10%);
+		}
+	}
+	.color-blue {
+		background-color: $blue;
+		border-bottom: 3px solid $darkblue;
+		&:hover {
+			background-color: lighten($blue, 10%);
+		}
+	}
+	.color-orange {
+		background-color: $orange;
+		border-bottom: 3px solid $darkorange;
+		&:hover {
+			background-color: lighten($orange, 10%);
+		}
+	}
+	@include breakpoint(desktop) {
+		.color-red, .color-green, .color-blue, .color-orange {
+			width: 90%;
+		}
+	}
+}
+
+nav footer, .mobile-footer {
+	margin: 0 auto;
+	padding-top: 10px;
+	ul {
+		font-size: 12px;
+		@include clearfix;
+		li {
+			width: 50%;
+			float: left;
+			a {
+				width: 100%;
+				color: darken($white ,10%);
+			}
+		}
+		.left-links {text-align: right; padding-right: 5px;}
+		.right-links {text-align: left; padding-left: 5px;}
+	}
+}
+
+.mobile-footer {
+	display: block;
+	@include breakpoint(desktop) {display: none;}
+	text-align: center;
+	background-image: url(../img/darkslats.png);
+	background-repeat: repeat;
+	bottom: -32px;
+	position: relative;
+	ul {
+		font-size: 15px;
+    	height: 105px;
+    	padding: 8px 0;
+    	background-color: rgba(125,125,125,.3);
+		li {
+			list-style-type: none;
+			a {
+				@include fullbar-link;
+				@include nav-styling;
+				&:hover, &:active {
+					background-color: $primary;
+					border-bottom: 3px solid $accent;
+					width: 100%;
 				}
 			}
 		}
 	}
+}
 
-		// nav .color-red:hover > nav {
-		// 	border-right: 10px solid $red;
-		// }
-		// nav .color-red:hover > nav:before {
-		// 	border-right: 5px solid $darkred;
-		// }
-		// nav .color-green:hover > nav {
-		// 	border-right: 10px solid $green;
-		// }
-		// nav .color-green:hover > nav:before {
-		// 	border-right: 5px solid $darkgreen;
-		// }
-
-	.box {
+.box {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin: 1% 0;
+	@include breakpoint(desktop) {
 		width: 94%;
 		margin: 2% 3%;
-		&:first-of-type {
-			margin: 2% 3%;
+	}
+	background-color: $white;
+	overflow: hidden;
+	border-top: 1px darken($white, 35%) solid;
+	&:first-of-type {
+		margin-top: 50px;
+	}
+
+	figure {
+		background-color: $primary;
+		width: 100%;
+		height: $height;
+		@include breakpoint(tablet) {height: $height - 50px;}
+		z-index: 1;
+		position: relative;
+		cursor: pointer;
+		overflow: hidden;
+		@include transition-property(all);
+		@include transition-duration(.5s);
+		@include transition-timing-function(ease-in);
+		&:hover {
+			height: $height + 10px;
 		}
-		figure {
-			height: $height;
-			img {
-				top: -50%;
+
+		img {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			@include breakpoint(tablet) {top: -30%;}
+			@include breakpoint(desktop) {top: -60%;}
+		}
+
+		h1 {
+			z-index: 20;
+			box-shadow: inset 0 -39px 31px -18px rgba(0,0,0,.9);
+			width: 100%;
+			display: block;
+			padding: 1%;
+			position: absolute;
+			margin: 0;
+			bottom: 0;
+			color: $heading-color;
+		}
+	}
+	article {
+		border-top: solid 5px $accent;
+		border-bottom: solid 15px $accent;
+		position: relative;
+		//bottom: 100%;
+		width: 100%;
+		//z-index: -1;
+		
+		
+		section {
+			margin: 2%;
+			float: left;
+			width: 90%;
+			@extend .clearfix;
+			@include breakpoint(desktop) {width: 66%;}
+			h2 {
+				color: $primary;
+				margin: 10px 0;
+				width: 100%;
 			}
 		}
-		article {
-			section {
-				width: 66%;
+		.tab {
+			width: 100%;
+			border-top: solid 5px $accent;
+			height: 5px;
+			clear: both;
+		}
+		aside {
+			width: 100%;
+			@include breakpoint(desktop) {width: 30%;}
+			//height: 200px;
+			background-color: lighten($accent, 55%);
+			float: right;
+			text-align: left;
+			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
+			h3 {
+				padding: 10px 0;
+				padding-left: 20px;
+				background-color: $accent;
+				color: $heading-color;
+				border-bottom: 1px solid $white;
 			}
-			aside {
-				width: 30%;
-				//box-shadow: inset 10px 0 10px -10px rgba(0,0,0,.3);
+			p {
+				padding: 10px 20px;
+				position: relative;
+				&:before {
+				    background-color: lighten($accent, 55%);
+				    content: "";
+				    height: 100%;
+				    left: 0;
+				    position: absolute;
+				    top: 0;
+				    bottom: 0;
+				    width: 100%;
+			    }
+			    &:before {
+				    top: 100%;
+			    }
+			}
+			ul {
+				li {
+					list-style-type: none;
+					a {
+						color: $black;
+						width: 100%;
+						@include fullbar-link;
+						padding-left: 20px;
+						padding-bottom: 0;
+						&:hover {
+							background-color: $primary;
+							color: $white;
+						}
+					}
+				}
 			}
 		}
 	}
-	.red-theme {
+	.collapse {
+		height: 20px;
+	}
+}
+
+.red-theme {
+	background-color: $red;
+	background-image: url("../img/redcity.png"), url("../img/darkred-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $red;
 			&:before {border-right: 5px solid $darkred;}
 		}
 	}
-	.green-theme {
+}
+.green-theme {
+	background-color: $green;
+	background-image: url("../img/greencity.png"), url("../img/darkgreen-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $green;
 			&:before {border-right: 5px solid $darkgreen;}
 		}
 	}
-	.blue-theme {
+}
+.blue-theme {
+	background-color: $blue;
+	background-image: url("../img/bluecity.png"), url("../img/darkblue-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $blue;
 			&:before {border-right: 5px solid $darkblue;}
 		}
 	}
-	.orange-theme {
+}
+.orange-theme {
+	background-color: $orange;
+	background-image: url("../img/orangecity.png"), url("../img/darkorange-text.png");
+	background-position: center 340px, left top;
+	background-repeat: no-repeat, repeat;
+	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
 			border-right: 10px solid $orange;
@@ -548,14 +468,25 @@ ul { @include unordered-inside }
 	}
 }
 
+
+/* ::Media queries */
+/* ------------------------------------------------------------ */
+
+// If using gridset or another pre-defined grid, these should match up to the same breakpoints
+
+// Below examples use a mobile-first approach
+
+
+// Eg for 480px
+@media screen and (min-width: em-font(480px)) {
+}
+
+// Eg for 800px -- DESKTOP
+@media screen and (min-width: em-font(800px)) {
+}
+
 // Eg for 1240px
 @media screen and (min-width: em-font(1240px)) {
-	#container {
-		max-width: 80%;
-		.box {
-			max-width: 1200px;
-		}
-	}
 }
 
 // Print styles
@@ -631,14 +562,14 @@ ul { @include unordered-inside }
 			border-bottom: 3px solid $darkred;
 			width: 100%;
 		}
-		.footer-links ul li a:hover {
+		footer ul li a:hover {
 			border-bottom: 1px solid $red;
 		}
 	}
 	.box {
 		// box-shadow: 0 15px 15px -10px darken($red, 20%);
 		.tab {
-			border-top: solid 5px darken($darkred, 10%);
+			border-top: solid 5px $darkred;
 		}
 		article {
 			border-bottom: 18px solid $red;
@@ -648,6 +579,7 @@ ul { @include unordered-inside }
 				h3 {
 					background-color: $darkred;
 				}
+				p:before {background-color: lighten($red, 65%);}
 				ul li a:hover {
 					background-color: $red;
 					border-bottom: 3px solid $darkred;
@@ -670,14 +602,14 @@ ul { @include unordered-inside }
 			border-bottom: 3px solid $darkgreen;
 			width: 100%;
 		}
-		.footer-links ul li a:hover {
+		footer ul li a:hover {
 			border-bottom: 1px solid $green;
 		}
 	}
 	.box {
 		// box-shadow: 0 15px 15px -10px darken($green, 20%);
 		.tab {
-			border-top: solid 5px darken($darkgreen, 10%);
+			border-top: solid 5px $darkgreen;
 		}
 		article {
 			border-bottom: 18px solid $green;
@@ -687,6 +619,7 @@ ul { @include unordered-inside }
 				h3 {
 					background-color: $darkgreen;
 				}
+				p:before {background-color: lighten($green, 65%);}
 				ul li a:hover {
 					background-color: $green;
 					border-bottom: 3px solid $darkgreen;
@@ -709,14 +642,14 @@ nav {
 			border-bottom: 3px solid $darkblue;
 			width: 100%;
 		}
-		.footer-links ul li a:hover {
+		footer ul li a:hover {
 			border-bottom: 1px solid $blue;
 		}
 	}
 	.box {
 		// box-shadow: 0 15px 15px -10px darken($blue, 20%);
 		.tab {
-			border-top: solid 5px darken($darkblue, 10%);
+			border-top: solid 5px $darkblue;
 		}
 		article {
 			border-bottom: 18px solid $blue;
@@ -726,6 +659,7 @@ nav {
 				h3 {
 					background-color: $darkblue;
 				}
+				p:before {background-color: lighten($blue, 55%);}
 				ul li a:hover {
 					background-color: $blue;
 					border-bottom: 3px solid $darkblue;
@@ -748,14 +682,14 @@ nav {
 			border-bottom: 3px solid $darkorange;
 			width: 100%;
 		}
-		.footer-links ul li a:hover {
+		footer ul li a:hover {
 			border-bottom: 1px solid $orange;
 		}
 	}
 	.box {
 		// box-shadow: 0 15px 15px -10px darken($orange, 20%);
 		.tab {
-			border-top: solid 5px darken($darkorange, 10%);
+			border-top: solid 5px $darkorange;
 		}
 		article {
 			border-bottom: 18px solid $orange;
@@ -765,6 +699,7 @@ nav {
 				h3 {
 					background-color: $darkorange;
 				}
+				p:before {background-color: lighten($orange, 45%);}
 				ul li a:hover {
 					background-color: $orange;
 					border-bottom: 3px solid $darkorange;
