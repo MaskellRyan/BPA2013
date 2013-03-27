@@ -60,7 +60,8 @@ html {
 body {
 	color: $base-color;
 	background-color: $black;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: $slab-regular;
+	letter-spacing: 1;
 	background-color: $primary;
 	background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
 	background-position: center 340px, left top;
@@ -119,6 +120,7 @@ nav {
 	a:link, a:visited {color: $white;}
 	a:hover, a:active {color: darken($white, 10%);}
 
+
 	ul {
 		margin: 0 auto;
 		li {
@@ -136,6 +138,7 @@ nav {
 		}
 	}
 
+	font-family: $sans-regular;
 	padding: 0 0 20px;
 	z-index: 5;
 	background-image: url(../img/darkslats.png);
@@ -276,6 +279,7 @@ nav footer, .mobile-footer {
 		li {
 			list-style-type: none;
 			a {
+				font-family: $sans-regular;
 				@include fullbar-link;
 				@include nav-styling;
 				&:hover, &:active {
@@ -292,8 +296,8 @@ header {
 	@extend .box;
 	border-top: 0 transparent solid !important;
 	h1 {
+		font-family: $slab-bold;
 		font-size: 80px;
-		font-weight: bold;
 		color: $white;
 		text-align: center;
 	}
@@ -347,6 +351,7 @@ header {
 			position: absolute;
 			margin: 0;
 			bottom: 0;
+			font-family: $sans-bold;
 			color: $heading-color;
 		}
 	}
@@ -383,6 +388,7 @@ header {
 			background-color: lighten($accent, 55%);
 			float: right;
 			text-align: left;
+			font-family: $sans-regular;
 			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
 			h3 {
 				padding: 10px 0;

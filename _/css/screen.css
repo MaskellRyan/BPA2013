@@ -98,7 +98,8 @@ html {
 body {
   color: #0e0e0e;
   background-color: #0e0e0e;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "arvoregular", Tahoma, sans-serif;
+  letter-spacing: 1;
   background-color: #646464;
   background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
   background-position: center 340px, left top;
@@ -309,6 +310,7 @@ input[type="checkbox"]:focus {
 }
 
 nav {
+  font-family: "ubuntu", Arial, sans-serif;
   padding: 0 0 20px;
   z-index: 5;
   background-image: url(../img/darkslats.png);
@@ -523,6 +525,7 @@ nav footer ul .right-links, .mobile-footer ul .right-links {
   list-style-type: none;
 }
 .mobile-footer ul li a {
+  font-family: "ubuntu", Arial, sans-serif;
   display: block;
   padding: 5px;
   margin: 5px 0;
@@ -557,8 +560,8 @@ header {
   border-top: 0 transparent solid !important;
 }
 header h1 {
+  font-family: "arvobold", Tahoma, sans-serif;
   font-size: 80px;
-  font-weight: bold;
   color: white;
   text-align: center;
 }
@@ -633,6 +636,7 @@ header h1 {
   position: absolute;
   margin: 0;
   bottom: 0;
+  font-family: "ubuntubold", Arial, sans-serif;
   color: white;
 }
 .box article, header article {
@@ -668,6 +672,7 @@ header h1 {
   background-color: #b6b6b6;
   float: right;
   text-align: left;
+  font-family: "ubuntu", Arial, sans-serif;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 50em) {
