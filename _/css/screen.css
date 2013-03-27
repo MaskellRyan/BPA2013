@@ -68,11 +68,64 @@ textarea {
   resize: vertical;
 }
 
+/*********************
+CLEARFIXIN'
+*********************/
+.clearfix, #container, .box article section, header article section {
+  zoom: 1;
+}
+.clearfix:before, #container:before, .box article section:before, header article section:before, .clearfix:after, #container:after, .box article section:after, header article section:after {
+  content: "";
+  display: table;
+}
+.clearfix:after, #container:after, .box article section:after, header article section:after {
+  clear: both;
+}
+
+/*********************
+BORDER RADIUS
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include border-radius(4px 4px 0 0);
+*/
+/*********************
+TRANISTION
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+/*********************
+BOX SHADOWS
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include box-shadow(inset 0 0 4px rgba(0,0,0,0.22));
+*/
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdue it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
 /* ::Clearfixs and extends. Use which suits best */
 /* ----------------------------------------------------------- */
 .clearfix, #container, .box article section, header article section {
-  overflow: hidden;
-  *zoom: 1;
+  zoom: 1;
+}
+.clearfix:before, #container:before, .box article section:before, header article section:before, .clearfix:after, #container:after, .box article section:after, header article section:after {
+  content: "";
+  display: table;
+}
+.clearfix:after, #container:after, .box article section:after, header article section:after {
+  clear: both;
 }
 
 .pie-clearfix {
@@ -105,7 +158,7 @@ body {
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   body {
     background-position: center top, left top;
   }
@@ -129,6 +182,53 @@ a:hover, a:focus, a:active {
   border-bottom: 1px solid #7e7e7e;
 }
 
+/*********************
+CLEARFIXIN'
+*********************/
+.clearfix, #container, .box article section, header article section {
+  zoom: 1;
+}
+.clearfix:before, #container:before, .box article section:before, header article section:before, .clearfix:after, #container:after, .box article section:after, header article section:after {
+  content: "";
+  display: table;
+}
+.clearfix:after, #container:after, .box article section:after, header article section:after {
+  clear: both;
+}
+
+/*********************
+BORDER RADIUS
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include border-radius(4px 4px 0 0);
+*/
+/*********************
+TRANISTION
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+/*********************
+BOX SHADOWS
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include box-shadow(inset 0 0 4px rgba(0,0,0,0.22));
+*/
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdue it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
 h1 {
   font-size: 2.25em;
   line-height: 1.1111111em;
@@ -302,7 +402,7 @@ input[type="checkbox"]:focus {
   width: 95%;
   position: relative;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   #container {
     width: 80%;
     margin-left: 20%;
@@ -332,7 +432,7 @@ nav ul li {
   list-style-type: none;
   text-align: center;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav ul li {
     text-align: left;
   }
@@ -362,13 +462,13 @@ nav ul li a:hover, nav ul li a:active {
 nav ul li a:hover {
   color: white;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav ul li a {
     padding: 10px 20px;
     border-bottom: 1px soild transparent;
   }
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav {
     position: fixed;
     width: 20%;
@@ -384,7 +484,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    border-right: 5px solid #2a2a2a;
+    border-right: 5px solid #444444;
   }
 }
 nav .logo {
@@ -395,7 +495,7 @@ nav .logo {
 nav footer {
   display: none;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav footer {
     display: block;
     bottom: 0;
@@ -414,7 +514,7 @@ nav footer ul:hover {
   opacity: 1;
   -moz-opacity: 1;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav footer ul li a {
     padding: 10px 5px;
     border-bottom: 1px solid transparent;
@@ -433,7 +533,7 @@ nav footer div {
     width: 40%;
   }
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav footer div {
     margin: 20px auto 0;
     width: 60%;
@@ -441,6 +541,9 @@ nav footer div {
 }
 nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
   width: 100%;
+}
+nav .color-red:hover, nav .color-green:hover, nav .color-blue:hover, nav .color-orange:hover {
+  padding-left: 27px;
 }
 nav .color-red {
   background-color: #a40b00;
@@ -470,7 +573,7 @@ nav .color-orange {
 nav .color-orange:hover {
   background-color: #f45800;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
     width: 90%;
   }
@@ -480,10 +583,21 @@ nav footer, .mobile-footer {
   margin: 0 auto;
   padding-top: 10px;
 }
+@media (min-width: 56.25em) {
+  nav footer, .mobile-footer {
+    z-index: -1;
+  }
+}
 nav footer ul, .mobile-footer ul {
   font-size: 12px;
-  overflow: hidden;
-  *zoom: 1;
+  zoom: 1;
+}
+nav footer ul:before, nav footer ul:after, .mobile-footer ul:before, .mobile-footer ul:after {
+  content: "";
+  display: table;
+}
+nav footer ul:after, .mobile-footer ul:after {
+  clear: both;
 }
 nav footer ul li, .mobile-footer ul li {
   width: 50%;
@@ -495,11 +609,37 @@ nav footer ul li a, .mobile-footer ul li a {
 }
 nav footer ul .left-links, .mobile-footer ul .left-links {
   text-align: right;
-  padding-right: 5px;
+  padding-right: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+nav footer ul .left-links:hover, .mobile-footer ul .left-links:hover {
+  padding-right: 14px;
+  padding-left: 0;
+}
+nav footer ul .left-links a, .mobile-footer ul .left-links a {
+  padding-right: 8px;
 }
 nav footer ul .right-links, .mobile-footer ul .right-links {
   text-align: left;
-  padding-left: 5px;
+  padding-left: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+nav footer ul .right-links:hover, .mobile-footer ul .right-links:hover {
+  padding-left: 14px;
+  padding-right: 0;
+}
+nav footer ul .right-links a, .mobile-footer ul .right-links a {
+  padding-left: 8px;
 }
 
 .mobile-footer {
@@ -510,7 +650,7 @@ nav footer ul .right-links, .mobile-footer ul .right-links {
   bottom: -32px;
   position: relative;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .mobile-footer {
     display: none;
   }
@@ -552,18 +692,30 @@ nav footer ul .right-links, .mobile-footer ul .right-links {
 }
 .mobile-footer ul li a:hover, .mobile-footer ul li a:active {
   background-color: #646464;
-  border-bottom: 3px solid #2a2a2a;
+  border-bottom: 3px solid #444444;
   width: 100%;
 }
 
 header {
   border-top: 0 transparent solid !important;
+  padding: 2%;
 }
 header h1 {
   font-family: "arvobold", Tahoma, sans-serif;
-  font-size: 80px;
+  font-size: 40px;
+  margin: 0;
   color: white;
   text-align: center;
+}
+@media (min-width: 30em) {
+  header h1 {
+    font-size: 55px;
+  }
+}
+@media (min-width: 56.25em) {
+  header h1 {
+    font-size: 73px;
+  }
 }
 
 .box, header {
@@ -574,19 +726,24 @@ header h1 {
   overflow: hidden;
   border-top: 1px #a6a6a6 solid;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .box, header {
     width: 94%;
     margin: 2% 3%;
   }
 }
 .box:first-of-type, header:first-of-type {
-  margin-top: 50px;
+  margin-top: 30px;
+}
+@media (min-width: 56.25em) {
+  .box:first-of-type, header:first-of-type {
+    margin-top: 50px;
+  }
 }
 .box figure, header figure {
   background-color: #646464;
   width: 100%;
-  height: 300px;
+  height: 125px;
   z-index: 1;
   position: relative;
   cursor: pointer;
@@ -609,8 +766,10 @@ header h1 {
     height: 250px;
   }
 }
-.box figure:hover, header figure:hover {
-  height: 310px;
+@media (min-width: 56.25em) {
+  .box figure, header figure {
+    height: 300px;
+  }
 }
 .box figure img, header figure img {
   width: 100%;
@@ -622,7 +781,7 @@ header h1 {
     top: -30%;
   }
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .box figure img, header figure img {
     top: -60%;
   }
@@ -636,12 +795,95 @@ header h1 {
   position: absolute;
   margin: 0;
   bottom: 0;
-  font-family: "ubuntubold", Arial, sans-serif;
+  font-family: "ubuntulight", Arial, sans-serif;
   color: white;
 }
+.box figure .read-more, header figure .read-more {
+  margin: 0;
+  position: absolute;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  color: #646464;
+  font-size: 8px;
+  font-family: "arvobold", Tahoma, sans-serif;
+  bottom: auto;
+  top: -50px;
+  opacity: 0;
+  z-index: 5;
+  -moz-opacity: 0;
+  text-transform: uppercase;
+  box-shadow: 0 0 0 0 transparent;
+  text-align: center;
+  background-color: white;
+  border-bottom: 3px solid #cccccc;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  right: 15px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.box figure .read-more i, header figure .read-more i {
+  text-transform: lowercase;
+  font-family: "entypo", none;
+  font-style: normal;
+  font-size: 63px;
+  position: relative;
+  top: -14px;
+  line-height: 1;
+}
+@media (min-width: 30em) {
+  .box figure .read-more i, header figure .read-more i {
+    top: -20px;
+    font-size: 80px;
+  }
+}
+@media (min-width: 56.25em) {
+  .box figure .read-more i, header figure .read-more i {
+    top: -30px;
+    font-size: 120px;
+  }
+}
+@media (min-width: 30em) {
+  .box figure .read-more, header figure .read-more {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width: 56.25em) {
+  .box figure .read-more, header figure .read-more {
+    width: 90px !important;
+    height: 90px;
+  }
+}
+.box figure:hover > .read-more, header figure:hover > .read-more {
+  opacity: 1;
+  -moz-opacity: 1;
+  top: 10px;
+}
 .box article, header article {
-  border-top: solid 5px #2a2a2a;
-  border-bottom: solid 15px #2a2a2a;
+  border-top: solid 5px #444444;
+  border-bottom: solid 15px #444444;
   position: relative;
   background-color: white;
   width: 100%;
@@ -650,8 +892,9 @@ header h1 {
   margin: 2%;
   float: left;
   width: 90%;
+  padding: 10px;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .box article section, header article section {
     width: 66%;
   }
@@ -663,19 +906,19 @@ header h1 {
 }
 .box article .tab, header article .tab {
   width: 100%;
-  border-top: solid 5px #2a2a2a;
+  border-top: solid 5px #444444;
   height: 5px;
   clear: both;
 }
 .box article aside, header article aside {
   width: 100%;
-  background-color: #b6b6b6;
+  background-color: #d0d0d0;
   float: right;
   text-align: left;
   font-family: "ubuntu", Arial, sans-serif;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .box article aside, header article aside {
     width: 30%;
   }
@@ -683,7 +926,7 @@ header h1 {
 .box article aside h3, header article aside h3 {
   padding: 10px 0;
   padding-left: 20px;
-  background-color: #2a2a2a;
+  background-color: #444444;
   color: white;
   border-bottom: 1px solid white;
 }
@@ -714,7 +957,6 @@ header h1 {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
   padding-left: 20px;
-  padding-bottom: 0;
 }
 .box article aside ul li a:hover, header article aside ul li a:hover, .box article aside ul li a:active, header article aside ul li a:active {
   width: 100%;
@@ -779,7 +1021,7 @@ header h1 {
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .red-theme {
     background-position: center top, left top;
   }
@@ -801,6 +1043,9 @@ header h1 {
 }
 .red-theme .box .tab, .red-theme header .tab {
   border-top-color: #590800;
+}
+.red-theme .box figure .read-more, .red-theme header figure .read-more {
+  color: #a40b00;
 }
 .red-theme .box article, .red-theme header article {
   border-bottom-color: #a40b00;
@@ -836,7 +1081,7 @@ header h1 {
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .green-theme {
     background-position: center top, left top;
   }
@@ -858,6 +1103,9 @@ header h1 {
 }
 .green-theme .box .tab, .green-theme header .tab {
   border-top-color: #526100;
+}
+.green-theme .box figure .read-more, .green-theme header figure .read-more {
+  color: #768a00;
 }
 .green-theme .box article, .green-theme header article {
   border-bottom-color: #768a00;
@@ -893,7 +1141,7 @@ header h1 {
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .blue-theme {
     background-position: center top, left top;
   }
@@ -915,6 +1163,9 @@ header h1 {
 }
 .blue-theme .box .tab, .blue-theme header .tab {
   border-top-color: #375353;
+}
+.blue-theme .box figure .read-more, .blue-theme header figure .read-more {
+  color: #3a8b8b;
 }
 .blue-theme .box article, .blue-theme header article {
   border-bottom-color: #3a8b8b;
@@ -950,7 +1201,7 @@ header h1 {
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .orange-theme {
     background-position: center top, left top;
   }
@@ -972,6 +1223,9 @@ header h1 {
 }
 .orange-theme .box .tab, .orange-theme header .tab {
   border-top-color: #923c00;
+}
+.orange-theme .box figure .read-more, .orange-theme header figure .read-more {
+  color: #c14600;
 }
 .orange-theme .box article, .orange-theme header article {
   border-bottom-color: #c14600;

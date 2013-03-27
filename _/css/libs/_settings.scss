@@ -23,7 +23,7 @@ $black								:rgb(14,14,14);
 $white								:rgb(255,255,255);
 
 $primary							: $gray;
-$accent								: $mediumgray;
+$accent								: lighten($mediumgray, 10%);
 $base 								: $black;
 
 // Assign colours to variable roles
@@ -62,6 +62,7 @@ $slab-bold: "arvobold", Tahoma, sans-serif;
 $sans-regular: "ubuntu", Arial, sans-serif;
 $sans-bold: "ubuntubold", Arial, sans-serif;
 $sans-light: "ubuntulight", Arial, sans-serif;
+$symbol: "entypo", none;
 
 // Functions for px to em conversions
 // ------------------------------------------------------------
