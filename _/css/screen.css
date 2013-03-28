@@ -409,6 +409,91 @@ input[type="checkbox"]:focus {
   }
 }
 
+#home-container {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: -20px;
+}
+
+#home-dummy {
+  padding-top: 100%;
+}
+
+#home-element {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#home-element img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#home-element img.hover {
+  z-index: 10;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#historybox, #memorialbox, #artsbox, #sitesbox {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+#aboutbox {
+  position: absolute;
+  width: 37%;
+  height: 37%;
+  border-radius: 999px;
+  left: 31.5%;
+  top: 32%;
+  z-index: 30;
+  background-color: #888;
+}
+
+#aboutbox img {
+  border-radius: 999px;
+}
+
+#memorialbox {
+  left: 50%;
+}
+
+#artsbox {
+  top: 50%;
+}
+
+#sitesbox {
+  top: 50%;
+  left: 50%;
+}
+
+/* HOVERS */
+div#aboutbox:hover > img.hover, div#historybox:hover > img.hover, div#memorialbox:hover > img.hover, div#artsbox:hover > img.hover, div#sitesbox:hover > img.hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 nav {
   font-family: "ubuntu", Arial, sans-serif;
   padding: 0 0 20px;
@@ -491,6 +576,9 @@ nav .logo {
   margin: 0 auto 15px;
   padding: 37px 20px 10px 15px;
   max-width: 255px;
+}
+nav div a:hover {
+  border-bottom: 0 solid transparent;
 }
 nav footer {
   display: none;
@@ -599,35 +687,35 @@ nav .color-orange:hover {
   }
 }
 
-nav footer, .mobile-footer {
+footer {
   margin: 0 auto;
   padding-top: 10px;
 }
 @media (min-width: 56.25em) {
-  nav footer, .mobile-footer {
+  footer {
     z-index: -1;
   }
 }
-nav footer ul, .mobile-footer ul {
+footer ul {
   font-size: 12px;
   zoom: 1;
 }
-nav footer ul:before, nav footer ul:after, .mobile-footer ul:before, .mobile-footer ul:after {
+footer ul:before, footer ul:after {
   content: "";
   display: table;
 }
-nav footer ul:after, .mobile-footer ul:after {
+footer ul:after {
   clear: both;
 }
-nav footer ul li, .mobile-footer ul li {
+footer ul li {
   width: 50%;
   float: left;
 }
-nav footer ul li a, .mobile-footer ul li a {
+footer ul li a {
   width: 100%;
   color: #e6e6e6;
 }
-nav footer ul .left-links, .mobile-footer ul .left-links {
+footer ul .left-links {
   text-align: right;
   padding-right: 7px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -637,14 +725,14 @@ nav footer ul .left-links, .mobile-footer ul .left-links {
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-nav footer ul .left-links:hover, .mobile-footer ul .left-links:hover {
+footer ul .left-links:hover {
   padding-right: 14px;
   padding-left: 0;
 }
-nav footer ul .left-links a, .mobile-footer ul .left-links a {
+footer ul .left-links a {
   padding-right: 8px;
 }
-nav footer ul .right-links, .mobile-footer ul .right-links {
+footer ul .right-links {
   text-align: left;
   padding-left: 7px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -654,15 +742,15 @@ nav footer ul .right-links, .mobile-footer ul .right-links {
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-nav footer ul .right-links:hover, .mobile-footer ul .right-links:hover {
+footer ul .right-links:hover {
   padding-left: 14px;
   padding-right: 0;
 }
-nav footer ul .right-links a, .mobile-footer ul .right-links a {
+footer ul .right-links a {
   padding-left: 8px;
 }
 
-.mobile-footer {
+footer:nth-child(4) {
   display: block;
   text-align: center;
   background-image: url(../img/darkslats.png);
@@ -671,20 +759,20 @@ nav footer ul .right-links a, .mobile-footer ul .right-links a {
   position: relative;
 }
 @media (min-width: 56.25em) {
-  .mobile-footer {
+  footer:nth-child(4) {
     display: none;
   }
 }
-.mobile-footer ul {
+footer:nth-child(4) ul {
   font-size: 15px;
   height: 105px;
   padding: 8px 0;
   background-color: rgba(125, 125, 125, 0.3);
 }
-.mobile-footer ul li {
+footer:nth-child(4) ul li {
   list-style-type: none;
 }
-.mobile-footer ul li a {
+footer:nth-child(4) ul li a {
   font-family: "ubuntu", Arial, sans-serif;
   display: block;
   padding: 5px;
@@ -704,16 +792,25 @@ nav footer ul .right-links a, .mobile-footer ul .right-links a {
   transition-timing-function: ease-in;
   color: white;
 }
-.mobile-footer ul li a:hover, .mobile-footer ul li a:active {
+footer:nth-child(4) ul li a:hover, footer:nth-child(4) ul li a:active {
   width: 100%;
 }
-.mobile-footer ul li a:hover {
+footer:nth-child(4) ul li a:hover {
   color: white;
 }
-.mobile-footer ul li a:hover, .mobile-footer ul li a:active {
+footer:nth-child(4) ul li a:hover, footer:nth-child(4) ul li a:active {
   background-color: #646464;
   border-bottom: 3px solid #444444;
   width: 100%;
+}
+
+nav footer {
+  display: none !important;
+}
+@media (min-width: 56.25em) {
+  nav footer {
+    display: block !important;
+  }
 }
 
 header {
@@ -736,6 +833,18 @@ header h1 {
   header h1 {
     font-size: 73px;
   }
+}
+header .homepage {
+  font-size: 80px;
+  letter-spacing: 4px;
+}
+header h2 {
+  font-family: "ubuntu", Arial, sans-serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 17px;
 }
 
 .box, header {
