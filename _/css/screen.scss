@@ -216,28 +216,28 @@ nav {
 		background-color: $red;
 		border-bottom: 3px solid $darkred;
 		&:hover {
-			background-color: lighten($red, 10%);
+			@include css-gradient(lighten($red, 10%), $red);
 		}
 	}
 	.color-green {
 		background-color: $green;
 		border-bottom: 3px solid $darkgreen;
 		&:hover {
-			background-color: lighten($green, 10%);
+			@include css-gradient(lighten($green, 10%), $green);
 		}
 	}
 	.color-blue {
 		background-color: $blue;
 		border-bottom: 3px solid $darkblue;
 		&:hover {
-			background-color: lighten($blue, 10%);
+			@include css-gradient(lighten($blue, 10%), $blue);
 		}
 	}
 	.color-orange {
 		background-color: $orange;
 		border-bottom: 3px solid $darkorange;
 		&:hover {
-			background-color: lighten($orange, 10%);
+			@include css-gradient(lighten($orange, 10%), $orange);
 		}
 	}
 	@include breakpoint(desktop) {
@@ -658,6 +658,9 @@ header {
 				a:hover, a:active {color: lighten($red, 10%); border-bottom-color: $red;}
 			}
 		}
+		&:hover > article {
+			border-bottom-color: lighten($red, 10%);
+		}
 	}
 }
 .green-theme {
@@ -704,6 +707,9 @@ header {
 				h2 {color: $green;}
 				a:link, a:visited {color: $green;}
 				a:hover, a:active {color: lighten($green, 10%); border-bottom-color: $green;}
+			}
+			&:hover > article {
+				border-bottom-color: lighten($green, 10%);
 			}
 		}
 	}
@@ -753,6 +759,9 @@ header {
 				a:link, a:visited {color: $blue;}
 				a:hover, a:active {color: lighten($blue, 10%); border-bottom-color: $blue;}
 			}
+			&:hover > article {
+				border-bottom-color: lighten($blue, 10%);
+			}
 		}
 	}
 }
@@ -800,6 +809,9 @@ header {
 				h2 {color: $orange;}
 				a:link, a:visited {color: $orange;}
 				a:hover, a:active {color: lighten($orange, 10%); border-bottom-color: $orange;}
+			}
+			&:hover > article {
+				border-bottom-color: lighten($orange, 10%);
 			}
 		}
 	}

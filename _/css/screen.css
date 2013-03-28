@@ -550,28 +550,48 @@ nav .color-red {
   border-bottom: 3px solid #590800;
 }
 nav .color-red:hover {
-  background-color: #d70e00;
+  background-color: #a40b00;
+  background-image: -webkit-gradient(linear, left, right, from(#d70e00), to(#a40b00));
+  background-image: -webkit-linear-gradient(left, #d70e00, #a40b00);
+  background-image: -moz-linear-gradient(left, #d70e00, #a40b00);
+  background-image: -o-linear-gradient(left, #d70e00, #a40b00);
+  background-image: linear-gradient(to right, #d70e00, #a40b00);
 }
 nav .color-green {
   background-color: #768a00;
   border-bottom: 3px solid #526100;
 }
 nav .color-green:hover {
-  background-color: #a2bd00;
+  background-color: #768a00;
+  background-image: -webkit-gradient(linear, left, right, from(#a2bd00), to(#768a00));
+  background-image: -webkit-linear-gradient(left, #a2bd00, #768a00);
+  background-image: -moz-linear-gradient(left, #a2bd00, #768a00);
+  background-image: -o-linear-gradient(left, #a2bd00, #768a00);
+  background-image: linear-gradient(to right, #a2bd00, #768a00);
 }
 nav .color-blue {
   background-color: #3a8b8b;
   border-bottom: 3px solid #375353;
 }
 nav .color-blue:hover {
-  background-color: #49afaf;
+  background-color: #3a8b8b;
+  background-image: -webkit-gradient(linear, left, right, from(#49afaf), to(#3a8b8b));
+  background-image: -webkit-linear-gradient(left, #49afaf, #3a8b8b);
+  background-image: -moz-linear-gradient(left, #49afaf, #3a8b8b);
+  background-image: -o-linear-gradient(left, #49afaf, #3a8b8b);
+  background-image: linear-gradient(to right, #49afaf, #3a8b8b);
 }
 nav .color-orange {
   background-color: #c14600;
   border-bottom: 3px solid #923c00;
 }
 nav .color-orange:hover {
-  background-color: #f45800;
+  background-color: #c14600;
+  background-image: -webkit-gradient(linear, left, right, from(#f45800), to(#c14600));
+  background-image: -webkit-linear-gradient(left, #f45800, #c14600);
+  background-image: -moz-linear-gradient(left, #f45800, #c14600);
+  background-image: -o-linear-gradient(left, #f45800, #c14600);
+  background-image: linear-gradient(to right, #f45800, #c14600);
 }
 @media (min-width: 56.25em) {
   nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
@@ -845,7 +865,7 @@ header h1 {
 }
 .box figure .read-more i, header figure .read-more i {
   text-transform: lowercase;
-  font-family: "entypo", none;
+  font-family: "EntypoRegular", none;
   font-style: normal;
   font-size: 63px;
   position: relative;
@@ -1074,6 +1094,9 @@ header h1 {
   color: #d70e00;
   border-bottom-color: #a40b00;
 }
+.red-theme .box:hover > article, .red-theme header:hover > article {
+  border-bottom-color: #d70e00;
+}
 
 .green-theme {
   background-color: #768a00;
@@ -1133,6 +1156,9 @@ header h1 {
 .green-theme .box article section a:hover, .green-theme header article section a:hover, .green-theme .box article section a:active, .green-theme header article section a:active {
   color: #a2bd00;
   border-bottom-color: #768a00;
+}
+.green-theme .box article:hover > article, .green-theme header article:hover > article {
+  border-bottom-color: #a2bd00;
 }
 
 .blue-theme {
@@ -1194,6 +1220,9 @@ header h1 {
   color: #49afaf;
   border-bottom-color: #3a8b8b;
 }
+.blue-theme .box article:hover > article, .blue-theme header article:hover > article {
+  border-bottom-color: #49afaf;
+}
 
 .orange-theme {
   background-color: #c14600;
@@ -1253,6 +1282,9 @@ header h1 {
 .orange-theme .box article section a:hover, .orange-theme header article section a:hover, .orange-theme .box article section a:active, .orange-theme header article section a:active {
   color: #f45800;
   border-bottom-color: #c14600;
+}
+.orange-theme .box article:hover > article, .orange-theme header article:hover > article {
+  border-bottom-color: #f45800;
 }
 
 figure img {
