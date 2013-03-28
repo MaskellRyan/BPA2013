@@ -1254,3 +1254,127 @@ header h1 {
   color: #f45800;
   border-bottom-color: #c14600;
 }
+
+figure img {
+  position: absolute;
+  width: 100%;
+}
+
+img#presentday2, img#presentday3, img#presentday4, img#presentday5 {
+  opacity: 0;
+  z-index: 5;
+}
+
+/* ========   PANEL SIZES FOR 4 IMAGES   =============== */
+.pictures, .rollovers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.pictures img, .rollovers img {
+  opacity: 0;
+  z-index: 5;
+}
+.pictures img:first-of-type, .rollovers img:first-of-type {
+  opacity: 1;
+}
+
+.rollovers {
+  width: 25%;
+  z-index: 10;
+}
+.rollovers:nth-child(3):hover ~ .pictures img:nth-child(2), .rollovers:nth-child(3):hover ~ .rollovers img:nth-child(2) {
+  opacity: 1;
+  z-index: 9;
+}
+.rollovers:nth-child(4) {
+  left: 25%;
+}
+.rollovers:nth-child(4):hover ~ .pictures img:nth-child(3), .rollovers:nth-child(4):hover ~ .rollovers img:nth-child(3) {
+  opacity: 1;
+  z-index: 8;
+}
+.rollovers:nth-child(5) {
+  left: 50%;
+}
+.rollovers:nth-child(5):hover ~ .pictures img:nth-child(4), .rollovers:nth-child(5):hover ~ .rollovers img:nth-child(4) {
+  opacity: 1;
+  z-index: 7;
+}
+.rollovers:nth-child(6) {
+  left: 75%;
+}
+.rollovers:nth-child(6):hover ~ .pictures img:nth-child(5), .rollovers:nth-child(6):hover ~ .rollovers img:nth-child(5) {
+  opacity: 1;
+  z-index: 6;
+}
+
+/* ========   PANEL SIZES FOR 5 IMAGES   =============== */
+#presentday-box1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#presentday-box2 {
+  position: absolute;
+  /*	background-color: orange;*/
+  width: 20%;
+  height: 100%;
+  z-index: 5;
+}
+
+#presentday-box3 {
+  position: absolute;
+  /*	background-color: orange;*/
+  width: 20%;
+  height: 100%;
+  z-index: 5;
+  left: 20%;
+}
+
+#presentday-box4 {
+  position: absolute;
+  /*	background-color: orange;*/
+  width: 20%;
+  height: 100%;
+  z-index: 5;
+  left: 40%;
+}
+
+#presentday-box5 {
+  position: absolute;
+  /*	background-color: orange;*/
+  width: 20%;
+  height: 100%;
+  z-index: 5;
+  left: 60%;
+}
+
+/* ========   HOVER STATES   =============== */
+#presentday-box2:hover ~ #presentday-box1 img#presentday2,
+#presentday-box3:hover ~ #presentday-box1 img#presentday3,
+#presentday-box4:hover ~ #presentday-box1 img#presentday4,
+#presentday-box5:hover ~ #presentday-box1 img#presentday5 {
+  opacity: 1;
+}
+
+#century-box2:hover ~ #century-box1 img#century2,
+#century-box3:hover ~ #century-box1 img#century3,
+#century-box4:hover ~ #century-box1 img#century4 {
+  opacity: 1;
+}
+
+#earlyyears-box2:hover ~ #earlyyears-box1 img#earlyyears2,
+#earlyyears-box3:hover ~ #earlyyears-box1 img#earlyyears3,
+#earlyyears-box4:hover ~ #earlyyears-box1 img#earlyyears4 {
+  opacity: 1;
+}
+
+#indust-box2:hover ~ #indust-box1 img#indust2,
+#indust-box3:hover ~ #indust-box1 img#indust3,
+#indust-box4:hover ~ #indust-box1 img#indust4 {
+  opacity: 1;
+}

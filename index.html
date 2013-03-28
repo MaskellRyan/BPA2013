@@ -13,136 +13,6 @@
 	<!--Scripts before load-->
 	<script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
 	
-	
-	<style>
-
-	figure img {
-		position: absolute;
-		width: 100%;
-	
-	}
-	
-	img#presentday2, img#presentday3, img#presentday4, img#presentday5, img#century2, img#century3, img#century4, img#earlyyears2, img#earlyyears3, img#earlyyears4, img#indust2, img#indust3, img#indust4 {
-		opacity: 0;
-		z-index: 5;
-	}
-	
-	
-	/* ========   PANEL SIZES FOR 4 IMAGES   =============== */
-	#indust-box1, #century-box1, #earlyyears-box1 {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-	}
-	
-	#indust-box2, #century-box2, #earlyyears-box2 {
-		position: absolute;
-	/*	background-color: orange;*/
-		width: 25%;
-		height: 100%;
-		z-index: 10;
-	}
-	
-	#indust-box3, #century-box3, #earlyyears-box3 {
-		position: absolute;
-	/*	background-color: green;*/
-		width: 25%;
-		height: 100%;
-		z-index: 10;
-		left: 25%;
-	}
-	
-	#indust-box4, #century-box4, #earlyyears-box4 {
-		position: absolute;
-	/*	background-color: green;*/
-		width: 25%;
-		height: 100%;
-		z-index: 10;
-		left: 50%;
-	}
-	
-	
-	/* ========   PANEL SIZES FOR 5 IMAGES   =============== */
-	#presentday-box1 {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-	}
-	
-	#presentday-box2 {
-		position: absolute;
-	/*	background-color: orange;*/
-		width: 20%;
-		height: 100%;
-		z-index: 5;
-	}
-	
-	#presentday-box3 {
-		position: absolute;
-	/*	background-color: orange;*/
-		width: 20%;
-		height: 100%;
-		z-index: 5;
-		left: 20%;
-	}
-	
-	#presentday-box4 {
-		position: absolute;
-	/*	background-color: orange;*/
-		width: 20%;
-		height: 100%;
-		z-index: 5;
-		left: 40%;
-	}
-	
-	#presentday-box5 {
-		position: absolute;
-	/*	background-color: orange;*/
-		width: 20%;
-		height: 100%;
-		z-index: 5;
-		left: 60%;
-	}
-	
-	
-	/* ========   HOVER STATES   =============== */
-	
-	#presentday-box2:hover~#presentday-box1 img#presentday2,
-	#presentday-box3:hover~#presentday-box1 img#presentday3,
-	#presentday-box4:hover~#presentday-box1 img#presentday4,
-	#presentday-box5:hover~#presentday-box1 img#presentday5 {
-		opacity: 1;
-	}
-	
-	
-	
-	#century-box2:hover~#century-box1 img#century2,
-	#century-box3:hover~#century-box1 img#century3,
-	#century-box4:hover~#century-box1 img#century4 {
-		opacity: 1;
-	}
-	
-	
-	
-	#earlyyears-box2:hover~#earlyyears-box1 img#earlyyears2,
-	#earlyyears-box3:hover~#earlyyears-box1 img#earlyyears3,
-	#earlyyears-box4:hover~#earlyyears-box1 img#earlyyears4 {
-		opacity: 1;
-	}
-	
-	
-	
-	#indust-box2:hover~#indust-box1 img#indust2,
-	#indust-box3:hover~#indust-box1 img#indust3,
-	#indust-box4:hover~#indust-box1 img#indust4 {
-		opacity: 1;
-	}
-	
-	
-	</style>
-	
 </head>
 <body class="red-theme">
 	<nav>
@@ -166,20 +36,17 @@
 	<div id="container">
 			<header><h1>History of Indy</h1></header>
 			<div class="box">
-				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer1">
+				<figure data-toggle="collapse" data-target="#drawer1">
 					<div class="read-more"><i>i</i></div>
 					<h1>Early Years</h1>
-					<div id="earlyyears-box2">
-					</div>
-					<div id="earlyyears-box3">
-					</div>
-					<div id="earlyyears-box4">
-					</div>
-					<div id="earlyyears-box1">
-						<img src="_/content/img/history/earlyyears1.jpg" id="earlyyears1">
-						<img src="_/content/img/history/earlyyears2.jpg" id="earlyyears2">
-						<img src="_/content/img/history/earlyyears3.jpg" id="earlyyears3">
-						<img src="_/content/img/history/earlyyears4.jpg" id="earlyyears4">
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="pictures">
+						<img src="_/content/img/history/earlyyears1.jpg">
+						<img src="_/content/img/history/earlyyears2.jpg">
+						<img src="_/content/img/history/earlyyears3.jpg">
+						<img src="_/content/img/history/earlyyears4.jpg">
 					</div>
 				</figure>
 				<article id="drawer1" class="collapse">
@@ -200,20 +67,19 @@
 				</article>
 			</div>
 			<div class="box">
-				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer2">
+				<figure data-toggle="collapse" data-target="#drawer2">
 					<div class="read-more"><i>i</i></div>
 					<h1>Industrial Era</h1>
-					<div id="indust-box2">
-					</div>
-					<div id="indust-box3">
-					</div>
-					<div id="indust-box4">
-					</div>
-					<div id="indust-box1">
-						<img src="_/content/img/history/indust_train.jpg" id="indust1">
-						<img src="_/content/img/history/indust_car.jpg" id="indust2">
-						<img src="_/content/img/history/indust_workers.jpg" id="indust3">
-						<img src="_/content/img/history/indust_racecar.jpg" id="indust4">
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="pictures">
+						<img src="_/content/img/history/indust_train.jpg">
+						<img src="_/content/img/history/indust_workers.jpg">
+						<img src="_/content/img/history/indust_car.jpg">
+						<img src="_/content/img/history/indust_workers.jpg">
+						<img src="_/content/img/history/indust_racecar.jpg">
 					</div>
 				</figure>
 				<article id="drawer2" class="collapse">
@@ -230,20 +96,17 @@
 				</article>
 			</div>
 			<div class="box">
-				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer3">
+				<figure data-toggle="collapse" data-target="#drawer3">
 					<div class="read-more"><i>i</i></div>
 					<h1>20th Century</h1>
-					<div id="century-box2">
-					</div>
-					<div id="century-box3">
-					</div>
-					<div id="century-box4">
-					</div>
-					<div id="century-box1">
-						<img src="_/content/img/history/20century_downtown.jpg" id="century1">
-						<img src="_/content/img/history/20century_houdini.jpg" id="century2">
-						<img src="_/content/img/history/20century_indy500.jpg" id="century3">
-						<img src="_/content/img/history/20century_newsboys.jpg" id="century4">
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="rollovers"></div>
+					<div class="pictures">
+						<img src="_/content/img/history/20century_downtown.jpg">
+						<img src="_/content/img/history/20century_houdini.jpg">
+						<img src="_/content/img/history/20century_indy500.jpg">
+						<img src="_/content/img/history/20century_newsboys.jpg">
 					</div>
 				</figure>
 				<article id="drawer3" class="collapse">
@@ -268,7 +131,7 @@
 				</article>
 			</div>
 			<div class="box">
-				<figure data-toggle="collapse" data-parent="#container" data-target="#drawer4">
+				<figure data-toggle="collapse" data-target="#drawer4">
 					<div class="read-more"><i>i</i></div>
 					<h1>Present Day</h1>
 					<div id="presentday-box2">
