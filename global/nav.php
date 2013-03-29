@@ -1,5 +1,9 @@
 	<nav>
-		<div class="logo"><a href="index.php"><img src="_/img/indy-logo.png"></a></div>
+		<div class="logo"><a href="index.php">
+			<img src="_/img/indy-logo-ani.gif">
+			<img src="_/img/indy-logo-ani.png">
+			<img style="position: relative; opacity: 0; z-index: -20;" src="_/img/indy-logo-ani.png">
+		</a></div>
 		<ul>
 			<li><a class="color-red" href="historyofindy.php">History of Indy</a></li>
 			<li><a class="color-green" href="memorials.php">Memorials</a></li>

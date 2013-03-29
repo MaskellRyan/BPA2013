@@ -47,14 +47,14 @@ CLEARFIXIN'
 }
 
 @mixin breakpoint($point) {
-  @if $point == tablet {
+  @if $point == mobile {
     @media (min-width: em-font(480px)) { @content; }
   }
-  @else if $point == desktop {
-    @media (min-width: em-font(900px)) { @content; }
+  @else if $point == tablet {
+    @media (min-width: em-font(650px)) { @content; }
   }
-  @else if $point == large-screen {
-    @media (min-width: em-font(1240px))  { @content; }
+  @else if $point == desktop {
+    @media (min-width: em-font(900px))  { @content; }
   }
 }
 

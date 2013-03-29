@@ -154,12 +154,14 @@ body {
   font-family: "arvoregular", Tahoma, sans-serif;
   letter-spacing: 1;
   background-color: #646464;
-  background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
+  background-image: url("../img/graycity@2x.png"), url("../img/darkgray-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
+  background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
   body {
+    background-size: auto 500px, auto auto;
     background-position: center top, left top;
   }
 }
@@ -412,10 +414,19 @@ input[type="checkbox"]:focus {
 #home-container {
   display: inline-block;
   position: relative;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: -20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+@media (min-width: 56.25em) {
+  #home-container {
+    margin-top: -20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+  }
 }
 
 #home-dummy {
@@ -436,6 +447,7 @@ input[type="checkbox"]:focus {
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 
 #home-element img.hover {
@@ -576,6 +588,39 @@ nav .logo {
   margin: 0 auto 15px;
   padding: 37px 20px 10px 15px;
   max-width: 255px;
+  position: relative;
+}
+nav .logo img {
+  top: 50px;
+  width: 100%;
+  left: -5px;
+  max-width: 255px;
+  position: absolute;
+}
+@media (min-width: 56.25em) {
+  nav .logo img {
+    width: 80%;
+    left: auto;
+  }
+}
+nav .logo img:first-child {
+  opacity: 0;
+  -webkit-transition: all 0.02s ease-in-out;
+  -moz-transition: all 0.02s ease-in-out;
+  -ms-transition: all 0.02s ease-in-out;
+  -o-transition: all 0.02s ease-in-out;
+  -transition: all 0.02s ease-in-out;
+  transition: all 0.02s ease-in-out;
+}
+nav .logo:hover img:first-child {
+  -webkit-transition: all 0.02s ease-in-out;
+  -moz-transition: all 0.02s ease-in-out;
+  -ms-transition: all 0.02s ease-in-out;
+  -o-transition: all 0.02s ease-in-out;
+  -transition: all 0.02s ease-in-out;
+  transition: all 0.02s ease-in-out;
+  opacity: 1;
+  z-index: 5;
 }
 nav div a:hover {
   border-bottom: 0 solid transparent;
@@ -834,17 +879,46 @@ header h1 {
     font-size: 73px;
   }
 }
-header .homepage {
-  font-size: 80px;
-  letter-spacing: 4px;
-}
 header h2 {
-  font-family: "ubuntu", Arial, sans-serif;
-  font-size: 35px;
+  font-family: "ubuntubold", Arial, sans-serif;
   color: white;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 17px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  letter-spacing: 12px;
+}
+@media (min-width: 40.625em) {
+  header h2 {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
+}
+@media (min-width: 56.25em) {
+  header h2 {
+    font-size: 35px;
+    letter-spacing: 17px;
+  }
+}
+
+.homepage {
+  margin-top: 10px !important;
+}
+.homepage h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+@media (min-width: 40.625em) {
+  .homepage h1 {
+    font-size: 65px;
+    letter-spacing: 2.5px;
+  }
+}
+@media (min-width: 56.25em) {
+  .homepage h1 {
+    font-size: 80px;
+    letter-spacing: 4px;
+  }
 }
 
 .box, header {
@@ -954,7 +1028,7 @@ header h2 {
   box-shadow: 0 0 0 0 transparent;
   text-align: center;
   background-color: white;
-  border-bottom: 3px solid #cccccc;
+  border: 3px solid #cccccc;
   height: 50px;
   width: 50px;
   padding: 0;
@@ -989,7 +1063,7 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .box figure .read-more i, header figure .read-more i {
-    top: -30px;
+    top: -33px;
     font-size: 120px;
   }
 }
@@ -1146,14 +1220,12 @@ header h2 {
 
 .red-theme {
   background-color: #a40b00;
-  background-image: url("../img/redcity.png"), url("../img/darkred-tex.png");
+  background-image: url("../img/redcity@2x.png"), url("../img/darkred-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
+  background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
-  .red-theme {
-    background-position: center top, left top;
-  }
   .red-theme nav {
     border-right-color: #a40b00;
   }
@@ -1209,14 +1281,12 @@ header h2 {
 
 .green-theme {
   background-color: #768a00;
-  background-image: url("../img/greencity.png"), url("../img/darkgreen-tex.png");
+  background-image: url("../img/greencity@2x.png"), url("../img/darkgreen-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
+  background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
-  .green-theme {
-    background-position: center top, left top;
-  }
   .green-theme nav {
     border-right-color: #768a00;
   }
@@ -1272,14 +1342,12 @@ header h2 {
 
 .blue-theme {
   background-color: #3a8b8b;
-  background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
+  background-image: url("../img/bluecity@2x.png"), url("../img/darkblue-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
+  background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
-  .blue-theme {
-    background-position: center top, left top;
-  }
   .blue-theme nav {
     border-right-color: #3a8b8b;
   }
@@ -1335,14 +1403,12 @@ header h2 {
 
 .orange-theme {
   background-color: #c14600;
-  background-image: url("../img/orangecity.png"), url("../img/darkorange-tex.png");
+  background-image: url("../img/orangecity@2x.png"), url("../img/darkorange-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
+  background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
-  .orange-theme {
-    background-position: center top, left top;
-  }
   .orange-theme nav {
     border-right-color: #c14600;
   }

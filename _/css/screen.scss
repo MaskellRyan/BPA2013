@@ -63,10 +63,12 @@ body {
 	font-family: $slab-regular;
 	letter-spacing: 1;
 	background-color: $primary;
-	background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
+	background-image: url("../img/graycity@2x.png"), url("../img/darkgray-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
+	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
+		background-size: auto 500px, auto auto;		
 		background-position: center top, left top;
 	}
 }
@@ -120,10 +122,17 @@ a {
 #home-container {
 	display: inline-block;
 	position: relative;
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: -20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	@include breakpoint(desktop) {
+		margin-top: -20px;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 50px;
+	}
 }
 
 #home-dummy {
@@ -144,6 +153,7 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
+	cursor: pointer;
 }
 
 #home-element img.hover {
@@ -248,7 +258,50 @@ nav {
 		margin: 0 auto 15px;
 		padding: 37px 20px 10px 15px;
 		max-width: 255px;
+		position: relative;
+		img {
+			top: 50px;
+			width: 100%;
+			left: -5px;
+			max-width: 255px;
+			position: absolute;
+			@include breakpoint(desktop) {
+				width: 80%;
+				left: auto;
+			}
+			&:first-child {
+				opacity: 0;
+				@include transition(all 0.02s ease-in-out);
+			}
+		}
+		&:hover img:first-child {
+			@include transition(all 0.02s ease-in-out);
+			opacity: 1;
+			z-index: 5;
+		}
 	}
+
+	// #logo {
+	// position: relative;
+	// width: 400px;
+	// margin: 0 auto;
+	// margin-top: 50px;
+	// }
+
+	// #logo img {
+	// position: absolute;
+	// }
+
+	// #logo img:first-child {
+	// opacity: 0;
+	// transition: .02s ease-in-out 0s;
+	// }
+
+	// #logo:hover img:first-child {
+	// opacity: 1;
+	// z-index: 5;
+	// transition: .02s ease-in-out 0s;
+	// }
 
 	div {
 		a {
@@ -286,7 +339,7 @@ nav {
 			width: 50%;
 			margin: 25px auto;
 			padding-bottom: 20px;
-			@include breakpoint(tablet) {width: 40%;}
+			@include breakpoint(mobile) {width: 40%;}
 			@include breakpoint(desktop) {
 				margin: 20px auto 0;
 				width: 60%;
@@ -423,7 +476,7 @@ header {
 		font-family: $slab-bold;
 		font-size: 40px;
 		margin: 0;
-		@include breakpoint(tablet) {
+		@include breakpoint(mobile) {
 			font-size: 55px;
 		}
 		@include breakpoint(desktop) {
@@ -432,17 +485,38 @@ header {
 		color: $white;
 		text-align: center;
 	}
-	.homepage {
-		font-size: 80px;
-		letter-spacing: 4px;
-	}
 	h2 {
-		font-family: $sans-regular;
-		font-size: 35px;
+		font-family: $sans-bold;
 		color: $white;
 		text-align: center;
 		text-transform: uppercase;
-		letter-spacing: 17px;
+		margin-bottom: 10px;
+		font-size: 21px;
+		letter-spacing: 12px;
+		@include breakpoint(tablet) {
+			font-size: 30px;
+			letter-spacing: 15px;
+		}
+		@include breakpoint(desktop) {
+			font-size: 35px;
+			letter-spacing: 17px;
+		}
+	}
+}
+
+.homepage {
+	margin-top: 10px !important;
+	h1 {
+		font-size: 40px;
+		letter-spacing: 1px;
+		@include breakpoint(tablet) {
+			font-size: 65px;
+			letter-spacing: 2.5px;
+		}
+		@include breakpoint(desktop) {
+			font-size: 80px;
+			letter-spacing: 4px;
+		}
 	}
 }
 
@@ -466,7 +540,7 @@ header {
 		background-color: $primary;
 		width: 100%;
 		height: $height - 175px;
-		@include breakpoint(tablet) {height: $height - 50px;}
+		@include breakpoint(mobile) {height: $height - 50px;}
 		@include breakpoint(desktop) {height: $height;}
 		z-index: 1;
 		position: relative;
@@ -480,7 +554,7 @@ header {
 			width: 100%;
 			position: absolute;
 			top: 0;
-			@include breakpoint(tablet) {top: -30%;}
+			@include breakpoint(mobile) {top: -30%;}
 			@include breakpoint(desktop) {top: -60%;}
 		}
 
@@ -514,7 +588,7 @@ header {
 			box-shadow: 0 0 0 0 transparent;
 			text-align: center;
 			background-color: $white;
-			border-bottom: 3px solid darken($white, 20%);
+			border: 3px solid darken($white, 20%);
 			height: 50px;
 			width: 50px;
 			padding: 0;
@@ -530,17 +604,17 @@ header {
 				position: relative;
 				top: -14px;
 				line-height: 1;
-				@include breakpoint(tablet) {
+				@include breakpoint(mobile) {
 					top: -20px;
 					font-size: 80px;
 				}
 				@include breakpoint(desktop) {
-					top: -30px;
+					top: -33px;
 					font-size: 120px;
 				}
 			}
 
-			@include breakpoint(tablet) {
+			@include breakpoint(mobile) {
 				width: 60px;
 				height: 60px;
 			}
@@ -721,11 +795,11 @@ header {
 
 .red-theme {
 	background-color: $red;
-	background-image: url("../img/redcity.png"), url("../img/darkred-tex.png");
+	background-image: url("../img/redcity@2x.png"), url("../img/darkred-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
+	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
-		background-position: center top, left top;
 		nav {
 			border-right-color: $red;
 			&:before {border-right-color: $darkred;}
@@ -772,11 +846,11 @@ header {
 }
 .green-theme {
 	background-color: $green;
-	background-image: url("../img/greencity.png"), url("../img/darkgreen-tex.png");
+	background-image: url("../img/greencity@2x.png"), url("../img/darkgreen-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
+	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
-		background-position: center top, left top;
 		nav {
 			border-right-color: $green;
 			&:before {border-right-color: $darkgreen;}
@@ -823,11 +897,11 @@ header {
 }
 .blue-theme {
 	background-color: $blue;
-	background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
+	background-image: url("../img/bluecity@2x.png"), url("../img/darkblue-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
+	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
-		background-position: center top, left top;
 		nav {
 			border-right-color: $blue;
 			&:before {border-right-color: $darkblue;}
@@ -874,11 +948,11 @@ header {
 }
 .orange-theme {
 	background-color: $orange;
-	background-image: url("../img/orangecity.png"), url("../img/darkorange-tex.png");
+	background-image: url("../img/orangecity@2x.png"), url("../img/darkorange-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
+	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
-		background-position: center top, left top;
 		nav {
 			border-right-color: $orange;
 			&:before {border-right-color: $darkorange;}
