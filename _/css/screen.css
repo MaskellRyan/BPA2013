@@ -154,14 +154,14 @@ body {
   font-family: "arvoregular", Tahoma, sans-serif;
   letter-spacing: 1;
   background-color: #646464;
-  background-image: url("../img/graycity@2x.png"), url("../img/darkgray-tex.png");
+  background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
   body {
-    background-size: auto 500px, auto auto;
+    background-size: auto auto, auto auto;
     background-position: center top, left top;
   }
 }
@@ -529,6 +529,13 @@ nav ul li {
   list-style-type: none;
   text-align: center;
 }
+nav ul li em {
+  color: #646464;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  position: relative;
+  bottom: 5px;
+}
 @media (min-width: 56.25em) {
   nav ul li {
     text-align: left;
@@ -808,6 +815,11 @@ footer:nth-child(4) {
     display: none;
   }
 }
+footer:nth-child(4) img {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 footer:nth-child(4) ul {
   font-size: 15px;
   height: 105px;
@@ -901,21 +913,21 @@ header h2 {
   }
 }
 
-.homepage {
+.subpage {
   margin-top: 10px !important;
 }
-.homepage h1 {
+.subpage h1 {
   font-size: 40px;
   letter-spacing: 1px;
 }
 @media (min-width: 40.625em) {
-  .homepage h1 {
+  .subpage h1 {
     font-size: 65px;
     letter-spacing: 2.5px;
   }
 }
 @media (min-width: 56.25em) {
-  .homepage h1 {
+  .subpage h1 {
     font-size: 80px;
     letter-spacing: 4px;
   }
@@ -925,7 +937,7 @@ header h2 {
   display: inline-block;
   position: relative;
   width: 100%;
-  margin: 1% 0;
+  margin: 4% 0;
   overflow: hidden;
   border-top: 1px #a6a6a6 solid;
 }
@@ -1020,7 +1032,7 @@ header h2 {
   font-size: 8px;
   font-family: "arvobold", Tahoma, sans-serif;
   bottom: auto;
-  top: -50px;
+  top: -80px;
   opacity: 0;
   z-index: 5;
   -moz-opacity: 0;
@@ -1082,7 +1094,11 @@ header h2 {
 .box figure:hover > .read-more, header figure:hover > .read-more {
   opacity: 1;
   -moz-opacity: 1;
-  top: 10px;
+}
+@media (min-width: 56.25em) {
+  .box figure:hover > .read-more, header figure:hover > .read-more {
+    top: 10px;
+  }
 }
 .box article, header article {
   border-top: solid 5px #444444;
@@ -1220,12 +1236,15 @@ header h2 {
 
 .red-theme {
   background-color: #a40b00;
-  background-image: url("../img/redcity@2x.png"), url("../img/darkred-tex.png");
+  background-image: url("../img/redcity.png"), url("../img/darkred-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
+  .red-theme {
+    background-position: center top, left top;
+  }
   .red-theme nav {
     border-right-color: #a40b00;
   }
@@ -1281,12 +1300,15 @@ header h2 {
 
 .green-theme {
   background-color: #768a00;
-  background-image: url("../img/greencity@2x.png"), url("../img/darkgreen-tex.png");
+  background-image: url("../img/greencity.png"), url("../img/darkgreen-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
+  .green-theme {
+    background-position: center top, left top;
+  }
   .green-theme nav {
     border-right-color: #768a00;
   }
@@ -1342,12 +1364,15 @@ header h2 {
 
 .blue-theme {
   background-color: #3a8b8b;
-  background-image: url("../img/bluecity@2x.png"), url("../img/darkblue-tex.png");
+  background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
+  .blue-theme {
+    background-position: center top, left top;
+  }
   .blue-theme nav {
     border-right-color: #3a8b8b;
   }
@@ -1403,12 +1428,15 @@ header h2 {
 
 .orange-theme {
   background-color: #c14600;
-  background-image: url("../img/orangecity@2x.png"), url("../img/darkorange-tex.png");
+  background-image: url("../img/orangecity.png"), url("../img/darkorange-tex.png");
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
 @media (min-width: 56.25em) {
+  .orange-theme {
+    background-position: center top, left top;
+  }
   .orange-theme nav {
     border-right-color: #c14600;
   }

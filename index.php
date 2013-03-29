@@ -4,7 +4,7 @@
 
 <?php include 'global/nav.php';?>
 
-	<header class="homepage"><h1>Indianapolis</h1><h2>a history</h2></header> <!-- HEADER OF PAGE -->
+	<header class="subpage"><h1>Indianapolis</h1><h2>a history</h2></header> <!-- HEADER OF PAGE -->
 
 	<div id="home-container">
 		<div id="home-dummy"></div>

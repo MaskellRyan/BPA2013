@@ -63,12 +63,12 @@ body {
 	font-family: $slab-regular;
 	letter-spacing: 1;
 	background-color: $primary;
-	background-image: url("../img/graycity@2x.png"), url("../img/darkgray-tex.png");
+	background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
-		background-size: auto 500px, auto auto;		
+		background-size: auto auto, auto auto;
 		background-position: center top, left top;
 	}
 }
@@ -213,6 +213,13 @@ nav {
 	ul {
 		margin: 0 auto;
 		li {
+			em {
+				color: $gray;
+				padding: 10px 20px;
+				margin-bottom: 5px;
+				position: relative;
+				bottom: 5px;
+			}
 			list-style-type: none;
 			text-align: center;
 			@include breakpoint(desktop) {text-align: left;}
@@ -439,6 +446,11 @@ footer:nth-child(4) {
 	background-repeat: repeat;
 	bottom: -32px;
 	position: relative;
+	img {
+		width: 60%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
 	ul {
 		font-size: 15px;
     	height: 105px;
@@ -504,7 +516,7 @@ header {
 	}
 }
 
-.homepage {
+.subpage {
 	margin-top: 10px !important;
 	h1 {
 		font-size: 40px;
@@ -524,7 +536,7 @@ header {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	margin: 1% 0;
+	margin: 4% 0;
 	@include breakpoint(desktop) {
 		width: 94%;
 		margin: 2% 3%;
@@ -580,7 +592,7 @@ header {
 			font-size: 8px;
 			font-family: $slab-bold;
 			bottom: auto;
-			top: -50px;
+			top: -80px;
 			opacity: 0;
 			z-index: 5;
 			-moz-opacity: 0;
@@ -626,7 +638,9 @@ header {
 		&:hover > .read-more {
 			opacity: 1;
 			-moz-opacity: 1;
-			top: 10px;
+			@include breakpoint(desktop) {
+				top: 10px;
+			}
 		}
 	}
 	article {
@@ -795,11 +809,12 @@ header {
 
 .red-theme {
 	background-color: $red;
-	background-image: url("../img/redcity@2x.png"), url("../img/darkred-tex.png");
+	background-image: url("../img/redcity.png"), url("../img/darkred-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
+		background-position: center top, left top;
 		nav {
 			border-right-color: $red;
 			&:before {border-right-color: $darkred;}
@@ -846,11 +861,12 @@ header {
 }
 .green-theme {
 	background-color: $green;
-	background-image: url("../img/greencity@2x.png"), url("../img/darkgreen-tex.png");
+	background-image: url("../img/greencity.png"), url("../img/darkgreen-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
+		background-position: center top, left top;
 		nav {
 			border-right-color: $green;
 			&:before {border-right-color: $darkgreen;}
@@ -897,11 +913,12 @@ header {
 }
 .blue-theme {
 	background-color: $blue;
-	background-image: url("../img/bluecity@2x.png"), url("../img/darkblue-tex.png");
+	background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
+		background-position: center top, left top;
 		nav {
 			border-right-color: $blue;
 			&:before {border-right-color: $darkblue;}
@@ -948,11 +965,12 @@ header {
 }
 .orange-theme {
 	background-color: $orange;
-	background-image: url("../img/orangecity@2x.png"), url("../img/darkorange-tex.png");
+	background-image: url("../img/orangecity.png"), url("../img/darkorange-tex.png");
 	background-position: center 340px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
+		background-position: center top, left top;
 		nav {
 			border-right-color: $orange;
 			&:before {border-right-color: $darkorange;}
