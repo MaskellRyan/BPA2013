@@ -240,6 +240,7 @@ nav {
 	z-index: 5;
 	background-image: url(../img/darkslats.png);
 	background-repeat: repeat;
+	background-color: $black;
 	position: relative;
 	border-bottom: 5px $primary solid;
 	width: 100%;
@@ -755,6 +756,10 @@ header {
 }
 
 .halfcol {
+	margin-right: 2%;
+	&:last-of-type {
+		margin-right: 0;
+	}
 	.box {
 		figure {
 			height: $height - 25px;
@@ -767,7 +772,7 @@ header {
 		}
 	}
 	@include breakpoint(desktop) {
-		width: 50%;
+		width: 49%;
 		float: left;
 		// margin: 2% 3%;
 		.read-more {

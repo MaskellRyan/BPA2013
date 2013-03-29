@@ -513,6 +513,7 @@ nav {
   z-index: 5;
   background-image: url(../img/darkslats.png);
   background-repeat: repeat;
+  background-color: #0e0e0e;
   position: relative;
   border-bottom: 5px #646464 solid;
   width: 100%;
@@ -1203,6 +1204,12 @@ header h2 {
   height: 20px;
 }
 
+.halfcol {
+  margin-right: 2%;
+}
+.halfcol:last-of-type {
+  margin-right: 0;
+}
 .halfcol .box figure, .halfcol header figure {
   height: 275px;
 }
@@ -1214,7 +1221,7 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .halfcol {
-    width: 50%;
+    width: 49%;
     float: left;
   }
   .halfcol .read-more {
