@@ -532,6 +532,36 @@ header {
 	}
 }
 
+.halfcol {
+
+	.box {
+		figure {
+			height: $height - 25px;
+			img {top: 0;}
+		}
+		article {
+			section {
+				width: 90%;
+			}
+		}
+	}
+	@include breakpoint(tablet) {
+	}
+	@include breakpoint(desktop) {
+		width: 50%;
+		float: left;
+		// margin: 2% 3%;
+		.read-more {
+			width: 60px !important;
+			height: 60px !important;
+			i {
+				font-size: 80px !important;
+				top: -22px !important;
+			}
+		}
+	}
+}
+
 .box {
 	display: inline-block;
 	position: relative;
@@ -542,7 +572,7 @@ header {
 		margin: 2% 3%;
 	}
 	overflow: hidden;
-	border-top: 1px darken($white, 35%) solid;
+	//border-top: 3px $darkred solid;
 	&:first-of-type {
 		margin-top: 30px;
 		@include breakpoint(desktop){margin-top: 50px;}
@@ -642,7 +672,7 @@ header {
 				height: 60px;
 			}
 			@include breakpoint(desktop) {
-				width: 90px !important;
+				width: 90px;
 				height: 90px;
 			}
 		}
@@ -683,10 +713,27 @@ header {
 		}
 		aside {
 			width: 100%;
-			@include breakpoint(desktop) {width: 30%;}
+			@include breakpoint(desktop) {
+				width: 30%;
+				//REMOVE BELOW POSITIONING IF ASIDE IS BEING CUT OFF
+				position: absolute;
+				right: 0;
+				top: 0;
+				bottom: 0;
+			}
 			//height: 200px;
+			// float: right;
 			background-color: lighten($accent, 55%);
-			float: right;
+			// &:before {
+			// 	content: "";
+			// 	background-color: lighten($accent, 55%);
+			// 	width: 30%;
+			// 	position: absolute;
+			// 	bottom: 0;
+			// 	top: 0;
+			// 	right: 0;
+			// }
+			float: left;
 			text-align: left;
 			font-family: $sans-regular;
 			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
@@ -740,6 +787,10 @@ header {
 	h1 {
 		box-shadow: 0 -53px 61px 2px rgba(0, 0, 0, 0.9) inset !important;
 	}
+}
+
+.preload {
+	display: none;
 }
 
 /* ::Media queries */
@@ -873,6 +924,9 @@ header {
 		&:hover > article {
 			border-bottom-color: lighten($red, 10%);
 		}
+	}
+	.halfcol .box:hover > article {
+		border-bottom-color: lighten($red, 10%);
 	}
 }
 .green-theme {

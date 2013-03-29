@@ -933,13 +933,36 @@ header h2 {
   }
 }
 
+.halfcol .box figure, .halfcol header figure {
+  height: 275px;
+}
+.halfcol .box figure img, .halfcol header figure img {
+  top: 0;
+}
+.halfcol .box article section, .halfcol header article section {
+  width: 90%;
+}
+@media (min-width: 56.25em) {
+  .halfcol {
+    width: 50%;
+    float: left;
+  }
+  .halfcol .read-more {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .halfcol .read-more i {
+    font-size: 80px !important;
+    top: -22px !important;
+  }
+}
+
 .box, header {
   display: inline-block;
   position: relative;
   width: 100%;
   margin: 4% 0;
   overflow: hidden;
-  border-top: 1px #a6a6a6 solid;
 }
 @media (min-width: 56.25em) {
   .box, header {
@@ -1098,7 +1121,7 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .box figure .read-more, header figure .read-more {
-    width: 90px !important;
+    width: 90px;
     height: 90px;
   }
 }
@@ -1143,7 +1166,7 @@ header h2 {
 .box article aside, header article aside {
   width: 100%;
   background-color: #d0d0d0;
-  float: right;
+  float: left;
   text-align: left;
   font-family: "ubuntu", Arial, sans-serif;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
@@ -1151,6 +1174,10 @@ header h2 {
 @media (min-width: 56.25em) {
   .box article aside, header article aside {
     width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
 }
 .box article aside h3, header article aside h3 {
@@ -1201,6 +1228,10 @@ header h2 {
 
 .sources h1 {
   box-shadow: 0 -53px 61px 2px rgba(0, 0, 0, 0.9) inset !important;
+}
+
+.preload {
+  display: none;
 }
 
 /* ::Media queries */
@@ -1310,6 +1341,9 @@ header h2 {
   border-bottom-color: #a40b00;
 }
 .red-theme .box:hover > article, .red-theme header:hover > article {
+  border-bottom-color: #d70e00;
+}
+.red-theme .halfcol .box:hover > article, .red-theme .halfcol header:hover > article {
   border-bottom-color: #d70e00;
 }
 

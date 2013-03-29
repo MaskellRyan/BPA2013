@@ -6,4 +6,6 @@
 
 	<header class="subpage"><h1>Stay in touch</h1><h2>Contact Us</h2></header> <!-- HEADER OF PAGE -->
 
+
+
 <?php include 'global/foot.php';?>
