@@ -107,9 +107,10 @@ a {
 
 #container {
 	@extend .clearfix;
-	margin: 0 auto;
+	margin: 0 auto 150px;
 	width: 95%;
 	position: relative;
+	padding: 0 2%;
 
 	@include breakpoint(desktop) {
 		width: 80%;
@@ -532,44 +533,14 @@ header {
 	}
 }
 
-.halfcol {
-
-	.box {
-		figure {
-			height: $height - 25px;
-			img {top: 0;}
-		}
-		article {
-			section {
-				width: 90%;
-			}
-		}
-	}
-	@include breakpoint(tablet) {
-	}
-	@include breakpoint(desktop) {
-		width: 50%;
-		float: left;
-		// margin: 2% 3%;
-		.read-more {
-			width: 60px !important;
-			height: 60px !important;
-			i {
-				font-size: 80px !important;
-				top: -22px !important;
-			}
-		}
-	}
-}
-
 .box {
 	display: inline-block;
 	position: relative;
 	width: 100%;
 	margin: 4% 0;
 	@include breakpoint(desktop) {
-		width: 94%;
-		margin: 2% 3%;
+		width: 100%;
+		margin: 2% 0;
 	}
 	overflow: hidden;
 	//border-top: 3px $darkred solid;
@@ -780,6 +751,57 @@ header {
 	}
 	.collapse {
 		height: 20px;
+	}
+}
+
+.halfcol {
+	.box {
+		figure {
+			height: $height - 25px;
+			img {top: 0;}
+		}
+		article {
+			section {
+				width: 90%;
+			}
+		}
+	}
+	@include breakpoint(desktop) {
+		width: 50%;
+		float: left;
+		// margin: 2% 3%;
+		.read-more {
+			width: 60px !important;
+			height: 60px !important;
+			i {
+				font-size: 80px !important;
+				top: -22px !important;
+			}
+		}
+	}
+}
+
+.threecol {
+	@include breakpoint(desktop) {
+		width: 31%;
+		margin-right: 3%;
+		&:last-of-type {
+			margin-right: 0;
+		}
+		figure {height: $height + 200px !important;}
+	}
+	figure {
+		height: $height - 25px;
+		img {
+			top: 0;
+			height: 100%;
+			width: auto !important;
+		}
+	}
+	article {
+		section {
+			width: 90%;
+		}
 	}
 }
 

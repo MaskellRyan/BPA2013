@@ -400,9 +400,10 @@ input[type="checkbox"]:focus {
 /* ::Layout styles - Layouts hold one or more modules together. */
 /* ------------------------------------------------------------ */
 #container {
-  margin: 0 auto;
+  margin: 0 auto 150px;
   width: 95%;
   position: relative;
+  padding: 0 2%;
 }
 @media (min-width: 56.25em) {
   #container {
@@ -933,30 +934,6 @@ header h2 {
   }
 }
 
-.halfcol .box figure, .halfcol header figure {
-  height: 275px;
-}
-.halfcol .box figure img, .halfcol header figure img {
-  top: 0;
-}
-.halfcol .box article section, .halfcol header article section {
-  width: 90%;
-}
-@media (min-width: 56.25em) {
-  .halfcol {
-    width: 50%;
-    float: left;
-  }
-  .halfcol .read-more {
-    width: 60px !important;
-    height: 60px !important;
-  }
-  .halfcol .read-more i {
-    font-size: 80px !important;
-    top: -22px !important;
-  }
-}
-
 .box, header {
   display: inline-block;
   position: relative;
@@ -966,8 +943,8 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .box, header {
-    width: 94%;
-    margin: 2% 3%;
+    width: 100%;
+    margin: 2% 0;
   }
 }
 .box:first-of-type, header:first-of-type {
@@ -1224,6 +1201,54 @@ header h2 {
 }
 .box .collapse, header .collapse {
   height: 20px;
+}
+
+.halfcol .box figure, .halfcol header figure {
+  height: 275px;
+}
+.halfcol .box figure img, .halfcol header figure img {
+  top: 0;
+}
+.halfcol .box article section, .halfcol header article section {
+  width: 90%;
+}
+@media (min-width: 56.25em) {
+  .halfcol {
+    width: 50%;
+    float: left;
+  }
+  .halfcol .read-more {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .halfcol .read-more i {
+    font-size: 80px !important;
+    top: -22px !important;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .threecol {
+    width: 31%;
+    margin-right: 3%;
+  }
+  .threecol:last-of-type {
+    margin-right: 0;
+  }
+  .threecol figure {
+    height: 500px !important;
+  }
+}
+.threecol figure {
+  height: 275px;
+}
+.threecol figure img {
+  top: 0;
+  height: 100%;
+  width: auto !important;
+}
+.threecol article section {
+  width: 90%;
 }
 
 .sources h1 {
