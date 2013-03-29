@@ -581,6 +581,17 @@ header {
 			bottom: 0;
 			font-family: $sans-light;
 			color: $heading-color;
+			span {
+				font-family: $slab-regular;
+				display: block;
+				font-size: 17px;
+				letter-spacing: 1px;
+				color: darken($white, 20%);
+				a {
+					color: $white;
+					font-family: $slab-bold;
+				}
+			}
 		}
 		.read-more {
 			margin: 0;
@@ -725,6 +736,11 @@ header {
 	}
 }
 
+.sources {
+	h1 {
+		box-shadow: 0 -53px 61px 2px rgba(0, 0, 0, 0.9) inset !important;
+	}
+}
 
 /* ::Media queries */
 /* ------------------------------------------------------------ */

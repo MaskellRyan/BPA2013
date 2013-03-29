@@ -1013,6 +1013,17 @@ header h2 {
   font-family: "ubuntulight", Arial, sans-serif;
   color: white;
 }
+.box figure h1 span, header figure h1 span {
+  font-family: "arvoregular", Tahoma, sans-serif;
+  display: block;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #cccccc;
+}
+.box figure h1 span a, header figure h1 span a {
+  color: white;
+  font-family: "arvobold", Tahoma, sans-serif;
+}
 .box figure .read-more, header figure .read-more {
   margin: 0;
   position: absolute;
@@ -1186,6 +1197,10 @@ header h2 {
 }
 .box .collapse, header .collapse {
   height: 20px;
+}
+
+.sources h1 {
+  box-shadow: 0 -53px 61px 2px rgba(0, 0, 0, 0.9) inset !important;
 }
 
 /* ::Media queries */
