@@ -1,10 +1,10 @@
 <?php define("category", basename(dirname(__FILE__))); include 'global/head.html';?>
 
-<body class="red-theme"> <!-- DECLARE THEME VIA "color"-theme as class. Availible themes are "red", "green", "blue", "orange", & if you leave blank the theme is gray. -->
+<body class="blue-theme"> <!-- DECLARE THEME VIA "color"-theme as class. Availible themes are "red", "green", "blue", "orange", & if you leave blank the theme is gray. -->
 
 <?php include 'global/nav.php';?>
 
-	<header><h1>History of Indianapolis</h1></header> <!-- HEADER OF PAGE -->
+	<header><h1>Museums</h1></header> <!-- HEADER OF PAGE -->
 
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
@@ -143,5 +143,7 @@
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
+
+<?php include 'global/backbutton.html';?>
 
 <?php include 'global/foot.php';?>

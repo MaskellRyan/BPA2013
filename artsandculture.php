@@ -7,36 +7,37 @@
 	<header><h1>Arts & Culture</h1><h2>Pick a category</h2></header> <!-- HEADER OF PAGE -->
 
 	<div class="box threecol"> <!-- START -->
+		<a href="districts.php">
 		<figure>
-			<h1>Early Years</h1>
+			<h1>Districts</h1>
 			<div class="pictures">
-				<img src="_/content/img/history/earlyyears1.jpg">
+				<img src="_/content/img/arts/district_theater.jpg">
 			</div>
 		</figure>
-		<article>
-		</article>
+		</a>
 	</div> <!-- END -->
 
 	<div class="box threecol"> <!-- START -->
+		<a href="culture.php">
 		<figure>
-			<h1>Industrial Era</h1>
+			<h1>Culture</h1>
 			<div class="pictures">
-				<img src="_/content/img/history/indust_train.jpg">
+				<img src="_/content/img/arts/culture_crosswalk.jpg">
 			</div>
 		</figure>
-		<article>
-		</article>
+		</a>
 	</div> <!-- END -->
 
+
 	<div class="box threecol"> <!-- START -->
+		<a href="museums.php">
 		<figure>
-			<h1>20th Century</h1>
+			<h1>Museums</h1>
 			<div class="pictures">
-				<img src="_/content/img/history/20century_downtown.jpg">
+				<img src="_/content/img/arts/museum_lovestatue.jpg">
 			</div>
 		</figure>
-		<article>
-		</article>
+		</a>
 	</div> <!-- END -->
 
 <?php include 'global/foot.php';?>
