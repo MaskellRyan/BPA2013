@@ -8,11 +8,11 @@
 
 	<div class="box threecol contact green"> <!-- START -->
 		<article>
-			<div class="avatar img-circle"><img src="_/content/team/ashley.jpg"></div>
+			<div class="avatar img-circle"><img src="_/content/team/ashley2.jpg"></div>
 			<section>
-				<h1>Ashley Chaffin</h1>
+				<h1>Ashley <br>Chaffin</h1>
 				<h2>Designer</h2>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>I am currently pursuing an associates degree in Graphic Design and Web Design at North Idaho College. I am very passionate about design and constantly strive to learn more. I am an Apple head and love music, books, and having fun.</p>
 			</section>
 			<footer>
 				<ul>
@@ -27,9 +27,9 @@
 		<article>
 			<div class="avatar img-circle"><img src="_/content/team/ryan.jpg"></div>
 			<section>
-				<h1>Ryan Maskell</h1>
+				<h1>Ryan <br>Maskell</h1>
 				<h2>Developer</h2>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>I am a Designer, Technology Enthusiast, Student, & Lover. I enjoy learning new techniques and skills that help feed my contagious passion for art & design. I also love movies, friends, longboarding and Apple products.</p>
 			</section>
 			<footer>
 				<ul>
@@ -44,9 +44,9 @@
 		<article>
 			<div class="avatar img-circle"><img src="_/content/team/hannah.jpg"></div>
 			<section>
-				<h1>Hannah Shields</h1>
+				<h1>Hannah <br>Shields</h1>
 				<h2>Writer</h2>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>I am a wife, a mother, and a farmer. Along with tending my garden, I also enjoy spending quiet time with my family. One thing I have learned about myself recently is that I am extremely competitive. I push to out do myself on every project I start.</p>
 			</section>
 			<footer>
 				<ul>

@@ -1242,7 +1242,7 @@ header h2 {
   margin-right: 0;
 }
 .halfcol .box figure, .halfcol header figure {
-  height: 275px;
+  height: 200px;
 }
 .halfcol .box figure img, .halfcol header figure img {
   top: 0;
