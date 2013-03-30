@@ -29,10 +29,26 @@
 
 // with jQuery
 window.mySwipe = $('.swipe').Swipe().data('Swipe');
-var slider = new Swipe(document.getElementById('slider'), {});
+var slider1 = new Swipe(document.getElementById('slider1'), {});
 var slider2 = new Swipe(document.getElementById('slider2'), {});
 var slider3 = new Swipe(document.getElementById('slider3'), {});
 var slider4 = new Swipe(document.getElementById('slider4'), {});
+var slider5 = new Swipe(document.getElementById('slider5'), {});
+var slider6 = new Swipe(document.getElementById('slider6'), {});
+var slider7 = new Swipe(document.getElementById('slider7'), {});
+var slider8 = new Swipe(document.getElementById('slider8'), {});
+var slider9 = new Swipe(document.getElementById('slider9'), {});
+var slider10 = new Swipe(document.getElementById('slider10'), {});
+var slider11 = new Swipe(document.getElementById('slider11'), {});
+var slider12 = new Swipe(document.getElementById('slider12'), {});
+var slider13 = new Swipe(document.getElementById('slider13'), {});
+var slider14 = new Swipe(document.getElementById('slider14'), {});
+var slider15 = new Swipe(document.getElementById('slider15'), {});
+var slider16 = new Swipe(document.getElementById('slider16'), {});
+var slider17 = new Swipe(document.getElementById('slider17'), {});
+var slider18 = new Swipe(document.getElementById('slider18'), {});
+var slider19 = new Swipe(document.getElementById('slider19'), {});
+var slider20 = new Swipe(document.getElementById('slider20'), {});
 </script>
 
 <!-- <div style='text-align:center;padding-top:20px;'>

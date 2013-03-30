@@ -10,7 +10,7 @@
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<div class="read-more"><i>i</i></div>
 			<h1>Early Years</h1>
-			<div id="slider" class='swipe'>
+			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
 			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
@@ -20,8 +20,8 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider.next();'><p>î</p></div>
+			<div class="slider-btn" onclick='slider1.prev();'><p>ë</p></div> 
+			<div class="slider-btn" onclick='slider1.next();'><p>î</p></div>
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
