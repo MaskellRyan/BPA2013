@@ -111,7 +111,6 @@ a {
 	width: 95%;
 	position: relative;
 	padding: 0 2%;
-
 	@include breakpoint(desktop) {
 		width: 80%;
 		margin-left: 20%;
@@ -443,7 +442,9 @@ footer {
 
 footer:nth-child(4) {
 	display: block;
-	@include breakpoint(desktop) {display: none;}
+	@include breakpoint(desktop) {
+		display: none;
+	}
 	text-align: center;
 	background-image: url(../img/darkslats.png);
 	background-repeat: repeat;
@@ -570,7 +571,7 @@ header {
 			position: absolute;
 			top: 0;
 			@include breakpoint(mobile) {top: -30%;}
-			@include breakpoint(desktop) {top: -60%;}
+			@include breakpoint(desktop) {top: -60%;margin-top: -140px;}
 		}
 
 		h1 {
@@ -866,6 +867,7 @@ header {
 			top: 0;
 			@include breakpoint(desktop) {
 				height: 100%;
+				margin-top: 0;
 				width: auto !important;
 			}
 		}
@@ -1362,6 +1364,9 @@ header {
 	}
 }
 .blue-theme {
+	#container {
+		margin-bottom: 150px;
+	}
 	background-color: $blue;
 	background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
 	background-position: center 340px, left top;

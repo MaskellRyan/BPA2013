@@ -992,6 +992,7 @@ header h2 {
 @media (min-width: 56.25em) {
   .box figure img, header figure img {
     top: -60%;
+    margin-top: -140px;
   }
 }
 .box figure h1, header figure h1 {
@@ -1320,6 +1321,7 @@ header h2 {
 @media (min-width: 56.25em) {
   .threecol figure img {
     height: 100%;
+    margin-top: 0;
     width: auto !important;
   }
 }
@@ -1823,6 +1825,9 @@ header h2 {
   background-position: center 340px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
+}
+.blue-theme #container {
+  margin-bottom: 150px;
 }
 @media (min-width: 56.25em) {
   .blue-theme {
