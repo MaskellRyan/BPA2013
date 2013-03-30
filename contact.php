@@ -50,7 +50,7 @@
 			</section>
 			<footer>
 				<ul>
-					<li><a href="http://www.twitter.com/"><img src="_/img/twitter.png"></a></li>
+					<li><a href="http://www.twitter.com/briosodesign"><img src="_/img/twitter.png"></a></li>
 					<li><a href="mailto:Hannah@Briosodesign.com"><img alt="Hannah@Briosodesign.com" src="_/img/email.png"></a></li>
 					<li><a href="http://www.briosodesign.com/"><img src="_/img/brioso.png"></a></li>
 				</ul>

@@ -29,13 +29,16 @@
 
 // with jQuery
 window.mySwipe = $('.swipe').Swipe().data('Swipe');
-
+var slider = new Swipe(document.getElementById('slider'), {});
+var slider2 = new Swipe(document.getElementById('slider2'), {});
+var slider3 = new Swipe(document.getElementById('slider3'), {});
+var slider4 = new Swipe(document.getElementById('slider4'), {});
 </script>
 
 <!-- <div style='text-align:center;padding-top:20px;'>
   
-  <button onclick='mySwipe.prev()'>prev</button> 
-  <button onclick='mySwipe.next()'>next</button>
+  <button onclick='THE-ID.prev()'>prev</button> 
+  <button onclick='THE-ID.next()'>next</button>
 
 </div> -->
 

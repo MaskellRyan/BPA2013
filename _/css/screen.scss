@@ -561,6 +561,9 @@ header {
 		position: relative;
 		cursor: pointer;
 		overflow: hidden;
+		&:hover ~ .slider-control {
+			opacity: 1;
+		}
 
 		img {
 			width: 100%;
@@ -959,6 +962,9 @@ header {
 }
 
 .sources {
+	figure {
+		cursor: auto;
+	}
 	a {
 		white-space: nowrap;
 	}
@@ -1233,6 +1239,10 @@ header {
 		}
 	}
 	.box {
+		.slider-btn {
+			background-color: transparentize($darkred, 0.1);
+			//color: $red;
+		}
 		.tab {
 			border-top-color: $darkred;
 		}
@@ -1303,6 +1313,10 @@ header {
 		}
 	}
 	.box {
+		.slider-btn {
+			background-color: transparentize($darkgreen, 0.1);
+			//color: $green;
+		}
 		.tab {
 			border-top-color: $darkgreen;
 		}
@@ -1370,6 +1384,10 @@ header {
 		}
 	}
 	.box {
+		.slider-btn {
+			background-color: transparentize($darkblue, 0.1);
+			//color: $blue;
+		}
 		.tab {
 			border-top-color: $darkblue;
 		}
@@ -1437,6 +1455,10 @@ header {
 		}
 	}
 	.box {
+		.slider-btn {
+			background-color: transparentize($darkorange, 0.1);
+			//color: $orange;
+		}
 		.tab {
 			border-top-color: $darkorange;
 		}
@@ -1553,6 +1575,40 @@ header {
 		}
 	}
 
+.slider-btn {
+	font-family: $symbol;
+	font-size: 55px;
+	color: $white;
+	background-color: transparentize($accent, 0.1);
+	height: 50px;
+	width: 70px;
+	margin: 10px 0;
+	padding: 0 0 5px 23px;
+	cursor: pointer;
+	border-right: 3px solid $white;
+	p {
+		position: relative;
+		top: -22px;
+	}
+}
+
+.slider-control {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+	@include breakpoint(desktop) {
+		display: block;
+		opacity: .5;
+		@include transition(opacity 0.5s ease-in-out);
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+// swipe required css
 
 .swipe {
   overflow: hidden;

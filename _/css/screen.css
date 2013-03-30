@@ -976,6 +976,9 @@ header h2 {
     height: 300px;
   }
 }
+.box figure:hover ~ .slider-control, header figure:hover ~ .slider-control {
+  opacity: 1;
+}
 .box figure img, header figure img {
   width: 100%;
   position: absolute;
@@ -1419,6 +1422,9 @@ header h2 {
 .sources {
   border-bottom: 15px solid #646464;
 }
+.sources figure {
+  cursor: auto;
+}
 .sources a {
   white-space: nowrap;
 }
@@ -1671,6 +1677,9 @@ header h2 {
 .red-theme nav footer ul li a:hover {
   border-bottom-color: #a40b00;
 }
+.red-theme .box .slider-btn, .red-theme header .slider-btn {
+  background-color: rgba(89, 8, 0, 0.9);
+}
 .red-theme .box .tab, .red-theme header .tab {
   border-top-color: #590800;
 }
@@ -1753,6 +1762,9 @@ header h2 {
 .green-theme nav footer ul li a:hover {
   border-bottom-color: #768a00;
 }
+.green-theme .box .slider-btn, .green-theme header .slider-btn {
+  background-color: rgba(82, 97, 0, 0.9);
+}
 .green-theme .box .tab, .green-theme header .tab {
   border-top-color: #526100;
 }
@@ -1832,6 +1844,9 @@ header h2 {
 .blue-theme nav footer ul li a:hover {
   border-bottom-color: #3a8b8b;
 }
+.blue-theme .box .slider-btn, .blue-theme header .slider-btn {
+  background-color: rgba(55, 83, 83, 0.9);
+}
 .blue-theme .box .tab, .blue-theme header .tab {
   border-top-color: #375353;
 }
@@ -1910,6 +1925,9 @@ header h2 {
 }
 .orange-theme nav footer ul li a:hover {
   border-bottom-color: #c14600;
+}
+.orange-theme .box .slider-btn, .orange-theme header .slider-btn {
+  background-color: rgba(146, 60, 0, 0.9);
 }
 .orange-theme .box .tab, .orange-theme header .tab {
   border-top-color: #923c00;
@@ -2016,6 +2034,46 @@ img#presentday2, img#presentday3, img#presentday4, img#presentday5 {
 .rollovers:nth-child(6):hover ~ .pictures img:nth-child(5), .rollovers:nth-child(6):hover ~ .rollovers img:nth-child(5) {
   opacity: 1;
   z-index: 6;
+}
+
+.slider-btn {
+  font-family: "EntypoRegular", none;
+  font-size: 55px;
+  color: white;
+  background-color: rgba(68, 68, 68, 0.9);
+  height: 50px;
+  width: 70px;
+  margin: 10px 0;
+  padding: 0 0 5px 23px;
+  cursor: pointer;
+  border-right: 3px solid white;
+}
+.slider-btn p {
+  position: relative;
+  top: -22px;
+}
+
+.slider-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+@media (min-width: 56.25em) {
+  .slider-control {
+    display: block;
+    opacity: .5;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .slider-control:hover {
+    opacity: 1;
+  }
 }
 
 .swipe {
