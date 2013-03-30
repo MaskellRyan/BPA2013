@@ -1449,6 +1449,40 @@ header h2 {
   display: none;
 }
 
+.fullwidthcontent {
+  width: 90% !important;
+}
+@media (min-width: 56.25em) {
+  .fullwidthcontent {
+    width: 96% !important;
+  }
+}
+.fullwidthcontent .span3 {
+  width: 98%;
+  margin: 0 16px;
+}
+@media (min-width: 40.625em) {
+  .fullwidthcontent .span3 {
+    width: 26%;
+    float: left;
+  }
+}
+@media (min-width: 56.25em) {
+  .fullwidthcontent .span3 {
+    width: 28%;
+  }
+}
+.fullwidthcontent .span3 img {
+  height: 80%;
+  margin: 10%;
+  max-width: 80%;
+}
+.fullwidthcontent .span3 h2 {
+  font-size: 25px;
+  font-family: "ubuntu", Arial, sans-serif;
+  color: #0e0e0e;
+}
+
 /* ::Media queries */
 /* ------------------------------------------------------------ */
 @media print {

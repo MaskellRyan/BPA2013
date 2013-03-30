@@ -986,6 +986,34 @@ header {
 	display: none;
 }
 
+.fullwidthcontent {
+	width: 90% !important;
+	@include breakpoint(desktop) {
+		width: 96% !important;
+	}
+	.span3 {
+		width: 98%;
+		margin: 0 16px;
+		@include breakpoint(tablet) {
+			width: 26%;
+			float: left;
+		}
+		@include breakpoint(desktop) {
+			width: 28%;
+		}
+		img {
+			height: 80%;
+			margin: 10%;
+			max-width: 80%;
+		}
+		h2 {
+			font-size: 25px;
+			font-family: $sans-regular;
+			color: $black;
+		}
+	}
+}
+
 /* ::Media queries */
 /* ------------------------------------------------------------ */
 

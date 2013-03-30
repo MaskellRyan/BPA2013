@@ -24,8 +24,22 @@
 			<div class="slider-btn" onclick='slider1.next();'><p>î</p></div>
 		</div>
 		<article id="drawer1" class="collapse">
-			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+			<section class="fullwidthcontent">
+				<div class="span3">
+					<img src="_/content/img/about/about_responsiveicon.png">
+					<h2>Responsive and Fluid Design</h2>
+					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				</div>
+				<div class="span3">
+					<img src="_/content/img/about/about_codelang.png">
+					<h2>HTML5 / CSS3 <br> Structure & Styling</h2>
+					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				</div>
+				<div class="span3">
+					<img src="_/content/img/about/about_browsercompat.png">
+					<h2>Cross Browser Compatibility</h2>
+					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				</div>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
