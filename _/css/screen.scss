@@ -570,7 +570,8 @@ header {
 			width: 100%;
 			position: absolute;
 			top: 0;
-			@include breakpoint(mobile) {top: -30%;}
+			margin-top: -80px;
+			@include breakpoint(mobile) {top: -30%;margin-top: -80px;}
 			@include breakpoint(desktop) {top: -60%;margin-top: -140px;}
 		}
 
