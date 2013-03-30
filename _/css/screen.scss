@@ -892,6 +892,54 @@ header {
 		@include clearfix;
 		section {
 			width: 90%;
+			margin-bottom: 70px;
+		}
+		footer {
+			width: 100%;
+			
+			height: 10%;
+			position: absolute;
+			bottom: 0;
+			padding: 0;
+			z-index: 2;
+			ul {
+				position: absolute;
+				bottom: 0;
+				margin: 0;
+				width: 100%;
+				li {
+					float: left;
+					width: 33.333%;
+					height: 100%;
+					height: 10%;
+					
+					a {
+						&:hover {
+							border-bottom: 0 solid transparent;
+						}
+						&:hover > img {
+							height: 40px;
+							width: 40px;
+							margin: 5% 32% 0;
+						}
+						width: 100%;
+						display: block;
+						height: 10%;
+						img {
+							height: 30px;
+							width: 30px;
+							margin: 10% 36% 5%;
+						}
+					}
+					@include nobullet;
+					&:nth-child(odd) {
+						background-color: $accent;
+					}
+					&:nth-child(2) {
+						background-color: $primary;
+					}
+				}
+			}
 		}
 	}
 	.avatar {
@@ -904,6 +952,7 @@ header {
 		img {
 			width: 100%;
 			height: 100%;
+			margin-bottom: -6px;
 		}
 	}
 }
@@ -1023,6 +1072,16 @@ header {
 			a:link, a:visited {color: $red;}
 			a:hover, a:active {color: lighten($red, 10%); border-bottom-color: $red;}
 		}
+		footer {
+			ul li {
+				&:nth-child(odd) {
+					background-color: $darkred;
+				}
+				&:nth-child(2) {
+					background-color: $red;
+				}
+			}
+		}
 	}
 	.tab {
 		border-top-color: $darkred;
@@ -1053,6 +1112,16 @@ header {
 			a:link, a:visited {color: $green;}
 			a:hover, a:active {color: lighten($green, 10%); border-bottom-color: $green;}
 		}
+		footer {
+			ul li {
+				&:nth-child(odd) {
+					background-color: $darkgreen;
+				}
+				&:nth-child(2) {
+					background-color: $green;
+				}
+			}
+		}
 	}
 	.tab {
 		border-top-color: $darkgreen;
@@ -1080,6 +1149,16 @@ header {
 			a:link, a:visited {color: $blue;}
 			a:hover, a:active {color: lighten($blue, 10%); border-bottom-color: $blue;}
 		}
+		footer {
+			ul li {
+				&:nth-child(odd) {
+					background-color: $darkblue;
+				}
+				&:nth-child(2) {
+					background-color: $blue;
+				}
+			}
+		}
 	}
 	.tab {
 		border-top-color: $darkblue;
@@ -1106,6 +1185,16 @@ header {
 			h2 {color: $orange;}
 			a:link, a:visited {color: $orange;}
 			a:hover, a:active {color: lighten($orange, 10%); border-bottom-color: $orange;}
+		}
+		footer {
+			ul li {
+				&:nth-child(odd) {
+					background-color: $darkorange;
+				}
+				&:nth-child(2) {
+					background-color: $orange;
+				}
+			}
 		}
 	}
 	.tab {

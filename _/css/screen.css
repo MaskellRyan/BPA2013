@@ -1201,7 +1201,7 @@ header h2 {
 @media (min-width: 56.25em) {
   .backbutton {
     width: 25%;
-    bottom: autol;
+    bottom: auto;
   }
 }
 .backbutton:hover {
@@ -1354,6 +1354,52 @@ header h2 {
 }
 .contact article section {
   width: 90%;
+  margin-bottom: 70px;
+}
+.contact article footer {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  z-index: 2;
+}
+.contact article footer ul {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+}
+.contact article footer ul li {
+  float: left;
+  width: 33.333%;
+  height: 100%;
+  height: 10%;
+  list-style-type: none;
+}
+.contact article footer ul li a {
+  width: 100%;
+  display: block;
+  height: 10%;
+}
+.contact article footer ul li a:hover {
+  border-bottom: 0 solid transparent;
+}
+.contact article footer ul li a:hover > img {
+  height: 40px;
+  width: 40px;
+  margin: 5% 32% 0;
+}
+.contact article footer ul li a img {
+  height: 30px;
+  width: 30px;
+  margin: 10% 36% 5%;
+}
+.contact article footer ul li:nth-child(odd) {
+  background-color: #444444;
+}
+.contact article footer ul li:nth-child(2) {
+  background-color: #646464;
 }
 .contact .avatar {
   width: 80%;
@@ -1366,6 +1412,7 @@ header h2 {
 .contact .avatar img {
   width: 100%;
   height: 100%;
+  margin-bottom: -6px;
 }
 
 .sources {
@@ -1459,6 +1506,12 @@ header h2 {
   color: #d70e00;
   border-bottom-color: #a40b00;
 }
+.red article footer ul li:nth-child(odd) {
+  background-color: #590800;
+}
+.red article footer ul li:nth-child(2) {
+  background-color: #a40b00;
+}
 .red .tab {
   border-top-color: #590800;
 }
@@ -1495,6 +1548,12 @@ header h2 {
   color: #a2bd00;
   border-bottom-color: #768a00;
 }
+.green article footer ul li:nth-child(odd) {
+  background-color: #526100;
+}
+.green article footer ul li:nth-child(2) {
+  background-color: #768a00;
+}
 .green .tab {
   border-top-color: #526100;
 }
@@ -1528,6 +1587,12 @@ header h2 {
   color: #49afaf;
   border-bottom-color: #3a8b8b;
 }
+.blue article footer ul li:nth-child(odd) {
+  background-color: #375353;
+}
+.blue article footer ul li:nth-child(2) {
+  background-color: #3a8b8b;
+}
 .blue .tab {
   border-top-color: #375353;
 }
@@ -1560,6 +1625,12 @@ header h2 {
 .orange article section a:hover, .orange article section a:active {
   color: #f45800;
   border-bottom-color: #c14600;
+}
+.orange article footer ul li:nth-child(odd) {
+  background-color: #923c00;
+}
+.orange article footer ul li:nth-child(2) {
+  background-color: #c14600;
 }
 .orange .tab {
   border-top-color: #923c00;
