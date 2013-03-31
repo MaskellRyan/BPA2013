@@ -52,10 +52,7 @@
 			<h1>Who we are</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/code-mockup.jpg"></div>
-			    <div><img src="_/content/img/desktop-mockup.jpg"></div>
-			    <div><img src="_/content/img/ipad-mockup.jpg"></div>
-			    <div><img src="_/content/img/iphone-mockup.jpg"></div>
+			    <div><img src="_/content/img/about/about_campus2.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -78,17 +75,10 @@
 			<h1>Nice logo!</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/code-mockup.jpg"></div>
-			    <div><img src="_/content/img/desktop-mockup.jpg"></div>
-			    <div><img src="_/content/img/ipad-mockup.jpg"></div>
-			    <div><img src="_/content/img/iphone-mockup.jpg"></div>
+			    <div><img src="_/content/img/about/about_map2.png"></div>
 			  </div>
 			</div>
 		</figure>
-		<div class="slider-control">
-			<div class="slider-btn" onclick='slider3.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider3.next();'><p>î</p></div>
-		</div>
 		<article id="drawer3" class="collapse" style="height:auto;">
 			<section>
 				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>

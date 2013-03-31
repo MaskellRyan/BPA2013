@@ -555,7 +555,7 @@ header {
 	figure {
 		background-color: $primary;
 		width: 100%;
-		height: $height - 175px;
+		height: $height - 125px;
 		@include breakpoint(mobile) {height: $height - 50px;}
 		@include breakpoint(desktop) {height: $height;}
 		z-index: 1;
@@ -570,9 +570,9 @@ header {
 			width: 100%;
 			position: absolute;
 			top: 0;
-			margin-top: -80px;
-			@include breakpoint(mobile) {top: -30%;margin-top: -80px;}
-			@include breakpoint(desktop) {top: -60%;margin-top: -140px;}
+			margin-top: -30px;
+			@include breakpoint(tablet) {top: -30%;margin-top: -80px;}
+			@include breakpoint(desktop) {top: -60%;margin-top: -20%;}
 		}
 
 		h1 {
@@ -608,7 +608,7 @@ header {
 	}
 	article {
 		border-top: solid 5px $accent;
-		border-bottom: solid 15px $accent;
+		border-bottom: solid 15px $primary;
 		position: relative;
 		background-color: $white;
 		width: 100%;
@@ -629,7 +629,7 @@ header {
 		}
 		.tab {
 			width: 100%;
-			border-top: solid 5px $accent;
+			border-top: solid 6px lighten($accent, 5%);
 			height: 5px;
 			clear: both;
 		}
@@ -801,7 +801,6 @@ header {
 }
 
 .halfcol {
-	margin-right: 2%;
 	&:last-of-type {
 		margin-right: 0;
 	}
@@ -817,6 +816,7 @@ header {
 		}
 	}
 	@include breakpoint(desktop) {
+		margin-right: 2%;
 		width: 49%;
 		float: left;
 		// margin: 2% 3%;
@@ -995,14 +995,18 @@ header {
 		width: 98%;
 		margin: 0 16px;
 		@include breakpoint(tablet) {
-			width: 26%;
+			width: 27%;
+			margin: 0 18px;
 			float: left;
+			&:last-of-type {
+				margin-right: 0;
+			}
 		}
 		@include breakpoint(desktop) {
 			width: 28%;
 		}
 		img {
-			height: 80%;
+			//height: 80%;
 			margin: 10%;
 			max-width: 80%;
 		}

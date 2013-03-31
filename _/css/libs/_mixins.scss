@@ -54,7 +54,7 @@ CLEARFIXIN'
     @media (min-width: em-font(650px)) { @content; }
   }
   @else if $point == desktop {
-    @media (min-width: em-font(900px))  { @content; }
+    @media (min-width: em-font(1025px))  { @content; }
   }
 }
 

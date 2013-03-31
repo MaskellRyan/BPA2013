@@ -159,7 +159,7 @@ body {
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   body {
     background-size: auto auto, auto auto;
     background-position: center top, left top;
@@ -405,7 +405,7 @@ input[type="checkbox"]:focus {
   position: relative;
   padding: 0 2%;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   #container {
     width: 80%;
     margin-left: 20%;
@@ -421,7 +421,7 @@ input[type="checkbox"]:focus {
   margin-right: 10%;
   margin-top: 20px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   #home-container {
     margin-top: -20px;
     width: 50%;
@@ -539,7 +539,7 @@ nav ul li em {
   position: relative;
   bottom: 5px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav ul li {
     text-align: left;
   }
@@ -569,13 +569,13 @@ nav ul li a:hover, nav ul li a:active {
 nav ul li a:hover {
   color: white;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav ul li a {
     padding: 10px 20px;
     border-bottom: 1px soild transparent;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav {
     position: fixed;
     width: 20%;
@@ -607,7 +607,7 @@ nav .logo img {
   max-width: 255px;
   position: absolute;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav .logo img {
     width: 80%;
     left: auto;
@@ -638,7 +638,7 @@ nav div a:hover {
 nav footer {
   display: none;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav footer {
     display: block;
     bottom: 0;
@@ -657,7 +657,7 @@ nav footer ul:hover {
   opacity: 1;
   -moz-opacity: 1;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav footer ul li a {
     padding: 10px 5px;
     border-bottom: 1px solid transparent;
@@ -676,7 +676,7 @@ nav footer div {
     width: 40%;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav footer div {
     margin: 20px auto 0;
     width: 60%;
@@ -736,7 +736,7 @@ nav .color-orange:hover {
   background-image: -o-linear-gradient(left, #f45800, #c14600);
   background-image: linear-gradient(to right, #f45800, #c14600);
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav .color-red, nav .color-green, nav .color-blue, nav .color-orange {
     width: 90%;
   }
@@ -746,7 +746,7 @@ footer {
   margin: 0 auto;
   padding-top: 10px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   footer {
     z-index: -1;
   }
@@ -813,7 +813,7 @@ footer:nth-child(4) {
   bottom: -32px;
   position: relative;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   footer:nth-child(4) {
     display: none;
   }
@@ -867,7 +867,7 @@ footer:nth-child(4) ul li a:hover, footer:nth-child(4) ul li a:active {
 nav footer {
   display: none !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   nav footer {
     display: block !important;
   }
@@ -889,7 +889,7 @@ header h1 {
     font-size: 55px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   header h1 {
     font-size: 73px;
   }
@@ -909,7 +909,7 @@ header h2 {
     letter-spacing: 15px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   header h2 {
     font-size: 35px;
     letter-spacing: 17px;
@@ -929,7 +929,7 @@ header h2 {
     letter-spacing: 2.5px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .subpage h1 {
     font-size: 80px;
     letter-spacing: 4px;
@@ -943,7 +943,7 @@ header h2 {
   margin: 4% 0;
   overflow: hidden;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box, header {
     width: 100%;
     margin: 2% 0;
@@ -952,7 +952,7 @@ header h2 {
 .box:first-of-type, header:first-of-type {
   margin-top: 30px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box:first-of-type, header:first-of-type {
     margin-top: 50px;
   }
@@ -960,7 +960,7 @@ header h2 {
 .box figure, header figure {
   background-color: #646464;
   width: 100%;
-  height: 125px;
+  height: 175px;
   z-index: 1;
   position: relative;
   cursor: pointer;
@@ -971,7 +971,7 @@ header h2 {
     height: 250px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box figure, header figure {
     height: 300px;
   }
@@ -983,18 +983,18 @@ header h2 {
   width: 100%;
   position: absolute;
   top: 0;
-  margin-top: -80px;
+  margin-top: -30px;
 }
-@media (min-width: 30em) {
+@media (min-width: 40.625em) {
   .box figure img, header figure img {
     top: -30%;
     margin-top: -80px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box figure img, header figure img {
     top: -60%;
-    margin-top: -140px;
+    margin-top: -20%;
   }
 }
 .box figure h1, header figure h1 {
@@ -1024,14 +1024,14 @@ header h2 {
   opacity: 1;
   -moz-opacity: 1;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box figure:hover > .read-more, header figure:hover > .read-more, .box .backbutton figure:hover > div, .backbutton .box figure:hover > div, header .backbutton figure:hover > div, .backbutton header figure:hover > div {
     top: 10px;
   }
 }
 .box article, header article {
   border-top: solid 5px #444444;
-  border-bottom: solid 15px #444444;
+  border-bottom: solid 15px #646464;
   position: relative;
   background-color: white;
   width: 100%;
@@ -1042,7 +1042,7 @@ header h2 {
   width: 90%;
   padding: 10px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box article section, header article section {
     width: 66%;
   }
@@ -1054,7 +1054,7 @@ header h2 {
 }
 .box article .tab, header article .tab {
   width: 100%;
-  border-top: solid 5px #444444;
+  border-top: solid 6px #505050;
   height: 5px;
   clear: both;
 }
@@ -1066,7 +1066,7 @@ header h2 {
   font-family: "ubuntu", Arial, sans-serif;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .box article aside, header article aside {
     width: 30%;
     position: absolute;
@@ -1181,7 +1181,7 @@ header h2 {
     font-size: 80px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .read-more i, .backbutton div i {
     top: -33px;
     font-size: 120px;
@@ -1193,7 +1193,7 @@ header h2 {
     height: 60px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .read-more, .backbutton div {
     width: 90px;
     height: 90px;
@@ -1205,7 +1205,7 @@ header h2 {
   bottom: -152px;
   width: 96%;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .backbutton {
     width: 25%;
     bottom: auto;
@@ -1242,9 +1242,6 @@ header h2 {
   top: -43px;
 }
 
-.halfcol {
-  margin-right: 2%;
-}
 .halfcol:last-of-type {
   margin-right: 0;
 }
@@ -1257,8 +1254,9 @@ header h2 {
 .halfcol .box article section, .halfcol header article section {
   width: 90%;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .halfcol {
+    margin-right: 2%;
     width: 49%;
     float: left;
   }
@@ -1295,7 +1293,7 @@ header h2 {
 .threecol:hover > figure {
   border-top-color: #5d5d5d;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .threecol {
     width: 31%;
     margin-right: 3%;
@@ -1320,14 +1318,14 @@ header h2 {
 .threecol figure img {
   top: 0;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .threecol figure img {
     height: 100%;
     margin-top: 0;
     width: auto !important;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .threecol figure .pictures img, .threecol figure .rollovers img {
     max-width: none !important;
     position: relative;
@@ -1345,7 +1343,7 @@ header h2 {
   overflow: visible;
   margin-top: 150px !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .contact {
     margin-top: 90px !important;
   }
@@ -1452,7 +1450,7 @@ header h2 {
 .fullwidthcontent {
   width: 90% !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .fullwidthcontent {
     width: 96% !important;
   }
@@ -1463,17 +1461,20 @@ header h2 {
 }
 @media (min-width: 40.625em) {
   .fullwidthcontent .span3 {
-    width: 26%;
+    width: 27%;
+    margin: 0 18px;
     float: left;
   }
+  .fullwidthcontent .span3:last-of-type {
+    margin-right: 0;
+  }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .fullwidthcontent .span3 {
     width: 28%;
   }
 }
 .fullwidthcontent .span3 img {
-  height: 80%;
   margin: 10%;
   max-width: 80%;
 }
@@ -1695,7 +1696,7 @@ header h2 {
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .red-theme {
     background-position: center top, left top;
   }
@@ -1780,7 +1781,7 @@ header h2 {
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .green-theme {
     background-position: center top, left top;
   }
@@ -1865,7 +1866,7 @@ header h2 {
 .blue-theme #container {
   margin-bottom: 150px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .blue-theme {
     background-position: center top, left top;
   }
@@ -1947,7 +1948,7 @@ header h2 {
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .orange-theme {
     background-position: center top, left top;
   }
@@ -2101,7 +2102,7 @@ img#presentday2, img#presentday3, img#presentday4, img#presentday5 {
   z-index: 999;
   display: none;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 64.0625em) {
   .slider-control {
     display: block;
     opacity: .5;
