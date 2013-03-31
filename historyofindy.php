@@ -28,7 +28,13 @@
 			<section>
 				<p>
 					It's hard to believe that what was once platted in 1821 to be a the capitol settlement of one square mile would now be recognized as the nation's 13th largest city.
-				<br />
+				</p>
+				<blockquote class="quote-left">This is a test of a Blockquote it is really long and stuff</blockquote>
+				<p>
+					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
+				</p>
+				<blockquote class="quote-right">This is a test of a Blockquote it is really long and stuff</blockquote>
+								<p>
 					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
 				</p>
 			</section>
@@ -65,7 +71,7 @@
 			<section>
 				<p>
 					With the introduction of the first railroad in 1847, the budding city sought to connected their multiple lines by erecting the nation's first union station in 1849. Indianapolis' growing status as the hub of transportation earned its nickname of "the Crossroads of America."
-<br />
+</p><p>
 					As the focal point of the transportation industry, Indianapolis garnered economic growth through foundries, machine shops, auto manufacturers, and auto part suppliers. By the early 20th century the once small town was now the intersection of the automotive industry.
 				</p>
 			</section>
@@ -99,7 +105,7 @@
 			<section>
 				<p>
 					A booming industrial economy also brought with it a thriving 20th-century arts scene. Indianapolis was home to artists of all types, such as acclaimed author and poet James Whitcomb, who is best known for "Little Orphan Annie", which would one day become the famous broadway musical "Annie."
-					<br />
+					</p><p>
 					Indianapolis has always well-represented the arts through it's Symphony Orchestra (named after itself), the Indiana Museum of Art. (one of the nation's oldest and largest art museums), and the International Violin Competition (regarded as one of the most respected musical competitions of the world).
 				</p>
 			</section>

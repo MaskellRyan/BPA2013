@@ -28,7 +28,7 @@
 			<section>
 				<p>
 					Benjamin Harrison once said that "An American citizen could not be a good citizen who did not not have hope in his heart." The 23rd President of the United States was a hopeful man who paved the way for civil rights legislation and established relations with Central America while unifying the the Republican Party.
-					<br />
+					</p><p>
 					As a successful lawyer in Indianapolis Benjamin Harrison wanted to stimulate the local economy by establishing his family home in the city he supported. In 1874, he and his wife Caroline broke ground on the double lot on the west side of North Delaware Street. This home has served many purposes over the years and stands as a reminder of the goals and values held by our former President throughout his life and career. 
 				</p>
 			</section>
@@ -65,7 +65,7 @@
 			<section>
 				<p>
 					The Huddleston Farmhouse has been known to weary travelers throughout history as a place of refuge, rest, and sustenance during a long journey across the National Road.
-					<br />
+					</p><p>
 					In 1841 the home was restore by Indiana Landmarks to serve as a looking glass into the past during a time when John and Susannah Huddleston and their 11 children offered food and accommodations to traveling guests. As a National Road Heritage site this home exhibits a dynamic picture of cross-country travel on the Historic National Road from Cumberland, Maryland to Vandalia, Illinois. 
 				</p>
 			</section>
@@ -101,9 +101,9 @@
 				<p>
 
 					Originally built by architect D.A. Bohlen in 1864 for John Morris, the son of an Indianapolis settler. Financial difficulties in the 1870's required the sale of the home to Noble Butler where it stayed in his lineage until his daughter, Florence Butler passed away in 1957.
-					<br />
+					</p><p>
 					Throughout the years this house has served the poor and those suffering from neglect as a place of refuge until it was purchased by Eli Lilly, a well known philanthropist, in 1964. Lilly acquired the home when it was in danger of being demolished to paved way for the new Interstate 70. The house was reopened to the public in 1969 after major restoration work, including repairing the warped wooden floors, cleaning and restoring the aging brickwork and adding a new slate roof. 
-					<br />
+					</p><p>
 					The Morris-Butler House continues in its ongoing restoration projects while offering daily tours and hosting cultural and educational events. 
 
 				</p>
@@ -143,7 +143,8 @@
 			<section>
 				<p>
 					The Scottish Rite Cathedral is one of the most popular historical buildings in Indianapolis and welcomes more than 100,000 visitors each year though its Neo-Gothic Architecture. Designed by Architect George F. Schrieber, the Cathedral embodies the style and craftsmanship of the Freemasons with its evenly divisible by three structure.
-					<br />	
+					</p>
+					<p>	
 					Complete with a floating ballroom, 2500 pound chandelier and 1200 seat auditorium it is no wonder that the Scottish Rite Cathedral is the second favorite building of any type in Indianapolis. Guided tours are offered daily during the week and every third Saturday of each month.
 				</p>
 			</section>

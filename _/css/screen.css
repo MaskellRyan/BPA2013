@@ -1065,6 +1065,49 @@ header h2 {
   background-color: white;
   width: 100%;
 }
+.box article blockquote, header article blockquote {
+  color: #646464;
+  font-size: 30px;
+  width: 93%;
+  margin: 2% 0 6%;
+  font-family: "ubuntu", Arial, sans-serif;
+}
+@media (min-width: 56.25em) {
+  .box article blockquote, header article blockquote {
+    width: 35%;
+    margin: 2%;
+  }
+}
+.box article .quote-left, header article .quote-left {
+  float: left;
+  border-left-width: 5px;
+  border-right: #444444 0 solid;
+}
+@media (min-width: 56.25em) {
+  .box article .quote-left, header article .quote-left {
+    border-right-width: 5px;
+    border-left-width: 0;
+    padding-left: 0;
+    padding-right: 18px;
+    margin-right: 18px;
+    margin-left: 0;
+  }
+}
+.box article .quote-right, header article .quote-right {
+  margin-left: 0;
+  float: left;
+  border-right-width: 0;
+  border-left: #444444 5px solid;
+}
+@media (min-width: 56.25em) {
+  .box article .quote-right, header article .quote-right {
+    float: right;
+    padding-left: 18px;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 18px;
+  }
+}
 .box article section, header article section {
   margin: 2%;
   float: left;
@@ -1958,6 +2001,11 @@ br {
   border-bottom-color: #a40b00;
   border-top-color: #590800;
 }
+.red-theme .box article blockquote, .red-theme header article blockquote {
+  color: #a40b00;
+  border-left-color: #590800;
+  border-right-color: #590800;
+}
 .red-theme .box article aside, .red-theme header article aside {
   background-color: #fff1f1;
 }
@@ -2045,6 +2093,11 @@ br {
 .green-theme .box article, .green-theme header article {
   border-bottom-color: #768a00;
   border-top-color: #526100;
+}
+.green-theme .box article blockquote, .green-theme header article blockquote {
+  color: #768a00;
+  border-left-color: #526100;
+  border-right-color: #526100;
 }
 .green-theme .box article aside, .green-theme header article aside {
   background-color: #f9ffd7;
@@ -2134,6 +2187,11 @@ br {
   border-bottom-color: #3a8b8b;
   border-top-color: #375353;
 }
+.blue-theme .box article blockquote, .blue-theme header article blockquote {
+  color: #3a8b8b;
+  border-left-color: #375353;
+  border-right-color: #375353;
+}
 .blue-theme .box article aside, .blue-theme header article aside {
   background-color: #e8f5f5;
 }
@@ -2218,6 +2276,11 @@ br {
 .orange-theme .box article, .orange-theme header article {
   border-bottom-color: #c14600;
   border-top-color: #923c00;
+}
+.orange-theme .box article blockquote, .orange-theme header article blockquote {
+  color: #c14600;
+  border-left-color: #923c00;
+  border-right-color: #923c00;
 }
 .orange-theme .box article aside, .orange-theme header article aside {
   background-color: #ffc7a8;

@@ -638,7 +638,45 @@ header {
 		position: relative;
 		background-color: $white;
 		width: 100%;
-		
+
+		blockquote {
+			color: $primary;
+			font-size: 30px;
+			width: 93%;
+			
+			margin: 2% 0 6%;
+			font-family: $sans-regular;
+			@include breakpoint(desktop) {
+				width: 35%;
+				margin: 2%;
+			}
+		}
+		.quote-left {
+			float: left;
+			border-left-width: 5px;
+			border-right: $accent 0 solid;
+			@include breakpoint(desktop) {
+				border-right-width: 5px;
+				border-left-width: 0;
+				padding-left: 0;
+				padding-right: 18px;
+				margin-right: 18px;
+				margin-left: 0;
+			}
+		}
+		.quote-right {
+			margin-left: 0;
+			float: left;
+			border-right-width: 0;
+			border-left: $accent 5px solid;
+			@include breakpoint(desktop) {
+				float: right;
+				padding-left: 18px;
+				padding-right: 0;
+				margin-right: 0;
+				margin-left: 18px;
+			}
+		}
 		
 		section {
 			margin: 2%;
@@ -1517,6 +1555,11 @@ br {
 		article {
 			border-bottom-color: $red;
 			border-top-color: $darkred;
+			blockquote {
+				color: $red;
+				border-left-color: $darkred;
+				border-right-color: $darkred;
+			}
 			aside {
 				background-color: lighten($red, 65%);
 				h3 {
@@ -1594,6 +1637,11 @@ br {
 		article {
 			border-bottom-color: $green;
 			border-top-color: $darkgreen;
+			blockquote {
+				color: $green;
+				border-left-color: $darkgreen;
+				border-right-color: $darkgreen;
+			}
 			aside {
 				background-color: lighten($green, 65%);
 				h3 {
@@ -1671,6 +1719,11 @@ br {
 		article {
 			border-bottom-color: $blue;
 			border-top-color: $darkblue;
+			blockquote {
+				color: $blue;
+				border-left-color: $darkblue;
+				border-right-color: $darkblue;
+			}
 			aside {
 				background-color: lighten($blue, 55%);
 				h3 {
@@ -1745,6 +1798,11 @@ br {
 		article {
 			border-bottom-color: $orange;
 			border-top-color: $darkorange;
+			blockquote {
+				color: $orange;
+				border-left-color: $darkorange;
+				border-right-color: $darkorange;
+			}
 			aside {
 				background-color: lighten($orange, 45%);
 				h3 {
