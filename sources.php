@@ -11,27 +11,21 @@
 	<div class="box sources red"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
-			<div class="pictures">
-				<img src="_/content/img/history/earlyyears2.jpg">
-			</div>
+			<img src="_/content/img/history/earlyyears2.jpg">
 		</figure>
 	</div> <!-- END SOURCED IMG BOX -->
 
 	<div class="box sources green"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
-			<div class="pictures">
-				<img src="_/content/img/history/earlyyears3.jpg">
-			</div>
+			<img src="_/content/img/history/earlyyears3.jpg">
 		</figure>
 	</div> <!-- END SOURCED IMG BOX -->
 
 	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
-			<div class="pictures">
-				<img src="_/content/img/history/earlyyears2.jpg">
-			</div>
+			<img src="_/content/img/history/earlyyears2.jpg">
 		</figure>
 	</div> <!-- END SOURCED IMG BOX -->
 
@@ -42,27 +36,21 @@
 	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
-			<div class="pictures">
-				<img src="_/content/img/history/earlyyears3.jpg">
-			</div>
+			<img src="_/content/img/history/earlyyears3.jpg">
 		</figure>
 	</div> <!-- END SOURCED IMG BOX -->
 
 	<div class="box sources orange"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
-			<div class="pictures">
-				<img src="_/content/img/history/earlyyears2.jpg">
-			</div>
+			<img src="_/content/img/history/earlyyears2.jpg">
 		</figure>
 	</div> <!-- END SOURCED IMG BOX -->
 	
 	<div class="box sources green"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
-			<div class="pictures">
-				<img src="_/content/img/history/earlyyears1.jpg">
-			</div>
+			<img src="_/content/img/history/earlyyears1.jpg">
 		</figure>
 	</div> <!-- END SOURCED IMG BOX -->
 
