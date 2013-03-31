@@ -48,7 +48,6 @@
 <div class="halfcol">
 		<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<?php include 'global/more.html';?>
 			<h1>Who we are</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -75,7 +74,6 @@
 <div class="halfcol">
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<?php include 'global/more.html';?>
 			<h1>Nice logo!</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>

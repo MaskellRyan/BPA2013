@@ -564,6 +564,7 @@ header {
 		overflow: hidden;
 		&:hover ~ .slider-control {
 			opacity: 1;
+			left: 0;
 		}
 
 		img {
@@ -715,7 +716,7 @@ header {
 			margin: 0;
 			position: absolute;
 			@include transition-property(all);
-			@include transition-duration(.3s);
+			@include transition-duration(.5s);
 			@include transition-timing-function(ease-in-out);
 			color: $white;
 			font-size: 8px;
@@ -742,7 +743,7 @@ header {
 				font-style: normal;
 				position: relative;
 				line-height: 1;
-				top: -27px;
+				top: -29px;
 				font-size: 90px;
 			}
 		}
@@ -1679,17 +1680,18 @@ header {
 }
 
 .slider-control {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 999;
 	display: none;
 	@include breakpoint(desktop) {
+		position: absolute;
+		top: 0;
+		left: -57px;
+		z-index: 999;
 		display: block;
 		opacity: .5;
-		@include transition(opacity 0.5s ease-in-out);
+		@include transition(opacity, left 0.5s ease-in-out);
 		&:hover {
 			opacity: 1;
+			left: 0;
 		}
 	}
 }
