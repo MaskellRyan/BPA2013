@@ -9,7 +9,7 @@
 		<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Early Years</h1>
+			<h1>President Benjamin Harrison Home</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
@@ -25,16 +25,17 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>
+					Benjamin Harrison once said that "An American citizen could not be a good citizen who did not not have hope in his heart." The 23rd President of the United States was a hopeful man who paved the way for civil rights legislation and established relations with Central America while unifying the the Republican Party.
+					<br />
+					As a successful lawyer in Indianapolis Benjamin Harrison wanted to stimulate the local economy by establishing his family home in the city he supported. In 1874, he and his wife Caroline broke ground on the double lot on the west side of North Delaware Street. This home has served many purposes over the years and stands as a reminder of the goals and values held by our former President throughout his life and career. 
+				</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="#">Things</a></li>
 					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -44,7 +45,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Industrial Era</h1>
+			<h1>Huddleston Farmhouse</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/indust_train.jpg"></div>
@@ -60,9 +61,11 @@
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
-
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>
+					The Huddleston Farmhouse has been known to weary travelers throughout history as a place of refuge, rest, and sustenance during a long journey across the National Road.
+					<br />
+					In 1841 the home was restore by Indiana Landmarks to serve as a looking glass into the past during a time when John and Susannah Huddleston and their 11 children offered food and accommodations to traveling guests. As a National Road Heritage site this home exhibits a dynamic picture of cross-country travel on the Historic National Road from Cumberland, Maryland to Vandalia, Illinois. 
+				</p>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -75,7 +78,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>20th Century</h1>
+			<h1>Morris-Butler House</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
@@ -91,20 +94,23 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
 
-				<h2>And so it comes to this...</h2>
+				<p>
 
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+					Originally built by architect D.A. Bohlen in 1864 for John Morris, the son of an Indianapolis settler. Financial difficulties in the 1870's required the sale of the home to Noble Butler where it stayed in his lineage until his daughter, Florence Butler passed away in 1957.
+					<br />
+					Throughout the years this house has served the poor and those suffering from neglect as a place of refuge until it was purchased by Eli Lilly, a well known philanthropist, in 1964. Lilly acquired the home when it was in danger of being demolished to paved way for the new Interstate 70. The house was reopened to the public in 1969 after major restoration work, including repairing the warped wooden floors, cleaning and restoring the aging brickwork and adding a new slate roof. 
+					<br />
+					The Morris-Butler House continues in its ongoing restoration projects while offering daily tours and hosting cultural and educational events. 
+
+				</p>
+
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="#">Things</a></li>
 					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -114,7 +120,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Present Day</h1>
+			<h1>Scottish Rite Cathedral</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
@@ -131,16 +137,17 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>
+					The Scottish Rite Cathedral is one of the most popular historical buildings in Indianapolis and welcomes more than 100,000 visitors each year though its Neo-Gothic Architecture. Designed by Architect George F. Schrieber, the Cathedral embodies the style and craftsmanship of the Freemasons with its evenly divisible by three structure.
+					<br />	
+					Complete with a floating ballroom, 2500 pound chandelier and 1200 seat auditorium it is no wonder that the Scottish Rite Cathedral is the second favorite building of any type in Indianapolis. Guided tours are offered daily during the week and every third Saturday of each month.
+				</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="#">Things</a></li>
 					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->

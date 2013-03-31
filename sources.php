@@ -8,63 +8,63 @@
 
 <div class="halfcol">
 
-	<div class="box sources red"> <!-- START CONTENT DRAWER -->
+	<div class="box sources red"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
 			<div class="pictures">
 				<img src="_/content/img/history/earlyyears2.jpg">
 			</div>
 		</figure>
-	</div> <!-- END CONTENT DRAWER -->
+	</div> <!-- END SOURCED IMG BOX -->
 
-	<div class="box sources green"> <!-- START CONTENT DRAWER -->
+	<div class="box sources green"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
 			<div class="pictures">
 				<img src="_/content/img/history/earlyyears3.jpg">
 			</div>
 		</figure>
-	</div> <!-- END CONTENT DRAWER -->
+	</div> <!-- END SOURCED IMG BOX -->
 
-	<div class="box sources blue"> <!-- START CONTENT DRAWER -->
+	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
 			<div class="pictures">
 				<img src="_/content/img/history/earlyyears2.jpg">
 			</div>
 		</figure>
-	</div> <!-- END CONTENT DRAWER -->
+	</div> <!-- END SOURCED IMG BOX -->
 
 </div> <!-- END COLUMN ONE -->
 
 <div class="halfcol">
 
-	<div class="box sources blue"> <!-- START CONTENT DRAWER -->
+	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
 			<div class="pictures">
 				<img src="_/content/img/history/earlyyears3.jpg">
 			</div>
 		</figure>
-	</div> <!-- END CONTENT DRAWER -->
+	</div> <!-- END SOURCED IMG BOX -->
 
-	<div class="box sources orange"> <!-- START CONTENT DRAWER -->
+	<div class="box sources orange"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
 			<div class="pictures">
 				<img src="_/content/img/history/earlyyears2.jpg">
 			</div>
 		</figure>
-	</div> <!-- END CONTENT DRAWER -->
+	</div> <!-- END SOURCED IMG BOX -->
 	
-	<div class="box sources green"> <!-- START CONTENT DRAWER -->
+	<div class="box sources green"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<h1><a href="#">Early Years</a><span> by Flickr user <a href="#">Ryan Maskell</a></span></h1>
 			<div class="pictures">
 				<img src="_/content/img/history/earlyyears1.jpg">
 			</div>
 		</figure>
-	</div> <!-- END CONTENT DRAWER -->
+	</div> <!-- END SOURCED IMG BOX -->
 
 </div> <!-- END COLUMN TWO -->
 

@@ -25,16 +25,17 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
-				<p>Test from Hannah</p>
+				<p>
+					It's hard to believe that what was once platted in 1821 to be a the capitol settlement of one square mile would now be recognized as the nation's 13th largest city.
+				<br />
+					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
+				</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="#">Things</a></li>
 					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -60,9 +61,11 @@
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
-
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>
+					With the introduction of the first railroad in 1847, the budding city sought to connected their multiple lines by erecting the nation's first union station in 1849. Indianapolis' growing status as the hub of transportation earned its nickname of "the Crossroads of America."
+<br />
+					As the focal point of the transportation industry, Indianapolis garnered economic growth through foundries, machine shops, auto manufacturers, and auto part suppliers. By the early 20th century the once small town was now the intersection of the automotive industry.
+				</p>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -91,20 +94,17 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
-
-				<h2>And so it comes to this...</h2>
-
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>
+					A booming industrial economy also brought with it a thriving 20th-century arts scene. Indianapolis was home to artists of all types, such as acclaimed author and poet James Whitcomb, who is best known for "Little Orphan Annie", which would one day become the famous broadway musical "Annie."
+					<br />
+					Indianapolis has always well-represented the arts through it's Symphony Orchestra (named after itself), the Indiana Museum of Art. (one of the nation's oldest and largest art museums), and the International Violin Competition (regarded as one of the most respected musical competitions of the world).
+				</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="#">Things</a></li>
 					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -131,16 +131,13 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>With its continued association with the arts and sports, Indianapolis remains as vital as ever. Teams like the NFL's Indianapolis Colts, NBA's Indiana Pacers, and the WNBA's Indiana Fever keep this city as the growing metropolis it has always been known for, the "Crossroads of America."</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="#">Things</a></li>
 					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
