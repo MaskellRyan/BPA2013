@@ -534,6 +534,10 @@ header {
 			letter-spacing: 4px;
 		}
 	}
+	.box article section {
+		a {color: $orange;}
+		a:hover {color: $darkorange;}
+	}
 }
 
 .box {

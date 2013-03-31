@@ -28,17 +28,29 @@
 				<div class="span3">
 					<img src="_/content/img/about/about_responsiveicon.png">
 					<h2>Responsive and Fluid Design</h2>
-					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+					<p>
+						We designed the site with mobile devices strongly in mind. Because practically everyone has a mobile device these days, and that the sites content might be interesting to a tourist of Indianapolis, a mobile first approach was a must.
+						<br />
+						Our design not only leverages breakpoints and UX changes based on screen size, but also fits the browser window if someone needed it to be, lets say half their screen to reference as they work on a research project.
+					</p>
 				</div>
 				<div class="span3">
 					<img src="_/content/img/about/about_codelang.png">
 					<h2>HTML5 / CSS3 <br> Structure & Styling</h2>
-					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+					<p>
+						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 transitions and effects to provide the user with a fun and entertaining experience and make history fun!
+						<br />
+						The styles of the site is beautifully built with <a href="http://www.sass-lang.com">SASS</a>, or Syntactically Awesome Stylesheets. Aiding in the sites versatility and manageability.
+						<br />
+						We also used <a href="http://www.github.com">GitHub</a> as our version control software, in order to leverage our whole team and work simultaneously. Knowing that each change to the site can be reversed and re-written with a push of a button.
+					</p>
 				</div>
 				<div class="span3">
 					<img src="_/content/img/about/about_browsercompat.png">
 					<h2>Cross Browser Compatibility</h2>
-					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+					<p>
+						Graceful degradation is the word we like to use, it means build the best site you possibly can. Then build fallbacks to support older browsers. We wanted to use as many cutting edge web development techniques as we could. So we really hope you are viewing this in an updated browser!
+					</p>
 				</div>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->

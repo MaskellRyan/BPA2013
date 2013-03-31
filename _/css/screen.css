@@ -935,6 +935,12 @@ header h2 {
     letter-spacing: 4px;
   }
 }
+.subpage .box article section a, .subpage header article section a {
+  color: #c14600;
+}
+.subpage .box article section a:hover, .subpage header article section a:hover {
+  color: #923c00;
+}
 
 .box, header {
   display: inline-block;
