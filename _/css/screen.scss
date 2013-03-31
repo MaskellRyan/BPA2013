@@ -652,11 +652,11 @@ header {
 			}
 		}
 		.quote-left {
-			width: 35%;
 			float: left;
 			border-left-width: 5px;
 			border-right: $accent 0 solid;
 			@include breakpoint(desktop) {
+				width: 35%;
 				border-right-width: 5px;
 				border-left-width: 0;
 				padding-left: 0;
@@ -666,12 +666,13 @@ header {
 			}
 		}
 		.quote-right {
-			width: 35%;
+
 			margin-left: 0;
 			float: left;
 			border-right-width: 0;
 			border-left: $accent 5px solid;
 			@include breakpoint(desktop) {
+				width: 35%;
 				float: right;
 				padding-left: 18px;
 				padding-right: 0;

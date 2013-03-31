@@ -1079,13 +1079,13 @@ header h2 {
   }
 }
 .box article .quote-left, header article .quote-left {
-  width: 35%;
   float: left;
   border-left-width: 5px;
   border-right: #444444 0 solid;
 }
 @media (min-width: 56.25em) {
   .box article .quote-left, header article .quote-left {
+    width: 35%;
     border-right-width: 5px;
     border-left-width: 0;
     padding-left: 0;
@@ -1095,7 +1095,6 @@ header h2 {
   }
 }
 .box article .quote-right, header article .quote-right {
-  width: 35%;
   margin-left: 0;
   float: left;
   border-right-width: 0;
@@ -1103,6 +1102,7 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .box article .quote-right, header article .quote-right {
+    width: 35%;
     float: right;
     padding-left: 18px;
     padding-right: 0;
