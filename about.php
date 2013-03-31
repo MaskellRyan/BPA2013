@@ -50,7 +50,7 @@
 					<p>
 						Graceful degradation is the term we like to use. It means build the best site you possibly can, then build fallbacks to support older browsers. We wanted to use the latest web development techniques so our viewers with modern browsers are getting the full experience out of our website, but still keep the functionality the same for those who are still using older browsers.
 						<br />
-						With this in mind, we also wanted to make sure that anyone on any browser could still view our website effectively, thus being perfectly cross browser compatible.						<br />
+						With this in mind, we also wanted to make sure that anyone on any browser could still view our website effectively, thus being perfectly cross browser compatible.				<br />
 						In the end, our website not only contains all the bells and whistles that make the user experience fun and interactive, the content is still readable and viewable with earlier browser versions in mind.
 					</p>
 				</div>
