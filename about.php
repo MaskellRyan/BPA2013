@@ -30,27 +30,28 @@
 					<img src="_/content/img/about/about_responsiveicon.png">
 					<h2>Responsive and Fluid Design</h2>
 					<p>
-						We designed the site with mobile devices strongly in mind. Because practically everyone has a mobile device these days, and that the sites content might be interesting to a tourist of Indianapolis, a mobile first approach was a must.
-						<br />
-						Our design not only leverages breakpoints and UX changes based on screen size, but also fits the browser window if someone needed it to be, lets say half their screen to reference as they work on a research project.
+						We designed the site with mobile devices strongly in mind, while also being very aware of what kind of content we wanted to display. Since practically everyone has a mobile device these days, it seemed obvious that we should be building this website fluidly and responsively. Our design not only leverages breakpoints and UX changes based on screen size, but also fits the browser window if someone needs it to.
 					</p>
 				</div>
 				<div class="span3">
 					<img src="_/content/img/about/about_codelang.png">
-					<h2>HTML5 / CSS3 <br> Structure & Styling</h2>
+					<h2>HTML5 / CSS3 Structure and Styling</h2>
 					<p>
-						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 transitions and effects to provide the user with a fun and entertaining experience and make history fun!
+						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting.
 						<br />
-						The styles of the site is beautifully built with <a href="http://www.sass-lang.com">SASS</a>, or Syntactically Awesome Stylesheets. Aiding in the sites versatility and manageability.
+						The styles of the site are beautifully built with <a href="http://www.sass-lang.com">SASS</a>, or Syntactically Awesome Stylesheets, aiding in the sites versatility and manageability.
 						<br />
-						We also used <a href="http://www.github.com">GitHub</a> as our version control software, in order to leverage our whole team and work simultaneously. Knowing that each change to the site can be reversed and re-written with a push of a button.
+						We also used <a href="http://www.github.com">GitHub</a> as our version control software in order to leverage our whole team and work simultaneously, without fear of "breaking" the code. Knowing that, each change to the site can be reversed and re-written with a push of a button if we so chose.
 					</p>
 				</div>
 				<div class="span3">
 					<img src="_/content/img/about/about_browsercompat.png">
 					<h2>Cross Browser Compatibility</h2>
 					<p>
-						Graceful degradation is the word we like to use, it means build the best site you possibly can. Then build fallbacks to support older browsers. We wanted to use as many cutting edge web development techniques as we could. So we really hope you are viewing this in an updated browser!
+						Graceful degradation is the term we like to use. It means build the best site you possibly can, then build fallbacks to support older browsers. We wanted to use the latest web development techniques so our viewers with modern browsers are getting the full experience out of our website, but still keep the functionality the same for those who are still using older browsers.
+						<br />
+						With this in mind, we also wanted to make sure that anyone on any browser could still view our website effectively, thus being perfectly cross browser compatible.						<br />
+						In the end, our website not only contains all the bells and whistles that make the user experience fun and interactive, the content is still readable and viewable with earlier browser versions in mind.
 					</p>
 				</div>
 			</section>
