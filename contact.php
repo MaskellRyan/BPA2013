@@ -16,9 +16,9 @@
 			</section>
 			<footer>
 				<ul>
-					<li><a class="contact-tooltip" title="@AysieDesign" href="http://www.twitter.com/aysiedesign"><img src="_/img/twitter.png"></a></li>
+					<li><a class="contact-tooltip" title="@AysieDesign" href="http://www.twitter.com/aysiedesign" target="_blank"><img src="_/img/twitter.png"></a></li>
 					<li><a class="contact-tooltip" title="Ashley@AysieDesign.com" href="mailto:ashley@aysiedesign.com"><img src="_/img/email.png"></a></li>
-					<li><a class="contact-tooltip" title="AysieDesign.com" href="http://www.aysiedesign.com"><img src="_/img/aysie.png"></a></li>
+					<li><a class="contact-tooltip" title="AysieDesign.com" href="http://www.aysiedesign.com" target="_blank"><img src="_/img/aysie.png"></a></li>
 				</ul>
 			</footer>
 		</article>
@@ -33,9 +33,9 @@
 			</section>
 			<footer>
 				<ul>
-					<li><a class="contact-tooltip" title="@MaskellMedia" href="http://www.twitter.com/maskellmedia"><img src="_/img/twitter.png"></a></li>
+					<li><a class="contact-tooltip" title="@MaskellMedia" href="http://www.twitter.com/maskellmedia" target="_blank"><img src="_/img/twitter.png"></a></li>
 					<li><a class="contact-tooltip" title="Ryan@MaskellMedia.com" href="mailto:Ryan@MaskellMedia.com"><img src="_/img/email.png"></a></li>
-					<li><a class="contact-tooltip" title="MaskellMedia.com" href="http://www.MaskellMedia.com/"><img src="_/img/maskellmedia.png"></a></li>
+					<li><a class="contact-tooltip" title="MaskellMedia.com" href="http://www.MaskellMedia.com/" target="_blank"><img src="_/img/maskellmedia.png"></a></li>
 				</ul>
 			</footer>
 		</article>
@@ -50,9 +50,9 @@
 			</section>
 			<footer>
 				<ul>
-					<li><a class="contact-tooltip" title="@BriosoDesign" href="http://www.twitter.com/briosodesign"><img src="_/img/twitter.png"></a></li>
+					<li><a class="contact-tooltip" title="@BriosoDesign" href="http://www.twitter.com/briosodesign" target="_blank"><img src="_/img/twitter.png"></a></li>
 					<li><a class="contact-tooltip" title="Hannah@BriosoDesign.com" href="mailto:Hannah@Briosodesign.com"><img src="_/img/email.png"></a></li>
-					<li><a class="contact-tooltip" title="BriosoDesign.com" href="http://www.briosodesign.com/"><img src="_/img/brioso.png"></a></li>
+					<li><a class="contact-tooltip" title="BriosoDesign.com" href="http://www.briosodesign.com/" target="_blank"><img src="_/img/brioso.png"></a></li>
 				</ul>
 			</footer>
 		</article>

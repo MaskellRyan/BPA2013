@@ -50,11 +50,11 @@ var slider18 = new Swipe(document.getElementById('slider18'), {});
 var slider19 = new Swipe(document.getElementById('slider19'), {});
 var slider20 = new Swipe(document.getElementById('slider20'), {});
 </script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('.contact-tooltip').tooltip();
-		});
-	</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.contact-tooltip').tooltip();
+	});
+</script>
 
 <!-- <div style='text-align:center;padding-top:20px;'>
   
