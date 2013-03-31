@@ -52,7 +52,7 @@ var slider20 = new Swipe(document.getElementById('slider20'), {});
 </script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.contact-tooltip').tooltip();
+		$('.tooltips').tooltip();
 	});
 </script>
 
