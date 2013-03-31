@@ -841,7 +841,7 @@ footer:last-of-type img {
 }
 footer:last-of-type ul {
   font-size: 15px;
-  height: 105px;
+  height: 128px;
   padding: 8px 0;
   background-color: rgba(125, 125, 125, 0.3);
 }
@@ -873,6 +873,7 @@ footer:last-of-type ul li a {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
   color: white;
+  padding: 10px;
 }
 footer:last-of-type ul li a:hover, footer:last-of-type ul li a:active {
   width: 100%;
@@ -1618,6 +1619,10 @@ br {
   width: 100% !important;
 }
 
+.navbar {
+  border-bottom: solid 3px #646464;
+}
+
 .navbar-wrapper {
   position: fixed;
   top: 0;
@@ -1869,6 +1874,9 @@ br {
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
+.red-theme .navbar {
+  border-bottom-color: #590800;
+}
 @media (min-width: 56.25em) {
   .red-theme {
     background-position: center top, left top;
@@ -1953,6 +1961,9 @@ br {
   background-position: center 40px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
+}
+.green-theme .navbar {
+  border-bottom-color: #526100;
 }
 @media (min-width: 56.25em) {
   .green-theme {
@@ -2039,6 +2050,9 @@ br {
 .blue-theme #container {
   margin-bottom: 150px;
 }
+.blue-theme .navbar {
+  border-bottom-color: #375353;
+}
 @media (min-width: 56.25em) {
   .blue-theme {
     background-position: center top, left top;
@@ -2120,6 +2134,9 @@ br {
   background-position: center 40px, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
+}
+.orange-theme .navbar {
+  border-bottom-color: #923c00;
 }
 @media (min-width: 56.25em) {
   .orange-theme {

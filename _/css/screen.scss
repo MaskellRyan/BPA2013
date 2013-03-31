@@ -472,7 +472,7 @@ footer:last-of-type {
 	}
 	ul {
 		font-size: 15px;
-    	height: 105px;
+    	height: 128px;
     	padding: 8px 0;
     	background-color: rgba(125,125,125,.3);
     	@include breakpoint(desktop) {
@@ -485,6 +485,7 @@ footer:last-of-type {
 				font-family: $sans-regular;
 				@include fullbar-link;
 				@include nav-styling;
+				padding: 10px;
 				&:hover, &:active {
 					background-color: transparentize($gray, 0.7);
 					//background-color: $primary;
@@ -1182,6 +1183,10 @@ br {
     	width: 100% !important;
     }
 
+    .navbar {
+    	border-bottom: solid 3px $primary;
+    }
+
     .navbar-wrapper {
       position: fixed;
       top: 0;
@@ -1441,6 +1446,9 @@ br {
 	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
+	.navbar {
+		border-bottom-color: $darkred;
+	}
 	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
@@ -1515,6 +1523,9 @@ br {
 	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
+	.navbar {
+		border-bottom-color: $darkgreen;
+	}
 	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
@@ -1589,6 +1600,9 @@ br {
 	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
+	.navbar {
+		border-bottom-color: $darkblue;
+	}
 	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
@@ -1660,6 +1674,9 @@ br {
 	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
+	.navbar {
+		border-bottom-color: $darkorange;
+	}
 	@include breakpoint(desktop) {
 		background-position: center top, left top;
 		nav {
