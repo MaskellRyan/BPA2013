@@ -698,6 +698,12 @@ header {
 					}
 				}
 			}
+			ol {
+				li {
+					font-family: $slab-regular;
+					margin-left: 45px;
+				}
+			}
 		}
 	}
 	.collapse {
@@ -711,7 +717,7 @@ header {
 			@include transition-property(all);
 			@include transition-duration(.3s);
 			@include transition-timing-function(ease-in-out);
-			color: $primary;
+			color: $white;
 			font-size: 8px;
 			font-family: $slab-bold;
 			bottom: auto;
@@ -722,40 +728,22 @@ header {
 			text-transform: uppercase;
 			box-shadow: 0 0 0 0 transparent;
 			text-align: center;
-			background-color: $white;
-			border: 3px solid darken($white, 20%);
-			height: 50px;
-			width: 50px;
+			background-color: $accent;
+			border: 3px solid $white;
 			padding: 0;
 			right: 15px;
 			@include border-radius(100px);
 			@include box-shadow(0 2px 4px rgba(0,0,0,0.3));
-
+			width: 60px;
+			height: 60px;
 			i {
 				text-transform: lowercase;
 				font-family: $symbol;
 				font-style: normal;
-				font-size: 63px;
 				position: relative;
-				top: -14px;
 				line-height: 1;
-				@include breakpoint(mobile) {
-					top: -20px;
-					font-size: 80px;
-				}
-				@include breakpoint(desktop) {
-					top: -33px;
-					font-size: 120px;
-				}
-			}
-
-			@include breakpoint(mobile) {
-				width: 60px;
-				height: 60px;
-			}
-			@include breakpoint(desktop) {
-				width: 90px;
-				height: 90px;
+				top: -27px;
+				font-size: 90px;
 			}
 		}
 
@@ -776,6 +764,8 @@ header {
 		position: relative;
 		right: auto;
 		top: auto;
+		background-color: $white;
+		border-color: darken($white, 15%);
 		width: 90px;
 		height: 90px;
 		margin: 20px;
@@ -797,6 +787,25 @@ header {
 			font-size: 120px;
 			top: -43px;
 		}
+	}
+}
+
+.general-btn {
+	left: 30px;
+	bottom: -152px;
+	div {
+		color: $gray;
+		&:hover > i {
+			color: $black;
+		}
+	}
+	h2 {
+		width: 200%;
+		top: 17px !important;
+	}
+	i {
+		font-size: 100px !important;
+		top: -30px !important;
 	}
 }
 
@@ -1018,6 +1027,42 @@ header {
 	}
 }
 
+.img-left {
+	p, ul {
+		width: 90%;
+		margin-top: 20px;
+		li {@include nobullet;}
+		li span {
+			font-family: $sans-bold;
+		}
+		@include breakpoint(tablet) {
+			width: 62%;
+			float: right;
+			margin-top: 0;
+		}
+	}
+	h2 {
+		color: $black !important;
+		font-family: $slab-bold;
+		@include breakpoint(tablet) {
+			font-size: 20px;
+			
+			float: right;
+			width: 62% !important;
+		}
+	}
+	img {
+		width: 25%;
+		float: left;	
+		margin-right: 20px;
+		@include breakpoint(desktop) {
+			width: 30%;
+			position: relative;
+			left: 10px;
+		}
+	}
+}
+
 /* ::Media queries */
 /* ------------------------------------------------------------ */
 
@@ -1056,6 +1101,9 @@ header {
 
 .is-hidden {
 	display: none;
+	@include breakpoint(desktop) {
+		display: block;
+	}
 }
 
 .is-shown, .is-block {
@@ -1281,7 +1329,7 @@ header {
 		.tab {
 			border-top-color: $darkred;
 		}
-		figure .read-more {color: $red;}
+		figure .read-more {background-color: transparentize($darkred, 0.1);}
 		article {
 			border-bottom-color: $red;
 			border-top-color: $darkred;
@@ -1355,7 +1403,7 @@ header {
 		.tab {
 			border-top-color: $darkgreen;
 		}
-		figure .read-more {color: $green;}
+		figure .read-more {background-color: transparentize($darkgreen, 0.1);}
 		article {
 			border-bottom-color: $green;
 			border-top-color: $darkgreen;
@@ -1429,7 +1477,7 @@ header {
 		.tab {
 			border-top-color: $darkblue;
 		}
-		figure .read-more {color: $blue;}
+		figure .read-more {background-color: transparentize($darkblue, 0.1);}
 		article {
 			border-bottom-color: $blue;
 			border-top-color: $darkblue;
@@ -1500,7 +1548,7 @@ header {
 		.tab {
 			border-top-color: $darkorange;
 		}
-		figure .read-more {color: $orange;}
+		figure .read-more {background-color: transparentize($darkorange, 0.1);}
 		article {
 			border-bottom-color: $orange;
 			border-top-color: $darkorange;

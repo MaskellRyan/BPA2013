@@ -8,7 +8,7 @@
 
 		<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>Early Years</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -43,7 +43,7 @@
 
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>Industrial Era</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -74,7 +74,7 @@
 
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>20th Century</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -113,7 +113,7 @@
 
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>Present Day</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>

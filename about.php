@@ -8,7 +8,7 @@
 
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>About this site</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -48,7 +48,7 @@
 <div class="halfcol">
 		<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>Who we are</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -56,13 +56,17 @@
 			  </div>
 			</div>
 		</figure>
-		<div class="slider-control">
-			<div class="slider-btn" onclick='slider2.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider2.next();'><p>î</p></div>
-		</div>
 		<article id="drawer2" class="collapse" style="height:auto;">
-			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+			<section class="img-left">
+				<img src="_/content/img/about/nic.jpg">
+				<ul>
+					<li><span>Chapter Name:</span> North Idaho College BPA</li>
+					<li><span>Theme:</span> History of Indianapolis and its surrounding suburbs.</li>
+					<li><span>School:</span> North Idaho College</li>
+					<li><span>City:</span> Coeur d'Alene</li>
+					<li><span>State:</span> Idaho</li>
+					<li><span>Year:</span> 2013</li>
+				</li>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -71,7 +75,7 @@
 <div class="halfcol">
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
-			<div class="read-more"><i>i</i></div>
+			<?php include 'global/more.html';?>
 			<h1>Nice logo!</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
@@ -80,12 +84,21 @@
 			</div>
 		</figure>
 		<article id="drawer3" class="collapse" style="height:auto;">
-			<section>
+			<section class="img-left">
+				<img src="_/content/img/about/indycitylogo.png">
+				<h2>Well, we think its pretty nice.</h2>
 				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
 </div>
+
+<a class="is-hidden backbutton general-btn" href="contact.php">
+<div>
+		<i>.</i>
+		<h2>Get in touch with us</h2>
+</div>
+</a>
 
 <?php include 'global/foot.php';?>
