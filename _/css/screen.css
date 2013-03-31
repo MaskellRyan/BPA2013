@@ -1074,11 +1074,12 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .box article blockquote, header article blockquote {
-    width: 35%;
+    width: 95%;
     margin: 2%;
   }
 }
 .box article .quote-left, header article .quote-left {
+  width: 35%;
   float: left;
   border-left-width: 5px;
   border-right: #444444 0 solid;
@@ -1094,6 +1095,7 @@ header h2 {
   }
 }
 .box article .quote-right, header article .quote-right {
+  width: 35%;
   margin-left: 0;
   float: left;
   border-right-width: 0;
