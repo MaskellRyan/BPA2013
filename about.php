@@ -37,7 +37,7 @@
 					<img src="_/content/img/about/about_codelang.png">
 					<h2>HTML5 / CSS3 Structure and Styling</h2>
 					<p>
-						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting.
+					The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting.
 						<br />
 						The styles of the site are beautifully built with <a href="http://www.sass-lang.com">SASS</a>, or Syntactically Awesome Stylesheets, aiding in the sites versatility and manageability.
 						<br />
