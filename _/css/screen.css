@@ -1583,20 +1583,20 @@ br {
 /* ::State styles */
 /* ------------------------------------------------------------ */
 .is-hidden {
-  display: none;
+  display: none !important;
 }
 @media (min-width: 56.25em) {
   .is-hidden {
-    display: block;
+    display: block !important;
   }
 }
 
 .is-shown, .is-block {
-  display: block;
+  display: block !important;
 }
 @media (min-width: 56.25em) {
   .is-shown, .is-block {
-    display: none;
+    display: none !important;
   }
 }
 
