@@ -64,7 +64,7 @@ body {
 	letter-spacing: 1;
 	background-color: $primary;
 	background-image: url("../img/graycity.png"), url("../img/darkgray-tex.png");
-	background-position: center 340px, left top;
+	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
@@ -107,11 +107,12 @@ a {
 
 #container {
 	@extend .clearfix;
-	margin: 0 auto 20px;
+	margin: 70px auto 20px;
 	width: 95%;
 	position: relative;
 	padding: 0 2%;
 	@include breakpoint(desktop) {
+		margin-top: 0;
 		width: 80%;
 		margin-left: 20%;
 		margin-bottom: 150px;
@@ -340,7 +341,9 @@ nav {
 				@include breakpoint(desktop) {
 					padding: 10px 5px;
 					border-bottom: 1px solid transparent;
-					&:hover {border-bottom: 1px solid $primary;}
+					&:hover {
+					//	border-bottom: 1px solid $primary;
+					}
 				}
 			}
 		}
@@ -355,7 +358,9 @@ nav {
 			}
 		}
 	}
-	.color-red, .color-green, .color-blue, .color-orange {
+}
+
+.color-red, .color-green, .color-blue, .color-orange {
 		width: 100%;
 		&:hover {
 			padding-left: 27px;
@@ -366,6 +371,7 @@ nav {
 		border-bottom: 3px solid $darkred;
 		&:hover {
 			@include css-gradient(lighten($red, 10%), $red);
+			border-bottom: 3px solid $darkred;
 		}
 	}
 	.color-green {
@@ -373,6 +379,7 @@ nav {
 		border-bottom: 3px solid $darkgreen;
 		&:hover {
 			@include css-gradient(lighten($green, 10%), $green);
+			border-bottom: 3px solid $darkgreen;
 		}
 	}
 	.color-blue {
@@ -380,6 +387,7 @@ nav {
 		border-bottom: 3px solid $darkblue;
 		&:hover {
 			@include css-gradient(lighten($blue, 10%), $blue);
+			border-bottom: 3px solid $darkblue;
 		}
 	}
 	.color-orange {
@@ -387,6 +395,7 @@ nav {
 		border-bottom: 3px solid $darkorange;
 		&:hover {
 			@include css-gradient(lighten($orange, 10%), $orange);
+			border-bottom: 3px solid $darkorange;
 		}
 	}
 	@include breakpoint(desktop) {
@@ -394,7 +403,6 @@ nav {
 			width: 90%;
 		}
 	}
-}
 
 footer {
 	margin: 0 auto;
@@ -440,10 +448,13 @@ footer {
 	}
 }
 
-footer:nth-child(4) {
+footer:last-of-type {
 	display: block;
 	@include breakpoint(desktop) {
 		display: none;
+		background-image: none;
+		bottom: -7px;
+		position: absolute;
 	}
 	text-align: center;
 	background-image: url(../img/darkslats.png);
@@ -454,12 +465,20 @@ footer:nth-child(4) {
 		width: 60%;
 		margin-top: 20px;
 		margin-bottom: 30px;
+		@include breakpoint(desktop) {
+			width: 95%;
+			margin: 0 auto;
+		}
 	}
 	ul {
 		font-size: 15px;
     	height: 105px;
     	padding: 8px 0;
     	background-color: rgba(125,125,125,.3);
+    	@include breakpoint(desktop) {
+    		background-color: transparent;
+    		font-size: 13px;
+    	}
 		li {
 			list-style-type: none;
 			a {
@@ -467,8 +486,9 @@ footer:nth-child(4) {
 				@include fullbar-link;
 				@include nav-styling;
 				&:hover, &:active {
-					background-color: $primary;
-					border-bottom: 3px solid $accent;
+					background-color: transparentize($gray, 0.7);
+					//background-color: $primary;
+					//border-bottom: 3px solid $accent;
 					width: 100%;
 				}
 			}
@@ -1155,6 +1175,111 @@ br {
     padding: 0;
 }
 
+// nav
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .container {
+    	width: 100% !important;
+    }
+
+    .navbar-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      //margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    .brand {
+      height: 55px;
+      overflow: hidden;
+      img {
+        margin-top: -2px;
+        height: 30px;
+      }
+    }
+
+    .navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav > li > a:focus {
+      //@include background-image(linear-gradient(top, $blue, lighten($blue, 10%)));
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      //@include background-image(linear-gradient(top, lighten($blue, 10%), $blue));
+      background-image: url(../img/darkslats.png);
+      border: 0;
+      border-radius: 0;
+       -webkit-box-shadow: 0 0 0px rgba(0,0,0,0);
+          -moz-box-shadow: 0 0 0px rgba(0,0,0,0);
+               box-shadow: 0 0 0px rgba(0,0,0,0);
+      &:before {
+        //@include background-image(linear-gradient(top, lighten($blue, 10%), $blue));
+        bottom: 0;
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 55px;
+        z-index: -5;
+        width: 9999px;
+      }
+      &:before {
+        left: 0;
+      }
+    }
+
+    .navbar-inverse .brand, .navbar-inverse .nav > li > a {
+      color: $white;
+    }
+
+    .navbar-inverse .btn-navbar {
+    	background-color: $gray;
+    	@include background-image(linear-gradient(top, $lightgray, lighten($mediumgray, 10%)));
+    	&:hover {
+    		background-color: darken($lightgray, 3%);
+    	}
+    }
+
+    .navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+      //@include background-image(linear-gradient(top, $blue, lighten($blue, 10%)));
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+      outline: 0;
+      &:hover {
+        //@include background-image(linear-gradient(top, $blue, lighten($blue, 10%)));
+      }
+    }
+
+    .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+    	color: $white !important;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+      //@include background-image(linear-gradient(top, $blue, lighten($blue, 10%)));
+      outline: 0;
+    }
+
+
 
 // COLOR THEMES
 
@@ -1313,7 +1438,7 @@ br {
 .red-theme {
 	background-color: $red;
 	background-image: url("../img/redcity.png"), url("../img/darkred-tex.png");
-	background-position: center 340px, left top;
+	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
@@ -1387,7 +1512,7 @@ br {
 .green-theme {
 	background-color: $green;
 	background-image: url("../img/greencity.png"), url("../img/darkgreen-tex.png");
-	background-position: center 340px, left top;
+	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
@@ -1461,7 +1586,7 @@ br {
 	}
 	background-color: $blue;
 	background-image: url("../img/bluecity.png"), url("../img/darkblue-tex.png");
-	background-position: center 340px, left top;
+	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
@@ -1532,7 +1657,7 @@ br {
 .orange-theme {
 	background-color: $orange;
 	background-image: url("../img/orangecity.png"), url("../img/darkorange-tex.png");
-	background-position: center 340px, left top;
+	background-position: center 40px, left top;
 	background-repeat: no-repeat, repeat;
 	background-size: auto 500px, auto auto;
 	@include breakpoint(desktop) {
@@ -1713,7 +1838,7 @@ br {
 .slider-control {
 		position: absolute;
 		top: 0;
-		z-index: 999;
+		z-index: 9;
 		display: block;
 		opacity: .7;
 	@include breakpoint(desktop) {
