@@ -1116,6 +1116,9 @@ br {
 
 .is-shown, .is-block {
 	display: block;
+	@include breakpoint(desktop) {
+		display: none;
+	}
 }
 
 .is-uppercase {
@@ -1670,30 +1673,51 @@ br {
 	}
 
 .slider-btn {
-	font-family: $symbol;
-	font-size: 55px;
 	color: $white;
 	background-color: transparentize($accent, 0.1);
-	height: 50px;
-	width: 70px;
+	height: 30px;
+	width: 65px;
 	margin: 10px 0;
-	padding: 0 0 5px 23px;
+	padding: 0 0 0 10px;
 	cursor: pointer;
+	letter-spacing: 7px;
 	border-right: 3px solid $white;
+	@include breakpoint(desktop) {
+		height: 50px;
+		width: 100px;
+		letter-spacing: 0;
+	}
 	p {
+		font-size: 33px;
+		font-family: $symbol;
 		position: relative;
-		top: -22px;
+		top: -14px;
+		right: 0;
+		@include breakpoint(desktop) {
+			font-size: 55px;
+			top: -22px;
+			right: 0;
+		}
+		span {
+			text-transform: uppercase;
+			font-size: 13px;
+			font-family: $sans-regular;
+			letter-spacing: 1px;
+			position: relative;
+			top: -9px;
+			margin: 0 5px;
+		}
 	}
 }
 
 .slider-control {
-	display: none;
-	@include breakpoint(desktop) {
 		position: absolute;
 		top: 0;
-		left: -57px;
 		z-index: 999;
 		display: block;
+		opacity: .7;
+	@include breakpoint(desktop) {
+		left: -82px;
 		opacity: .5;
 		@include transition(opacity, left 0.5s ease-in-out);
 		&:hover {

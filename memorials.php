@@ -21,8 +21,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider1.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider1.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider1.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider1.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider1.next();'><p>på</p></div>
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
@@ -47,8 +48,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider2.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider2.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider2.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider2.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider2.next();'><p>på</p></div>
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
@@ -73,8 +75,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider3.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider3.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider3.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider3.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider3.next();'><p>på</p></div>
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
@@ -103,8 +106,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider4.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider4.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider4.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider4.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider4.next();'><p>på</p></div>
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
@@ -132,8 +136,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider5.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider5.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider5.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider5.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider5.next();'><p>på</p></div>
 		</div>
 		<article id="drawer5" class="collapse">
 			<section>
@@ -158,8 +163,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider6.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider6.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider6.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider6.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider6.next();'><p>på</p></div>
 		</div>
 		<article id="drawer6" class="collapse">
 			<section>
@@ -184,8 +190,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider7.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider7.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider7.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider7.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider7.next();'><p>på</p></div>
 		</div>
 		<article id="drawer7" class="collapse">
 			<section>
@@ -214,8 +221,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider8.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider8.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider8.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider8.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider8.next();'><p>på</p></div>
 		</div>
 		<article id="drawer8" class="collapse">
 			<section>

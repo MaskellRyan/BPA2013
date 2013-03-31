@@ -20,8 +20,9 @@
 			</div>
 		</figure>
 		<div class="slider-control">
-			<div class="slider-btn" onclick='slider1.prev();'><p>ë</p></div> 
-			<div class="slider-btn" onclick='slider1.next();'><p>î</p></div>
+			<div class="slider-btn is-hidden" onclick='slider1.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider1.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider1.next();'><p>på</p></div>
 		</div>
 		<article id="drawer1" class="collapse">
 			<section class="fullwidthcontent">
