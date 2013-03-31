@@ -1442,6 +1442,16 @@ header h2 {
   width: 30px;
   margin: 7% 34%;
 }
+@media (min-width: 40.625em) {
+  .contact article footer ul li a img {
+    margin: 3% 43.8%;
+  }
+}
+@media (min-width: 56.25em) {
+  .contact article footer ul li a img {
+    margin: 7% 34%;
+  }
+}
 .contact article footer ul li:nth-child(odd) {
   background-color: #444444;
 }
@@ -1450,6 +1460,7 @@ header h2 {
 }
 .contact .avatar {
   width: 80%;
+  max-width: 350px;
   overflow: hidden;
   border: white 7px solid;
   position: relative;

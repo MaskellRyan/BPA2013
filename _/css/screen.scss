@@ -980,6 +980,12 @@ header {
 							height: 30px;
 							width: 30px;
 							margin: 7% 34%;
+							@include breakpoint(tablet) {
+								margin: 3% 43.8%;
+							}
+							@include breakpoint(desktop) {
+								margin: 7% 34%;
+							}
 						}
 					}
 					@include nobullet;
@@ -995,6 +1001,7 @@ header {
 	}
 	.avatar {
 		width: 80%;
+		max-width: 350px;
 		overflow: hidden;
 		border: $white 7px solid;
 		position: relative;
