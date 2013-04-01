@@ -30,14 +30,18 @@
 					It's hard to believe that what was once platted in 1821 to be a the capitol settlement of one square mile would now be recognized as the nation's 13th largest city.
 				</p>
 				<p>
-					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
+					What was once a swampy uninhabited piece of land quickly turned into a settlement for travelers who stated setting up permanent dwellings along the White River. 
+				</p>
+				<p>
+					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes and was originally know as the Fall Creek Settlement by those who colonized the area. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
 				</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
+					<li><a href="http://indianapolis-indiana.funcityfinder.com/2008/09/17/indianapolis-art-museums/">Museums</a></li>
+					<li><a href="http://www.indianapolismotorspeedway.com/history/">History of Indy 500</a></li>
+					<li><a href="http://inwhiteriver.wrsp.in.gov/">White River State Park</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -65,14 +69,19 @@
 		<article id="drawer2" class="collapse">
 			<section>
 				<p>
+					Originally the White River was planned to serve as the major transportation artery. With its sandy soil it was inadequate to meet the demands of transportation. Under the state's Mammoth Improvement of 1835, sites were set on building a more reliable way to promote trade and commerce.
+				</p>
+				
+				<p>
 					With the introduction of the first railroad in 1847, the budding city sought to connected their multiple lines by erecting the nation's first union station in 1849. Indianapolis' growing status as the hub of transportation earned its nickname of "the Crossroads of America."
-</p><p>
+</p>
+			<p>
 					As the focal point of the transportation industry, Indianapolis garnered economic growth through foundries, machine shops, auto manufacturers, and auto part suppliers. By the early 20th century the once small town was now the intersection of the automotive industry.
 				</p>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+				<p>Since the first railway became operational in 1947 the population soared from 8,000 in 1850 to more than 169,000 by 1900.</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -107,8 +116,9 @@
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
+					<li><a href="http://www.indianapolissymphony.org/">Indianapolis Symphony Orchestra</a></li>
+					<li><a href="http://indyjazzfest.net/">Indy Jazz Fest</a></li>
+					<li><a href="http://www.indyarts.org/">Art Council of Indy</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -136,13 +146,16 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
+				<p>In Indianapolis there is never a shortage of things to occupy your time. Forbes recognizes this city as one of America's Best Shopping Cities, with a total of nearly 6,000 retail locations. Indy has lots to boast about like, opening the first union station ins the world in 1853, having the two largest sporting single-day sporting events in the world (the Indianapolis 500 and the Brickyard 400), and being second only to Washington D.C for the number of monuments and memorials.</p>  
 				<p>With its continued association with the arts and sports, Indianapolis remains as vital as ever. Teams like the NFL's Indianapolis Colts, NBA's Indiana Pacers, and the WNBA's Indiana Fever keep this city as the growing metropolis it has always been known for, the "Crossroads of America."</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
+					<li><a href="http://www.indianapolismotorspeedway.com/indy500/">Indianapolis 500</a></li>
+					<li><a href="http://www.indianapolismotorspeedway.com/brickyard400/">Brickyard 400</a></li>
+					<li><a href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
+					<li><a href="http://www.colts.com/">NFL Colts</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
