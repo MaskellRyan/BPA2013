@@ -962,7 +962,7 @@ header {
 			@include breakpoint(desktop) {
 				height: 100%;
 				margin-top: 0;
-				width: auto !important;
+				width: 100% !important;
 			}
 		}
 		.pictures img {
@@ -976,7 +976,7 @@ header {
 			bottom: auto;
 			top: 0;
 			height: 100px;
-			box-shadow: 0 61px 31px -18px rgba(0, 0, 0, 0.9) inset;
+			box-shadow: 0 142px 51px -68px rgba(0, 0, 0, 0.9) inset;
 			padding: 4%;
 		}
 	}
