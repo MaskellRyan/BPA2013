@@ -9,7 +9,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Early Years</h1>
+			<h1>Broad Ripple Village</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
@@ -26,16 +26,14 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>Only a few miles from downtown Indianapolis is the art scene of Broad Ripple Village. Complete with live theatre, historic buildings and boutiques, these charming streets are full of the most original music stages and nightlife diversions.</p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
+					<li><a href="http://travela.priceline.com/hotel/POI-Broad_Ripple_Village_Indianapolis_Indiana_United_States-98920506.html">Accommodations</a></li>
+					<li><a href="http://www.urbanspoon.com/n/40/3901/Indianapolis/Broad-Ripple-restaurants">Eats and Drinks</a></li>
+					<li><a href="http://visitindy.com/indianapolis-broad-ripple-village">Things To Do</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -45,7 +43,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Industrial Era</h1>
+			<h1>Massachusetts Avenue</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/indust_train.jpg"></div>
@@ -62,13 +60,12 @@
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>Known as the arts and theatre district of Indianapolis is the famous Mass Ave, the city's most historic and oppidan communities. It's eclectic, trendy, and the place to be!</p>
 
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+				<p>Known to the locals as "Mass Ave" the city has established itself as the arts center of Indianapolis and carries the slogan, "45 degrees from ordinary."</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -77,7 +74,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>20th Century</h1>
+			<h1>Fountain Square</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
@@ -94,21 +91,19 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
-
-				<h2>And so it comes to this...</h2>
-
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>This European style village is a one-of-a-kind cultural district, with its quaint town square and central fountain. A blend of funky independence and architecture makes Fountain Square a choice for visitors and natives alike.</p>
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
+				<h3>What To do</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
+				<ul>
+					<li>Lunch and Dinner</li>
+					<li>Entertainment and Nightlife</li>
+					<li>Antiquing</li>
+					<li>Art Galleries</li>
+					<li>One-of-a-kind Events</li>
+					<li>Local Music Scene</li>
 				</ul>
+				
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -117,7 +112,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Present Day</h1>
+			<h1>The Wholesale District</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
@@ -135,18 +130,77 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>Featuring the Circle Centre Mall, local boutiques, and luxury hotel accommodations, this district a fashonista's dream come true. The Wholesale Districts reputation for inviting hospitality makes it one of its visitor's admired place to stay awhile. </p>
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
+				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
+				<p>The Wholesale District has entertainment as front and center. For the biggest names and the brightest attractions Indianapolis has to offer, you will find them in the Wholesale District.</p>			</aside>
+			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
+		</article>
+	</div> <!-- END CONTENT DRAWER -->
+	
+	<div class="box"> <!-- START CONTENT DRAWER -->
+		<figure data-toggle="collapse" data-target="#drawer5"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
+			<?php include 'global/more.html';?>
+			<h1>Indiana Ave</h1>
+			<div id="slider5" class='swipe'>
+			  <div class='swipe-wrap'>
+			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			  </div>
+			</div>
+		</figure>
+		<div class="slider-control">
+			<div class="slider-btn is-hidden" onclick='slider5.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider5.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider5.next();'><p>på</p></div>
+		</div>
+		<article id="drawer5" class="collapse">
+			<section>
+				<p>Jazz is the beat that moves this district. Rich in African American culture is the city's most historically rich community. Come for the Jazz, perfectly restored neighborhoods,  unique heritage and the Madame Walker Theatre Center. </p>
+			</section>
+			<aside>
+				<h3>All That Jazz!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
+				<p>An incorporation of African American tribal rhythms blended with European began a musical movement known as Jazz. A precise definition of Jazz music is still not unanimously agreed upon but never-the-less it's appeal is universal. </p>			</aside>
+			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
+		</article>
+	</div> <!-- END CONTENT DRAWER -->
+	
+	<div class="box"> <!-- START CONTENT DRAWER -->
+		<figure data-toggle="collapse" data-target="#drawer6"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
+			<?php include 'global/more.html';?>
+			<h1>Canal and White River State Park</h1>
+			<div id="slider6" class='swipe'>
+			  <div class='swipe-wrap'>
+			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
+			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			  </div>
+			</div>
+		</figure>
+		<div class="slider-control">
+			<div class="slider-btn is-hidden" onclick='slider6.prev();'><p>â<span>slide</span></p></div> 
+			<div class="slider-btn is-hidden" onclick='slider6.next();'><p><span>slide</span>å</p></div>
+			<div class="slider-btn is-shown" onclick='slider6.next();'><p>på</p></div>
+		</div>
+		<article id="drawer6" class="collapse">
+			<section>
+				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.</p>
+			</section>
+			<aside>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
+					<li><a href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
+					<li><a href="http://www.indyzoo.com/SitePages/WhiteRiverGardens/welcomeToTheGardens.aspx">White River Gardens</a></li>
+					<li><a href="http://www.indianamuseum.org/visit/exhibit/">Indiana State Museum</a></li>
+					<li><a href="http://www.milb.com/content/page.jsp?ymd=20050630&content_id=41163646&sid=t484&vkey=team1">Victory Field</a></li>
+					<li><a href="http://www.ncaahallofchampions.org/index.phpe">NCAA Hall of Champions</a></li>
 				</ul>
-			</aside>
+						</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
