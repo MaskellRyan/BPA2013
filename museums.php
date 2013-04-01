@@ -135,7 +135,7 @@
 			</section>
 			<aside>
 				<h3>The Collection</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
+				<ol> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li>African Art</li>
 					<li>American Painting and Sculpture to 1945</li>
 					<li>Ancient Art of the Americas</li>
@@ -145,7 +145,7 @@
 					<li>Native America Art</li>
 					<li>Textile and Fashion Arts</li>
 					<li>Prints, Drawings, and Photographs</li>
-				</ul>
+				</ol>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
