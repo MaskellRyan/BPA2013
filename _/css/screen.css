@@ -1060,7 +1060,7 @@ header h2 {
 }
 .box article blockquote, header article blockquote {
   color: #646464;
-  font-size: 30px;
+  font-size: 20px;
   width: 93%;
   border-left-width: 5px;
   margin: 2% 0 6%;
@@ -1070,6 +1070,7 @@ header h2 {
   .box article blockquote, header article blockquote {
     width: 95%;
     margin: 2%;
+    font-size: 25px;
   }
 }
 .box article .quote-left, header article .quote-left {
@@ -1641,13 +1642,13 @@ br {
   }
 }
 .img-left img {
-  width: 25%;
+  width: 25% !important;
   float: left;
   margin-right: 20px;
 }
 @media (min-width: 56.25em) {
   .img-left img {
-    width: 30%;
+    width: 30% !important;
     position: relative;
     left: 10px;
   }

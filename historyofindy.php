@@ -29,11 +29,6 @@
 				<p>
 					It's hard to believe that what was once platted in 1821 to be a the capitol settlement of one square mile would now be recognized as the nation's 13th largest city.
 				</p>
-				<blockquote>This is a test of a Blockquote it is really long and stuff</blockquote>
-				<p>
-					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
-				</p>
-				<blockquote class="quote-right">This is a test of a Blockquote it is really long and stuff</blockquote
 				<p>
 					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
 				</p>
@@ -89,10 +84,10 @@
 			<h1>20th Century</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/history/20century_houdini.jpg"></div>
 			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
 			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
 			  </div>
 			</div>
 		</figure>

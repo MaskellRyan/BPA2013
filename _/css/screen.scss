@@ -641,7 +641,7 @@ header {
 
 		blockquote {
 			color: $primary;
-			font-size: 30px;
+			font-size: 20px;
 			width: 93%;
 			border-left-width: 5px;
 			margin: 2% 0 6%;
@@ -649,6 +649,7 @@ header {
 			@include breakpoint(desktop) {
 				width: 95%;
 				margin: 2%;
+				font-size: 25px;
 			}
 		}
 		.quote-left {
@@ -1163,11 +1164,11 @@ br {
 		}
 	}
 	img {
-		width: 25%;
+		width: 25% !important;
 		float: left;	
 		margin-right: 20px;
 		@include breakpoint(desktop) {
-			width: 30%;
+			width: 30% !important;
 			position: relative;
 			left: 10px;
 		}
