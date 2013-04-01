@@ -889,6 +889,9 @@ header {
 			section {
 				width: 90%;
 			}
+			aside {
+				width: 100%;
+			}
 		}
 	}
 	@include breakpoint(desktop) {

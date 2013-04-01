@@ -1325,6 +1325,9 @@ header h2 {
 .halfcol .box article section, .halfcol header article section {
   width: 90%;
 }
+.halfcol .box article aside, .halfcol header article aside {
+  width: 100%;
+}
 @media (min-width: 56.25em) {
   .halfcol {
     margin-right: 2%;

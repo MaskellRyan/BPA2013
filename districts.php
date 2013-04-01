@@ -5,7 +5,7 @@
 <?php include 'global/nav.php';?>
 
 	<header><h1>Districts</h1></header> <!-- HEADER OF PAGE -->
-
+<div class="halfcol">
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
@@ -108,7 +108,8 @@
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
-
+</div>
+<div class="halfcol">
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
@@ -207,7 +208,7 @@
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
-
+</div>
 <?php include 'global/backbutton.html';?>
 
 <?php include 'global/foot.php';?>
