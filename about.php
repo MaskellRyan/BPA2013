@@ -40,10 +40,12 @@
 					<img src="_/content/img/about/about_codelang.png">
 					<h2>HTML5 / CSS3 Structure and Styling</h2>
 					<p>
-					The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting.
-						<br />
+						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting.
+					</p>
+					<p>
 						The styles of the site are beautifully built with <a href="http://www.sass-lang.com">SASS</a>, or Syntactically Awesome Stylesheets, aiding in the sites versatility and manageability.
-						<br />
+					</p>
+					<p>
 						We also used <a href="http://www.github.com">GitHub</a> as our version control software in order to leverage our whole team and work simultaneously, without fear of "breaking" the code. Knowing that, each change to the site can be reversed and re-written with a push of a button if we so chose.
 					</p>
 				</div>
@@ -52,8 +54,11 @@
 					<h2>Cross Browser Compatibility</h2>
 					<p>
 						Graceful degradation is the term we like to use. It means build the best site you possibly can, then build fallbacks to support older browsers. We wanted to use the latest web development techniques so our viewers with modern browsers are getting the full experience out of our website, but still keep the functionality the same for those who are still using older browsers.
-						<br />
-						With this in mind, we also wanted to make sure that anyone on any browser could still view our website effectively, thus being perfectly cross browser compatible.				<br />
+					</p>
+					<p>
+						With this in mind, we also wanted to make sure that anyone on any browser could still view our website effectively, thus being perfectly cross browser compatible.
+					</p>
+					<p>
 						In the end, our website not only contains all the bells and whistles that make the user experience fun and interactive, the content is still readable and viewable with earlier browser versions in mind.
 					</p>
 				</div>

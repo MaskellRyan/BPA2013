@@ -994,9 +994,9 @@ header h2 {
   cursor: pointer;
   overflow: hidden;
 }
-@media (min-width: 30em) {
+@media (min-width: 40.625em) {
   .box figure, header figure {
-    height: 250px;
+    height: 215px;
   }
 }
 @media (min-width: 56.25em) {
@@ -1331,6 +1331,13 @@ header h2 {
   top: -30px !important;
 }
 
+@media (min-width: 56.25em) {
+  .creativecomm h2 {
+    top: 4px !important;
+    left: 85px !important;
+  }
+}
+
 .halfcol:last-of-type {
   margin-right: 0;
 }
@@ -1553,9 +1560,6 @@ br {
 .sources a {
   white-space: nowrap;
 }
-.sources h1 {
-  box-shadow: 0 -53px 61px 2px rgba(0, 0, 0, 0.9) inset !important;
-}
 .sources h1 a {
   color: white;
 }
@@ -1564,6 +1568,29 @@ br {
 }
 .sources:hover {
   border-bottom-color: #7e7e7e;
+}
+
+.swipe .swipe-wrap div h1 {
+  bottom: auto !important;
+  top: 85px !important;
+  height: 140px;
+  -webkit-box-shadow: inset 0 -129px 31px -18px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: inset 0 -129px 31px -18px rgba(0, 0, 0, 0.9);
+  -ms-box-shadow: inset 0 -129px 31px -18px rgba(0, 0, 0, 0.9);
+  -o-box-shadow: inset 0 -129px 31px -18px rgba(0, 0, 0, 0.9);
+  -box-shadow: inset 0 -129px 31px -18px rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0 -129px 31px -18px rgba(0, 0, 0, 0.9);
+  padding: 1.5%;
+}
+@media (min-width: 40.625em) {
+  .swipe .swipe-wrap div h1 {
+    top: 115px !important;
+  }
+}
+@media (min-width: 56.25em) {
+  .swipe .swipe-wrap div h1 {
+    top: 200px !important;
+  }
 }
 
 .preload {
@@ -1607,61 +1634,74 @@ br {
   color: #0e0e0e;
 }
 
-.img-left p, .img-left ul {
+.img-left p, .img-right p, .img-left ul, .img-right ul {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
 @media (min-width: 56.25em) {
-  .img-left p, .img-left ul {
+  .img-left p, .img-right p, .img-left ul, .img-right ul {
     width: 70%;
   }
 }
-.img-left p li, .img-left ul li {
+.img-left p li, .img-right p li, .img-left ul li, .img-right ul li {
   list-style-type: none;
 }
-.img-left p li span, .img-left ul li span {
+.img-left p li span, .img-right p li span, .img-left ul li span, .img-right ul li span {
   font-family: "ubuntubold", Arial, sans-serif;
 }
 @media (min-width: 40.625em) {
-  .img-left p, .img-left ul {
+  .img-left p, .img-right p, .img-left ul, .img-right ul {
     width: 62%;
     float: right;
     margin-top: 0;
   }
 }
-.img-left h2 {
+.img-left h2, .img-right h2 {
   color: #0e0e0e !important;
   font-family: "arvobold", Tahoma, sans-serif;
 }
 @media (min-width: 40.625em) {
-  .img-left h2 {
+  .img-left h2, .img-right h2 {
     font-size: 20px;
     float: right;
     width: 62% !important;
   }
 }
-.img-left img {
+.img-left img, .img-right img {
   width: 25% !important;
   float: left;
   margin-right: 20px;
 }
 @media (min-width: 56.25em) {
-  .img-left img {
+  .img-left img, .img-right img {
     width: 30% !important;
     position: relative;
     left: 10px;
   }
 }
-.img-left .is-shown {
+.img-left .is-shown, .img-right .is-shown {
   width: 100%;
   margin: 10px;
 }
 @media (min-width: 40.625em) {
-  .img-left .is-shown {
+  .img-left .is-shown, .img-right .is-shown {
     width: 30%;
     float: left;
   }
+}
+
+.img-right p, .img-right ul {
+  float: left !important;
+}
+@media (min-width: 40.625em) {
+  .img-right h2 {
+    float: left;
+  }
+}
+.img-right img {
+  float: right !important;
+  width: 20% !important;
 }
 
 /* ::Media queries */
