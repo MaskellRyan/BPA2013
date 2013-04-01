@@ -29,6 +29,7 @@
 				<p>
 					It's hard to believe that what was once platted in 1821 to be a the capitol settlement of one square mile would now be recognized as the nation's 13th largest city.
 				</p>
+				<blockquote class="quote-right">Recognized as the nation's 13th largest city.</blockquote>
 				<p>
 					What was once a swampy uninhabited piece of land quickly turned into a settlement for travelers who stated setting up permanent dwellings along the White River. 
 				</p>
@@ -71,10 +72,11 @@
 				<p>
 					Originally the White River was planned to serve as the major transportation artery. With its sandy soil it was inadequate to meet the demands of transportation. Under the state's Mammoth Improvement of 1835, sites were set on building a more reliable way to promote trade and commerce.
 				</p>
-				
+				<blockquote class="quote-right">Nicknamed "The Crossroads of America"</blockquote>
 				<p>
 					With the introduction of the first railroad in 1847, the budding city sought to connected their multiple lines by erecting the nation's first union station in 1849. Indianapolis' growing status as the hub of transportation earned its nickname of "the Crossroads of America."
 </p>
+
 			<p>
 					As the focal point of the transportation industry, Indianapolis garnered economic growth through foundries, machine shops, auto manufacturers, and auto part suppliers. By the early 20th century the once small town was now the intersection of the automotive industry.
 				</p>
@@ -146,7 +148,9 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
-				<p>In Indianapolis there is never a shortage of things to occupy your time. Forbes recognizes this city as one of America's Best Shopping Cities, with a total of nearly 6,000 retail locations. Indy has lots to boast about like, opening the first union station ins the world in 1853, having the two largest sporting single-day sporting events in the world (the Indianapolis 500 and the Brickyard 400), and being second only to Washington D.C for the number of monuments and memorials.</p>  
+				<blockquote class="quote-right">Indy has a lot to boast about...</blockquote> 
+				<p>In Indianapolis there is never a shortage of things to occupy your time. Forbes recognizes this city as one of America's Best Shopping Cities, with a total of nearly 6,000 retail locations. Indy has a lot to boast about like, opening the first union station ins the world in 1853, having the two largest sporting single-day sporting events in the world (the Indianapolis 500 and the Brickyard 400), and being second only to Washington D.C for the number of monuments and memorials.</p>
+
 				<p>With its continued association with the arts and sports, Indianapolis remains as vital as ever. Teams like the NFL's Indianapolis Colts, NBA's Indiana Pacers, and the WNBA's Indiana Fever keep this city as the growing metropolis it has always been known for, the "Crossroads of America."</p>
 			</section>
 			<aside>

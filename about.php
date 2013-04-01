@@ -13,8 +13,8 @@
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/code-mockup.jpg"></div>
-			    <div><img src="_/content/img/desktop-mockup.jpg"></div>
 			    <div><img src="_/content/img/ipad-mockup.jpg"></div>
+			    <div><img src="_/content/img/desktop-mockup.jpg"></div>
 			    <div><img src="_/content/img/iphone-mockup.jpg"></div>
 			  </div>
 			</div>
