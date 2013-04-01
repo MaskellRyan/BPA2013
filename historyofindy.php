@@ -12,10 +12,10 @@
 			<h1>Early Years</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
+			    <div><img src="_/content/img/history/earlyyears_downtown.jpg"></div>
+			    <div><img src="_/content/img/history/earlyyears_virginiaave.jpg"></div>
+			    <div><img src="_/content/img/history/earlyyears_westmarket.jpg"></div>
+			    <div><img src="_/content/img/history/earlyyears_courthouse.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -56,8 +56,8 @@
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
 			    <div><img src="_/content/img/history/indust_car.jpg"></div>
+			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
 			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
 			  </div>
 			</div>
@@ -126,11 +126,11 @@
 			<h1>Present Day</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/history/presentday_canal.jpg"></div>
+			    <div><img src="_/content/img/history/presentday_flowers.jpg"></div>
+			    <div><img src="_/content/img/history/presentday_nightscape.jpg"></div>
+			    <div><img src="_/content/img/history/presentday_indy500.jpg"></div>
+			    <div><img src="_/content/img/history/presentday_moncircle.jpg"></div>
 			  </div>
 			</div>
 		</figure>
