@@ -95,7 +95,7 @@
 			</section>
 			<aside>
 				<h3>What To do</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<oll>
+				<ol>
 					<li>Lunch and Dinner</li>
 					<li>Entertainment and Nightlife</li>
 					<li>Antiquing</li>
