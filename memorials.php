@@ -254,10 +254,13 @@
 			<section>
 				<p>Words spoken to the audience of the 1927 grand opening of the Madame Walker
 				Theatre by the then general manager F.B. Ransom still ring true today,
-				“To those who toil, to those who think. . .to those who love good music, good
-				pictures, high class entertainment amidst magnificent surroundings; to those who
-				believe that our boys and girls are entitled to the best there is. . . to all classes;
-				to all races, this house is dedicated.” </p>
+				 </p>
+				 <blockquote>
+				 “To those who toil, to those who think. . .to those who love good music, good
+				 pictures, high class entertainment amidst magnificent surroundings; to those who
+				 believe that our boys and girls are entitled to the best there is. . . to all classes;
+				 to all races, this house is dedicated.”
+				 </blockquote>	
 				<p>The brainchild of the first-made female millionaire in America, Madame C.J.
 				Walker began the development of the Walker and Theatre building prior to her
 				death in 1919. Throughout its nearly 100 year history and restoration the
