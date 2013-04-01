@@ -71,7 +71,8 @@
 		</figure>
 		<article id="drawer2" class="collapse" style="height:auto;">
 			<section class="img-left">
-				<img src="_/content/img/about/nic.jpg">
+				<img class="is-hidden" src="_/content/img/about/nic.jpg">
+				<img class="is-shown" src="_/content/img/about/niclogo-red.png">
 				<ul>
 					<li><span>Chapter Name:</span> North Idaho College BPA</li>
 					<li><span>Theme:</span> History of Indianapolis and its surrounding suburbs.</li>
