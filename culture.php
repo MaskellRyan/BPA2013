@@ -12,10 +12,11 @@
 			<h1>Cultural Trail</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/trail_family.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/trail_sign.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/trail_bikers.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/trail_intersection.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/trail_yield.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -48,10 +49,13 @@
 			<h1>Monument Circle</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
-			    <div><img src="_/content/img/history/indust_car.jpg"></div>
-			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_monument.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_basrelief.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_.christmasjpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_ground.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_sculptures.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_marketstreet.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_christmaslights.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -81,10 +85,11 @@
 			<h1>War Memorial Plaza</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/warplaza_veterans.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/warplaza_memorial.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/warplaza_depew.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/warplaza_fallensoldiers.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/warplaza_building.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -117,11 +122,11 @@
 			<h1>Indiana Statehouse</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/statehouse_front.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/statehouse_sculptures.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/statehouse_rotunda.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/statehouse_interior.jpg"></div>
+			    <div><img src="_/content/img/arts/culture/statehouse_street.jpg"></div>
 			  </div>
 			</div>
 		</figure>
