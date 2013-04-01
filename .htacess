@@ -1,0 +1,9 @@
+ErrorDocument 404 /404.php
+
+Options +MultiViews
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^([^.]+\.co.uk) [NC]
+RewriteRule (.*) http://www.%1/$1 [R=301,L]
+
+AddType application/octet-stream jpg
