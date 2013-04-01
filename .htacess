@@ -3,7 +3,9 @@ ErrorDocument 404 /404.php
 Options +MultiViews
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^([^.]+\.co.uk) [NC]
-RewriteRule (.*) http://www.%1/$1 [R=301,L]
+RewriteBase /cp/
 
-AddType application/octet-stream jpg
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !\.php$
+RewriteRule .* $0.php [L]
+

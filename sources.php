@@ -20,27 +20,94 @@
 	</div> <!-- END CONTENT DRAWER -->
 
 <header><h2>History of Indy</h2></header>
-
 	<div class="box sources red"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div>
-			    	<h1><a href="#">Source 1</a><span> by <a href="#">Ryan Maskell</a></span></h1>
-					<img src="_/content/img/history/indust_train.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">Source Two!</a><span> by <a href="#">Ashley Chaffin</a></span></h1>
-					<img src="_/content/img/history/indust_workers.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">The Third Source</a><span> by <a href="#">Awesomesauce</a></span></h1>
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/20century_downtown.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/20century_houdini.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/20century_indy500.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/20century_newsboys.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/earlyyears_courthouse.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/earlyyears_downtown.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/earlyyears_virginiaave.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/earlyyears_westmarket.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
 					<img src="_/content/img/history/indust_car.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">FOUR: A source</a><span> by <a href="#">Rachael Morgan</a></span></h1>
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
 					<img src="_/content/img/history/indust_racecar.jpg">
-			    </div>
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/indust_train.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/indust_workers.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/presentday_canal.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/presentday_flowers.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/presentday_indy500.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/presentday_moncircle.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/history/presentday_nightscape.jpg">
+				</div>
 			  </div>
 			</div>
 		</figure>
@@ -57,22 +124,110 @@
 		<figure>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div>
-			    	<h1><a href="#">Source 1</a><span> by <a href="#">Ryan Maskell</a></span></h1>
-					<img src="_/content/img/history/indust_train.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">Source Two!</a><span> by <a href="#">Ashley Chaffin</a></span></h1>
-					<img src="_/content/img/history/indust_workers.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">The Third Source</a><span> by <a href="#">Awesomesauce</a></span></h1>
-					<img src="_/content/img/history/indust_car.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">FOUR: A source</a><span> by <a href="#">Rachael Morgan</a></span></h1>
-					<img src="_/content/img/history/indust_racecar.jpg">
-			    </div>
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/crownhill_cemetary.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/crownhill_church.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/crownhill_entrance.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/crownhill_giantmemorial.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/crownhill_view.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/indiana_warmemorial.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/landmarkpeace_mlk.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/landmarkpeace_statue.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/lockerbie_cottage.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/lockerbie_stmarysfront.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/lockerbie_stmarysrear.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/lockerbie_whitcombhouse.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/medalofhonor_daytime.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/medalofhonor_flowers.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/spruance_bust.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/spruance_memorial.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/ussmemorial_back.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/ussmemorial_crowd.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/ussmemorial_finalsailing.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/ussmemorial_front.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/memorials/walkertheatre_sign.jpg">
+				</div>
 			  </div>
 			</div>
 		</figure>
@@ -89,22 +244,151 @@
 		<figure>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div>
-			    	<h1><a href="#">Source 1</a><span> by <a href="#">Ryan Maskell</a></span></h1>
-					<img src="_/content/img/history/indust_train.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">Source Two!</a><span> by <a href="#">Ashley Chaffin</a></span></h1>
-					<img src="_/content/img/history/indust_workers.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">The Third Source</a><span> by <a href="#">Awesomesauce</a></span></h1>
-					<img src="_/content/img/history/indust_car.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">FOUR: A source</a><span> by <a href="#">Rachael Morgan</a></span></h1>
-					<img src="_/content/img/history/indust_racecar.jpg">
-			    </div>
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/district_theater.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/broadripple_fair.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/broadripple_footbridge.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/broadripple_twistedhouse.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/broadripple_voguetheater.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/fountain_bowling.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/fountain_building.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/fountain_fountain.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/fountain_newdaymeadery.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/fountain_squareandtheater.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/indianaave_jazzplayers.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/indianaave_jazzsculpture.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/indianaave_walkertheatre.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/indianaave_zephyr.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/massave_citymarket.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/massave_colorfulbuildings.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/massave_degrees.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/massave_district.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/massave_oldbuilding.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/whiteriver_canal.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/whiteriver_conservatory.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/whiteriver_hall.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/whiteriver_rotunda.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/whiteriver_sculpture.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/wholesale_circlecenter.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/wholesale_clocktower.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/wholesale_mall.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/wholesale_sign.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/wholesale_unionstation.jpg">
+				</div>
+
 			  </div>
 			</div>
 		</figure>
@@ -119,22 +403,7 @@
 		<figure>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div>
-			    	<h1><a href="#">Source 1</a><span> by <a href="#">Ryan Maskell</a></span></h1>
-					<img src="_/content/img/history/indust_train.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">Source Two!</a><span> by <a href="#">Ashley Chaffin</a></span></h1>
-					<img src="_/content/img/history/indust_workers.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">The Third Source</a><span> by <a href="#">Awesomesauce</a></span></h1>
-					<img src="_/content/img/history/indust_car.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">FOUR: A source</a><span> by <a href="#">Rachael Morgan</a></span></h1>
-					<img src="_/content/img/history/indust_racecar.jpg">
-			    </div>
+
 			  </div>
 			</div>
 		</figure>
@@ -149,22 +418,7 @@
 		<figure>
 			<div id="slider5" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div>
-			    	<h1><a href="#">Source 1</a><span> by <a href="#">Ryan Maskell</a></span></h1>
-					<img src="_/content/img/history/indust_train.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">Source Two!</a><span> by <a href="#">Ashley Chaffin</a></span></h1>
-					<img src="_/content/img/history/indust_workers.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">The Third Source</a><span> by <a href="#">Awesomesauce</a></span></h1>
-					<img src="_/content/img/history/indust_car.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">FOUR: A source</a><span> by <a href="#">Rachael Morgan</a></span></h1>
-					<img src="_/content/img/history/indust_racecar.jpg">
-			    </div>
+
 			  </div>
 			</div>
 		</figure>
@@ -179,22 +433,7 @@
 		<figure>
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div>
-			    	<h1><a href="#">Source 1</a><span> by <a href="#">Ryan Maskell</a></span></h1>
-					<img src="_/content/img/history/indust_train.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">Source Two!</a><span> by <a href="#">Ashley Chaffin</a></span></h1>
-					<img src="_/content/img/history/indust_workers.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">The Third Source</a><span> by <a href="#">Awesomesauce</a></span></h1>
-					<img src="_/content/img/history/indust_car.jpg">
-			    </div>
-			    <div>
-			    	<h1><a href="#">FOUR: A source</a><span> by <a href="#">Rachael Morgan</a></span></h1>
-					<img src="_/content/img/history/indust_racecar.jpg">
-			    </div>
+
 			  </div>
 			</div>
 		</figure>
