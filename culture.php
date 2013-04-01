@@ -9,7 +9,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Early Years</h1>
+			<h1>Cultural Trail</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
@@ -26,16 +26,16 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>Indiana's Cultural Trail is a greenway system was made possible by Central Indiana Community Foundation, the City of Indianapolis, and numerous non-profit organizations devoted to building a greener environment. The remarkable urban bike and pedestrian path connects the downtown area with many neighborhoods, entertainment hot-spots, and cultural districts including, Fountain Square, Indiana Avenue, Mass Ave, The Canal and White River State Park, Broad Ripple Village, and the Wholesale District. </p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
+					<li><a href="http://www.discoverfountainsquare.com/">Fountain Square</a></li>
+					<li><a href="http://www.discovermassave.com/">Mass Ave</a></li>
+					<li><a href="http://www.discoverbroadripplevillage.com/home.cfm">Broad Ripple Village</a></li>
+					<li><a href="http://www.discoverwholesaledistrict.com/home.cfm">Wholesale District</a></li>
+					<li><a href="http://www.discovercanal.com/home.cfm">The Canal and White River State Park</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -45,7 +45,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Industrial Era</h1>
+			<h1>Monument Circle</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/indust_train.jpg"></div>
@@ -62,13 +62,14 @@
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>Fed by two streets, Market and Meridian, sits Monument Circle - the symbol of Indianapolis. At the center is the monument for Indiana Soldiers and Sailors encompassed by shops, the Hilbert Circle Theatre,  the Indianapolis Symphony Orchestra, and the Christ Church Cathedral. </p>
 
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>The iconic monument was completed in 1902 by German architect Bruno Schmitz as a memorial to honor the veterans of the American Revolution, War of 1812, Mexican-American War, the Civil War, and the Spanish American War. At the base of this 284 foot, six inch Neo-Classical structure is the Eli Lilly Civil War Museum, a museum of Indiana history during the American Civil War. A short elevator ride and 30 steps brings you to an observation deck that gives it's viewers a birds-eye view of the circle and it's amenities. 
+				 </p>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+				<p>Standing 284 feet, the Soldiers and Sailors Monument is approximately 21 feet shorter than the Statue of Liberty.</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -77,7 +78,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>20th Century</h1>
+			<h1>War Memorial Plaza</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
@@ -94,21 +95,16 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
-				<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in <a href="#">American crime</a>. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+				<p>War Memorial Plaza is an integral part of the Business and Government Historic District of Indianapolis. This park is located at the intersection of Holiday and East Lexington Streets and contained the original townhouses that accommodated Loyola High School and Loyola College in 1852. </p>
 
-				<h2>And so it comes to this...</h2>
-
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>In addition to educational locations, the War Memorial Plaza also hosted the Indianapolis City Hall and the Holiday Street Theatre.  </p>
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
-				</ul>
+				<h3>Fun Fact!</h3>
+				<p>
+				On the north side of the building has this inscription :
+				"To commemorate the valor and sacrifice of the land, sea and air forces of the United States and all who rendered faithful and loyal service at home and overseas in the World War; to inculcate a true understanding and appreciation of the privileges of American citizenship; to inspire patriotism and respect for the laws to the end that peace may prevail, justice be administered, public order maintained and liberty perpetuated."
+				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -117,7 +113,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Present Day</h1>
+			<h1>Indiana Statehouse</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
@@ -135,17 +131,13 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+				<p>This 19th Century Neo-Classical structure is a leading travel destination for visitors from all around the world and continues to serve three branches of the state government. Tours are offered everyday to see "The People's House" and learn more about the government of Indiana. For over 125 years, the limestone walls, marble columns, and stained glass rotunda domed building has represented one of the nations most impressive government buildings.  </p>
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-					<li><a href="#">Junk</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">This is a really long link title</a></li>
-				</ul>
+				<h3>Fun Fact!</h3>
+				<p>
+				The Statehouse dome rises to a height of 105 feet up to the inside stained glass dome and another 130 feet to the top of the dome on the outside of the building. In the rotunda, large statues represent interests of Indiana state government: the male statues of Law and Oratory and the female statues of Justice, Agriculture, Art, Commerce, Liberty, and History.
+				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
