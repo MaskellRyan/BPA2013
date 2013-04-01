@@ -134,7 +134,8 @@
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<p>The Wholesale District has entertainment as front and center. For the biggest names and the brightest attractions Indianapolis has to offer, you will find them in the Wholesale District.</p>			</aside>
+				<p>The Wholesale District has entertainment as front and center. For the biggest names and the brightest attractions Indianapolis has to offer, you will find them in the Wholesale District.</p>			
+				</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
@@ -164,7 +165,8 @@
 			</section>
 			<aside>
 				<h3>All That Jazz!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<p>An incorporation of African American tribal rhythms blended with European began a musical movement known as Jazz. A precise definition of Jazz music is still not unanimously agreed upon but never-the-less it's appeal is universal. </p>			</aside>
+				<p>An incorporation of African American tribal rhythms blended with European began a musical movement known as Jazz. A precise definition of Jazz music is still not unanimously agreed upon but never-the-less it's appeal is universal. </p>			
+				</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
