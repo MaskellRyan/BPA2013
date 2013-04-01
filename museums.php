@@ -9,7 +9,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Indianapolis</h1>
+			<h1>Indianapolis Art Center</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
@@ -76,7 +76,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Indianapolis Artsgarden</h1>
+			<h1>Indianapolis Arts garden</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
@@ -128,6 +128,7 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
+				<blockquote class="quote-right">ambitious, thought provoking, and original work...</blockquote>
 				<p>See the latest trends and talent doing ambitious, thought provoking, original works of contemporary art at the Indianapolis Museum of Contemporary Art. </p>
 				<p>
 				Founded in 2001, this museum's success is made possible through partnerships like the Indianapolis Symphony Orchestra. Over the last decade, the iMOCA has featured over 40 exhibitions featuring the work of more that 75 individual  local and international contemporary artists.
@@ -170,6 +171,7 @@
 			</div>
 			<article id="drawer5" class="collapse">
 				<section>
+					<blockquote class="quote-right">His passion for art was monumental.</blockquote>
 					<p>Named after the man who's art collection that would become the central beginnings of the Indianapolis Museum of Art. John Herron's passion for the arts was so monumental that he established the John Herron Art Institute in 1902.  </p>
 	
 					<p>The work of students, faculty and alumni of the institute has landscaped the city of Indianapolis for over a century, most notably through sculpture on the Soldiers and Sailors Monument in Monument Circle.</p>

@@ -1067,17 +1067,18 @@ header h2 {
   width: 100%;
 }
 .box article blockquote, header article blockquote {
-  color: #646464;
+  color: #a40b00;
   font-size: 20px;
   width: 93%;
   border-left-width: 5px;
-  margin: 2% 0 6%;
+  margin: 2% 0 6% 5%;
+  border-left-color: #590800;
   font-family: "ubuntu", Arial, sans-serif;
 }
 @media (min-width: 56.25em) {
   .box article blockquote, header article blockquote {
     width: 95%;
-    margin: 2%;
+    margin: 2% 2% 5%;
     font-size: 25px;
   }
 }
@@ -1654,6 +1655,7 @@ br {
 }
 .img-left p li, .img-right p li, .img-left ul li, .img-right ul li {
   list-style-type: none;
+  margin-bottom: 4.5px;
 }
 .img-left p li span, .img-right p li span, .img-left ul li span, .img-right ul li span {
   font-family: "ubuntubold", Arial, sans-serif;
@@ -1667,7 +1669,7 @@ br {
 }
 .img-left h2, .img-right h2 {
   color: #0e0e0e !important;
-  font-family: "arvobold", Tahoma, sans-serif;
+  font-family: "arvoregular", Tahoma, sans-serif;
 }
 @media (min-width: 40.625em) {
   .img-left h2, .img-right h2 {

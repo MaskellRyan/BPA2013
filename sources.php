@@ -246,6 +246,11 @@
 			  <div class='swipe-wrap'>
 				<div>
 					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/districts/whiteriver_canal.jpg">
+				</div>
+				
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
 					<img src="_/content/img/arts/district_theater.jpg">
 				</div>
 
@@ -337,11 +342,6 @@
 				<div>
 					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
 					<img src="_/content/img/arts/districts/massave_oldbuilding.jpg">
-				</div>
-
-				<div>
-					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
-					<img src="_/content/img/arts/districts/whiteriver_canal.jpg">
 				</div>
 
 				<div>

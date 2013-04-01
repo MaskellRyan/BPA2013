@@ -141,6 +141,7 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
+				 <blockquote class="quote-right">One of the most popular historical building in Indianapolis.</blockquote>
 				<p>
 					The Scottish Rite Cathedral is one of the most popular historical buildings in Indianapolis and welcomes more than 100,000 visitors each year though its Neo-Gothic Architecture. Designed by Architect George F. Schrieber, the Cathedral embodies the style and craftsmanship of the Freemasons with its evenly divisible by three structure.
 					</p>

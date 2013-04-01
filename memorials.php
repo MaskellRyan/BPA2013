@@ -42,8 +42,8 @@
 			<h1>Medal of Honor Memorial</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/memorials/medalofhonor_daytime.jpg"></div>
 			    <div><img src="_/content/img/memorials/medalofhonor_flowers.jpg"></div>
-			    <div><img src="_/content/img/memorials/medalofhonor_daytime.jpg"></div>
 			    <!-- <div><img src="_/content/img/memorials/.jpg"></div>
 			    <div><img src="_/content/img/memorials/.jpg"></div> -->
 			  </div>
@@ -101,8 +101,8 @@
 			<h1>Landmark for Peace Memorial</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/memorials/landmarkpeace_mlk.jpg"></div>
 			    <div><img src="_/content/img/memorials/landmarkpeace_statue.jpg"></div>
-			    <div><img src="_/content/img/memorials/landmarkpeace_mlk.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -168,8 +168,8 @@
 			<h1>Crown Hill Cemetary</h1>
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/memorials/crownhill_cemetary.jpg"></div>
 			    <div><img src="_/content/img/memorials/crownhill_view.jpg"></div>
-			    <div><img src="_/content/img/memorials/crownhill_cemetary.jpg"></div>
 			    <div><img src="_/content/img/memorials/crownhill_church.jpg"></div>
 			    <div><img src="_/content/img/memorials/crownhill_entrance.jpg"></div>
 			    <div><img src="_/content/img/memorials/crownhill_giantmemorial.jpg"></div>
@@ -199,8 +199,8 @@
 			<h1>Lockerbie Square</h1>
 			<div id="slider7" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/memorials/lockerbie_stmarysfront.jpg"></div>
 			    <div><img src="_/content/img/memorials/lockerbie_cottage.jpg"></div>
-			    <div><img src="_/content/img/memorials/lockerbie_stmarysfront.jpg"></div>
 			    <div><img src="_/content/img/memorials/lockerbie_whitcombhouse.jpg"></div>
 			    <div><img src="_/content/img/memorials/lockerbie_stmarysrear.jpg"></div>
 			  </div>
@@ -230,7 +230,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer8"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Madame Walker Theatre Center</h1>
+			<h1>Walker Theatre Center</h1>
 			<div id="slider8" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/memorials/walkertheatre_sign.jpg"></div>

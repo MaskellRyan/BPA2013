@@ -32,16 +32,18 @@
 					<p>
 						We designed the site with mobile devices strongly in mind, while also being very aware of what kind of content we wanted to display. Since practically everyone has a mobile device these days, it seemed obvious that we should be building this website fluidly and responsively. Our design not only leverages breakpoints and UX changes based on screen size, but also fits the browser window if someone needs it to.
 					</p>
+					<blockquote>This was a large technical challenge.</blockquote>
 					<p>
-						This was a large technical challenge, as we not only had to build one site, but two more for mobile and tablet users. Three sites all rolled into one with the use of CSS Media Queries and a focus on fluid columns of text and photos.
+						We not only had to build one site, but two more for mobile and tablet users. Three sites all rolled into one with the use of CSS Media Queries and a focus on fluid columns of text and photos.
 					</p>
 				</div>
 				<div class="span3">
 					<img src="_/content/img/about/about_codelang.png">
 					<h2>HTML5 / CSS3 Structure and Styling</h2>
 					<p>
-						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting.
+						The core of this site is built entirely on cutting edge HTML5 semantic markup and uses a myriad of CSS3 styling to provide the user with a fun and entertaining experience, in an attempt to make reading history exciting. Which was our main goal.
 					</p>
+					<blockquote>Make History Exciting</blockquote>
 					<p>
 						The styles of the site are beautifully built with <a href="http://www.sass-lang.com">SASS</a>, or Syntactically Awesome Stylesheets, aiding in the sites versatility and manageability.
 					</p>
@@ -99,7 +101,7 @@
 		<article id="drawer3" class="collapse" style="height:auto;">
 			<section class="img-left">
 				<img src="_/content/img/about/indycitylogo.png">
-				<h2>Well, we think it's pretty nice.</h2>
+				<h2>Well, we think it's nice.</h2>
 				<p>The "INDY a history" logo is designed to create a vibrant and edgy feel to the site. It is shaped in the form of the center of Indianapolis itself, showing the monument circle and its surrounding square buildings from an aerial perspective.</p>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->

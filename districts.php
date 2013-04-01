@@ -12,10 +12,10 @@
 			<h1>Broad Ripple Village</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/districts/broadripple_footbridge.jpg"></div>
+			  	<div><img src="_/content/img/arts/districts/broadripple_twistedhouse.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/broadripple_fair.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/broadripple_voguetheater.jpg"></div>
-			    <div><img src="_/content/img/arts/districts/broadripple_twistedhouse.jpg"></div>
-			    <div><img src="_/content/img/arts/districts/broadripple_footbridge.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -47,10 +47,10 @@
 			<h1>Massachusetts Avenue</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/districts/massave_citymarket.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/massave_degrees.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/massave_colorfulbuildings.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/massave_oldbuilding.jpg"></div>
-			    <div><img src="_/content/img/arts/districts/massave_citymarket.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/massave_district.jpg"></div>
 			  </div>
 			</div>
@@ -123,11 +123,11 @@
 			<h1>The Wholesale District</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/districts/wholesale_circlecenter.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/wholesale_sign.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/wholesale_unionstation.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/wholesale_mall.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/wholesale_clocktower.jpg"></div>
-			    <div><img src="_/content/img/arts/districts/wholesale_circlecenter.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -186,10 +186,10 @@
 			<h1>Canal and White River Park</h1>
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/districts/whiteriver_conservatory.jpg"></div>
 			  	<div><img src="_/content/img/arts/districts/whiteriver_sculpture.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/whiteriver_canal.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/whiteriver_hall.jpg"></div>
-			    <div><img src="_/content/img/arts/districts/whiteriver_conservatory.jpg"></div>
 			    <div><img src="_/content/img/arts/districts/whiteriver_rotunda.jpg"></div>
 			  </div>
 			</div>

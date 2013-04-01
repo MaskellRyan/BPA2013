@@ -27,6 +27,7 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
+				<blockquote class="quote-right">"devoted to building a greener environment"</blockquote>
 				<p>Indiana's Cultural Trail is a greenway system was made possible by Central Indiana Community Foundation, the City of Indianapolis, and numerous non-profit organizations devoted to building a greener environment. The remarkable urban bike and pedestrian path connects the downtown area with many neighborhoods, entertainment hot-spots, and cultural districts including, Fountain Square, Indiana Avenue, Mass Ave, The Canal and White River State Park, Broad Ripple Village, and the Wholesale District. </p>
 			</section>
 			<aside>
@@ -49,8 +50,8 @@
 			<h1>Monument Circle</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/culture/moncircle_basrelief.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_monument.jpg"></div>
-			    <div><img src="_/content/img/arts/culture/moncircle_basrelief.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_christmas.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_ground.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_sculptures.jpg"></div>
@@ -85,10 +86,10 @@
 			<h1>War Memorial Plaza</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/culture/warplaza_fallensoldiers.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/warplaza_veterans.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/warplaza_memorial.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/warplaza_depew.jpg"></div>
-			    <div><img src="_/content/img/arts/culture/warplaza_fallensoldiers.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/warplaza_building.jpg"></div>
 			  </div>
 			</div>
@@ -122,9 +123,9 @@
 			<h1>Indiana Statehouse</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/culture/statehouse_rotunda.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/statehouse_front.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/statehouse_sculptures.jpg"></div>
-			    <div><img src="_/content/img/arts/culture/statehouse_rotunda.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/statehouse_interior.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/statehouse_street.jpg"></div>
 			  </div>
@@ -137,6 +138,7 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
+				<blockquote class="quote-right">"The People's House"</blockquote>
 				<p>This 19th Century Neo-Classical structure is a leading travel destination for visitors from all around the world and continues to serve three branches of the state government. Tours are offered everyday to see "The People's House" and learn more about the government of Indiana. For over 125 years, the limestone walls, marble columns, and stained glass rotunda domed building has represented one of the nations most impressive government buildings.  </p>
 			</section>
 			<aside>

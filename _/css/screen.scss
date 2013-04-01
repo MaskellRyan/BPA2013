@@ -646,15 +646,16 @@ header {
 		width: 100%;
 
 		blockquote {
-			color: $primary;
+			color: $red;
 			font-size: 20px;
 			width: 93%;
 			border-left-width: 5px;
-			margin: 2% 0 6%;
+			margin: 2% 0 6% 5%;
+			border-left-color: $darkred;
 			font-family: $sans-regular;
 			@include breakpoint(desktop) {
 				width: 95%;
-				margin: 2%;
+				margin: 2% 2% 5%;
 				font-size: 25px;
 			}
 		}
@@ -1173,7 +1174,7 @@ br {
 		@include breakpoint(desktop) {
 			width: 70%;
 		}
-		li {@include nobullet;}
+		li {@include nobullet; margin-bottom: 4.5px;}
 		li span {
 			font-family: $sans-bold;
 		}
@@ -1185,7 +1186,7 @@ br {
 	}
 	h2 {
 		color: $black !important;
-		font-family: $slab-bold;
+		font-family: $slab-regular;
 		@include breakpoint(tablet) {
 			font-size: 20px;
 			
