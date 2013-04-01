@@ -23,7 +23,6 @@
 
 	<div class="box sources red"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
-			<?php include 'global/more.html';?>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div>
@@ -56,7 +55,6 @@
 
 	<div class="box sources green"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
-			<?php include 'global/more.html';?>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div>
@@ -89,7 +87,6 @@
 
 	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
-			<?php include 'global/more.html';?>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div>
@@ -120,7 +117,6 @@
 <header><h2>Culture</h2></header>
 	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
-			<?php include 'global/more.html';?>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div>
@@ -151,7 +147,6 @@
 <header><h2>Museums</h2></header>
 	<div class="box sources blue"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
-			<?php include 'global/more.html';?>
 			<div id="slider5" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div>
@@ -182,7 +177,6 @@
 <header><h2>Historical Sites</h2></header>
 	<div class="box sources orange"> <!-- DECLARE COLOR CATEGORY IN CLASS -->
 		<figure>
-			<?php include 'global/more.html';?>
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div>
