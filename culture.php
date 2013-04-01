@@ -97,13 +97,14 @@
 			<section>
 				<p>War Memorial Plaza is an integral part of the Business and Government Historic District of Indianapolis. This park is located at the intersection of Holiday and East Lexington Streets and contained the original townhouses that accommodated Loyola High School and Loyola College in 1852. </p>
 
-				<p>In addition to educational locations, the War Memorial Plaza also hosted the Indianapolis City Hall and the Holiday Street Theatre.  </p>
+				<p>On the north side of the building has this inscription :
+				  </p>
+				  <blockquote>"To commemorate the valor and sacrifice of the land, sea and air forces of the United States and all who rendered faithful and loyal service at home and overseas in the World War; to inculcate a true understanding and appreciation of the privileges of American citizenship; to inspire patriotism and respect for the laws to the end that peace may prevail, justice be administered, public order maintained and liberty perpetuated."</blockquote>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3>
 				<p>
-				On the north side of the building has this inscription :
-				"To commemorate the valor and sacrifice of the land, sea and air forces of the United States and all who rendered faithful and loyal service at home and overseas in the World War; to inculcate a true understanding and appreciation of the privileges of American citizenship; to inspire patriotism and respect for the laws to the end that peace may prevail, justice be administered, public order maintained and liberty perpetuated."
+				In addition to educational locations, the War Memorial Plaza also hosted the Indianapolis City Hall and the Holiday Street Theatre.
 				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -136,7 +137,7 @@
 			<aside>
 				<h3>Fun Fact!</h3>
 				<p>
-				The Statehouse dome rises to a height of 105 feet up to the inside stained glass dome and another 130 feet to the top of the dome on the outside of the building. In the rotunda, large statues represent interests of Indiana state government: the male statues of Law and Oratory and the female statues of Justice, Agriculture, Art, Commerce, Liberty, and History.
+				The Statehouse dome rises to a height of 105 feet up to the inside stained glass dome and another 130 feet to the top of the dome on the outside of the building. 
 				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
