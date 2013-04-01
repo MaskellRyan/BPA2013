@@ -33,7 +33,7 @@
 				<p>
 					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
 				</p>
-				<blockquote class="quote-right">This is a test of a Blockquote it is really long and stuff</blockquote>
+				<blockquote class="quote-right">This is a test of a Blockquote it is really long and stuff</blockquote
 				<p>
 					Indianapolis, originally named by Jeremiah Sullivan, a judge of the Indian Supreme Court, was once the home of several Native American tribes. Through is was originally agriculturally-centered, the city joined the industrial revolution with access to the National Road in 1830, and was fully embraced by the automotive age by the late 19th century.
 				</p>
