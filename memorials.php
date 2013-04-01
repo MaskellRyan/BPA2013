@@ -13,10 +13,10 @@
 			<h1>Indiana War Memorial</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
+			    <div><img src="_/content/img/memorials/indiana_warmemorial.jpg"></div>
+			    <!-- <div><img src="_/content/img/memorials/.jpg"></div>
+			    <div><img src="_/content/img/memorials/.jpg"></div>
+			    <div><img src="_/content/img/memorials/.jpg"></div> -->
 			  </div>
 			</div>
 		</figure>
@@ -42,10 +42,10 @@
 			<h1>Medal of Honor Memorial</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
-			    <div><img src="_/content/img/history/indust_car.jpg"></div>
-			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
+			    <div><img src="_/content/img/memorials/medalofhonor_flowers.jpg"></div>
+			    <div><img src="_/content/img/memorials/medalofhonor_daytime.jpg"></div>
+			    <!-- <div><img src="_/content/img/memorials/.jpg"></div>
+			    <div><img src="_/content/img/memorials/.jpg"></div> -->
 			  </div>
 			</div>
 		</figure>
@@ -72,10 +72,10 @@
 			<h1>USS Indianapolis Memorial</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/memorials/ussmemorial_front.jpg"></div>
+			    <div><img src="_/content/img/memorials/ussmemorial_back.jpg"></div>
+			    <div><img src="_/content/img/memorials/ussmemorial_crowd.jpg"></div>
+			    <div><img src="_/content/img/memorials/ussmemorial_finalsailing.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -101,11 +101,8 @@
 			<h1>Landmark for Peace Memorial</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/memorials/landmarkpeace_statue.jpg"></div>
+			    <div><img src="_/content/img/memorials/landmarkpeace_mlk.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -140,10 +137,8 @@
 			<h1>Admiral Raymond Spruance Memorial Basin</h1>
 			<div id="slider5" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears4.jpg"></div>
+			    <div><img src="_/content/img/memorials/spruance_memorial.jpg"></div>
+			    <div><img src="_/content/img/memorials/spruance_bust.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -173,10 +168,11 @@
 			<h1>Crown Hill Cemetary</h1>
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
-			    <div><img src="_/content/img/history/indust_car.jpg"></div>
-			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
+			    <div><img src="_/content/img/memorials/crownhill_view.jpg"></div>
+			    <div><img src="_/content/img/memorials/crownhill_cemetary.jpg"></div>
+			    <div><img src="_/content/img/memorials/crownhill_church.jpg"></div>
+			    <div><img src="_/content/img/memorials/crownhill_entrance.jpg"></div>
+			    <div><img src="_/content/img/memorials/crownhill_giantmemorial.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -203,10 +199,10 @@
 			<h1>Lockerbie Square</h1>
 			<div id="slider7" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/memorials/lockerbie_cottage.jpg"></div>
+			    <div><img src="_/content/img/memorials/lockerbie_stmarysfront.jpg"></div>
+			    <div><img src="_/content/img/memorials/lockerbie_whitcombhouse.jpg"></div>
+			    <div><img src="_/content/img/memorials/lockerbie_stmarysrear.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -237,11 +233,11 @@
 			<h1>Madame Walker Theatre Center</h1>
 			<div id="slider8" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/memorials/walkertheatre_sign.jpg"></div>
+			    <!-- <div><img src="_/content/img/memorials/.jpg"></div>
+			    <div><img src="_/content/img/memorials/.jpg"></div>
+			    <div><img src="_/content/img/memorials/.jpg"></div>
+			    <div><img src="_/content/img/memorials/.jpg"></div> -->
 			  </div>
 			</div>
 		</figure>
