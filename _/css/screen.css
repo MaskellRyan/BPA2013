@@ -1016,7 +1016,7 @@ header h2 {
 }
 @media (min-width: 56.25em) {
   .box figure img, header figure img {
-    margin-top: -80px;
+    margin-top: -40px;
   }
 }
 .box figure h1, header figure h1 {
