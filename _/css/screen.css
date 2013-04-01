@@ -1137,7 +1137,6 @@ header h2 {
 @media (min-width: 56.25em) {
   .box article aside, header article aside {
     width: 30%;
-    position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
