@@ -91,18 +91,18 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
-				<p>This European style village is a one-of-a-kind cultural district, with its quaint town square and central fountain. A blend of funky independence and architecture makes Fountain Square a choice for visitors and natives alike.<br><br><br></p>
+				<p>This European style village is a one-of-a-kind cultural district, with its quaint town square and central fountain. A blend of funky independence and architecture makes Fountain Square a choice for visitors and natives alike.<br><br><br><br><br></p>
 			</section>
 			<aside>
 				<h3>What To do</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<ul>
+				<oll>
 					<li>Lunch and Dinner</li>
 					<li>Entertainment and Nightlife</li>
 					<li>Antiquing</li>
 					<li>Art Galleries</li>
 					<li>One-of-a-kind Events</li>
 					<li>Local Music Scene</li>
-				</ul>
+				</ol>
 				
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -130,7 +130,7 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
-				<p>Featuring the Circle Centre Mall, local boutiques, and luxury hotel accommodations, this district a fashonista's dream come true. The Wholesale Districts reputation for inviting hospitality makes it one of its visitor's admired place to stay awhile. </p>
+				<p>Featuring the Circle Centre Mall, local boutiques, and luxury hotel accommodations, this district a fashonista's dream come true. The Wholesale Districts reputation for inviting hospitality makes it one of its visitor's admired place to stay awhile. <br><br><br></p>
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -160,7 +160,7 @@
 		</div>
 		<article id="drawer5" class="collapse">
 			<section>
-				<p>Jazz is the beat that moves this district. Rich in African American culture is the city's most historically rich community. Come for the Jazz, perfectly restored neighborhoods,  unique heritage and the Madame Walker Theatre Center. </p>
+				<p>Jazz is the beat that moves this district. Rich in African American culture is the city's most historically rich community. Come for the Jazz, perfectly restored neighborhoods,  unique heritage and the Madame Walker Theatre Center. <br><br><br></p>
 			</section>
 			<aside>
 				<h3>All That Jazz!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -193,6 +193,7 @@
 				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.<br><br><br></p>
 			</section>
 			<aside>
+			<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
 					<li><a href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
 					<li><a href="http://www.indyzoo.com/SitePages/WhiteRiverGardens/welcomeToTheGardens.aspx">White River Gardens</a></li>
