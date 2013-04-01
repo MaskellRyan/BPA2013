@@ -12,10 +12,10 @@
 			<h1>Broad Ripple Village</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/broadripple_fair.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/broadripple_voguetheater.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/broadripple_twistedhouse.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/broadripple_footbridge.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -46,10 +46,11 @@
 			<h1>Massachusetts Avenue</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
-			    <div><img src="_/content/img/history/indust_car.jpg"></div>
-			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/massave_degrees.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/massave_colorfulbuildings.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/massave_oldbuilding.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/massave_citymarket.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/massave_district.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -77,10 +78,11 @@
 			<h1>Fountain Square</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/fountain_squareandtheater.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/fountain_fountain.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/fountain_bowling.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/fountain_newdaymeadery.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/fountain_building.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -116,11 +118,11 @@
 			<h1>The Wholesale District</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/wholesale_sign.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/wholesale_unionstation.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/wholesale_mall.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/wholesale_clocktower.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/wholesale_circlecenter.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -147,11 +149,10 @@
 			<h1>Indiana Ave</h1>
 			<div id="slider5" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/indianaave_jazzplayers.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/indianaave_walkertheatre.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/indianaave_jazzsculpture.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/indianaave_zephyr.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -178,11 +179,11 @@
 			<h1>Canal and White River State Park</h1>
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/whiteriver_canal.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/whiteriver_sculpture.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/whiteriver_hall.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/whiteriver_conservatory.jpg"></div>
+			    <div><img src="_/content/img/arts/districts/whiteriver_rotunda.jpg"></div>
 			  </div>
 			</div>
 		</figure>
