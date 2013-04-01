@@ -25,7 +25,7 @@
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/8577178@N03/3180360869/">Downtown Indianapolis</a><span> by <a href="http://www.flickr.com/photos/8577178@N03/">Jessiesgrl31866</a></span></h1>
 					<img src="_/content/img/history/20century_downtown.jpg">
 				</div>
 
@@ -35,7 +35,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/library_of_congress/3408791019/">500 Mile Race</a><span> by <a href="http://www.flickr.com/photos/library_of_congress/">Library of Congress</a></span></h1>
 					<img src="_/content/img/history/20century_indy500.jpg">
 				</div>
 
@@ -50,7 +50,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/monumentcircleproject/5582699477/in/photostream">Indianapolis</a><span> by <a href="http://www.flickr.com/photos/monumentcircleproject/">Monument Circle Project</a></span></h1>
 					<img src="_/content/img/history/earlyyears_downtown.jpg">
 				</div>
 
@@ -60,7 +60,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/monumentcircleproject/5454722147/">West Market St.</a><span> by <a href="http://www.flickr.com/photos/monumentcircleproject/">Monument Circle Project</a></span></h1>
 					<img src="_/content/img/history/earlyyears_westmarket.jpg">
 				</div>
 
@@ -70,12 +70,12 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/elias555/5899844914/">Harry Endicott</a><span> by <a href="http://www.flickr.com/photos/elias555/">Elias555</a></span></h1>
 					<img src="_/content/img/history/indust_racecar.jpg">
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/library_of_congress/2516559892/">Dynamiters' train</a><span> by <a href="http://www.flickr.com/photos/library_of_congress/">Library of Congress</a></span></h1>
 					<img src="_/content/img/history/indust_train.jpg">
 				</div>
 
@@ -265,7 +265,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/ronnylight/5094086061/in/photostream">Vogue Theater</a><span> by <a href="http://www.flickr.com/photos/ronnylight/">Ronny Light</a></span></h1>
 					<img src="_/content/img/arts/districts/broadripple_voguetheater.jpg">
 				</div>
 
