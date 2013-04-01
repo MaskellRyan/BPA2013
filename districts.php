@@ -26,7 +26,7 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
-				<p>Only a few miles from downtown Indianapolis is the art scene of Broad Ripple Village. Complete with live theatre, historic buildings and boutiques, these charming streets are full of the most original music stages and nightlife diversions.<br><br><br><br><br><br><br></p>
+				<p>Only a few miles from downtown Indianapolis is the art scene of Broad Ripple Village. Complete with live theatre, historic buildings and boutiques, these charming streets are full of the most original music stages and nightlife diversions.<br><br><br><br></p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
@@ -60,7 +60,7 @@
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
-				<p>Known as the arts and theatre district of Indianapolis is the famous Mass Ave, the city's most historic and oppidan communities. It's eclectic, trendy, and the place to be!</p>
+				<p>Known as the arts and theatre district of Indianapolis is the famous Mass Ave, the city's most historic and oppidan communities. It's eclectic, trendy, and the place to be!<br><br><br></p>
 
 			</section>
 			<aside>
@@ -91,7 +91,7 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
-				<p>This European style village is a one-of-a-kind cultural district, with its quaint town square and central fountain. A blend of funky independence and architecture makes Fountain Square a choice for visitors and natives alike.</p>
+				<p>This European style village is a one-of-a-kind cultural district, with its quaint town square and central fountain. A blend of funky independence and architecture makes Fountain Square a choice for visitors and natives alike.<br><br><br></p>
 			</section>
 			<aside>
 				<h3>What To do</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -190,7 +190,7 @@
 		</div>
 		<article id="drawer6" class="collapse">
 			<section>
-				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.</p>
+				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.<br><br><br></p>
 			</section>
 			<aside>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
