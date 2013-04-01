@@ -692,6 +692,19 @@ header {
 				margin: 10px 0;
 				width: 100%;
 			}
+			img {
+				width: 100%;
+				clear: right;
+				margin-bottom: 15px;
+				@include breakpoint(tablet) {
+					width: auto;
+					margin-right: 15px;
+					float: left;
+				}
+				@include breakpoint(desktop) {
+					clear: none;
+				}
+			}
 		}
 		.tab {
 			width: 100%;
@@ -898,15 +911,6 @@ header {
 		margin-right: 2%;
 		width: 49%;
 		float: left;
-		// margin: 2% 3%;
-		.read-more {
-			width: 60px !important;
-			height: 60px !important;
-			i {
-				font-size: 80px !important;
-				top: -22px !important;
-			}
-		}
 	}
 	.sources {
 		h1 {

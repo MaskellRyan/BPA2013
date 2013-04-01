@@ -26,6 +26,7 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
+				<img src="_/content/img/arts/districts/broadripplelogo.png">
 				<p>Only a few miles from downtown Indianapolis is the art scene of Broad Ripple Village. Complete with live theatre, historic buildings and boutiques, these charming streets are full of the most original music stages and nightlife diversions.</p>
 			</section>
 			<aside>
@@ -61,8 +62,8 @@
 		</div>
 		<article id="drawer2" class="collapse">
 			<section>
+				<img src="_/content/img/arts/districts/massavelogo.png">
 				<p>Known as the arts and theatre district of Indianapolis is the famous Mass Ave, the city's most historic and oppidan communities. It's eclectic, trendy, and the place to be!</p>
-
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -93,6 +94,7 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
+				<img src="_/content/img/arts/districts/fountainsquarelogo.png">
 				<p>This European style village is a one-of-a-kind cultural district, with its quaint town square and central fountain. A blend of funky independence and architecture makes Fountain Square a choice for visitors and natives alike.</p>
 			</section>
 			<aside>
@@ -110,7 +112,10 @@
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
+<?php include 'global/backbutton.html';?>
 </div>
+
+
 <div class="halfcol">
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
@@ -133,6 +138,7 @@
 		</div>
 		<article id="drawer4" class="collapse">
 			<section>
+				<img src="_/content/img/arts/districts/wholesalelogo.png">
 				<p>Featuring the Circle Centre Mall, local boutiques, and luxury hotel accommodations, this district a fashonista's dream come true. The Wholesale Districts reputation for inviting hospitality makes it one of its visitor's admired place to stay awhile. </p>
 			</section>
 			<aside>
@@ -163,6 +169,7 @@
 		</div>
 		<article id="drawer5" class="collapse">
 			<section>
+				<img src="_/content/img/arts/districts/indianaavelogo.png">
 				<p>Jazz is the beat that moves this district. Rich in African American culture is the city's most historically rich community. Come for the Jazz, perfectly restored neighborhoods,  unique heritage and the Madame Walker Theatre Center. </p>
 			</section>
 			<aside>
@@ -194,6 +201,7 @@
 		</div>
 		<article id="drawer6" class="collapse">
 			<section>
+				<img src="_/content/img/arts/districts/canalwhiteriverlogo.png">
 				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.</p>
 			</section>
 			<aside>
@@ -210,6 +218,5 @@
 		</article>
 	</div> <!-- END CONTENT DRAWER -->
 </div>
-<?php include 'global/backbutton.html';?>
 
 <?php include 'global/foot.php';?>

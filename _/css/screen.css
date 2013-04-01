@@ -1120,6 +1120,23 @@ header h2 {
   margin: 10px 0;
   width: 100%;
 }
+.box article section img, header article section img {
+  width: 100%;
+  clear: right;
+  margin-bottom: 15px;
+}
+@media (min-width: 40.625em) {
+  .box article section img, header article section img {
+    width: auto;
+    margin-right: 15px;
+    float: left;
+  }
+}
+@media (min-width: 56.25em) {
+  .box article section img, header article section img {
+    clear: none;
+  }
+}
 .box article .tab, header article .tab {
   width: 100%;
   border-top: solid 6px #505050;
@@ -1333,14 +1350,6 @@ header h2 {
     margin-right: 2%;
     width: 49%;
     float: left;
-  }
-  .halfcol .read-more, .halfcol .backbutton div, .backbutton .halfcol div {
-    width: 60px !important;
-    height: 60px !important;
-  }
-  .halfcol .read-more i, .halfcol .backbutton div i, .backbutton .halfcol div i {
-    font-size: 80px !important;
-    top: -22px !important;
   }
 }
 .halfcol .sources h1 {
