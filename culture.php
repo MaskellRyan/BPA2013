@@ -51,7 +51,7 @@
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/arts/culture/moncircle_monument.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_basrelief.jpg"></div>
-			    <div><img src="_/content/img/arts/culture/moncircle_.christmasjpg"></div>
+			    <div><img src="_/content/img/arts/culture/moncircle_christmas.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_ground.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_sculptures.jpg"></div>
 			    <div><img src="_/content/img/arts/culture/moncircle_marketstreet.jpg"></div>
