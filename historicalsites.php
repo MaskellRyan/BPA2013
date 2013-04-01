@@ -33,11 +33,9 @@
 				</p>
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-				</ul>
+				<h3>Fun Fact</h3>
+				<p> Harrison saw the incorporation of North and South Dakota, Montana, Washington, Idaho and Wyoming into the union while holding the Presidential office. 
+				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -71,7 +69,7 @@
 			</section>
 			<aside>
 				<h3>Fun Fact!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
-				<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+				<p>The Huddleston Farmhouse was built in 1838 on a total of 78 acres.</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -110,11 +108,9 @@
 
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-				</ul>
+				<h3>Fun Fact!</h3>
+				<p>Treat your significant other to a night of poetry, harp interludes, and dinner in a restored Victorian dining room inspired by a 1892 Valentine's Day issue of Delineator Magazine. 
+				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
@@ -149,11 +145,8 @@
 				</p>
 			</section>
 			<aside>
-				<h3>Helpful Links</h3>
-				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="#">Things</a></li>
-					<li><a href="#">Stuff</a></li>
-				</ul>
+				<h3>Fun Fact</h3>
+				<p>There has been 14 Masons that have served as US Presidents: George Washington, James Monroe, Andrew Jackson, James Polk, James Buchanan, Andrew Johnson, James Garfield, William McKinley, Teddy Roosevelt, William Taft, Warren Harding, F. D. Roosevelt, Harry Truman, and Gerald Ford. 				</p>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
