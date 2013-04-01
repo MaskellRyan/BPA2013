@@ -167,7 +167,7 @@ body {
 }
 
 a {
-  color: #646464;
+  color: #a40b00;
   text-decoration: none;
   white-space: pre;
   white-space: pre-wrap;
@@ -179,7 +179,7 @@ a {
   word-wrap: break-word;
 }
 a:hover, a:focus, a:active {
-  color: #7e7e7e;
+  color: #d70e00;
   text-decoration: none;
   border-bottom: 1px solid #7e7e7e;
 }
@@ -1012,18 +1012,11 @@ header h2 {
   width: 100%;
   position: absolute;
   top: 0;
-  margin-top: -30px;
-}
-@media (min-width: 40.625em) {
-  .box figure img, header figure img {
-    top: -30%;
-    margin-top: -80px;
-  }
+  margin-top: 0;
 }
 @media (min-width: 56.25em) {
   .box figure img, header figure img {
-    top: -60%;
-    margin-top: -20%;
+    margin-top: -80px;
   }
 }
 .box figure h1, header figure h1 {

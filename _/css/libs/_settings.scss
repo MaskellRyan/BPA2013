@@ -34,8 +34,8 @@ $accent-heading-color				: $accent;
 
 
 // Links
-$action								: $primary;
-$action-respond						: lighten($primary, 10%);
+$action								: $red;
+$action-respond						: lighten($red, 10%);
 $accent-action						: $action-respond;
 $accent-action-respond				: $action;
 
