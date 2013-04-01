@@ -31,7 +31,8 @@
 					</p>
 					<blockquote>"An American citizen could not be a good citizen who did not not have hope in his heart."</blockquote>
 					 <p>The 23rd President of the United States was a hopeful man who paved the way for civil rights legislation and established relations with Central America while unifying the the Republican Party.
-					</p><p>
+					</p>
+					<p>
 					As a successful lawyer in Indianapolis Benjamin Harrison wanted to stimulate the local economy by establishing his family home in the city he supported. In 1874, he and his wife Caroline broke ground on the double lot on the west side of North Delaware Street. This home has served many purposes over the years and stands as a reminder of the goals and values held by our former President throughout his life and career. 
 				</p>
 			</section>
