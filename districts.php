@@ -160,7 +160,7 @@
 		</div>
 		<article id="drawer5" class="collapse">
 			<section>
-				<p>Jazz is the beat that moves this district. Rich in African American culture is the city's most historically rich community. Come for the Jazz, perfectly restored neighborhoods,  unique heritage and the Madame Walker Theatre Center. <br><br><br></p>
+				<p>Jazz is the beat that moves this district. Rich in African American culture is the city's most historically rich community. Come for the Jazz, perfectly restored neighborhoods,  unique heritage and the Madame Walker Theatre Center. <br><br><br><br><br></p>
 			</section>
 			<aside>
 				<h3>All That Jazz!</h3> <!-- YOU MAY ALSO USE A <ul> HERE -->
@@ -190,7 +190,7 @@
 		</div>
 		<article id="drawer6" class="collapse">
 			<section>
-				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.<br><br><br></p>
+				<p>Home of the Indianapolis Zoo, White River Gardens, Indiana State Museum, NCAA Hall of Champions, and Victory Field is the special district of Canal and White River State Park. The numerous attractions make this cultural hubbub a whole family favorite. There is something for everyone at any age.<br><br><br><br><br></p>
 			</section>
 			<aside>
 			<h3>Helpful Links</h3>
