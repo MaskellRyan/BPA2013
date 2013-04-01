@@ -26,7 +26,7 @@
 		</div>
 		<article id="drawer1" class="collapse">
 			<section>
-				<p>Only a few miles from downtown Indianapolis is the art scene of Broad Ripple Village. Complete with live theatre, historic buildings and boutiques, these charming streets are full of the most original music stages and nightlife diversions.</p>
+				<p>Only a few miles from downtown Indianapolis is the art scene of Broad Ripple Village. Complete with live theatre, historic buildings and boutiques, these charming streets are full of the most original music stages and nightlife diversions.<br><br><br><br><br><br><br></p>
 			</section>
 			<aside>
 				<h3>Helpful Links</h3>
