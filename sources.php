@@ -643,6 +643,91 @@
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
 
+			  	<div>
+					<h1><a href="http://www.flickr.com/photos/twcage76/8290416153/">President Benjamin Harrison House</a><span> by <a href="http://www.flickr.com/people/twcage76/">Tyson1976</a></span></h1>
+					<img src="_/content/img/sites/benjamin_bedroom.jpg">
+				</div>
+
+			  	<div>
+					<h1><a href="http://commons.wikimedia.org/wiki/File:Benjamin_Harrisons_House_NRHP_66000010.jpg">Benjamin Harrisons House</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></span></h1>
+					<img src="_/content/img/sites/benjamin_oldphoto.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/twcage76/8291395584/">President Benjamin Harrison House</a><span> by <a href="http://www.flickr.com/people/twcage76/">Tyson1976</a></span></h1>
+					<img src="_/content/img/sites/benjamin_homeoffice.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/twcage76/6569354317/">President Benjamin Harrison House</a><span> by <a href="http://www.flickr.com/people/twcage76/">Tyson1976</a></span></h1>
+					<img src="_/content/img/sites/benjamin_house.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/monroedb/2656557781/">Benjamin Harrison</a><span> by <a href="http://www.flickr.com/people/monroedb/">Monroedb1</a></span></h1>
+					<img src="_/content/img/sites/benjamin_painting.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/girlwithashoe/5211895059/">Scottish Rite Cathedral</a><span> by <a href="http://www.flickr.com/people/girlwithashoe/">girlwithashoe</a></span></h1>
+					<img src="_/content/img/sites/cathedral_name.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/pauldandrea/5831305650/">Scottish Rite Bells</a><span> by <a href="http://www.flickr.com/people/pauldandrea/">Paul D'Andrea</a></span></h1>
+					<img src="_/content/img/sites/cathedral_bells.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://commons.wikimedia.org/wiki/File:Catedral_de_tradici%C3%B3n_escocesa,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg">Catedral de tradición escocesa</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons/a></span></h1>
+					<img src="_/content/img/sites/cathedral_front.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/92458240@N02/8408872455/">Scottish Rite Cathedral Main Hall</a><span> by <a href="http://www.flickr.com/people/92458240@N02/">Historic Architecture of Indiana</a></span></h1>
+					<img src="_/content/img/sites/cathedral_mainhall.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/pandora-no-hako/4983697826/">Southern Portal of the Scottish Rite Cathedral</a><span> by <a href="http://www.flickr.com/people/pandora-no-hako/">Pandora-no-hako</a></span></h1>
+					<img src="_/content/img/sites/cathedral_archdetail.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://commons.wikimedia.org/wiki/File:Catedral_de_tradici%C3%B3n_escocesa,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_02.jpg">Catedral de tradición escocesa</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></span></h1>
+					<img src="_/content/img/sites/cathedral_side.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/waynet/202845027/">Gardens at the Huddleston Farm House</a><span> by <a href="http://www.flickr.com/people/waynet/">WayNet.org</a></span></h1>
+					<img src="_/content/img/sites/huddleston_garden.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/jessica_nunemaker/7746563694/">Huddleston Farmhouse: Cambridge City</a><span> by <a href="http://www.flickr.com/people/jessica_nunemaker/">Jessica Nunemaker</a></span></h1>
+					<img src="_/content/img/sites/huddleston_porch.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://commons.wikimedia.org/wiki/File:HuddlestonFarmhouse_MtAuburnIN.jpg">HuddlestonFarmhouse</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></span></h1>
+					<img src="_/content/img/sites/huddleston_side.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/joet321/7338882382/">Morris Butler Home</a><span> by <a href="http://www.flickr.com/people/joet321/">JoeT321</a></span></h1>
+					<img src="_/content/img/sites/morrisbutler_house.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://commons.wikimedia.org/wiki/File:Morris-Butler_House_porch_HABS_IND,49-IND,9-5.jpg">Morris-Butler House porch</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></span></h1>
+					<img src="_/content/img/sites/morrisbutler_porch.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/jimkershner/4153675750/">Morris Butler House Museum</a><span> by <a href="http://www.flickr.com/people/jimkershner/">Jim Kershner</a></span></h1>
+					<img src="_/content/img/sites/morrisbutler_side.jpg">
+				</div>
+
 			  </div>
 			</div>
 		</figure>
