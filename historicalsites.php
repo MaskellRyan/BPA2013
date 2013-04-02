@@ -12,10 +12,11 @@
 			<h1>President Benjamin Harrison Home</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/benjamin_house.jpg"></div>
+			    <div><img src="_/content/img/sites/benjamin_bedroom.jpg"></div>
+			    <div><img src="_/content/img/sites/benjamin_homeoffice.jpg"></div>
+			    <div><img src="_/content/img/sites/benjamin_oldphoto.jpg"></div>
+			    <div><img src="_/content/img/sites/benjamin_painting.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -51,10 +52,9 @@
 			<h1>Huddleston Farmhouse</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/huddleston_side.jpg"></div>
+			    <div><img src="_/content/img/sites/huddleston_garden.jpg"></div>
+			    <div><img src="_/content/img/sites/huddleston_porch.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -85,10 +85,9 @@
 			<h1>Morris-Butler House</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/morrisbutler_house.jpg"></div>
+			    <div><img src="_/content/img/sites/morrisbutler_porch.jpg"></div>
+			    <div><img src="_/content/img/sites/morrisbutler_side.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -126,11 +125,12 @@
 			<h1>Scottish Rite Cathedral</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
-			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/cathedral_front.jpg"></div>
+			    <div><img src="_/content/img/sites/cathedral_side.jpg"></div>
+			    <div><img src="_/content/img/sites/cathedral_name.jpg"></div>
+			    <div><img src="_/content/img/sites/cathedral_archdetail.jpg"></div>
+			    <div><img src="_/content/img/sites/cathedral_mainhall.jpg"></div>
+			    <div><img src="_/content/img/sites/cathedral_bells.jpg"></div>
 			  </div>
 			</div>
 		</figure>
