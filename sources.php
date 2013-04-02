@@ -90,7 +90,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/7656151@N06/444987059/">Monument Circle</a><span> by <a href="http://www.flickr.com/photos/7656151@N06/">Alloverthe Globe</a></span></h1>
 					<img src="_/content/img/history/presentday_flowers.jpg">
 				</div>
 
@@ -105,7 +105,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/mcc_indianapolis/8455454310/">Indianapolis Skyline</a><span> by <a href="http://www.flickr.com/photos/mcc_indianapolis/">MCC_Indianapolis</a></span></h1>
 					<img src="_/content/img/history/presentday_nightscape.jpg">
 				</div>
 			  </div>
@@ -125,7 +125,7 @@
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/ntime60/5778520983/">Memorial Day</a><span> by <a href="http://www.flickr.com/photos/ntime60/">ntime60</a></span></h1>
 					<img src="_/content/img/memorials/crownhill_cemetary.jpg">
 				</div>
 
@@ -244,8 +244,14 @@
 		<figure>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
+
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/duq/3824599495/">45˚ from Ordinary</a><span> by <a href="http://www.flickr.com/photos/duq/">Duq</a></span></h1>
+					<img src="_/content/img/arts/districts/massave_degrees.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.flickr.com/photos/12152206@N03/3498107167/">Canal Walk</a><span> by <a href="http://www.flickr.com/photos/12152206@N03/">WVJazzman</a></span></h1>
 					<img src="_/content/img/arts/districts/whiteriver_canal.jpg">
 				</div>
 
@@ -326,11 +332,6 @@
 
 				<div>
 					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
-					<img src="_/content/img/arts/districts/massave_degrees.jpg">
-				</div>
-
-				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
 					<img src="_/content/img/arts/districts/massave_district.jpg">
 				</div>
 
@@ -355,7 +356,7 @@
 				</div>
 
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="http://www.flickr.com/photos/12152206@N03/3490139778/in/photostream/">White River State Park</a><span> by <a href="http://www.flickr.com/photos/12152206@N03/">WVJazzman</a></span></h1>
 					<img src="_/content/img/arts/districts/whiteriver_sculpture.jpg">
 				</div>
 
@@ -404,7 +405,7 @@
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 				<div>
-					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<h1><a href="">Memorial Day</a><span> by <a href="">ntime60</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_basrelief.jpg">
 				</div>
 
