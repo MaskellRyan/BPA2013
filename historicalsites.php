@@ -12,10 +12,10 @@
 			<h1>President Benjamin Harrison Home</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
 			  </div>
 			</div>
 		</figure>
@@ -51,10 +51,10 @@
 			<h1>Huddleston Farmhouse</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
-			    <div><img src="_/content/img/history/indust_car.jpg"></div>
-			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
 			  </div>
 			</div>
 		</figure>
@@ -85,10 +85,10 @@
 			<h1>Morris-Butler House</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
 			  </div>
 			</div>
 		</figure>
@@ -126,11 +126,11 @@
 			<h1>Scottish Rite Cathedral</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
+			    <div><img src="_/content/img/sites/"></div>
 			  </div>
 			</div>
 		</figure>

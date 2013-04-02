@@ -534,6 +534,100 @@
 			<div id="slider5" class='swipe'>
 			  <div class='swipe-wrap'>
 
+				<div>
+					<h1><a href="http://www.flickr.com/photos/mobilene/2602040263/">Arts Garden</a><span> by <a href="http://www.flickr.com/photos/mobilene/">mobilene</a></span></h1>
+					<img src="_/content/img/arts/museums/artsgarden_front.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artcenter_building.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artcenter_mushrooms.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artcenter_paperart.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artcenter_ribbons.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artcenter_sign.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artsgarden_inside.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artsgarden_side.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/artsgarden_under.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/contemporaryart_building.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/contemporaryart_sphere.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/herron_artpiece.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/herron_front.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/herron_inside.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/museumofart_front.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/museumofart_interior.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/museumofart_numbers.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museums/museumofart_love.jpg">
+				</div>
+
+				<div>
+					<h1><a href="#">title</a><span> by <a href="#">Name</a></span></h1>
+					<img src="_/content/img/arts/museum_lovestatue.jpg">
+				</div>
 			  </div>
 			</div>
 		</figure>

@@ -603,7 +603,7 @@ header {
 
 		h1 {
 			z-index: 20;
-			box-shadow: inset 0 -39px 31px -18px rgba(0,0,0,.9);
+			@include box-shadow(inset 0 -39px 31px -18px rgba(0,0,0,.9));
 			text-shadow: 0 3px 3px $black;
 			width: 100%;
 			display: block;
@@ -745,7 +745,7 @@ header {
 			float: left;
 			text-align: left;
 			font-family: $sans-regular;
-			box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.3);
+			@include box-shadow(inset 0 10px 10px -10px rgba(0,0,0,.3));
 			h3 {
 				padding: 10px 0;
 				padding-left: 20px;
@@ -814,7 +814,7 @@ header {
 			z-index: 5;
 			-moz-opacity: 0;
 			text-transform: uppercase;
-			box-shadow: 0 0 0 0 transparent;
+			@include box-shadow(0 0 0 0 transparent);
 			text-align: center;
 			background-color: $accent;
 			border: 3px solid $white;
@@ -931,7 +931,7 @@ header {
 	}
 	.sources {
 		h1 {
-			box-shadow: 0 -113px 41px -68px rgba(0, 0, 0, 0.9) inset !important;
+			@include box-shadow(0 -39px 31px -22px rgba(0, 0, 0, 0.9) inset !important);
 		}
 	}
 }
@@ -983,7 +983,7 @@ header {
 			bottom: auto;
 			top: 0;
 			height: 150px;
-			box-shadow: 0 142px 51px -68px rgba(0, 0, 0, 0.9) inset;
+			@include box-shadow(0 142px 51px -68px rgba(0, 0, 0, 0.9) inset);
 			padding: 4%;
 		}
 	}
