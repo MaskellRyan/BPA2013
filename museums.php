@@ -12,10 +12,11 @@
 			<h1>Indianapolis Art Center</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/earlyyears1.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears3.jpg"></div>
-			    <div><img src="_/content/img/history/earlyyears2.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artcenter_building.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artcenter_ribbons.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artcenter_sign.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artcenter_paperart.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artcenter_mushrooms.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -45,10 +46,10 @@
 			<h1>Indianapolis Museum of Art</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/indust_train.jpg"></div>
-			    <div><img src="_/content/img/history/indust_workers.jpg"></div>
-			    <div><img src="_/content/img/history/indust_car.jpg"></div>
-			    <div><img src="_/content/img/history/indust_racecar.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/museumofart_front.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/museumofart_love.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/museumofart_interior.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/museumofart_numbers.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -79,10 +80,10 @@
 			<h1>Indianapolis Arts garden</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-			    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-			    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-			    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artsgarden_front.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artsgarden_side.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artsgarden_under.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/artsgarden_inside.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -113,11 +114,8 @@
 			<h1>Indianapolis Museum of Contemporary Art</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
-			    <div><img src="_/content/img/history/presentdayindy1.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy2.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy3.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy4.jpg"></div>
-			    <div><img src="_/content/img/history/presentdayindy5.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/contemporaryart_building.jpg"></div>
+			    <div><img src="_/content/img/arts/museums/contemporaryart_sphere.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -157,10 +155,9 @@
 				<h1>Herron School of Art</h1>
 				<div id="slider5" class='swipe'>
 				  <div class='swipe-wrap'>
-				    <div><img src="_/content/img/history/20century_downtown.jpg"></div>
-				    <div><img src="_/content/img/history/20century_houdini.jpg"></div>
-				    <div><img src="_/content/img/history/20century_indy500.jpg"></div>
-				    <div><img src="_/content/img/history/20century_newsboys.jpg"></div>
+				    <div><img src="_/content/img/arts/museums/herron_front.jpg"></div>
+				    <div><img src="_/content/img/arts/museums/herron_artpiece.jpg"></div>
+				    <div><img src="_/content/img/arts/museums/herron_inside.jpg"></div>
 				  </div>
 				</div>
 			</figure>
