@@ -14,9 +14,10 @@
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/memorials/indiana_warmemorial.jpg"></div>
-			    <!-- <div><img src="_/content/img/memorials/.jpg"></div>
-			    <div><img src="_/content/img/memorials/.jpg"></div>
-			    <div><img src="_/content/img/memorials/.jpg"></div> -->
+			    <div><img src="_/content/img/memorials/indiana_shrineroom.jpg"></div>
+			    <div><img src="_/content/img/memorials/indiana_uniform.jpg"></div>
+			    <div><img src="_/content/img/memorials/indiana_soldiers.jpg"></div>
+			    <div><img src="_/content/img/memorials/indiana_nightscape.jpg"></div>
 			  </div>
 			</div>
 		</figure>
@@ -44,8 +45,7 @@
 			  <div class='swipe-wrap'>
 			  	<div><img src="_/content/img/memorials/medalofhonor_daytime.jpg"></div>
 			    <div><img src="_/content/img/memorials/medalofhonor_flowers.jpg"></div>
-			    <!-- <div><img src="_/content/img/memorials/.jpg"></div>
-			    <div><img src="_/content/img/memorials/.jpg"></div> -->
+			    <div><img src="_/content/img/memorials/medalofhonor_dusk.jpg"></div>
 			  </div>
 			</div>
 		</figure>
