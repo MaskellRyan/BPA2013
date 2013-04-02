@@ -156,6 +156,26 @@
 
 				<div>
 					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<img src="_/content/img/memorials/indiana_shrineroom.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<img src="_/content/img/memorials/indiana_soldiers.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<img src="_/content/img/memorials/indiana_uniform.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<img src="_/content/img/memorials/indiana_nightscape.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
 					<img src="_/content/img/memorials/landmarkpeace_mlk.jpg">
 				</div>
 
@@ -187,6 +207,11 @@
 				<div>
 					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
 					<img src="_/content/img/memorials/medalofhonor_daytime.jpg">
+				</div>
+
+				<div>
+					<h1><a href="http://www.">title</a><span> by <a href="http://www.">Name</a></span></h1>
+					<img src="_/content/img/memorials/medalofhonor_dusk.jpg">
 				</div>
 
 				<div>
