@@ -643,6 +643,11 @@
 			<div id="slider6" class='swipe'>
 			  <div class='swipe-wrap'>
 
+				<div>
+					<h1><a href="http://www.flickr.com/photos/92458240@N02/8408872455/">Scottish Rite Cathedral Main Hall</a><span> by <a href="http://www.flickr.com/people/92458240@N02/">Historic Architecture of Indiana</a></span></h1>
+					<img src="_/content/img/sites/cathedral_mainhall.jpg">
+				</div>
+
 			  	<div>
 					<h1><a href="http://www.flickr.com/photos/twcage76/8290416153/">President Benjamin Harrison House</a><span> by <a href="http://www.flickr.com/people/twcage76/">Tyson1976</a></span></h1>
 					<img src="_/content/img/sites/benjamin_bedroom.jpg">
@@ -679,13 +684,8 @@
 				</div>
 
 				<div>
-					<h1><a href="http://commons.wikimedia.org/wiki/File:Catedral_de_tradici%C3%B3n_escocesa,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg">Catedral de tradición escocesa</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons/a></span></h1>
+					<h1><a href="http://commons.wikimedia.org/wiki/File:Catedral_de_tradici%C3%B3n_escocesa,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg">Catedral de tradición escocesa</a><span> by <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></span></h1>
 					<img src="_/content/img/sites/cathedral_front.jpg">
-				</div>
-
-				<div>
-					<h1><a href="http://www.flickr.com/photos/92458240@N02/8408872455/">Scottish Rite Cathedral Main Hall</a><span> by <a href="http://www.flickr.com/people/92458240@N02/">Historic Architecture of Indiana</a></span></h1>
-					<img src="_/content/img/sites/cathedral_mainhall.jpg">
 				</div>
 
 				<div>

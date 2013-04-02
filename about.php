@@ -102,7 +102,7 @@
 			<section class="img-left">
 				<img src="_/content/img/about/indycitylogo.png">
 				<h2>Well, we think it's nice.</h2>
-				<p>The "INDY a history" logo is designed to give a vibrant and edgy feel to the site. It is creatie in the form of the center of Indianapolis itself, showing the monument circle and its surrounding square buildings from an aerial perspective.</p>
+				<p>The "INDY a history" logo is designed to give a vibrant and edgy feel to the site. It is created in the form of the center of Indianapolis itself, showing the monument circle and its surrounding square buildings from an aerial perspective.</p>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
 		</article>
