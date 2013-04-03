@@ -1135,6 +1135,11 @@ header h2 {
   .box article section, header article section {
     width: 66%;
   }
+  .box article section img, header article section img {
+    max-width: 25%;
+    margin-left: 0 !important;
+    margin-right: 2%;
+  }
 }
 .box article section h2, header article section h2 {
   color: #646464;
@@ -1142,15 +1147,18 @@ header h2 {
   width: 100%;
 }
 .box article section img, header article section img {
-  width: 100%;
+  width: 90%;
+  margin-left: 7%;
   clear: right;
   margin-bottom: 15px;
 }
 @media (min-width: 40.625em) {
   .box article section img, header article section img {
     width: auto;
-    margin-right: 15px;
+    max-width: 35%;
+    margin-right: 5%;
     float: left;
+    margin-left: 0;
   }
 }
 @media (min-width: 56.25em) {

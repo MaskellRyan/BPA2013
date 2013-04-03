@@ -61,7 +61,7 @@
 		<article id="drawer2" class="collapse">
 			<section>
 				<p>Incorporated in 1883, the Indianapolis Museum of Art boasts a rich, historical collection of more than 54, 000 works spanning 5,000 years. The Indianapolis Museum of Art has something for everyone, including 152 acres of gardens and an outdoor art and nature park - one of the largest museum contemporary sculpture parks in the world.</p>
-
+				<img class="is-hidden" src="_/content/img/arts/ima_logo.jpg">
 				<p>In addition to its immense collection of art, the museum also boasts a reference library of over 100,000 items of information on visual arts, including the auction catalogs and individual artist files. </p>
 			</section>
 			<aside>
@@ -80,8 +80,8 @@
 			<h1>The Arts garden</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
+			  	<div><img src="_/content/img/arts/museums/artsgarden_side.jpg"></div>
 			    <div><img src="_/content/img/arts/museums/artsgarden_front.jpg"></div>
-			    <div><img src="_/content/img/arts/museums/artsgarden_side.jpg"></div>
 			    <div><img src="_/content/img/arts/museums/artsgarden_under.jpg"></div>
 			    <div><img src="_/content/img/arts/museums/artsgarden_inside.jpg"></div>
 			  </div>
@@ -94,8 +94,9 @@
 		</div>
 		<article id="drawer3" class="collapse">
 			<section>
+				<img src="_/content/img/arts/artsgarden_logo.png">
 				<p>Corporate events, government functions and wedding receptions all utilize this very unique seven-story tall, glass-enclosed facility to create an memorable experience for those who attend. </p>
-
+				
 				<p>Built in 1995, this conveniently located space connects the City Centre Mall to several hotel locations and the Indianapolis Convention Center.</p>
 			</section>
 			<aside>
