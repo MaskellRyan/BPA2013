@@ -1440,14 +1440,17 @@ br {
 			a:hover, a:active {color: lighten($red, 10%); border-bottom-color: $red;}
 		}
 		footer {
-			ul li {
-				&:nth-child(odd) {
-					background-color: $darkred;
-				}
-				&:nth-child(2) {
-					background-color: $red;
-					&:hover {
-						background-color: lighten($red, 10%) !important;
+			ul {
+				background-color: $darkred;
+				li {
+					&:nth-child(odd) {
+						background-color: $darkred;
+					}
+					&:nth-child(2) {
+						background-color: $red;
+						&:hover {
+							background-color: lighten($red, 10%) !important;
+						}
 					}
 				}
 			}
@@ -1483,14 +1486,17 @@ br {
 			a:hover, a:active {color: lighten($green, 10%); border-bottom-color: $green;}
 		}
 		footer {
-			ul li {
-				&:nth-child(odd) {
-					background-color: $darkgreen;
-				}
-				&:nth-child(2) {
-					background-color: $green;
-					&:hover {
-						background-color: lighten($green, 10%) !important;
+			ul {
+				background-color: $darkgreen;
+				li {
+					&:nth-child(odd) {
+						background-color: $darkgreen;
+					}
+					&:nth-child(2) {
+						background-color: $green;
+						&:hover {
+							background-color: lighten($green, 10%) !important;
+						}
 					}
 				}
 			}
@@ -1523,14 +1529,17 @@ br {
 			a:hover, a:active {color: lighten($blue, 10%); border-bottom-color: $blue;}
 		}
 		footer {
-			ul li {
-				&:nth-child(odd) {
-					background-color: $darkblue;
-				}
-				&:nth-child(2) {
-					background-color: $blue;
-					&:hover {
-						background-color: lighten($blue, 10%) !important;
+			ul {
+				background-color: $darkblue;
+				li {
+					&:nth-child(odd) {
+						background-color: $darkblue;
+					}
+					&:nth-child(2) {
+						background-color: $blue;
+						&:hover {
+							background-color: lighten($blue, 10%) !important;
+						}
 					}
 				}
 			}
@@ -1563,14 +1572,17 @@ br {
 			a:hover, a:active {color: lighten($orange, 10%); border-bottom-color: $orange;}
 		}
 		footer {
-			ul li {
-				&:nth-child(odd) {
-					background-color: $darkorange;
-				}
-				&:nth-child(2) {
-					background-color: $orange;
-					&:hover {
-						background-color: lighten($orange, 10%) !important;
+			ul {
+				background-color: $darkorange;
+				li {
+					&:nth-child(odd) {
+						background-color: $darkorange;
+					}
+					&:nth-child(2) {
+						background-color: $orange;
+						&:hover {
+							background-color: lighten($orange, 10%) !important;
+						}
 					}
 				}
 			}

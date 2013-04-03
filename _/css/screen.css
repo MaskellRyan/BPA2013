@@ -1911,6 +1911,9 @@ br {
   color: #d70e00;
   border-bottom-color: #a40b00;
 }
+.red article footer ul {
+  background-color: #590800;
+}
 .red article footer ul li:nth-child(odd) {
   background-color: #590800;
 }
@@ -1956,6 +1959,9 @@ br {
   color: #a2bd00;
   border-bottom-color: #768a00;
 }
+.green article footer ul {
+  background-color: #526100;
+}
 .green article footer ul li:nth-child(odd) {
   background-color: #526100;
 }
@@ -1998,6 +2004,9 @@ br {
   color: #49afaf;
   border-bottom-color: #3a8b8b;
 }
+.blue article footer ul {
+  background-color: #375353;
+}
 .blue article footer ul li:nth-child(odd) {
   background-color: #375353;
 }
@@ -2039,6 +2048,9 @@ br {
 .orange article section a:hover, .orange article section a:active {
   color: #f45800;
   border-bottom-color: #c14600;
+}
+.orange article footer ul {
+  background-color: #923c00;
 }
 .orange article footer ul li:nth-child(odd) {
   background-color: #923c00;

@@ -77,8 +77,7 @@
 		</figure>
 		<article id="drawer2" class="collapse" style="height:auto;">
 			<section class="img-left">
-				<img class="is-hidden" src="_/content/img/about/nic.jpg">
-				<img class="is-shown" src="_/content/img/about/niclogo-red.png">
+				<img src="_/content/img/about/nic.jpg">
 				<ul>
 					<li><span>Chapter Name:</span> North Idaho College BPA</li>
 					<li><span>Theme:</span> History of Indianapolis and its surrounding suburbs.</li>
@@ -101,7 +100,7 @@
 		<article id="drawer3" class="collapse" style="height:auto;">
 			<section class="img-left">
 				<img src="_/content/img/about/indycitylogo.png">
-				<h2>Well, we think it's nice.</h2>
+				<h2>Well, we think it's nice.</h2>         
 				<p>The "INDY a history" logo is designed to give a vibrant and edgy feel to the site. It is created in the form of the center of Indianapolis itself, showing the monument circle and its surrounding square buildings from an aerial perspective.</p>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
