@@ -134,7 +134,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer5"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Spruance Memorial Basin</h1>
+			<h1>Spruance Memorial</h1>
 			<div id="slider5" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/memorials/spruance_memorial.jpg"></div>

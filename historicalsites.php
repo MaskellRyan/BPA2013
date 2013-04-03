@@ -9,7 +9,7 @@
 		<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>President Benjamin Harrison Home</h1>
+			<h1>President Harrison Home</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/sites/benjamin_house.jpg"></div>

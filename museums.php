@@ -9,7 +9,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Indianapolis Art Center</h1>
+			<h1>The Art Center</h1>
 			<div id="slider1" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/arts/museums/artcenter_building.jpg"></div>
@@ -28,7 +28,7 @@
 		<article id="drawer1" class="collapse">
 			<section>
 				<p>Located in Broad Ripple Village is the Indianapolis Art Center. Founded in 1934 by the Works Project Administration during the Great Depression inspires audiences to engage and be enlightened through exposure to the visual arts and education.</p>
-				<p>The Art Center is composed of a 40,000 square-foot facility designed by the renowned architect Michael Graves, 11 state-of-the-art studios, three public galleries, a 224 seat auditorium, art library, and a nine-acre outdoor public art park.</p>	
+				<p>The Indianapolis Art Center is composed of a 40,000 square-foot facility designed by the renowned architect Michael Graves, 11 state-of-the-art studios, three public galleries, a 224 seat auditorium, art library, and a nine-acre outdoor public art park.</p>	
 			</section>
 			<aside>
 				<h3>Fun Fact</h3>
@@ -43,7 +43,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer2"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Indianapolis Museum of Art</h1>
+			<h1>The Museum of Art</h1>
 			<div id="slider2" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/arts/museums/museumofart_front.jpg"></div>
@@ -77,7 +77,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Indianapolis Arts garden</h1>
+			<h1>The Arts garden</h1>
 			<div id="slider3" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/arts/museums/artsgarden_front.jpg"></div>
@@ -101,7 +101,7 @@
 			<aside>
 				<h3>Fun Fact!</h3>
 				<p>
-				The Artsgarden is centrally located downtown and offers a free venue for more than 300 live performances annually.
+				The Indianapolis Arts garden is centrally located downtown and offers a free venue for more than 300 live performances annually.
 				</p>	
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -111,7 +111,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer4"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
-			<h1>Indianapolis Museum of Contemporary Art</h1>
+			<h1>The Museum of Contemporary Art</h1>
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 			    <div><img src="_/content/img/arts/museums/contemporaryart_building.jpg"></div>
