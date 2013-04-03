@@ -613,7 +613,7 @@ header {
 			bottom: 0;
 			font-family: $sans-light;
 			color: $heading-color;
-			font-size: 1.85em;
+			font-size: 1.65em;
 			@include breakpoint(desktop) {
 				font-size: 2.25em;
 			}
@@ -1121,7 +1121,7 @@ br {
 
 .swipe .swipe-wrap div h1 {
 	bottom: auto !important;
-	top: 105px !important;
+	top: 116px !important;
 	height: 140px;
 	span {
 		font-size: 13px;
@@ -1130,7 +1130,7 @@ br {
 	//box-shadow: 0 61px 31px -18px rgba(0, 0, 0, 0.9) inset;
 	padding: 1.5%;
 	@include breakpoint(tablet) {
-		top: 138px !important;
+		top: 148px !important;
 	}
 	@include breakpoint(desktop) {
 		top: 230px !important;
