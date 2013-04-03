@@ -40,9 +40,9 @@
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="http://indianapolis-indiana.funcityfinder.com/2008/09/17/indianapolis-art-museums/">Museums</a></li>
-					<li><a href="http://www.indianapolismotorspeedway.com/history/">History of Indy 500</a></li>
-					<li><a href="http://inwhiteriver.wrsp.in.gov/">White River State Park</a></li>
+					<li><a target="_blank" href="http://indianapolis-indiana.funcityfinder.com/2008/09/17/indianapolis-art-museums/">Museums</a></li>
+					<li><a target="_blank" href="http://www.indianapolismotorspeedway.com/history/">History of Indy 500</a></li>
+					<li><a target="_blank" href="http://inwhiteriver.wrsp.in.gov/">White River State Park</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -118,9 +118,9 @@
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="http://www.indianapolissymphony.org/">Indianapolis Symphony Orchestra</a></li>
-					<li><a href="http://indyjazzfest.net/">Indy Jazz Fest</a></li>
-					<li><a href="http://www.indyarts.org/">Art Council of Indy</a></li>
+					<li><a target="_blank" href="http://www.indianapolissymphony.org/">Indianapolis Symphony Orchestra</a></li>
+					<li><a target="_blank" href="http://indyjazzfest.net/">Indy Jazz Fest</a></li>
+					<li><a target="_blank" href="http://www.indyarts.org/">Art Council of Indy</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -156,10 +156,10 @@
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="http://www.indianapolismotorspeedway.com/indy500/">Indianapolis 500</a></li>
-					<li><a href="http://www.indianapolismotorspeedway.com/brickyard400/">Brickyard 400</a></li>
-					<li><a href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
-					<li><a href="http://www.colts.com/">NFL Colts</a></li>
+					<li><a target="_blank" href="http://www.indianapolismotorspeedway.com/indy500/">Indianapolis 500</a></li>
+					<li><a target="_blank" href="http://www.indianapolismotorspeedway.com/brickyard400/">Brickyard 400</a></li>
+					<li><a target="_blank" href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
+					<li><a target="_blank" href="http://www.colts.com/">NFL Colts</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->

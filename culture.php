@@ -33,11 +33,11 @@
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="http://www.discoverfountainsquare.com/">Fountain Square</a></li>
-					<li><a href="http://www.discovermassave.com/">Mass Ave</a></li>
-					<li><a href="http://www.discoverbroadripplevillage.com/home.cfm">Broad Ripple Village</a></li>
-					<li><a href="http://www.discoverwholesaledistrict.com/home.cfm">Wholesale District</a></li>
-					<li><a href="http://www.discovercanal.com/home.cfm">The Canal and White River State Park</a></li>
+					<li><a target="_blank" href="http://www.discoverfountainsquare.com/">Fountain Square</a></li>
+					<li><a target="_blank" href="http://www.discovermassave.com/">Mass Ave</a></li>
+					<li><a target="_blank" href="http://www.discoverbroadripplevillage.com/home.cfm">Broad Ripple Village</a></li>
+					<li><a target="_blank" href="http://www.discoverwholesaledistrict.com/home.cfm">Wholesale District</a></li>
+					<li><a target="_blank" href="http://www.discovercanal.com/home.cfm">The Canal and White River State Park</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->

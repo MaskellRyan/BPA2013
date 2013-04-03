@@ -32,9 +32,9 @@
 			<aside>
 				<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="http://travela.priceline.com/hotel/POI-Broad_Ripple_Village_Indianapolis_Indiana_United_States-98920506.html">Accommodations</a></li>
-					<li><a href="http://www.urbanspoon.com/n/40/3901/Indianapolis/Broad-Ripple-restaurants">Eats and Drinks</a></li>
-					<li><a href="http://visitindy.com/indianapolis-broad-ripple-village">Things To Do</a></li>
+					<li><a target="_blank" href="http://travela.priceline.com/hotel/POI-Broad_Ripple_Village_Indianapolis_Indiana_United_States-98920506.html">Accommodations</a></li>
+					<li><a target="_blank" href="http://www.urbanspoon.com/n/40/3901/Indianapolis/Broad-Ripple-restaurants">Eats and Drinks</a></li>
+					<li><a target="_blank" href="http://visitindy.com/indianapolis-broad-ripple-village">Things To Do</a></li>
 				</ul>
 			</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
@@ -207,11 +207,11 @@
 			<aside>
 			<h3>Helpful Links</h3>
 				<ul> <!-- YOU MAY ALSO USE A <p> TAG HERE -->
-					<li><a href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
-					<li><a href="http://www.indyzoo.com/SitePages/WhiteRiverGardens/welcomeToTheGardens.aspx">White River Gardens</a></li>
-					<li><a href="http://www.indianamuseum.org/visit/exhibit/">Indiana State Museum</a></li>
-					<li><a href="http://www.milb.com/content/page.jsp?ymd=20050630&content_id=41163646&sid=t484&vkey=team1">Victory Field</a></li>
-					<li><a href="http://www.ncaahallofchampions.org/index.phpe">NCAA Hall of Champions</a></li>
+					<li><a target="_blank" href="http://www.indyzoo.com/SitePages/home.aspx">Indianapolis Zoo</a></li>
+					<li><a target="_blank" href="http://www.indyzoo.com/SitePages/WhiteRiverGardens/welcomeToTheGardens.aspx">White River Gardens</a></li>
+					<li><a target="_blank" href="http://www.indianamuseum.org/visit/exhibit/">Indiana State Museum</a></li>
+					<li><a target="_blank" href="http://www.milb.com/content/page.jsp?ymd=20050630&content_id=41163646&sid=t484&vkey=team1">Victory Field</a></li>
+					<li><a target="_blank" href="http://www.ncaahallofchampions.org/index.phpe">NCAA Hall of Champions</a></li>
 				</ul>
 						</aside>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->
