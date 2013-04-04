@@ -430,27 +430,27 @@
 			<div id="slider4" class='swipe'>
 			  <div class='swipe-wrap'>
 				<div>
-					<h1><a target="_blank" href="">Memorial Day</a><span> by <a target="_blank" href="">ntime60</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/chocolatedisco/3644952829/">Memorial Day</a><span> by <a target="_blank" href="http://www.flickr.com/people/chocolatedisco/">Intiaz Rahim</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_basrelief.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/richevenhouse/4219801723/">Monument Circle</a><span> by <a target="_blank" href="http://www.flickr.com/people/richevenhouse/">Fellowship of the Rich</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_christmas.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.fotopedia.com/items/flickr-3091376521">Downtown Indy</a><span> by <a target="_blank" href="http://www.flickr.com/people/sergemelki/">Serge Melki</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_christmaslights.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/mysticpenguin/4951641151/">Monument Biker</a><span> by <a target="_blank" href="http://www.flickr.com/people/mysticpenguin/">Emily Penguin</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_ground.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/vxla/4105134726/">West Market</a><span> by <a target="_blank" href="http://www.flickr.com/people/vxla/">vxla</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_marketstreet.jpg">
 				</div>
 
@@ -460,47 +460,47 @@
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/luckylunablu63/3816440480/">Monument Circle</a><span> by <a target="_blank" href="http://www.flickr.com/people/luckylunablu63/">Snigguly</a></span></h1>
 					<img src="_/content/img/arts/culture/moncircle_sculptures.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/noahwesley/138254667/">Indiana Statehouse</a><span> by <a target="_blank" href="http://www.flickr.com/people/noahwesley/">Noah Coffey</a></span></h1>
 					<img src="_/content/img/arts/culture/statehouse_front.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/jimnix/5326529001/">Arches and Marble</a><span> by <a target="_blank" href="http://www.flickr.com/people/jimnix/">Jim Nix</a></span></h1>
 					<img src="_/content/img/arts/culture/statehouse_interior.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/stankus/8336392983/">Statehouse Rotunda</a><span> by <a target="_blank" href="http://www.flickr.com/people/stankus/">Mr. Nixter</a></span></h1>
 					<img src="_/content/img/arts/culture/statehouse_rotunda.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/mysticpenguin/4951652955/">Statehouse Sculpture</a><span> by <a target="_blank" href="http://www.flickr.com/people/mysticpenguin/">Emily Penguin</a></span></h1>
 					<img src="_/content/img/arts/culture/statehouse_sculptures.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/cindy47452/4222803925/">Golden Glow</a><span> by <a target="_blank" href="http://www.flickr.com/people/cindy47452/">Cindy Cornett Seigle</a></span></h1>
 					<img src="_/content/img/arts/culture/statehouse_street.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="https://picasaweb.google.com/103227853866175103470/FolksOnTheTrail?authuser=0&authkey=Gv1sRgCKmWouGZ25mCCQ&feat=directlink#5649358229000053074">Folks on the Trail</a><span> by <a target="_blank" href="https://picasaweb.google.com/lh/photo/jaDS6Tr_fguuJTwhSClyuNMTjNZETYmyPJy0liipFm0?full-exif=true">Monica Murphy</a></span></h1>
 					<img src="_/content/img/arts/culture/trail_bikers.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="https://picasaweb.google.com/103227853866175103470/FolksOnTheTrail?authuser=0&authkey=Gv1sRgCKmWouGZ25mCCQ&feat=directlink#5649319518565892562">Folks on the Trail</a><span> by <a target="_blank" href="https://picasaweb.google.com/lh/photo/z-2AU38FPHIcV8rrgVh7FdMTjNZETYmyPJy0liipFm0?full-exif=true">Matt Carroll</a></span></h1>
 					<img src="_/content/img/arts/culture/trail_family.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="https://picasaweb.google.com/103227853866175103470/FolksOnTheTrail?authuser=0&authkey=Gv1sRgCKmWouGZ25mCCQ&feat=directlink#5649316730573055314">Eventful Corner</a><span> by <a target="_blank" href="https://picasaweb.google.com/lh/photo/tuhgixTU-vIl36W4cRcIjtMTjNZETYmyPJy0liipFm0?full-exif=true">Matt Carroll</a></span></h1>
 					<img src="_/content/img/arts/culture/trail_intersection.jpg">
 				</div>
 
@@ -510,37 +510,37 @@
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="https://picasaweb.google.com/103227853866175103470/FolksOnTheTrail?authuser=0&authkey=Gv1sRgCKmWouGZ25mCCQ&feat=directlink#5649319544981685538">Folks on the Trail</a><span> by <a target="_blank" href="https://picasaweb.google.com/lh/photo/z-2AU38FPHIcV8rrgVh7FdMTjNZETYmyPJy0liipFm0?full-exif=true">Matt Carroll</a></span></h1>
 					<img src="_/content/img/arts/culture/trail_yield.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://commons.wikimedia.org/wiki/File:Indiana_World_War_Memorial_Plaza,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_10.jpg">World War Plaza</a><span> by <a target="_blank" href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></span></h1>
 					<img src="_/content/img/arts/culture/warplaza_building.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/jeromeg111/8462596987/">Depew Fountain</a><span> by <a target="_blank" href="http://www.flickr.com/people/jeromeg111/">JeromeG111</a></span></h1>
 					<img src="_/content/img/arts/culture/warplaza_depew.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/jeromeg111/8466992798/">Fallen Soldiers</a><span> by <a target="_blank" href="http://www.flickr.com/people/jeromeg111/">JeromeG111/a></span></h1>
 					<img src="_/content/img/arts/culture/warplaza_fallensoldiers.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/jeromeg111/8460572126/">Cenotaph Square</a><span> by <a target="_blank" href="http://www.flickr.com/people/jeromeg111/">JeromeG111</a></span></h1>
 					<img src="_/content/img/arts/culture/warplaza_memorial.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/75905404@N00/879840303/">Veteran's Memorial</a><span> by <a target="_blank" href="http://www.flickr.com/people/75905404@N00/">OZinOH</a></span></h1>
 					<img src="_/content/img/arts/culture/warplaza_veterans.jpg">
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.">title</a><span> by <a target="_blank" href="http://www.">Name</a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/minidriver/2883112835/">Trail Crossing</a><span> by <a target="_blank" href="http://www.flickr.com/people/minidriver/">sciondriver</a></span></h1>
 					<img src="_/content/img/arts/culture_crosswalk.jpg">
 				</div>
 
