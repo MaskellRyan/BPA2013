@@ -525,7 +525,7 @@
 				</div>
 
 				<div>
-					<h1><a target="_blank" href="http://www.flickr.com/photos/jeromeg111/8466992798/">Fallen Soldiers</a><span> by <a target="_blank" href="http://www.flickr.com/people/jeromeg111/">JeromeG111/a></span></h1>
+					<h1><a target="_blank" href="http://www.flickr.com/photos/jeromeg111/8466992798/">Fallen Soldiers</a><span> by <a target="_blank" href="http://www.flickr.com/people/jeromeg111/">JeromeG111</a></span></h1>
 					<img src="_/content/img/arts/culture/warplaza_fallensoldiers.jpg">
 				</div>
 
