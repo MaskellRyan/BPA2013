@@ -95,7 +95,7 @@
 	<div class="box"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer3"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<h1>Nice logo!</h1>
-			<img src="_/content/img/about/about_map2.png">
+			<img src="_/content/img/about/about_map2.jpg">
 		</figure>
 		<article id="drawer3" class="collapse" style="height:auto;">
 			<section class="img-left">
