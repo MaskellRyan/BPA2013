@@ -6,7 +6,7 @@
 
 	<header class="subpage"><h1>We're Awesome</h1><h2>About Us</h2></header> <!-- HEADER OF PAGE -->
 
-	<div class="box"> <!-- START CONTENT DRAWER -->
+	<div class="box aboutsite"> <!-- START CONTENT DRAWER -->
 		<figure data-toggle="collapse" data-target="#drawer1"> <!-- EACH DRAWER MUST DATA-TARGET THE INDIVIDUAL ARTICLE ID -->
 			<?php include 'global/more.html';?>
 			<h1>About this site</h1>

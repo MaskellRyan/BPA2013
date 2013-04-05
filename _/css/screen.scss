@@ -561,6 +561,19 @@ header {
 	}
 }
 
+.aboutsite {
+	@include breakpoint(desktop) {
+		img {
+			margin-top: -135px !important;
+		}
+	}
+	@include breakpoint(tablet) {
+		img {
+			margin-top: -95px !important;
+		}
+	}
+}
+
 .box {
 	display: inline-block;
 	position: relative;

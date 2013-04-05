@@ -964,6 +964,17 @@ header h2 {
   color: #923c00;
 }
 
+@media (min-width: 56.25em) {
+  .aboutsite img {
+    margin-top: -135px !important;
+  }
+}
+@media (min-width: 40.625em) {
+  .aboutsite img {
+    margin-top: -95px !important;
+  }
+}
+
 .box, header {
   display: inline-block;
   position: relative;
