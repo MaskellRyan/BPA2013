@@ -78,7 +78,7 @@
 					</li>
 					<li>
 						<a class="tooltips is-hidden" title="BriosoDesign.com" href="http://www.briosodesign.com/" target="_blank"><img src="_/img/brioso.png"></a>
-						<a class="is-hidden" href="http://www.briosodesign.com/" target="_blank"><img src="_/img/brioso.png"></a>
+						<a class="is-shown" href="http://www.briosodesign.com/" target="_blank"><img src="_/img/brioso.png"></a>
 					</li>
 				</ul>
 			</footer>
