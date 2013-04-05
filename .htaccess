@@ -1,10 +1,10 @@
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^/]+)/$ $1.php 
+ErrorDocument 404 /404.php
 
-# Forces a trailing slash to be added
+Options +MultiViews
+
+RewriteEngine on
+RewriteBase /cp/
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
-RewriteRule (.*)$ /$1/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !\.php$
+RewriteRule .* $0.php [L]
