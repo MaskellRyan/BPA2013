@@ -965,12 +965,12 @@ header h2 {
 }
 
 @media (min-width: 56.25em) {
-  .aboutsite img {
+  .aboutsite figure img {
     margin-top: -135px !important;
   }
 }
 @media (min-width: 40.625em) {
-  .aboutsite img {
+  .aboutsite figure img {
     margin-top: -95px !important;
   }
 }

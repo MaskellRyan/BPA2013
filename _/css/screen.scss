@@ -563,12 +563,12 @@ header {
 
 .aboutsite {
 	@include breakpoint(desktop) {
-		img {
+		figure img {
 			margin-top: -135px !important;
 		}
 	}
 	@include breakpoint(tablet) {
-		img {
+		figure img {
 			margin-top: -95px !important;
 		}
 	}
