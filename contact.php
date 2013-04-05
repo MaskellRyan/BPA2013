@@ -12,7 +12,7 @@
 			<section>
 				<h1>Ashley <br>Chaffin</h1>
 				<h2>Designer</h2>
-				<p>I am currently pursuing an Associates degree in Graphic Design and Web Design at North Idaho College. I am passionate about design and strive to stay on top of trends and new technology. I am an Apple head who loves good music, captivating books, and having fun.</p>
+				<p>I am currently pursuing an Associates degree in Graphic Design and Web Design at North Idaho College. I'm also a freelance graphic designer in my spare time, already developing a client base. I am passionate about design and strive to stay on top of trends and new technology. I am an Apple head who loves to learn, loves good music and captivating books, and enjoys having fun with my friends and family.</p>
 			</section>
 			<footer>
 				<ul>
@@ -38,7 +38,7 @@
 			<section>
 				<h1>Ryan <br>Maskell</h1>
 				<h2>Developer</h2>
-				<p>I am a multimedia designer, technology enthusiast, and avid learner. I enjoy discovering and mastering new techniques and skills that will feed my creative appetite. When I'm not expressing my passion for art and design; I enjoy watching movies, spending time with friends, and long-boarding down North Idaho's city streets.</p>
+				<p>I am a multimedia designer, technology enthusiast, and avid learner. I enjoy discovering and mastering new techniques and skills that will feed my creative appetite. When I'm not expressing my passion for art and design, I enjoy watching movies, spending time with friends, and long-boarding down North Idaho's city streets.</p>
 			</section>
 			<footer>
 				<ul>
