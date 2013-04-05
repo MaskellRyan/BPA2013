@@ -12,7 +12,7 @@
 			<section>
 				<h1>Ashley <br>Chaffin</h1>
 				<h2>Designer</h2>
-				<p>I am currently pursuing an Associates degree in Graphic Design and Web Design at North Idaho College. I'm also a freelance graphic designer in my spare time, already developing a client base. I am passionate about design and strive to stay on top of trends and new technology. I am an Apple head who loves to learn, loves good music and captivating books, and enjoys having fun with my friends and family.</p>
+				<p>I am currently pursuing an Associates degree in Graphic Design and Web Design at North Idaho College. I'm also a freelance graphic designer in my spare time, already developing a client base. I am passionate about design and strive to stay on top of trends and new technology. I am an Apple head who loves good music, captivating books, and enjoys having fun with my friends and family.</p>
 			</section>
 			<footer>
 				<ul>
