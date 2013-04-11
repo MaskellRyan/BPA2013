@@ -12,7 +12,7 @@
 				<!-- <img class="is-hidden" src="_/content/img/cc-full.png"> -->
 				<a target="_blank" href="http://www.creativecommons.org"><img class="is-hidden" src="_/content/img/cc.png"></a>
 				<h1>Creative Commons</h1>
-				<blockquote>All of the photos on this website are licenced under the creative commons attribution or are directly credited and linked to the original source.</blockquote>
+				<blockquote>All of the photos on this website are licensed under the creative commons attribution or are directly credited and linked to the original source.</blockquote>
 				<p>You can go to their website to view their rules and regulations at <a target="_blank" href="http://www.creativecommons.org">www.CreativeCommons.org</a></p>
 			</section>
 			<div class="tab"></div> <!-- DON'T REMOVE THIS TAB ELEMENT -->

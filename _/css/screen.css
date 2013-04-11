@@ -159,7 +159,7 @@ body {
   background-repeat: no-repeat, repeat;
   background-size: auto 500px, auto auto;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   body {
     background-size: auto auto, auto auto;
     background-position: center top, left top;
@@ -405,7 +405,7 @@ input[type="checkbox"]:focus {
   position: relative;
   padding: 0 2%;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   #container {
     margin-top: 0;
     width: 80%;
@@ -422,7 +422,7 @@ input[type="checkbox"]:focus {
   margin-right: 10%;
   margin-top: 20px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   #home-container {
     margin-top: -20px;
     width: 50%;
@@ -540,7 +540,7 @@ nav ul li em {
   position: relative;
   bottom: 5px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav ul li {
     text-align: left;
   }
@@ -570,13 +570,13 @@ nav ul li a:hover, nav ul li a:active {
 nav ul li a:hover {
   color: white;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav ul li a {
     padding: 10px 20px;
     border-bottom: 1px soild transparent;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav {
     position: fixed;
     width: 20%;
@@ -608,7 +608,7 @@ nav .logo img {
   max-width: 255px;
   position: absolute;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav .logo img {
     width: 80%;
     left: auto;
@@ -639,7 +639,7 @@ nav div a:hover {
 nav footer {
   display: none;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav footer {
     display: block;
     bottom: 0;
@@ -658,7 +658,7 @@ nav footer ul:hover {
   opacity: 1;
   -moz-opacity: 1;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav footer ul li a {
     padding: 10px 5px;
     border-bottom: 1px solid transparent;
@@ -674,7 +674,7 @@ nav footer div {
     width: 40%;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav footer div {
     margin: 20px auto 0;
     width: 60%;
@@ -744,7 +744,7 @@ nav footer div {
   border-bottom: 3px solid #923c00;
 }
 
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .color-red, .color-green, .color-blue, .color-orange {
     width: 90%;
   }
@@ -753,7 +753,7 @@ footer {
   margin: 0 auto;
   padding-top: 10px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   footer {
     z-index: -1;
   }
@@ -820,7 +820,7 @@ footer ul .right-links a {
   bottom: -32px;
   position: relative;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .page-foot {
     display: none;
     background-image: none;
@@ -833,7 +833,7 @@ footer ul .right-links a {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .page-foot img {
     width: 95%;
     margin: 0 auto;
@@ -845,7 +845,7 @@ footer ul .right-links a {
   padding: 8px 0;
   background-color: rgba(125, 125, 125, 0.3);
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .page-foot ul {
     background-color: transparent;
     font-size: 13px;
@@ -889,7 +889,7 @@ footer ul .right-links a {
 nav footer {
   display: none !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   nav footer {
     display: block !important;
   }
@@ -911,7 +911,7 @@ header h1 {
     font-size: 55px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   header h1 {
     font-size: 73px;
   }
@@ -931,7 +931,7 @@ header h2 {
     letter-spacing: 15px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   header h2 {
     font-size: 35px;
     letter-spacing: 17px;
@@ -951,7 +951,7 @@ header h2 {
     letter-spacing: 2.5px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .subpage h1 {
     font-size: 80px;
     letter-spacing: 4px;
@@ -964,7 +964,7 @@ header h2 {
   color: #923c00;
 }
 
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .aboutsite figure img {
     margin-top: -135px !important;
   }
@@ -982,7 +982,7 @@ header h2 {
   margin: 4% 0;
   overflow: hidden;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box, header {
     width: 100%;
     margin: 2% 0;
@@ -991,7 +991,7 @@ header h2 {
 .box:first-of-type, header:first-of-type {
   margin-top: 30px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box:first-of-type, header:first-of-type {
     margin-top: 50px;
   }
@@ -1010,7 +1010,7 @@ header h2 {
     height: 215px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box figure, header figure {
     height: 300px;
   }
@@ -1025,7 +1025,7 @@ header h2 {
   top: 0;
   margin-top: 0;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box figure img, header figure img {
     margin-top: -40px;
   }
@@ -1049,7 +1049,7 @@ header h2 {
   color: white;
   font-size: 1.65em;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box figure h1, header figure h1 {
     font-size: 2.25em;
   }
@@ -1062,7 +1062,7 @@ header h2 {
   letter-spacing: 1px;
   color: #cccccc;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box figure h1 span, header figure h1 span {
     display: inline;
     margin-top: 0;
@@ -1076,7 +1076,7 @@ header h2 {
   opacity: 1;
   -moz-opacity: 1;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box figure:hover > .read-more, header figure:hover > .read-more, .box .backbutton figure:hover > div, .backbutton .box figure:hover > div, header .backbutton figure:hover > div, .backbutton header figure:hover > div {
     top: 10px;
   }
@@ -1097,7 +1097,7 @@ header h2 {
   border-left-color: #590800;
   font-family: "ubuntu", Arial, sans-serif;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box article blockquote, header article blockquote {
     width: 95%;
     margin: 2% 2% 5%;
@@ -1109,7 +1109,7 @@ header h2 {
   border-left-width: 5px;
   border-right: #444444 0 solid;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box article .quote-left, header article .quote-left {
     width: 35%;
     border-right-width: 5px;
@@ -1126,7 +1126,7 @@ header h2 {
   border-right-width: 0;
   border-left: #444444 5px solid;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box article .quote-right, header article .quote-right {
     width: 35%;
     float: right;
@@ -1142,7 +1142,7 @@ header h2 {
   width: 90%;
   padding: 10px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box article section, header article section {
     width: 66%;
   }
@@ -1172,7 +1172,7 @@ header h2 {
     margin-left: 0;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box article section img, header article section img {
     clear: none;
   }
@@ -1196,7 +1196,7 @@ header h2 {
   -box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .box article aside, header article aside {
     width: 30%;
     right: 0;
@@ -1322,7 +1322,7 @@ header h2 {
   bottom: -152px;
   width: 96%;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .backbutton {
     width: 25%;
     bottom: auto;
@@ -1380,7 +1380,7 @@ header h2 {
   top: -30px !important;
 }
 
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .creativecomm h2 {
     top: 4px !important;
     left: 85px !important;
@@ -1402,7 +1402,7 @@ header h2 {
 .halfcol .box article aside, .halfcol header article aside {
   width: 100%;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .halfcol {
     margin-right: 2%;
     width: 49%;
@@ -1438,7 +1438,7 @@ header h2 {
 .threecol:hover > figure {
   border-top-color: #5d5d5d;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .threecol {
     width: 31%;
     margin-right: 3%;
@@ -1463,14 +1463,14 @@ header h2 {
 .threecol figure img {
   top: 0;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .threecol figure img {
     height: 100%;
     margin-top: 0;
     width: 100% !important;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .threecol figure .pictures img, .threecol figure .rollovers img {
     max-width: none !important;
     position: relative;
@@ -1493,7 +1493,7 @@ header h2 {
   overflow: visible;
   margin-top: 150px !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .contact {
     margin-top: 90px !important;
   }
@@ -1521,7 +1521,7 @@ header h2 {
   z-index: 2;
   background-image: none;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .contact article footer {
     display: block;
   }
@@ -1564,7 +1564,7 @@ header h2 {
     margin: 2% 43%;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .contact article footer ul li a:hover > img {
     height: 35px;
     width: 35px;
@@ -1581,7 +1581,7 @@ header h2 {
     margin: 3% 43.8%;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .contact article footer ul li a img {
     margin: 7% 34%;
   }
@@ -1649,7 +1649,7 @@ br {
     top: 148px !important;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .swipe .swipe-wrap div h1 {
     top: 230px !important;
   }
@@ -1662,7 +1662,7 @@ br {
 .fullwidthcontent {
   width: 90% !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .fullwidthcontent {
     width: 96% !important;
   }
@@ -1681,7 +1681,7 @@ br {
     margin-right: 0;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .fullwidthcontent .span3 {
     width: 28%;
   }
@@ -1701,7 +1701,7 @@ br {
   float: left;
   margin-top: 20px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .img-left p, .img-right p, .img-left ul, .img-right ul {
     width: 70%;
   }
@@ -1736,7 +1736,7 @@ br {
   float: left;
   margin-right: 20px;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .img-left img, .img-right img {
     width: 30% !important;
     position: relative;
@@ -1783,7 +1783,7 @@ br {
 .is-hidden {
   display: none !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .is-hidden {
     display: block !important;
   }
@@ -1792,7 +1792,7 @@ br {
 .is-shown, .is-block {
   display: block !important;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .is-shown, .is-block {
     display: none !important;
   }
@@ -2110,7 +2110,7 @@ br {
 .red-theme .navbar {
   border-bottom-color: #590800;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .red-theme {
     background-position: center top, left top;
   }
@@ -2203,7 +2203,7 @@ br {
 .green-theme .navbar {
   border-bottom-color: #526100;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .green-theme {
     background-position: center top, left top;
   }
@@ -2296,7 +2296,7 @@ br {
 .blue-theme .navbar {
   border-bottom-color: #375353;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .blue-theme {
     background-position: center top, left top;
   }
@@ -2386,7 +2386,7 @@ br {
 .orange-theme .navbar {
   border-bottom-color: #923c00;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .orange-theme {
     background-position: center top, left top;
   }
@@ -2532,7 +2532,7 @@ img#presentday2, img#presentday3, img#presentday4, img#presentday5 {
   letter-spacing: 7px;
   border-right: 3px solid white;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .slider-btn {
     height: 50px;
     width: 100px;
@@ -2546,7 +2546,7 @@ img#presentday2, img#presentday3, img#presentday4, img#presentday5 {
   top: -14px;
   right: 0;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .slider-btn p {
     font-size: 55px;
     top: -22px;
@@ -2570,7 +2570,7 @@ img#presentday2, img#presentday3, img#presentday4, img#presentday5 {
   display: block;
   opacity: .7;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 60em) {
   .slider-control {
     left: -82px;
     opacity: .5;
