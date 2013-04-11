@@ -597,7 +597,7 @@ nav ul li a:hover {
 }
 nav .logo {
   margin: 0 auto 15px;
-  padding: 37px 20px 10px 15px;
+  padding: 37px 20px 0 15px;
   max-width: 255px;
   position: relative;
 }
@@ -849,6 +849,8 @@ footer ul .right-links a {
   .page-foot ul {
     background-color: transparent;
     font-size: 13px;
+    height: 68px;
+    padding: 0;
   }
 }
 .page-foot ul li {
@@ -880,6 +882,12 @@ footer ul .right-links a {
 }
 .page-foot ul li a:hover {
   color: white;
+}
+@media (min-width: 60em) {
+  .page-foot ul li a {
+    height: 25px;
+    padding: 1px 7px 5px;
+  }
 }
 .page-foot ul li a:hover, .page-foot ul li a:active {
   background-color: rgba(100, 100, 100, 0.3);
